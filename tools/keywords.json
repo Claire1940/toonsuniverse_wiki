@@ -1,47 +1,119 @@
 {
   "categories": [
     {
-      "category": "Guides",
+      "category": "codes",
       "keywords": [
-        "lucid blocks guide"
+        "toons universe codes"
       ]
     },
     {
-      "category": "Crafting",
+      "category": "characters",
       "keywords": [
-        "lucid blocks crafting recipes",
-        "lucid blocks apotheosis"
+        "toons universe nimbus",
+        "toons universe phantasia",
+        "toons universe selena",
+        "toons universe agents",
+        "toons universe copper",
+        "toons universe characters",
+        "toons universe koi",
+        "toons universe fizzle",
+        "toons universe weffle",
+        "toons universe teipo",
+        "toons universe guido and rossum",
+        "toons universe solar",
+        "toons universe chekhov",
+        "toons universe patcher",
+        "toons universe honey",
+        "toons universe sunny"
       ]
     },
     {
-      "category": "Items",
+      "category": "infected",
       "keywords": [
-        "lucid blocks faith wand",
-        "lucid blocks bee glider",
-        "lucid blocks chest",
-        "lucid blocks osmium"
+        "toons universe infected fizzle",
+        "toons universe infected",
+        "toons universe infected phantasia",
+        "toons universe infected selena",
+        "toons universe monsters",
+        "toons universe hungry worms",
+        "toons universe blackout"
       ]
     },
     {
-      "category": "Biomes",
+      "category": "guide",
       "keywords": [
-        "lucid blocks tiamana leyline"
+        "toons universe beginner guide",
+        "toons universe how to play",
+        "toons universe level up fast",
+        "toons universe elevator repair",
+        "toons universe how to survive infected",
+        "toons universe healing items",
+        "toons universe solo guide",
+        "toons universe floor 30 guide",
+        "toons universe early access",
+        "toons universe release date",
+        "toons universe mistakes",
+        "toons universe is out yet"
       ]
     },
     {
-      "category": "Building",
+      "category": "emblems",
       "keywords": [
-        "lucid blocks qualia"
+        "toons universe emblems",
+        "toons universe how to get emblems",
+        "toons universe discard",
+        "toons universe discard emblem",
+        "toons universe does discard emblem stack"
       ]
     },
     {
-      "category": "Support",
+      "category": "stats",
       "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks full screen",
-        "lucid blocks multiplayer",
-        "lucid blocks android"
+        "toons universe stats",
+        "toons universe sanity",
+        "toons universe stamina",
+        "toons universe skill checks",
+        "toons universe machines",
+        "toons universe distractor",
+        "toons universe best agent",
+        "toons universe stat limit"
+      ]
+    },
+    {
+      "category": "cosmetics",
+      "keywords": [
+        "toons universe designs",
+        "toons universe skins",
+        "toons universe gamepass skins",
+        "toons universe selena sunset",
+        "toons universe punk fizzle",
+        "toons universe old models",
+        "toons universe logo",
+        "toons universe vfx"
       ]
     }
-  ]
+  ],
+  "summary": {
+    "total_categories": 8,
+    "total_keywords": 60,
+    "merge_strategy": "Synonyms, misspellings, singular and plural variants, reordered phrases, and roblox-prefixed variants were merged into the highest intent normalized keyword.",
+    "filtered_keywords": [
+      "toons universe",
+      "toons universe roblox",
+      "toons universe wiki",
+      "toons universe roblox wiki",
+      "toons universe r34",
+      "toons universe ao3",
+      "txt cartoons steven universe",
+      "dangotoons steven universe",
+      "tiny toons universe",
+      "beautiful cartoons like steven universe",
+      "cartoons like steven universe",
+      "watch cartoons online steven universe",
+      "masters of the universe cartoons"
+    ],
+    "content_page_count_after_merging": 60
+  },
+  "contentCountAfterMerging": 60,
+  "content_count_after_merge": 60
 }

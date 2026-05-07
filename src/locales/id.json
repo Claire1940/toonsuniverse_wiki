@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "codes": "Codes",
+    "characters": "Characters",
+    "infected": "Infected",
+    "guide": "Guide",
+    "emblems": "Emblems",
+    "stats": "Stats",
+    "cosmetics": "Cosmetics"
+  }
+}

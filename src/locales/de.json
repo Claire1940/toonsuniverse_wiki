@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Anleitungen",
-    "crafting": "Herstellung",
-    "items": "Gegenstände",
-    "biomes": "Biome",
-    "building": "Bauen",
-    "support": "Unterstützung"
+    "codes": "Codes",
+    "characters": "Characters",
+    "infected": "Infected",
+    "guide": "Guide",
+    "emblems": "Emblems",
+    "stats": "Stats",
+    "cosmetics": "Cosmetics"
   },
   "common": {
     "home": "Startseite",

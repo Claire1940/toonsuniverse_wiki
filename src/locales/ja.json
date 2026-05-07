@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "ガイド",
-    "crafting": "クラフト",
-    "items": "アイテム",
-    "biomes": "バイオーム",
-    "building": "建築",
-    "support": "サポート"
+    "codes": "Codes",
+    "characters": "Characters",
+    "infected": "Infected",
+    "guide": "Guide",
+    "emblems": "Emblems",
+    "stats": "Stats",
+    "cosmetics": "Cosmetics"
   },
   "common": {
     "home": "ホーム",
