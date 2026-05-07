@@ -188,7 +188,6 @@ export default function HomePageClient({
 
   // Module accordion states
   const [eventExpanded, setEventExpanded] = useState<number | null>(0);
-  const [deckExpanded, setDeckExpanded] = useState<number | null>(null);
   const mobileBannerAd = getPreferredMobileBannerSelection();
 
   return (
@@ -1279,7 +1278,7 @@ export default function HomePageClient({
         </div>
       </section>
 
-      {/* Module 13: Steam Deck and Controller */}
+      {/* Module 13: Items and Shops Guide */}
       <section id="items-shops-guide" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
@@ -1298,29 +1297,49 @@ export default function HomePageClient({
               {t.modules.lucidBlocksSteamDeckAndController.intro}
             </p>
           </div>
-          <div className="scroll-reveal space-y-2">
-            {t.modules.lucidBlocksSteamDeckAndController.faqs.map(
-              (faq: any, index: number) => (
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
+            {t.modules.lucidBlocksSteamDeckAndController.items.map(
+              (item: any, index: number) => (
                 <div
                   key={index}
-                  className="border border-border rounded-xl overflow-hidden"
+                  className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
                 >
-                  <button
-                    onClick={() =>
-                      setDeckExpanded(deckExpanded === index ? null : index)
-                    }
-                    className="w-full flex items-center justify-between p-5 text-left hover:bg-white/5 transition-colors"
-                  >
-                    <span className="font-semibold">{faq.question}</span>
-                    <ChevronDown
-                      className={`w-5 h-5 flex-shrink-0 transition-transform ${deckExpanded === index ? "rotate-180" : ""}`}
-                    />
-                  </button>
-                  {deckExpanded === index && (
-                    <div className="px-5 pb-5 text-muted-foreground text-sm">
-                      {faq.answer}
+                  <div className="mb-3 flex items-center justify-between gap-2">
+                    <h3 className="font-bold text-[hsl(var(--nav-theme-light))]">
+                      {item.name}
+                    </h3>
+                    <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                      {item.category}
+                    </span>
+                  </div>
+                  <p className="text-sm text-muted-foreground mb-3">
+                    {item.effect}
+                  </p>
+                  <div className="grid grid-cols-2 gap-2 text-xs mb-3">
+                    <div className="rounded-lg border border-border bg-card/40 px-2 py-1.5">
+                      Duration: {item.duration}
                     </div>
-                  )}
+                    <div className="rounded-lg border border-border bg-card/40 px-2 py-1.5">
+                      Uses: {item.uses}
+                    </div>
+                    <div className="rounded-lg border border-border bg-card/40 px-2 py-1.5">
+                      Cost: {item.shopCost}
+                    </div>
+                    <div className="rounded-lg border border-border bg-card/40 px-2 py-1.5">
+                      Quantity: {item.shopQuantity}
+                    </div>
+                  </div>
+                  <p className="text-xs text-muted-foreground mb-2">
+                    Spawnable: {item.floorSpawnable} · Source: {item.source}
+                  </p>
+                  <p className="text-sm">
+                    <span className="font-semibold text-[hsl(var(--nav-theme-light))]">
+                      Buy advice:
+                    </span>{" "}
+                    <span className="text-muted-foreground">
+                      {item.buyAdvice}
+                    </span>
+                  </p>
                 </div>
               ),
             )}
@@ -1328,7 +1347,7 @@ export default function HomePageClient({
         </div>
       </section>
 
-      {/* Module 14: Settings and Accessibility */}
+      {/* Module 14: Research, Trinkets, and Emblems */}
       <section
         id="research-trinkets-emblems"
         className="scroll-mt-24 px-4 py-20 bg-white/[0.02]"
@@ -1347,9 +1366,9 @@ export default function HomePageClient({
               {t.modules.lucidBlocksSettingsAndAccessibility.intro}
             </p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.lucidBlocksSettingsAndAccessibility.settings.map(
-              (s: any, index: number) => (
+          <div className="scroll-reveal space-y-4">
+            {t.modules.lucidBlocksSettingsAndAccessibility.tracks.map(
+              (track: any, index: number) => (
                 <div
                   key={index}
                   className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
@@ -1360,21 +1379,44 @@ export default function HomePageClient({
                       <LinkedTitle
                         linkData={
                           moduleLinkMap[
-                            `lucidBlocksSettingsAndAccessibility::settings::${index}`
+                            `lucidBlocksSettingsAndAccessibility::tracks::${index}`
                           ]
                         }
                         locale={locale}
                       >
-                        {s.name}
+                        {track.track}
                       </LinkedTitle>
                     </h3>
                     <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
-                      {s.type}
+                      Progress Track
                     </span>
                   </div>
-                  <p className="text-muted-foreground text-sm">
-                    {s.description}
-                  </p>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
+                    <div className="rounded-lg border border-border bg-card/40 p-3">
+                      <p className="font-semibold text-[hsl(var(--nav-theme-light))] mb-1">
+                        Requirement
+                      </p>
+                      <p className="text-muted-foreground">{track.requirement}</p>
+                    </div>
+                    <div className="rounded-lg border border-border bg-card/40 p-3">
+                      <p className="font-semibold text-[hsl(var(--nav-theme-light))] mb-1">
+                        Reward
+                      </p>
+                      <p className="text-muted-foreground">{track.reward}</p>
+                    </div>
+                    <div className="rounded-lg border border-border bg-card/40 p-3">
+                      <p className="font-semibold text-[hsl(var(--nav-theme-light))] mb-1">
+                        Known values
+                      </p>
+                      <p className="text-muted-foreground">{track.knownValues}</p>
+                    </div>
+                    <div className="rounded-lg border border-[hsl(var(--nav-theme)/0.35)] bg-[hsl(var(--nav-theme)/0.08)] p-3">
+                      <p className="font-semibold text-[hsl(var(--nav-theme-light))] mb-1">
+                        Best use
+                      </p>
+                      <p className="text-muted-foreground">{track.bestUse}</p>
+                    </div>
+                  </div>
                 </div>
               ),
             )}
@@ -1410,7 +1452,7 @@ export default function HomePageClient({
                       </span>
                       <Clock className="w-4 h-4 text-muted-foreground" />
                     </div>
-                    <h3 className="font-bold mb-1">
+                    <h3 className="font-bold mb-2">
                       <LinkedTitle
                         linkData={
                           moduleLinkMap[
@@ -1419,12 +1461,35 @@ export default function HomePageClient({
                         }
                         locale={locale}
                       >
-                        {entry.title}
+                        {entry.updateArea}
                       </LinkedTitle>
                     </h3>
-                    <p className="text-muted-foreground text-sm">
-                      {entry.description}
-                    </p>
+                    <div className="grid grid-cols-1 gap-3 text-sm">
+                      <div className="rounded-lg border border-border bg-card/40 p-3">
+                        <p className="font-semibold text-[hsl(var(--nav-theme-light))] mb-1">
+                          Current info
+                        </p>
+                        <p className="text-muted-foreground">{entry.currentInfo}</p>
+                      </div>
+                      <div className="rounded-lg border border-border bg-card/40 p-3">
+                        <p className="font-semibold text-[hsl(var(--nav-theme-light))] mb-1">
+                          Player impact
+                        </p>
+                        <p className="text-muted-foreground">{entry.playerImpact}</p>
+                      </div>
+                      <div className="rounded-lg border border-border bg-card/40 p-3">
+                        <p className="font-semibold text-[hsl(var(--nav-theme-light))] mb-1">
+                          Watch source
+                        </p>
+                        <p className="text-muted-foreground">{entry.watchSource}</p>
+                      </div>
+                      <div className="rounded-lg border border-[hsl(var(--nav-theme)/0.35)] bg-[hsl(var(--nav-theme)/0.08)] p-3">
+                        <p className="font-semibold text-[hsl(var(--nav-theme-light))] mb-1">
+                          Refresh trigger
+                        </p>
+                        <p className="text-muted-foreground">{entry.refreshTrigger}</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               ),
@@ -1433,7 +1498,7 @@ export default function HomePageClient({
         </div>
       </section>
 
-      {/* Module 16: Crash Fix and Troubleshooting */}
+      {/* Module 16: Official Links and Community */}
       <section
         id="official-links-community"
         className="scroll-mt-24 px-4 py-20 bg-white/[0.02]"
@@ -1454,34 +1519,39 @@ export default function HomePageClient({
               {t.modules.lucidBlocksCrashFixAndTroubleshooting.intro}
             </p>
           </div>
-          <div className="scroll-reveal space-y-4 mb-8">
-            {t.modules.lucidBlocksCrashFixAndTroubleshooting.steps.map(
-              (step: any, index: number) => (
-                <div
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+            {t.modules.lucidBlocksCrashFixAndTroubleshooting.links.map(
+              (linkItem: any, index: number) => (
+                <a
                   key={index}
-                  className="flex gap-4 p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                  href={linkItem.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
                 >
-                  <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
-                    <span className="text-xl font-bold text-[hsl(var(--nav-theme-light))]">
-                      {index + 1}
+                  <div className="flex items-start justify-between gap-3 mb-3">
+                    <div>
+                      <h3 className="text-lg font-bold text-[hsl(var(--nav-theme-light))]">
+                        {linkItem.name}
+                      </h3>
+                      <span className="inline-flex mt-1 text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                        {linkItem.platform}
+                      </span>
+                    </div>
+                    <ExternalLink className="w-4 h-4 text-muted-foreground mt-1" />
+                  </div>
+                  <p className="text-sm text-muted-foreground mb-2">
+                    {linkItem.description}
+                  </p>
+                  <p className="text-sm">
+                    <span className="font-semibold text-[hsl(var(--nav-theme-light))]">
+                      Best for:
+                    </span>{" "}
+                    <span className="text-muted-foreground">
+                      {linkItem.bestFor}
                     </span>
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold mb-2">
-                      <LinkedTitle
-                        linkData={
-                          moduleLinkMap[
-                            `lucidBlocksCrashFixAndTroubleshooting::steps::${index}`
-                          ]
-                        }
-                        locale={locale}
-                      >
-                        {step.title}
-                      </LinkedTitle>
-                    </h3>
-                    <p className="text-muted-foreground">{step.description}</p>
-                  </div>
-                </div>
+                  </p>
+                </a>
               ),
             )}
           </div>

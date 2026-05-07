@@ -123,22 +123,22 @@
       {
         "icon": "Gamepad2",
         "title": "Toons Universe Items and Shops Guide",
-        "description": "What to buy now versus skip for later"
+        "description": "Item effects, shop costs, and floor-by-floor buy priorities"
       },
       {
         "icon": "Settings",
         "title": "Toons Universe Research, Trinkets, and Emblems",
-        "description": "Long-term progression and build value"
+        "description": "Malachor routes, emblem unlocks, and long-run progression"
       },
       {
         "icon": "Clock",
         "title": "Toons Universe Release Date and Updates",
-        "description": "Timeline checkpoints and patch focus"
+        "description": "Alpha timeline, content signals, and patch watch triggers"
       },
       {
         "icon": "Shield",
         "title": "Toons Universe Official Links and Community",
-        "description": "Verified destinations and social channels"
+        "description": "Official Roblox, Discord, socials, video, and wiki hubs"
       }
     ]
   },
@@ -734,101 +734,352 @@
     },
     "lucidBlocksSteamDeckAndController": {
       "title": "Toons Universe Items and Shops Guide",
-      "displayType": "accordion",
-      "intro": "Shop value depends on floor state. Buy items that solve the next likely failure point instead of spending by habit.",
-      "faqs": [
+      "displayType": "itemCards",
+      "intro": "Use items to heal, speed up objectives, survive chases, and close risky floors. Buy around your next failure point, not habit spending.",
+      "items": [
         {
-          "question": "What is the first shopping priority?",
-          "answer": "Prioritize items that improve survival consistency, then objective speed, then optional utility."
+          "name": "Coffee",
+          "category": "Stamina Item",
+          "effect": "Reduces stamina drain by 25%.",
+          "duration": "10 seconds",
+          "uses": "1",
+          "shopCost": "5 Seeds",
+          "shopQuantity": "5-6-7",
+          "floorSpawnable": "Yes",
+          "source": "Chekhov's shop or floor spawn",
+          "buyAdvice": "Buy when a runner must kite an Infected or force a safe elevator return."
         },
         {
-          "question": "Should we spend all currency each stop?",
-          "answer": "No. Keep reserve for event-heavy floors and role-critical opportunities that appear later."
+          "name": "Mint",
+          "category": "Hacking Boost",
+          "effect": "Increases hack speed by 20%.",
+          "duration": "10 seconds",
+          "uses": "1",
+          "shopCost": "5 Seeds",
+          "shopQuantity": "5-6-7-8",
+          "floorSpawnable": "Yes",
+          "source": "Chekhov's shop or floor spawn",
+          "buyAdvice": "Buy when machines are stalling the floor and one player can anchor fast hacks."
         },
         {
-          "question": "Who should receive support items first?",
-          "answer": "Give protection and sustain tools to players who hold objectives under the highest risk."
+          "name": "Gloves",
+          "category": "Extraction Boost",
+          "effect": "Increases extract speed by 25%.",
+          "duration": "10 seconds",
+          "uses": "2",
+          "shopCost": "5 Seeds",
+          "shopQuantity": "7",
+          "floorSpawnable": "Yes",
+          "source": "Chekhov's shop or floor spawn",
+          "buyAdvice": "Excellent value when machine uptime is possible and your team can chain objectives."
         },
         {
-          "question": "When should we skip purchases?",
-          "answer": "Skip low-impact options when your team already has adequate utility for the current floor plan."
+          "name": "Socks",
+          "category": "Sanity Item",
+          "effect": "Increases max sanity by 25%.",
+          "duration": "Persistent",
+          "uses": "2",
+          "shopCost": "5 Seeds",
+          "shopQuantity": "6",
+          "floorSpawnable": "Yes",
+          "source": "Chekhov's shop or floor spawn",
+          "buyAdvice": "Buy before deeper floors, blackout pressure, or long-route pacing."
+        },
+        {
+          "name": "Waffle",
+          "category": "Emergency Mobility",
+          "effect": "Grants 30% speed and full stamina regen.",
+          "duration": "10 seconds",
+          "uses": "1",
+          "shopCost": "Special drop",
+          "shopQuantity": "Conditional",
+          "floorSpawnable": "Conditional",
+          "source": "Infected Weffle conditions or Weffle teammate utility",
+          "buyAdvice": "Save for chase breaks, elevator sprints, or low-stamina recoveries."
+        },
+        {
+          "name": "Medkit",
+          "category": "Full Heal",
+          "effect": "Heals a full health bar.",
+          "duration": "Instant",
+          "uses": "1",
+          "shopCost": "40 Seeds",
+          "shopQuantity": "2-3",
+          "floorSpawnable": "Yes",
+          "source": "Chekhov's shop or floor spawn",
+          "buyAdvice": "Reserve for severely injured players or support anchors that must stay alive."
+        },
+        {
+          "name": "Bandaid",
+          "category": "Small Heal",
+          "effect": "Heals 1 heart.",
+          "duration": "Instant",
+          "uses": "1",
+          "shopCost": "20 Seeds",
+          "shopQuantity": "4-6",
+          "floorSpawnable": "Yes",
+          "source": "Chekhov's shop or floor spawn",
+          "buyAdvice": "Cheap stabilization for teammates entering danger on the next floor."
+        },
+        {
+          "name": "USB",
+          "category": "Computer Progress",
+          "effect": "Completes 50% progress on hack machines.",
+          "duration": "Instant",
+          "uses": "1",
+          "shopCost": "20 Seeds",
+          "shopQuantity": "5-6",
+          "floorSpawnable": "Yes",
+          "source": "Chekhov's shop or floor spawn",
+          "buyAdvice": "Buy when timer pressure is high or exposed computers are too risky to hold."
+        },
+        {
+          "name": "Wrench",
+          "category": "Machine Progress",
+          "effect": "Completes 50% progress on extract machines.",
+          "duration": "Instant",
+          "uses": "1",
+          "shopCost": "20 Seeds",
+          "shopQuantity": "5",
+          "floorSpawnable": "Yes",
+          "source": "Chekhov's shop or floor spawn",
+          "buyAdvice": "Use to bypass dangerous machine positions or close a floor quickly."
+        },
+        {
+          "name": "Sunny's Shop",
+          "category": "Intermission Shop",
+          "effect": "Shows three random items between even-numbered floors.",
+          "duration": "Short intermission",
+          "uses": "Team purchase window",
+          "shopCost": "Seeds",
+          "shopQuantity": "3 items per visit",
+          "floorSpawnable": "Shop phase",
+          "source": "Elevator intermission",
+          "buyAdvice": "Choose based on immediate team risk: healing, objective speed, or mobility."
+        },
+        {
+          "name": "Chekhov's Shop",
+          "category": "Core Vendor",
+          "effect": "Sells agents, cosmetics, and run-saving utility items.",
+          "duration": "Lobby and even-floor access",
+          "uses": "Shop interaction",
+          "shopCost": "Varies by item",
+          "shopQuantity": "Varies by roll",
+          "floorSpawnable": "Main shop source",
+          "source": "Lobby counter and elevator visits",
+          "buyAdvice": "Prioritize survival and objective consistency before cosmetic or low-impact buys."
         }
       ]
     },
     "lucidBlocksSettingsAndAccessibility": {
       "title": "Toons Universe Research, Trinkets, and Emblems",
-      "displayType": "settingCards",
-      "intro": "Long-term account growth comes from consistent capsule routes, focused research goals, and trinket/emblem choices that match your role.",
-      "settings": [
+      "displayType": "progressCards",
+      "intro": "Progression is driven by Malachor income, research completion, and level-100 emblem unlocks. Plan these tracks around the role you actually play.",
+      "tracks": [
         {
-          "name": "Research Capsules",
-          "type": "Progression Driver",
-          "description": "Collect capsules on safe paths to advance infected research without sacrificing floor stability."
+          "track": "Malachor Income",
+          "requirement": "Clear floors, fill machines, collect research capsules, and complete milestones.",
+          "reward": "Main currency for agent and skin purchases.",
+          "knownValues": "Typical values include floor clears, machine completion, and capsule pickups with card-based modifiers.",
+          "bestUse": "Unlock role-critical agents first, then pivot to long-term upgrades."
         },
         {
-          "name": "Trinket Selection",
-          "type": "Build Layer",
-          "description": "Choose trinkets that reinforce your core job: survival, support, or objective throughput."
+          "track": "Research Capsules",
+          "requirement": "Collect capsules during active runs.",
+          "reward": "Direct Malachor and infected research progression.",
+          "knownValues": "Capsule value scales better when your team can hold stable routing.",
+          "bestUse": "Take safe capsules without sacrificing machine tempo or survival."
         },
         {
-          "name": "Emblem Milestones",
-          "type": "Long-Term Value",
-          "description": "Track emblem milestones and prioritize those that improve consistent clear rates."
+          "track": "Infected Research Completion",
+          "requirement": "Reach 100% on infected research tracks.",
+          "reward": "Research trinket unlocks tied to completion milestones.",
+          "knownValues": "Long-grind objective; progress is strongest in consistent survival teams.",
+          "bestUse": "Treat as secondary grind after your clear rate is reliable."
         },
         {
-          "name": "Role Alignment",
-          "type": "Optimization Rule",
-          "description": "Avoid mixed-purpose loadouts; focused builds usually outperform unfocused hybrids."
+          "track": "Agent Level Milestones",
+          "requirement": "Level agents through repeated floor runs.",
+          "reward": "Milestone Malachor plus level-100 emblem unlocks.",
+          "knownValues": "Milestones scale across levels and culminate in each agent emblem.",
+          "bestUse": "Focus one agent to 100 when targeting a specific build effect."
+        },
+        {
+          "track": "Emblem Loadout Limit",
+          "requirement": "Unlock emblems from level-100 agents.",
+          "reward": "Permanent-style build bonuses in runs.",
+          "knownValues": "Only two emblems can be equipped at once.",
+          "bestUse": "Pair one survivability emblem with one objective-speed emblem."
+        },
+        {
+          "track": "Nimbus and Weffle Emblems",
+          "requirement": "Reach level 100 on Nimbus or Weffle.",
+          "reward": "Lower stamina consumption or objective-generated Waffle utility.",
+          "knownValues": "Excellent for runner and support-heavy teams.",
+          "bestUse": "Prioritize when your squads lose pace during chase windows."
+        },
+        {
+          "track": "Teipo and Squiddle Emblems",
+          "requirement": "Reach level 100 on Teipo or Squiddle.",
+          "reward": "Team stamina boosts and extraction head starts.",
+          "knownValues": "Both emblems directly improve objective pacing.",
+          "bestUse": "Strong in machine-heavy runs where clear speed decides survival."
+        },
+        {
+          "track": "Selena and Patcher Emblems",
+          "requirement": "Reach level 100 on Selena or Patcher.",
+          "reward": "Objective speed buffs and periodic healing support.",
+          "knownValues": "Useful for teams that absorb repeated chip damage.",
+          "bestUse": "Run these when sustain is your bottleneck past mid floors."
+        },
+        {
+          "track": "Koi, Guido and Rossum, Fizzle Emblems",
+          "requirement": "Reach level 100 on those agents.",
+          "reward": "Cooldown relief, computer highlights, and early-floor sanity protection.",
+          "knownValues": "Information and pacing emblems for coordinated routing.",
+          "bestUse": "Best in squads that already communicate callouts consistently."
+        },
+        {
+          "track": "Discard, Copper, and Phantasia Emblems",
+          "requirement": "Reach level 100 on those agents.",
+          "reward": "Boosted item impact, early-floor shielding, and objective-triggered healing.",
+          "knownValues": "High value for long sessions with stacked objective completions.",
+          "bestUse": "Use when pushing deeper floors where attrition usually ends runs."
         }
       ]
     },
     "lucidBlocksUpdatesAndPatchNotes": {
       "title": "Toons Universe Release Date and Updates",
       "displayType": "timeline",
-      "intro": "This timeline section tracks launch context, official media milestones, and update categories that affect real run strategy.",
+      "intro": "Track alpha status, trailer milestones, upcoming mechanics, and release signals from official channels in one timeline.",
       "entries": [
         {
-          "title": "April 24, 2026 Release Window",
-          "type": "Launch",
-          "description": "Core floor loop and initial playable roster became publicly available in Roblox."
+          "updateArea": "Current Roblox Status",
+          "type": "Platform",
+          "currentInfo": "The Roblox experience is listed as Toons Universe [ALPHA] by Toon Shenanigans.",
+          "playerImpact": "Treat the Roblox page as the live source for build status, servers, and store context.",
+          "watchSource": "Roblox game page",
+          "refreshTrigger": "Title, description, server, or store changes"
         },
         {
-          "title": "Official Trailer Coverage",
+          "updateArea": "Game Premise",
+          "type": "Design Direction",
+          "currentInfo": "The game is set in INNOVA, focused on resource routing, hazards, and agent team utility.",
+          "playerImpact": "Confirms that survival routing and machine tempo remain core strategy topics.",
+          "watchSource": "Roblox game description",
+          "refreshTrigger": "Gameplay premise or objective loop updates"
+        },
+        {
+          "updateArea": "Official Trailer",
           "type": "Media",
-          "description": "Trailer showcases INNOVA atmosphere, threat pacing, and team-focused survival mechanics."
+          "currentInfo": "Official trailer is hosted on Toon Shenanigans' YouTube channel.",
+          "playerImpact": "Best quick visual briefing for new players learning tone and pacing.",
+          "watchSource": "YouTube trailer",
+          "refreshTrigger": "New trailer or launch media replacement"
         },
         {
-          "title": "Balance and Utility Changes",
-          "type": "Gameplay Updates",
-          "description": "Track agent tuning, event behavior adjustments, and objective flow changes."
+          "updateArea": "Release Timeline Marker",
+          "type": "Timeline",
+          "currentInfo": "Character additions were logged in April 2026 while the page remains alpha-labeled.",
+          "playerImpact": "Use alpha label for live status and additions for early roadmap tracking.",
+          "watchSource": "Roblox page and character records",
+          "refreshTrigger": "Official beta/full release announcement"
         },
         {
-          "title": "Upcoming Content Signals",
-          "type": "Roadmap Monitoring",
-          "description": "Watch official channels for new agent reveals, event tweaks, and floor-system updates."
+          "updateArea": "Playable Agent Additions",
+          "type": "Roster",
+          "currentInfo": "Recent additions shape healing, shielding, and scouting role coverage.",
+          "playerImpact": "Role balance changes influence team composition and unlock priority.",
+          "watchSource": "Agent pages and official posts",
+          "refreshTrigger": "Ability kits, costs, or unlock rule changes"
+        },
+        {
+          "updateArea": "Upcoming Character Previews",
+          "type": "Preview",
+          "currentInfo": "Multiple character model updates are visible in ongoing preview material.",
+          "playerImpact": "Preview waves indicate likely future unlocks and role rebalancing.",
+          "watchSource": "Upcoming content channel",
+          "refreshTrigger": "Previewed character becomes playable"
+        },
+        {
+          "updateArea": "Upcoming Infected Previews",
+          "type": "Enemy Preview",
+          "currentInfo": "New infected variants are teased in preview updates.",
+          "playerImpact": "Enemy additions can force major route, sanity, and item-priority changes.",
+          "watchSource": "Upcoming content channel",
+          "refreshTrigger": "Infected behavior enters the live build"
+        },
+        {
+          "updateArea": "New Floor Teasers",
+          "type": "Map Preview",
+          "currentInfo": "Laboratory floor teaser variants are already circulating.",
+          "playerImpact": "Map changes alter machine paths, capsule safety, and elevator timing.",
+          "watchSource": "Upcoming content channel",
+          "refreshTrigger": "Floor name, release date, or mechanic reveal"
+        },
+        {
+          "updateArea": "Upcoming Mechanics",
+          "type": "System Preview",
+          "currentInfo": "Previewed systems include item transfer, shop voting, and elevator card selection.",
+          "playerImpact": "These systems will change economy calls and team coordination rules.",
+          "watchSource": "Official previews and patch posts",
+          "refreshTrigger": "Mechanic becomes playable with final rules"
         }
       ]
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
       "title": "Toons Universe Official Links and Community",
-      "displayType": "steps",
-      "intro": "Use verified destinations for announcements, community discussions, and media updates to avoid outdated third-party confusion.",
-      "steps": [
+      "displayType": "linkCards",
+      "intro": "Use these official destinations for gameplay access, social announcements, trailers, and reference navigation.",
+      "links": [
         {
-          "title": "Play on the official Roblox experience",
-          "description": "Primary game entry: https://www.roblox.com/games/89788834648171/Toons-Universe"
+          "name": "Roblox Game Page",
+          "platform": "Roblox",
+          "href": "https://www.roblox.com/games/89788834648171/Toons-Universe",
+          "description": "Main play page with the live alpha status, servers, and game entry.",
+          "bestFor": "Playing and checking current public build status"
         },
         {
-          "title": "Join the official Discord server",
-          "description": "Community updates and announcements: https://discord.com/invite/toonsuniverse"
+          "name": "Toon Shenanigans Community",
+          "platform": "Roblox Group",
+          "href": "https://www.roblox.com/communities/35697183/Toon-Shenanigans",
+          "description": "Official Roblox creator group connected to the experience.",
+          "bestFor": "Tracking creator-side Roblox activity"
         },
         {
-          "title": "Follow Toon Shenanigans channels",
-          "description": "Track official videos and teasers on the Toon Shenanigans YouTube channel."
+          "name": "Official Discord Invite",
+          "platform": "Discord",
+          "href": "https://discord.com/invite/toonsuniverse",
+          "description": "Fastest channel for community posts, announcements, and sneak peeks.",
+          "bestFor": "Real-time update tracking and discussion"
         },
         {
-          "title": "Check community references carefully",
-          "description": "Use community wikis and social threads for discovery, then confirm major changes via official channels."
+          "name": "Official X Account",
+          "platform": "X",
+          "href": "https://x.com/toonsuniverseco",
+          "description": "Official social feed for short update posts and public announcements.",
+          "bestFor": "Quick social announcements"
+        },
+        {
+          "name": "Toon Shenanigans YouTube",
+          "platform": "YouTube",
+          "href": "https://www.youtube.com/@toonshenanigans",
+          "description": "Official channel for trailers, previews, and dev-log style uploads.",
+          "bestFor": "Watching official videos and model previews"
+        },
+        {
+          "name": "Official Trailer",
+          "platform": "YouTube",
+          "href": "https://www.youtube.com/watch?v=btv_z92P180",
+          "description": "Core trailer that introduces gameplay tone and survival loop.",
+          "bestFor": "Fast onboarding for new players"
+        },
+        {
+          "name": "Community Wiki Hub",
+          "platform": "Fandom Wiki",
+          "href": "https://toons-universe-roblox.fandom.com/wiki/Toon%27s_Universe_Wiki",
+          "description": "Reference hub for toons, infected pages, floors, items, and progression terms.",
+          "bestFor": "Cross-checking mechanics and terminology"
         }
       ]
     }
