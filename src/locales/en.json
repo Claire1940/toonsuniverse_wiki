@@ -103,22 +103,22 @@
       {
         "icon": "TrendingUp",
         "title": "Toons Universe Machines and Skill Checks",
-        "description": "Objective timing and check discipline"
+        "description": "Machine routes, skill check timing, and panic exits"
       },
       {
         "icon": "Star",
         "title": "Toons Universe Floors and Elevator Guide",
-        "description": "Flow from floor start to extraction"
+        "description": "Floor loop phases, shops, votes, and reward scaling"
       },
       {
         "icon": "ClipboardCheck",
         "title": "Toons Universe Floor Events Guide",
-        "description": "Event warning signs and response plans"
+        "description": "Gas Leak, Blackout, and elevator event playbooks"
       },
       {
         "icon": "MessageCircle",
         "title": "Toons Universe Cards and Voting Guide",
-        "description": "Pick the right card for the next floor"
+        "description": "Vote-by-situation card table for economy, safety, and stamina"
       },
       {
         "icon": "Gamepad2",
@@ -453,125 +453,282 @@
     },
     "lucidBlocksFarmingAndGrowth": {
       "title": "Toons Universe Machines and Skill Checks",
-      "displayType": "mixedCards",
-      "intro": "Objective execution decides run pace. Teams that coordinate machine assignments and protect operators clear deeper floors more consistently.",
-      "sections": [
+      "displayType": "stepByStepTimeline",
+      "intro": "Machines are the core objective on every floor. Clear them cleanly, then rotate back to the Elevator before Panic Mode punishes slow teams.",
+      "steps": [
         {
-          "name": "Machine Priority",
-          "description": "Assign high extracting or hacking agents to primary objective lanes first."
+          "title": "Find the active objectives",
+          "details": "Each floor spawns Machines, Infecteds, items, capsules, and objective placements. Machine and enemy pressure scale upward as your run goes deeper.",
+          "mistakeToAvoid": "Do not wander without callouts. Slow searching creates avoidable late-floor pressure.",
+          "bestUse": "Spread only enough to reveal Machines, then keep return paths visible for quick regrouping."
         },
         {
-          "name": "Skill Check Discipline",
-          "description": "Avoid panic inputs. Controlled timing prevents costly failures and extra danger pressure."
+          "title": "Interact with the Machine",
+          "details": "Stand by a Machine and interact to begin filling it with Ichor. Objective uptime determines how fast your team reaches safe extraction windows.",
+          "mistakeToAvoid": "Do not start objective work when an Infected is already pathing toward your room.",
+          "bestUse": "Give exposed Machines to teammates with safer disengage tools or stronger chase control."
         },
         {
-          "name": "Safe Split Strategy",
-          "description": "Split only when routes are known and support can rotate quickly to a chased teammate."
+          "title": "Handle Skill Checks carefully",
+          "details": "Well-timed checks speed progress. Failed checks alert Infecteds and stop momentum at the worst possible time.",
+          "mistakeToAvoid": "Do not spam inputs under pressure. One failed check can collapse an otherwise clean floor.",
+          "bestUse": "Slow down and prioritize accuracy whenever team chase pressure is already high."
         },
         {
-          "name": "Panic Transition",
-          "description": "As final machines fill, shift immediately from objective mode to elevator return mode."
+          "title": "Read the two Machine styles",
+          "details": "Standard Machines and Computer-style objectives have different interaction rhythms, so your timing habits should adjust per objective type.",
+          "mistakeToAvoid": "Do not assume every objective UI behaves the same way when checks appear.",
+          "bestUse": "Assign objective lanes by comfort: extraction-focused players on Machines, hacking-focused players on Computers."
+        },
+        {
+          "title": "Finish as a team before Panic Mode",
+          "details": "Once all Machines are filled, Panic Mode begins and Infecteds gain speed. The return phase now matters more than extra looting.",
+          "mistakeToAvoid": "Do not complete the final Machine while teammates are distant, low stamina, or mid-chase.",
+          "bestUse": "Before finishing the last objective, rotate team positions closer to the Elevator route."
+        },
+        {
+          "title": "Respect the Elevator timer",
+          "details": "Players who fail to reach the Elevator during Panic Mode are eliminated, even if they still have Hearts.",
+          "mistakeToAvoid": "Do not chase side pickups after the last objective when return routes are contested.",
+          "bestUse": "Bank sprint stamina for final extraction instead of spending it during safer machine windows."
         }
-      ],
-      "growthMilestones": [
-        "Reduce failed check rate in public lobbies",
-        "Complete objectives with stable support rotations",
-        "Exit panic mode floors without isolated eliminations"
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
       "title": "Toons Universe Floors and Elevator Guide",
-      "displayType": "priorityCards",
-      "intro": "Think of each floor as a loop: entry setup, machine progress, controlled looting, and elevator extraction under panic pressure.",
-      "priorities": [
+      "displayType": "progressionCards",
+      "intro": "The Elevator connects each floor loop: loadout, generated floor, objective clear, Panic Mode return, then intermission choices that shape the next phase.",
+      "cards": [
         {
-          "name": "Lobby Setup",
-          "priority": "High",
-          "description": "Confirm team roles and starter route intent before entering the elevator."
+          "title": "Loadout Start",
+          "summary": "Every run opens with a brief setup window before teams enter the Elevator.",
+          "whatToDo": "Assign roles early: objective worker, scout, protector, or chase stabilizer.",
+          "whyItMatters": "Clear role intent prevents first-floor confusion and wasted tempo."
         },
         {
-          "name": "Early Floor Routing",
-          "priority": "High",
-          "description": "Secure nearest objectives first to avoid scattered long-distance recoveries."
+          "title": "Generated Floor",
+          "summary": "Floors spawn objectives, enemy pressure, items, and capsules in shifting layouts.",
+          "whatToDo": "Locate Machines first, then mark safe returns toward Elevator-side lanes.",
+          "whyItMatters": "Layout control decides whether split routing stays safe or fails."
         },
         {
-          "name": "Mid-Floor Tempo",
-          "priority": "Medium",
-          "description": "Balance objective speed with safe item pickup only when infected paths are clear."
+          "title": "Machine Scaling",
+          "summary": "Machine count and threat pressure rise as more floors are cleared.",
+          "whatToDo": "Expect deeper floors to demand cleaner rotations and fewer check mistakes.",
+          "whyItMatters": "Late-floor punishment for bad splits or failed checks is significantly higher."
         },
         {
-          "name": "Panic Return",
-          "priority": "Critical",
-          "description": "Once panic mode starts, full team focus shifts to elevator extraction without delay."
+          "title": "Items and Capsules",
+          "summary": "In-round pickups support both immediate survival and long-term progression.",
+          "whatToDo": "Collect resources only on safe paths that do not delay extraction timing.",
+          "whyItMatters": "Greedy detours can erase good objective progress near floor end."
+        },
+        {
+          "title": "Panic Mode Return",
+          "summary": "After all Machines are filled, extraction urgency sharply increases.",
+          "whatToDo": "Stop side tasks and commit to team-wide Elevator return routing.",
+          "whyItMatters": "Missing the return window eliminates players regardless of spare Hearts."
+        },
+        {
+          "title": "Even-Floor Shop",
+          "summary": "Even floors provide a shop phase with random item options.",
+          "whatToDo": "Prioritize sustain, safety, and stamina tools before luxury picks.",
+          "whyItMatters": "Correct purchases prevent snowball failures on the next floor."
+        },
+        {
+          "title": "Odd-Floor Card Vote",
+          "summary": "Odd floors offer three card choices and majority voting decides the effect.",
+          "whatToDo": "Vote based on current weakness: safety, stamina, objective speed, or economy.",
+          "whyItMatters": "Smart votes improve the next floor more than random rarity chasing."
+        },
+        {
+          "title": "Reward Scaling",
+          "summary": "Surviving deeper floors increases Malachor and progression momentum.",
+          "whatToDo": "Optimize for repeated clean clears over one risky high-greed push.",
+          "whyItMatters": "Stable clears outpace wipe-prone runs for long-term unlock speed."
+        },
+        {
+          "title": "Known Floor Styles",
+          "summary": "Recurring floor patterns reward route memory and objective prediction.",
+          "whatToDo": "Study repeated objective lanes and Switchbox paths across known layouts.",
+          "whyItMatters": "Map familiarity reduces panic errors and improves event recovery speed."
         }
       ]
     },
     "lucidBlocksAchievementTracker": {
       "title": "Toons Universe Floor Events Guide",
-      "displayType": "achievementGrid",
-      "intro": "Event floors punish hesitation. Treat each event as a specific playbook with known risks and response priorities.",
-      "groups": [
+      "displayType": "eventAccordion",
+      "intro": "Floor events can alter visibility, stamina economy, and extraction safety. Treat each event as a specific response protocol, not random chaos.",
+      "events": [
         {
-          "name": "Visibility Events",
-          "achievements": [
-            {
-              "title": "Blackout",
-              "description": "Regroup quickly, reduce split distance, and rely on callouts over risky solo routing."
-            },
-            {
-              "title": "Fog Pressure",
-              "description": "Slow movement decisions and avoid blind corner commitments without teammate support."
-            }
+          "event": "Gas Leak Event",
+          "whenItHappens": "Starts when the Elevator opens and persists through the full floor.",
+          "warningSigns": "Blue haze and noticeably harsher stamina economy from early movement.",
+          "danger": "Sprint reserves vanish faster, making long routes and chase recovery harder.",
+          "bestReaction": "Sprint only for forced escapes, walk safe lanes, and preserve stamina for extraction.",
+          "helpfulAgents": [
+            "Nimbus: emergency stamina refill and low-stamina speed stabilization.",
+            "Copper: Guard can save low-stamina teammates during pressure spikes."
+          ],
+          "helpfulCards": [
+            "Hyperactive for stronger stamina regeneration.",
+            "Hustle for larger stamina reserve.",
+            "Lucky to reduce event frequency.",
+            "Recover to restore Hearts before compounding mistakes."
           ]
         },
         {
-          "name": "Hazard Events",
-          "achievements": [
-            {
-              "title": "Gas Leak",
-              "description": "Shorten objective greed windows and preserve stamina for forced route adjustments."
-            },
-            {
-              "title": "High Threat Spawn",
-              "description": "Rotate support utility early so objective players are not isolated."
-            }
+          "event": "Blackout Event",
+          "whenItHappens": "Triggers mid-floor and immediately reduces map visibility.",
+          "warningSigns": "Sudden darkness with only local character lighting remaining.",
+          "danger": "Teams lose route awareness, miss objectives, and walk into avoidable enemy lines.",
+          "bestReaction": "Find the Switchbox fast, restore all switches upward, and regroup before over-splitting.",
+          "helpfulAgents": [
+            "Copper: Illuminate improves readability during low-visibility phases.",
+            "Copper: Guard protects one teammate in dangerous dark-route transitions."
+          ],
+          "helpfulCards": [
+            "Lucky to lower event frequency.",
+            "Safety to reduce high-class Infected pressure.",
+            "Recover to stabilize damaged teammates.",
+            "Precision to accelerate early objective discovery."
           ]
         },
         {
-          "name": "Route Disruptions",
-          "achievements": [
-            {
-              "title": "Elevator Breakdown",
-              "description": "Expect delayed extraction timing and maintain conservative positioning until safe path opens."
-            },
-            {
-              "title": "Objective Re-route",
-              "description": "Reassign roles fast when normal machine paths are blocked by event changes."
-            }
+          "event": "Elevator Breakdown / Malfunction",
+          "whenItHappens": "Appears as an Elevator-related floor event during run progression.",
+          "warningSigns": "Event alerts indicate extraction flow will be less forgiving than normal.",
+          "danger": "Scattered teams can be trapped by extended or awkward return timing.",
+          "bestReaction": "Group earlier, save stamina, and finish final objectives only when return routes are clear.",
+          "helpfulAgents": [
+            "Nimbus: stamina sustain and emergency speed for long returns.",
+            "Copper: Guard support during final route rotations."
+          ],
+          "helpfulCards": [
+            "Perseverance for extra retrieval time.",
+            "Hyperactive for stamina recovery.",
+            "Hustle for deeper sprint capacity.",
+            "Recover for extra mistake tolerance."
           ]
         }
       ]
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
       "title": "Toons Universe Cards and Voting Guide",
-      "displayType": "accordion",
-      "intro": "Card votes shape the next floor. Pick options that improve team survival and objective tempo, not only individual preference.",
-      "faqs": [
+      "displayType": "decisionTable",
+      "intro": "Card votes happen after odd floors. Choose effects that solve your current run problem, not the flashiest option on screen.",
+      "cards": [
         {
-          "question": "When should we vote for economy cards?",
-          "answer": "Choose economy when your team is stable and can convert extra resources into immediate run value."
+          "card": "Professional",
+          "rarity": "Unlisted",
+          "limit": "3",
+          "effect": "Increases parts gained from objectives.",
+          "bestPickWhen": "Your team is already stable and wants stronger objective economy.",
+          "priorityType": "Economy"
         },
         {
-          "question": "When should we prioritize safety cards?",
-          "answer": "Pick safety-focused cards when public lobby coordination is weak or recent floors had repeated chase collapses."
+          "card": "Job Well Done",
+          "rarity": "Unlisted",
+          "limit": "3",
+          "effect": "Increases Malachor gained from objectives.",
+          "bestPickWhen": "You are farming unlock currency without immediate survival pressure.",
+          "priorityType": "Economy"
         },
         {
-          "question": "Are objective-speed cards always best?",
-          "answer": "They are strong when your team can protect machine operators; otherwise speed without safety often backfires."
+          "card": "Motivate",
+          "rarity": "Unlisted",
+          "limit": "3",
+          "effect": "Increases Malachor gained from capsules.",
+          "bestPickWhen": "Your routes are safely collecting capsules on most floors.",
+          "priorityType": "Economy"
         },
         {
-          "question": "How should we break tie votes?",
-          "answer": "Use the card that supports the weakest role in your current team comp rather than the strongest role."
+          "card": "Precision",
+          "rarity": "Common",
+          "limit": "Infinite",
+          "effect": "Reveals all objectives briefly at round start.",
+          "bestPickWhen": "Teams are losing time searching Machines on unfamiliar layouts.",
+          "priorityType": "Routing"
+        },
+        {
+          "card": "Machinist",
+          "rarity": "Common",
+          "limit": "5",
+          "effect": "Increases extraction speed by 5%.",
+          "bestPickWhen": "Objective pace is the bottleneck and survival control is stable.",
+          "priorityType": "Objective Speed"
+        },
+        {
+          "card": "Tech Support",
+          "rarity": "Unlisted",
+          "limit": "5",
+          "effect": "Increases hacking speed by 5%.",
+          "bestPickWhen": "Computer objectives are common and your team has hacking specialists.",
+          "priorityType": "Objective Speed"
+        },
+        {
+          "card": "Trained",
+          "rarity": "Common",
+          "limit": "7",
+          "effect": "Reduces active ability cooldown by 5%.",
+          "bestPickWhen": "Your comp depends on active abilities for rescue or safety control.",
+          "priorityType": "Ability Uptime"
+        },
+        {
+          "card": "Perseverance",
+          "rarity": "Common",
+          "limit": "3",
+          "effect": "Adds 5 seconds to Elevator retrieval time.",
+          "bestPickWhen": "Teammates repeatedly arrive late to extraction windows.",
+          "priorityType": "Exit Safety"
+        },
+        {
+          "card": "Hyperactive",
+          "rarity": "Common",
+          "limit": "5",
+          "effect": "Increases stamina regeneration by 5%.",
+          "bestPickWhen": "Gas Leak or repeated chase pressure is draining your team.",
+          "priorityType": "Stamina"
+        },
+        {
+          "card": "Hustle",
+          "rarity": "Common",
+          "limit": "Infinite",
+          "effect": "Increases maximum stamina by 5.",
+          "bestPickWhen": "Long return paths require deeper sprint reserves.",
+          "priorityType": "Stamina"
+        },
+        {
+          "card": "Generosity",
+          "rarity": "Rare",
+          "limit": "5",
+          "effect": "Raises higher-tier item spawn probability.",
+          "bestPickWhen": "Current floor control is stable and you can invest into future value.",
+          "priorityType": "Item Value"
+        },
+        {
+          "card": "Lucky",
+          "rarity": "Rare",
+          "limit": "3",
+          "effect": "Reduces chance of floor events appearing.",
+          "bestPickWhen": "Event pressure is creating frequent route collapses.",
+          "priorityType": "Event Safety"
+        },
+        {
+          "card": "Safety",
+          "rarity": "Rare",
+          "limit": "Infinite",
+          "effect": "Reduces chance of higher-class Infecteds appearing.",
+          "bestPickWhen": "The team is losing too many fights against high-threat spawns.",
+          "priorityType": "Threat Control"
+        },
+        {
+          "card": "Recover",
+          "rarity": "Mythical",
+          "limit": "Infinite",
+          "effect": "Heals each damaged Agent by 1 Heart.",
+          "bestPickWhen": "Multiple teammates are injured before a risky next floor.",
+          "priorityType": "Healing"
         }
       ]
     },

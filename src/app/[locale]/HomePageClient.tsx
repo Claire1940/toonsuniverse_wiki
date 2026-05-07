@@ -7,7 +7,6 @@ import {
   BookOpen,
   Check,
   ChevronDown,
-  ClipboardCheck,
   Clock,
   Eye,
   ExternalLink,
@@ -187,8 +186,8 @@ export default function HomePageClient({
     ],
   };
 
-  // FAQ accordion states
-  const [faqExpanded, setFaqExpanded] = useState<number | null>(null);
+  // Module accordion states
+  const [eventExpanded, setEventExpanded] = useState<number | null>(0);
   const [deckExpanded, setDeckExpanded] = useState<number | null>(null);
   const mobileBannerAd = getPreferredMobileBannerSelection();
 
@@ -902,7 +901,7 @@ export default function HomePageClient({
         />
       )}
 
-      {/* Module 9: Farming and Growth */}
+      {/* Module 9: Machines and Skill Checks */}
       <section id="machines-skill-checks" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
@@ -918,52 +917,63 @@ export default function HomePageClient({
               {t.modules.lucidBlocksFarmingAndGrowth.intro}
             </p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-            {t.modules.lucidBlocksFarmingAndGrowth.sections.map(
-              (s: any, index: number) => (
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5">
+            {t.modules.lucidBlocksFarmingAndGrowth.steps.map(
+              (step: any, index: number) => (
                 <div
                   key={index}
-                  className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                  className="rounded-xl border border-border bg-white/5 p-5 md:p-6 hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
                 >
-                  <div className="flex items-center gap-2 mb-3">
-                    <TrendingUp className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                    <h3 className="font-bold">
-                      <LinkedTitle
-                        linkData={
-                          moduleLinkMap[
-                            `lucidBlocksFarmingAndGrowth::sections::${index}`
-                          ]
-                        }
-                        locale={locale}
-                      >
-                        {s.name}
-                      </LinkedTitle>
-                    </h3>
+                  <div className="mb-4 flex items-start gap-3">
+                    <div className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border border-[hsl(var(--nav-theme)/0.4)] bg-[hsl(var(--nav-theme)/0.18)] text-sm font-bold text-[hsl(var(--nav-theme-light))]">
+                      {index + 1}
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-lg">
+                        <LinkedTitle
+                          linkData={
+                            moduleLinkMap[
+                              `lucidBlocksFarmingAndGrowth::steps::${index}`
+                            ]
+                          }
+                          locale={locale}
+                        >
+                          {step.title}
+                        </LinkedTitle>
+                      </h3>
+                      <p className="mt-1 text-sm text-muted-foreground">
+                        {step.details}
+                      </p>
+                    </div>
                   </div>
-                  <p className="text-muted-foreground text-sm">
-                    {s.description}
-                  </p>
+                  <div className="space-y-3">
+                    <div className="rounded-lg border border-[hsl(var(--nav-theme)/0.35)] bg-[hsl(var(--nav-theme)/0.08)] p-3">
+                      <div className="mb-1 flex items-center gap-2 text-sm font-semibold text-[hsl(var(--nav-theme-light))]">
+                        <AlertTriangle className="h-4 w-4" />
+                        Mistake to avoid
+                      </div>
+                      <p className="text-sm text-muted-foreground">
+                        {step.mistakeToAvoid}
+                      </p>
+                    </div>
+                    <div className="rounded-lg border border-border bg-card/40 p-3">
+                      <div className="mb-1 flex items-center gap-2 text-sm font-semibold text-[hsl(var(--nav-theme-light))]">
+                        <TrendingUp className="h-4 w-4" />
+                        Best use
+                      </div>
+                      <p className="text-sm text-muted-foreground">
+                        {step.bestUse}
+                      </p>
+                    </div>
+                  </div>
                 </div>
-              ),
-            )}
-          </div>
-          <div className="scroll-reveal flex flex-wrap gap-3 justify-center">
-            {t.modules.lucidBlocksFarmingAndGrowth.growthMilestones.map(
-              (m: string, i: number) => (
-                <span
-                  key={i}
-                  className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm"
-                >
-                  <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
-                  {m}
-                </span>
               ),
             )}
           </div>
         </div>
       </section>
 
-      {/* Module 10: Best Early Unlocks */}
+      {/* Module 10: Floors and Elevator Guide */}
       <section
         id="floors-elevator-guide"
         className="scroll-mt-24 px-4 py-20 bg-white/[0.02]"
@@ -983,35 +993,51 @@ export default function HomePageClient({
             </p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {t.modules.lucidBlocksBestEarlyUnlocks.priorities.map(
-              (p: any, index: number) => (
+            {t.modules.lucidBlocksBestEarlyUnlocks.cards.map(
+              (card: any, index: number) => (
                 <div
                   key={index}
-                  className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                  className="rounded-xl border border-border bg-white/5 p-6 hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
                 >
-                  <div className="flex items-center gap-2 mb-3">
-                    <Star className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                    <span
-                      className={`text-xs px-2 py-1 rounded-full border ${p.priority === "Essential" ? "bg-[hsl(var(--nav-theme)/0.18)] border-[hsl(var(--nav-theme)/0.45)] text-[hsl(var(--nav-theme-light))]" : p.priority === "Very High" ? "bg-[hsl(var(--nav-theme)/0.14)] border-[hsl(var(--nav-theme)/0.4)] text-[hsl(var(--nav-theme-light))]" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}
-                    >
-                      {p.priority}
+                  <div className="mb-3 flex items-center justify-between gap-2">
+                    <div className="flex items-center gap-2">
+                      <Star className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                      <h3 className="font-bold">
+                        <LinkedTitle
+                          linkData={
+                            moduleLinkMap[
+                              `lucidBlocksBestEarlyUnlocks::cards::${index}`
+                            ]
+                          }
+                          locale={locale}
+                        >
+                          {card.title}
+                        </LinkedTitle>
+                      </h3>
+                    </div>
+                    <span className="rounded-full border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.1)] px-2 py-1 text-xs">
+                      Phase {index + 1}
                     </span>
                   </div>
-                  <h3 className="font-bold mb-2">
-                    <LinkedTitle
-                      linkData={
-                        moduleLinkMap[
-                          `lucidBlocksBestEarlyUnlocks::priorities::${index}`
-                        ]
-                      }
-                      locale={locale}
-                    >
-                      {p.name}
-                    </LinkedTitle>
-                  </h3>
-                  <p className="text-muted-foreground text-sm">
-                    {p.description}
+                  <p className="mb-3 text-sm text-muted-foreground">
+                    {card.summary}
                   </p>
+                  <div className="space-y-2 text-sm">
+                    <div className="rounded-lg border border-border bg-card/40 p-3">
+                      <p className="font-semibold text-[hsl(var(--nav-theme-light))] mb-1">
+                        What to do
+                      </p>
+                      <p className="text-muted-foreground">{card.whatToDo}</p>
+                    </div>
+                    <div className="rounded-lg border border-border bg-card/40 p-3">
+                      <p className="font-semibold text-[hsl(var(--nav-theme-light))] mb-1">
+                        Why it matters
+                      </p>
+                      <p className="text-muted-foreground">
+                        {card.whyItMatters}
+                      </p>
+                    </div>
+                  </div>
                 </div>
               ),
             )}
@@ -1019,7 +1045,7 @@ export default function HomePageClient({
         </div>
       </section>
 
-      {/* Module 11: Achievement Tracker */}
+      {/* Module 11: Floor Events Guide */}
       <section id="floor-events-guide" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
@@ -1035,43 +1061,111 @@ export default function HomePageClient({
               {t.modules.lucidBlocksAchievementTracker.intro}
             </p>
           </div>
-          <div className="scroll-reveal space-y-6">
-            {t.modules.lucidBlocksAchievementTracker.groups.map(
-              (group: any, gi: number) => (
+          <div className="scroll-reveal space-y-4">
+            {t.modules.lucidBlocksAchievementTracker.events.map(
+              (eventItem: any, index: number) => (
                 <div
-                  key={gi}
-                  className="p-6 bg-white/5 border border-border rounded-xl"
+                  key={index}
+                  className="overflow-hidden rounded-xl border border-border bg-white/5"
                 >
-                  <div className="flex items-center gap-2 mb-4">
-                    <ClipboardCheck className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                    <h3 className="font-bold text-lg">
-                      <LinkedTitle
-                        linkData={
-                          moduleLinkMap[
-                            `lucidBlocksAchievementTracker::groups::${gi}`
-                          ]
-                        }
-                        locale={locale}
-                      >
-                        {group.name}
-                      </LinkedTitle>
-                    </h3>
-                  </div>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                    {group.achievements.map((a: any, ai: number) => (
-                      <div
-                        key={ai}
-                        className="p-3 bg-white/5 border border-border rounded-lg"
-                      >
-                        <p className="font-semibold text-sm text-[hsl(var(--nav-theme-light))]">
-                          {a.title}
-                        </p>
-                        <p className="text-xs text-muted-foreground mt-1">
-                          {a.description}
-                        </p>
+                  <button
+                    onClick={() =>
+                      setEventExpanded(eventExpanded === index ? null : index)
+                    }
+                    className="flex w-full items-center justify-between gap-4 p-5 text-left hover:bg-white/5 transition-colors"
+                  >
+                    <div>
+                      <div className="mb-2 flex flex-wrap items-center gap-2">
+                        <span className="rounded-full border border-[hsl(var(--nav-theme)/0.35)] bg-[hsl(var(--nav-theme)/0.1)] px-2 py-1 text-xs text-[hsl(var(--nav-theme-light))]">
+                          Event {index + 1}
+                        </span>
+                        <span className="rounded-full border border-border bg-card/40 px-2 py-1 text-xs">
+                          Floor Event
+                        </span>
                       </div>
-                    ))}
-                  </div>
+                      <h3 className="font-semibold text-base md:text-lg">
+                        <LinkedTitle
+                          linkData={
+                            moduleLinkMap[
+                              `lucidBlocksAchievementTracker::events::${index}`
+                            ]
+                          }
+                          locale={locale}
+                        >
+                          {eventItem.event}
+                        </LinkedTitle>
+                      </h3>
+                      <p className="mt-1 text-sm text-muted-foreground">
+                        {eventItem.warningSigns}
+                      </p>
+                    </div>
+                    <ChevronDown
+                      className={`h-5 w-5 flex-shrink-0 transition-transform ${eventExpanded === index ? "rotate-180" : ""}`}
+                    />
+                  </button>
+
+                  {eventExpanded === index && (
+                    <div className="border-t border-border p-5">
+                      <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+                        <div className="space-y-3">
+                          <div className="rounded-lg border border-border bg-card/40 p-3">
+                            <p className="mb-1 text-sm font-semibold text-[hsl(var(--nav-theme-light))]">
+                              When it happens
+                            </p>
+                            <p className="text-sm text-muted-foreground">
+                              {eventItem.whenItHappens}
+                            </p>
+                          </div>
+                          <div className="rounded-lg border border-border bg-card/40 p-3">
+                            <p className="mb-1 text-sm font-semibold text-[hsl(var(--nav-theme-light))]">
+                              Danger
+                            </p>
+                            <p className="text-sm text-muted-foreground">
+                              {eventItem.danger}
+                            </p>
+                          </div>
+                          <div className="rounded-lg border border-[hsl(var(--nav-theme)/0.35)] bg-[hsl(var(--nav-theme)/0.08)] p-3">
+                            <p className="mb-1 text-sm font-semibold text-[hsl(var(--nav-theme-light))]">
+                              Best reaction
+                            </p>
+                            <p className="text-sm text-muted-foreground">
+                              {eventItem.bestReaction}
+                            </p>
+                          </div>
+                        </div>
+                        <div className="space-y-3">
+                          <div className="rounded-lg border border-border bg-card/40 p-3">
+                            <p className="mb-2 text-sm font-semibold text-[hsl(var(--nav-theme-light))]">
+                              Helpful agents
+                            </p>
+                            <ul className="space-y-1.5">
+                              {eventItem.helpfulAgents.map(
+                                (agent: string, ai: number) => (
+                                  <li key={ai} className="text-sm text-muted-foreground">
+                                    - {agent}
+                                  </li>
+                                ),
+                              )}
+                            </ul>
+                          </div>
+                          <div className="rounded-lg border border-border bg-card/40 p-3">
+                            <p className="mb-2 text-sm font-semibold text-[hsl(var(--nav-theme-light))]">
+                              Helpful cards
+                            </p>
+                            <ul className="space-y-1.5">
+                              {eventItem.helpfulCards.map(
+                                (card: string, ci: number) => (
+                                  <li key={ci} className="text-sm text-muted-foreground">
+                                    - {card}
+                                  </li>
+                                ),
+                              )}
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  )}
                 </div>
               ),
             )}
@@ -1079,12 +1173,12 @@ export default function HomePageClient({
         </div>
       </section>
 
-      {/* Module 12: Singleplayer FAQ */}
+      {/* Module 12: Cards and Voting Guide */}
       <section
         id="cards-voting-guide"
         className="scroll-mt-24 px-4 py-20 bg-white/[0.02]"
       >
-        <div className="container mx-auto max-w-5xl">
+        <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 scroll-reveal">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               <LinkedTitle
@@ -1100,29 +1194,84 @@ export default function HomePageClient({
               {t.modules.lucidBlocksSingleplayerAndPlatformFAQ.intro}
             </p>
           </div>
-          <div className="scroll-reveal space-y-2">
-            {t.modules.lucidBlocksSingleplayerAndPlatformFAQ.faqs.map(
-              (faq: any, index: number) => (
+
+          <div className="scroll-reveal hidden md:block overflow-hidden rounded-xl border border-border">
+            <div className="overflow-x-auto">
+              <table className="min-w-full text-sm">
+                <thead className="bg-[hsl(var(--nav-theme)/0.08)]">
+                  <tr>
+                    <th className="px-4 py-3 text-left font-semibold">Card</th>
+                    <th className="px-4 py-3 text-left font-semibold">Rarity</th>
+                    <th className="px-4 py-3 text-left font-semibold">Limit</th>
+                    <th className="px-4 py-3 text-left font-semibold">Effect</th>
+                    <th className="px-4 py-3 text-left font-semibold">Best pick when</th>
+                    <th className="px-4 py-3 text-left font-semibold">Priority</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {t.modules.lucidBlocksSingleplayerAndPlatformFAQ.cards.map(
+                    (card: any, index: number) => (
+                      <tr
+                        key={index}
+                        className="border-t border-border bg-card/30 hover:bg-white/[0.04] transition-colors"
+                      >
+                        <td className="px-4 py-3 font-semibold text-[hsl(var(--nav-theme-light))]">
+                          {card.card}
+                        </td>
+                        <td className="px-4 py-3 text-muted-foreground">
+                          {card.rarity}
+                        </td>
+                        <td className="px-4 py-3 text-muted-foreground">
+                          {card.limit}
+                        </td>
+                        <td className="px-4 py-3 text-muted-foreground">
+                          {card.effect}
+                        </td>
+                        <td className="px-4 py-3 text-muted-foreground">
+                          {card.bestPickWhen}
+                        </td>
+                        <td className="px-4 py-3">
+                          <span className="rounded-full border border-[hsl(var(--nav-theme)/0.35)] bg-[hsl(var(--nav-theme)/0.1)] px-2 py-1 text-xs text-[hsl(var(--nav-theme-light))]">
+                            {card.priorityType}
+                          </span>
+                        </td>
+                      </tr>
+                    ),
+                  )}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div className="scroll-reveal space-y-3 md:hidden">
+            {t.modules.lucidBlocksSingleplayerAndPlatformFAQ.cards.map(
+              (card: any, index: number) => (
                 <div
                   key={index}
-                  className="border border-border rounded-xl overflow-hidden"
+                  className="rounded-xl border border-border bg-white/5 p-4"
                 >
-                  <button
-                    onClick={() =>
-                      setFaqExpanded(faqExpanded === index ? null : index)
-                    }
-                    className="w-full flex items-center justify-between p-5 text-left hover:bg-white/5 transition-colors"
-                  >
-                    <span className="font-semibold">{faq.question}</span>
-                    <ChevronDown
-                      className={`w-5 h-5 flex-shrink-0 transition-transform ${faqExpanded === index ? "rotate-180" : ""}`}
-                    />
-                  </button>
-                  {faqExpanded === index && (
-                    <div className="px-5 pb-5 text-muted-foreground text-sm">
-                      {faq.answer}
-                    </div>
-                  )}
+                  <div className="mb-2 flex items-center justify-between gap-2">
+                    <h3 className="font-semibold text-[hsl(var(--nav-theme-light))]">
+                      {card.card}
+                    </h3>
+                    <span className="rounded-full border border-[hsl(var(--nav-theme)/0.35)] bg-[hsl(var(--nav-theme)/0.1)] px-2 py-1 text-xs">
+                      {card.priorityType}
+                    </span>
+                  </div>
+                  <p className="mb-1 text-xs text-muted-foreground">
+                    {card.rarity} · Limit {card.limit}
+                  </p>
+                  <p className="mb-2 text-sm text-muted-foreground">
+                    {card.effect}
+                  </p>
+                  <p className="text-sm">
+                    <span className="font-semibold text-[hsl(var(--nav-theme-light))]">
+                      Best pick:
+                    </span>{" "}
+                    <span className="text-muted-foreground">
+                      {card.bestPickWhen}
+                    </span>
+                  </p>
                 </div>
               ),
             )}
