@@ -256,7 +256,7 @@ export default function HomePageClient({
             {/* CTA Buttons */}
             <div className="mb-10 flex flex-col justify-center gap-3 sm:flex-row md:mb-12 md:gap-4">
               <button
-                onClick={() => scrollToSection("beginner-guide")}
+                onClick={() => scrollToSection("codes")}
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 md:px-8 md:py-4
                            bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)]
                            text-white rounded-lg font-semibold text-base md:text-lg transition-colors"
@@ -285,6 +285,13 @@ export default function HomePageClient({
         </div>
       </section>
 
+      {/* Latest Updates Section */}
+      <LatestGuidesAccordion
+        articles={latestArticles}
+        locale={locale}
+        max={12}
+      />
+
       {/* Tools Grid - 16 Navigation Cards */}
       <section className="px-4 py-14 md:py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-4xl">
@@ -304,29 +311,33 @@ export default function HomePageClient({
             {t.tools.cards.map((card: any, index: number) => {
               // 映射卡片索引到 section ID
               const sectionIds = [
+                "codes",
                 "beginner-guide",
-                "apotheosis-crafting",
-                "tools-weapons",
-                "storage-inventory",
-                "qualia-base-building",
-                "world-regions",
-                "creatures-enemies",
-                "mobility-gear",
-                "farming-growth",
-                "best-early-unlocks",
-                "achievement-tracker",
-                "singleplayer-faq",
-                "steam-deck-controller",
-                "settings-accessibility",
-                "updates-patch-notes",
-                "crash-fix",
+                "tier-list",
+                "agents-list",
+                "agent-unlock-requirements",
+                "stats-sanity-stamina-guide",
+                "malachor-farming",
+                "infected-guide",
+                "machines-skill-checks",
+                "floors-elevator-guide",
+                "floor-events-guide",
+                "cards-voting-guide",
+                "items-shops-guide",
+                "research-trinkets-emblems",
+                "release-date-updates",
+                "official-links-community",
               ];
               const sectionId = sectionIds[index];
 
               return (
-                <button
+                <a
                   key={index}
-                  onClick={() => scrollToSection(sectionId)}
+                  href={`#${sectionId}`}
+                  onClick={(event) => {
+                    event.preventDefault();
+                    scrollToSection(sectionId);
+                  }}
                   className="scroll-reveal group rounded-xl border border-border p-4 md:p-6
                              bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
                              transition-all duration-300 cursor-pointer text-left
@@ -351,7 +362,7 @@ export default function HomePageClient({
                   <p className="text-sm text-muted-foreground">
                     {card.description}
                   </p>
-                </button>
+                </a>
               );
             })}
           </div>
@@ -360,13 +371,6 @@ export default function HomePageClient({
 
       {/* 广告位 2: 首屏内容之后再加载广告 */}
       <NativeBannerAd adKey={process.env.NEXT_PUBLIC_AD_NATIVE_BANNER || ""} />
-
-      {/* Latest Updates Section */}
-      <LatestGuidesAccordion
-        articles={latestArticles}
-        locale={locale}
-        max={12}
-      />
 
       {/* 广告位 3: 移动端优先使用方形，桌面端保留横幅 */}
       <AdBanner
@@ -394,7 +398,7 @@ export default function HomePageClient({
       </section>
 
       {/* Module 1: Beginner Guide */}
-      <section id="beginner-guide" className="scroll-mt-24 px-4 py-14 md:py-20">
+      <section id="codes" className="scroll-mt-24 px-4 py-14 md:py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-8 md:mb-12 scroll-reveal">
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
@@ -479,7 +483,7 @@ export default function HomePageClient({
 
       {/* Module 2: Apotheosis Crafting */}
       <section
-        id="apotheosis-crafting"
+        id="beginner-guide"
         className="scroll-mt-24 px-4 py-20 bg-white/[0.02]"
       >
         <div className="container mx-auto max-w-5xl">
@@ -539,7 +543,7 @@ export default function HomePageClient({
       </section>
 
       {/* Module 3: Tools and Weapons */}
-      <section id="tools-weapons" className="scroll-mt-24 px-4 py-20">
+      <section id="tier-list" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
@@ -591,7 +595,7 @@ export default function HomePageClient({
 
       {/* Module 4: Storage and Inventory */}
       <section
-        id="storage-inventory"
+        id="agents-list"
         className="scroll-mt-24 px-4 py-20 bg-white/[0.02]"
       >
         <div className="container mx-auto max-w-5xl">
@@ -660,7 +664,7 @@ export default function HomePageClient({
 
       {/* Module 5: Qualia and Base Building */}
       <section
-        id="qualia-base-building"
+        id="agent-unlock-requirements"
         className="scroll-mt-24 px-4 py-20 bg-white/[0.02]"
       >
         <div className="container mx-auto max-w-5xl">
@@ -720,7 +724,7 @@ export default function HomePageClient({
       </section>
 
       {/* Module 6: World Regions */}
-      <section id="world-regions" className="scroll-mt-24 px-4 py-20">
+      <section id="stats-sanity-stamina-guide" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
@@ -772,7 +776,7 @@ export default function HomePageClient({
 
       {/* Module 7: Creatures and Enemies */}
       <section
-        id="creatures-enemies"
+        id="malachor-farming"
         className="scroll-mt-24 px-4 py-20 bg-white/[0.02]"
       >
         <div className="container mx-auto max-w-5xl">
@@ -826,7 +830,7 @@ export default function HomePageClient({
       </section>
 
       {/* Module 8: Mobility Gear */}
-      <section id="mobility-gear" className="scroll-mt-24 px-4 py-20">
+      <section id="infected-guide" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
@@ -899,7 +903,7 @@ export default function HomePageClient({
       )}
 
       {/* Module 9: Farming and Growth */}
-      <section id="farming-growth" className="scroll-mt-24 px-4 py-20">
+      <section id="machines-skill-checks" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
@@ -961,7 +965,7 @@ export default function HomePageClient({
 
       {/* Module 10: Best Early Unlocks */}
       <section
-        id="best-early-unlocks"
+        id="floors-elevator-guide"
         className="scroll-mt-24 px-4 py-20 bg-white/[0.02]"
       >
         <div className="container mx-auto max-w-5xl">
@@ -988,7 +992,7 @@ export default function HomePageClient({
                   <div className="flex items-center gap-2 mb-3">
                     <Star className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
                     <span
-                      className={`text-xs px-2 py-1 rounded-full border ${p.priority === "Essential" ? "bg-[hsl(var(--nav-theme)/0.18)] border-[hsl(var(--nav-theme)/0.45)] text-[hsl(var(--nav-theme-light))]" : p.priority === "Very High" ? "bg-orange-500/10 border-orange-500/30 text-orange-400" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}
+                      className={`text-xs px-2 py-1 rounded-full border ${p.priority === "Essential" ? "bg-[hsl(var(--nav-theme)/0.18)] border-[hsl(var(--nav-theme)/0.45)] text-[hsl(var(--nav-theme-light))]" : p.priority === "Very High" ? "bg-[hsl(var(--nav-theme)/0.14)] border-[hsl(var(--nav-theme)/0.4)] text-[hsl(var(--nav-theme-light))]" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}
                     >
                       {p.priority}
                     </span>
@@ -1016,7 +1020,7 @@ export default function HomePageClient({
       </section>
 
       {/* Module 11: Achievement Tracker */}
-      <section id="achievement-tracker" className="scroll-mt-24 px-4 py-20">
+      <section id="floor-events-guide" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
@@ -1077,7 +1081,7 @@ export default function HomePageClient({
 
       {/* Module 12: Singleplayer FAQ */}
       <section
-        id="singleplayer-faq"
+        id="cards-voting-guide"
         className="scroll-mt-24 px-4 py-20 bg-white/[0.02]"
       >
         <div className="container mx-auto max-w-5xl">
@@ -1127,7 +1131,7 @@ export default function HomePageClient({
       </section>
 
       {/* Module 13: Steam Deck and Controller */}
-      <section id="steam-deck-controller" className="scroll-mt-24 px-4 py-20">
+      <section id="items-shops-guide" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <div className="flex items-center justify-center gap-3 mb-4">
@@ -1177,7 +1181,7 @@ export default function HomePageClient({
 
       {/* Module 14: Settings and Accessibility */}
       <section
-        id="settings-accessibility"
+        id="research-trinkets-emblems"
         className="scroll-mt-24 px-4 py-20 bg-white/[0.02]"
       >
         <div className="container mx-auto max-w-5xl">
@@ -1230,7 +1234,7 @@ export default function HomePageClient({
       </section>
 
       {/* Module 15: Updates and Patch Notes */}
-      <section id="updates-patch-notes" className="scroll-mt-24 px-4 py-20">
+      <section id="release-date-updates" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
@@ -1282,7 +1286,7 @@ export default function HomePageClient({
 
       {/* Module 16: Crash Fix and Troubleshooting */}
       <section
-        id="crash-fix"
+        id="official-links-community"
         className="scroll-mt-24 px-4 py-20 bg-white/[0.02]"
       >
         <div className="container mx-auto max-w-5xl">
@@ -1332,11 +1336,11 @@ export default function HomePageClient({
               ),
             )}
           </div>
-          <div className="scroll-reveal p-6 bg-yellow-500/10 border border-yellow-500/30 rounded-xl">
+          <div className="scroll-reveal p-6 bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)] rounded-xl">
             <div className="flex items-start gap-3">
-              <AlertTriangle className="w-6 h-6 text-yellow-400 flex-shrink-0 mt-1" />
+              <AlertTriangle className="w-6 h-6 text-[hsl(var(--nav-theme-light))] flex-shrink-0 mt-1" />
               <div>
-                <h3 className="font-bold text-yellow-400 mb-2">
+                <h3 className="font-bold text-[hsl(var(--nav-theme-light))] mb-2">
                   Still having issues?
                 </h3>
                 <p className="text-sm text-muted-foreground mb-3">

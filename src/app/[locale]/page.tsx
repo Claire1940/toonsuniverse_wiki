@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import { getLatestArticles } from '@/lib/getLatestArticles'
-import { buildModuleLinkMap } from '@/lib/buildModuleLinkMap'
 import type { Language } from '@/lib/content'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
 import { type Locale } from '@/i18n/routing'
@@ -27,7 +26,7 @@ const HOME_LINKS = {
   roblox: 'https://www.roblox.com/games/89788834648171/Toons-Universe',
   discord: 'https://discord.com/invite/toonsuniverse',
   reddit: 'https://www.reddit.com/r/ToonsUniverse/',
-  youtube: HOME_VIDEO.url,
+  youtube: 'https://www.youtube.com/@toonshenanigans',
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -68,12 +67,11 @@ export default async function HomePage({ params }: PageProps) {
 
   // 服务器端获取最新文章数据
   const latestArticles = await getLatestArticles(locale as Language, 30)
-  const moduleLinkMap = await buildModuleLinkMap(locale as Language)
 
   return (
     <HomePageClient
       latestArticles={latestArticles}
-      moduleLinkMap={moduleLinkMap}
+      moduleLinkMap={{}}
       locale={locale}
       homeVideo={HOME_VIDEO}
       homeLinks={HOME_LINKS}
