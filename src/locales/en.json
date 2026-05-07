@@ -83,22 +83,22 @@
       {
         "icon": "Home",
         "title": "Toons Universe Agent Unlock Requirements",
-        "description": "Cost, tasks, and practical unlock planning"
+        "description": "Agent costs, tasks, and role-based unlock order"
       },
       {
         "icon": "Eye",
         "title": "Toons Universe Stats, Sanity, and Stamina Guide",
-        "description": "How core stats affect run consistency"
+        "description": "Read every core stat before choosing your role"
       },
       {
         "icon": "AlertTriangle",
         "title": "Toons Universe Malachor Farming",
-        "description": "Reliable currency routes and spending order"
+        "description": "Step-by-step currency farming and spending path"
       },
       {
         "icon": "ArrowRight",
         "title": "Toons Universe Infected Guide",
-        "description": "Threat patterns and team-safe counterplay"
+        "description": "Enemy triggers, danger signals, and counterplay calls"
       },
       {
         "icon": "TrendingUp",
@@ -273,116 +273,182 @@
     "lucidBlocksQualiaAndBaseBuilding": {
       "title": "Toons Universe Agent Unlock Requirements",
       "displayType": "cards",
-      "intro": "Unlock planning is easier when you separate immediate value picks from longer requirement chains tied to floor events and ability usage.",
+      "intro": "Agents are the playable characters in Toons Universe. Use this module to compare Malachor costs, unlock tasks, and role value before buying from Chekhov's Store.",
       "cards": [
         {
-          "name": "Free Entry Picks",
-          "description": "Nimbus and Weffle are available immediately and anchor most early progression paths."
+          "name": "Weffle and Nimbus (Free Starters)",
+          "description": "Both are available when you first join. Pick Weffle for team speed support or Nimbus for solo stamina recovery."
         },
         {
-          "name": "Store-Based Unlocks",
-          "description": "Several agents are tied to Chekhov's Store and should be timed around your Malachor reserve."
+          "name": "Teipo (700) and Discard (1,125)",
+          "description": "Teipo needs 20 machine extracts, 20 computer hacks, 3 gas leaks, and 25 survived floors. Discard adds larger objective requirements but gives strong objective-speed utility."
         },
         {
-          "name": "Requirement Chains",
-          "description": "Some unlocks need event survival, ability usage, or objective milestones beyond raw currency cost."
+          "name": "Squiddle (1,550) and Patcher (1,975)",
+          "description": "Squiddle is a fast runner that needs fuse and extract progress. Patcher requires ability use and infected encounters, then unlocks reliable team healing."
         },
         {
-          "name": "Practical Sequence",
-          "description": "Unlock one stable support option first, then branch into specialist picks for your main playstyle."
+          "name": "Guido and Rossum (2,400) and Fizzle (2,825)",
+          "description": "Guido and Rossum reward consistent objective completion. Fizzle requires heavy ability usage and long-floor survival for distraction control."
+        },
+        {
+          "name": "Copper (3,250) and Phantasia (3,675)",
+          "description": "Copper mixes shielding with blackout utility after deep survival tasks. Phantasia adds speed support and prediction after high ability and gas-leak milestones."
+        },
+        {
+          "name": "Selena (4,100) and Koi (4,500)",
+          "description": "Selena focuses on information scouting and hacking routes. Koi is a high-cost extraction specialist with emergency invincibility and cooldown reset utility."
+        },
+        {
+          "name": "Solar (Upcoming Agent)",
+          "description": "Listed as an upcoming Chekhov's Store unlock. Cost and requirements are still marked unknown in current references."
+        },
+        {
+          "name": "Practical Unlock Sequence",
+          "description": "Use free starters first, buy one low-cost support unlock, then scale into high-cost specialists once your run tasks and Malachor income are stable."
         }
       ],
       "highlights": [
-        "Track Malachor cost and task prerequisites together",
-        "Avoid overbuying before a stable core roster is built",
-        "Plan unlocks around your team role",
-        "Use code rewards to accelerate first priority unlocks"
+        "Track Malachor cost and requirement chains together",
+        "Complete task milestones while farming currency",
+        "Prioritize one support and one objective specialist early",
+        "Use code rewards to accelerate first paid unlocks"
       ]
     },
     "lucidBlocksWorldRegions": {
-      "title": "Toons Universe Stats, Sanity, and Stamina Guide",
+      "title": "Toons Universe Stats, Sanity, Stamina, and Abilities Guide",
       "displayType": "regionCards",
-      "intro": "Understanding stat tradeoffs is the fastest way to pick the right agent for your floor role and lobby difficulty.",
+      "intro": "Toons Universe uses bar-based stats. Every agent trades strengths and weaknesses, so role selection should be based on stat spread, not appearance.",
       "regions": [
         {
+          "name": "Health",
+          "type": "Mistake Tolerance",
+          "description": "Health controls how many hits you can survive. Higher hearts are safer for new players and distraction roles."
+        },
+        {
           "name": "Speed",
-          "type": "Movement Pressure",
-          "description": "Higher speed helps route pivots and chase breaks, especially when corridors are contested."
+          "type": "Routing and Escape",
+          "description": "Speed decides how quickly you reposition, scout, and exit danger lanes when line-of-sight breaks are available."
         },
         {
           "name": "Stamina",
-          "type": "Chase Endurance",
-          "description": "Stamina determines how long you can sustain escapes and recover from sudden threat spikes."
+          "type": "Chase Duration",
+          "description": "Stamina determines how long you can run before recovery, which is critical during extended panic chases."
         },
         {
           "name": "Sanity",
-          "type": "Stability Control",
-          "description": "Sanity influences pressure tolerance; low sanity picks require cleaner positioning discipline."
+          "type": "Pressure Stability",
+          "description": "Sanity affects chase pressure handling. Low-sanity agents need cleaner positioning and earlier disengage timing."
         },
         {
-          "name": "Hacking and Extracting",
-          "type": "Objective Throughput",
-          "description": "These stats directly impact machine efficiency and should match your planned team role."
+          "name": "Extraction",
+          "type": "Machine Throughput",
+          "description": "Extraction controls how fast you fill Machines. High-extraction agents speed up floor completion and elevator timing."
+        },
+        {
+          "name": "Hacking",
+          "type": "Computer Throughput",
+          "description": "Hacking controls computer objective speed. High-hacking picks reduce time spent exposed in objective rooms."
+        },
+        {
+          "name": "Passive Ability",
+          "type": "Always-On Value",
+          "description": "Passive abilities trigger automatically under conditions and provide steady value without manual activation."
+        },
+        {
+          "name": "Active Ability",
+          "type": "Cooldown Utility",
+          "description": "Active abilities require timing and cooldown awareness. Good usage can save teammates, reveal threats, or secure escapes."
         }
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
-      "title": "Toons Universe Malachor Farming",
+      "title": "Toons Universe Malachor Farming and Spending Guide",
       "displayType": "creatureCards",
-      "intro": "Strong farming is about consistent clears and safe extraction, not risky greed during active threat windows.",
+      "intro": "Malachor is the main currency for agents and skins. The fastest progress combines code redeems, safe floor clears, objective rewards, capsules, card votes, and efficient spending order.",
       "creatures": [
         {
-          "name": "Machine Completion",
-          "role": "Primary income source",
-          "description": "Steady machine progress plus successful floor exits forms the most reliable currency pipeline."
+          "name": "Redeem Active Codes First",
+          "role": "Fastest one-time boost",
+          "description": "Use active code rewards before queueing. The current 500 Malachor boost can cover most of your first paid unlock."
         },
         {
-          "name": "Code Redeems",
-          "role": "Burst currency boost",
-          "description": "Use active codes early to fund first unlocks without delaying progression."
+          "name": "Complete Floors Consistently",
+          "role": "Core farming loop",
+          "description": "Finish objectives and exit alive for repeatable payouts while also advancing survival requirements for unlock tasks."
         },
         {
-          "name": "Capsule Collection",
-          "role": "Long-term progression value",
-          "description": "Collect capsules on safe routes to support research goals while preserving floor tempo."
+          "name": "Prioritize Objective Work",
+          "role": "Repeat every floor",
+          "description": "Machines and computers generate direct rewards. Assign high-extraction or high-hacking roles to keep the loop efficient."
         },
         {
-          "name": "Controlled Spending",
-          "role": "Retention strategy",
-          "description": "Reserve currency for role-critical unlocks before cosmetic or low-impact purchases."
+          "name": "Collect Research Capsules",
+          "role": "Easy bonus income",
+          "description": "Pick capsules while rotating between tasks. Safe routing turns small capsule rewards into meaningful long-run gains."
+        },
+        {
+          "name": "Vote Economy Cards",
+          "role": "Run-scaling boost",
+          "description": "Pick Job Well Done and Motivate when possible to increase Malachor gained from objectives and capsules."
+        },
+        {
+          "name": "Stack Unlock Tasks While Farming",
+          "role": "Best long-term efficiency",
+          "description": "Farm floors, hacks, extracts, abilities, fuses, blackouts, and gas leaks together so no run progress is wasted."
+        },
+        {
+          "name": "Level Agents for Milestones",
+          "role": "Passive income layer",
+          "description": "Regular play grants level-based Malachor milestone rewards, adding extra currency on top of normal floor payouts."
+        },
+        {
+          "name": "Spend in Clean Unlock Order",
+          "role": "Best roster value",
+          "description": "Use free agents first, then buy low-cost utility options before committing to expensive specialists."
         }
       ]
     },
     "lucidBlocksMobilityGear": {
-      "title": "Toons Universe Infected Guide",
+      "title": "Toons Universe Infected Guide and Counterplay",
       "displayType": "itemCards",
-      "intro": "Infected pressure is manageable with clean route calls, stamina discipline, and role-based response timing.",
+      "intro": "Infecteds are the primary floor threat. Most chases begin from line of sight, while special Infecteds add camera rules, ceiling ambushes, and objective pressure patterns.",
       "items": [
         {
-          "name": "Line-of-Sight Breaks",
-          "type": "Core survival mechanic",
-          "description": "Corners and room transitions are your safest tools for reducing chase pressure."
+          "name": "Infected Selena",
+          "type": "Camera-watch threat",
+          "description": "She rushes when no one is watching. Assign one player to keep visual contact while the team completes nearby objectives."
         },
         {
-          "name": "Team Spacing",
-          "type": "Risk distribution",
-          "description": "Stay close enough for support, but avoid stacking so one threat path hits everyone."
+          "name": "Infected Guido and Rossum",
+          "type": "Ceiling ambush",
+          "description": "They strike from ceiling holes and remove health on contact. Check upward routes and avoid passing under active holes."
         },
         {
-          "name": "Ability Timing",
-          "type": "Counterplay window",
-          "description": "Use shields, heals, dashes, or distraction tools before stamina collapse, not after."
+          "name": "Infected Weffle",
+          "type": "Standard chaser",
+          "description": "Break line of sight with corners, hold stamina for safe exits, and avoid dragging the chase into teammates on objectives."
         },
         {
-          "name": "Panic Routing",
-          "type": "End-floor survival",
-          "description": "During panic mode, commit to the safest shared route and avoid side loot detours."
+          "name": "Infected Discard",
+          "type": "Roaming pressure",
+          "description": "This roaming threat punishes rushed skill checks and unsafe objective rooms. Keep an escape route and rotate early."
+        },
+        {
+          "name": "Infected Koi",
+          "type": "Line-of-sight chaser",
+          "description": "Treat as a standard chase but keep spacing clean so one kiting route does not collapse machine progress."
+        },
+        {
+          "name": "Infected Patcher",
+          "type": "Confirmed Infected entry",
+          "description": "Use the same safe fundamentals: spot early, route wide, preserve stamina, and move chases away from objective workers."
         }
       ],
       "unlockMilestones": [
-        "Identify threat routes early each floor",
-        "Call safe regroup points after machine spikes",
-        "Reach elevator with coordinated panic rotations"
+        "Maintain line-of-sight discipline and early callouts",
+        "Assign a watcher when special infected rules appear",
+        "Kite away from objectives and preserve team spacing"
       ]
     },
     "lucidBlocksFarmingAndGrowth": {

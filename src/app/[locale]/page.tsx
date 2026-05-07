@@ -12,7 +12,7 @@ interface PageProps {
 const HOME_METADATA = {
   title: 'Toons Universe Wiki - Codes, Agents & Survival Guide',
   description:
-    'Find Toons Universe codes, agents, infected enemies, floors, resources, builds and beginner tips for Roblox players exploring the INNOVA facility.',
+    'Find Toons Universe codes, agent unlock requirements, stat guides, Malachor farming routes, infected counterplay, and beginner tips for INNOVA runs.',
   imageAlt: 'Toons Universe Wiki - Roblox Survival Horror Guide',
 }
 
