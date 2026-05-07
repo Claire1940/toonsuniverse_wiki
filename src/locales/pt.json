@@ -1,933 +1,1291 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "description": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura sandbox de voxel surreal no Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricação, biomas, conquistas, sobrevivência, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "ogDescription": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura sandbox de voxel surreal no Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "twitterDescription": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas e dicas de sobrevivência para o sandbox de voxel surreal no Steam."
+      "title": "Wiki de Toons Universe - Códigos, Agentes e Guia de Sobrevivência",
+      "description": "Encontre códigos de Toons Universe, agentes, inimigos infectados, guias de andares, recursos e dicas de progressão para partidas de Roblox dentro da instalação INNOVA.",
+      "keywords": "Toons Universe, códigos de Toons Universe, agentes de Toons Universe, infectados de Toons Universe, Roblox survival horror",
+      "ogTitle": "Wiki de Toons Universe - Códigos, Agentes e Guia de Sobrevivência",
+      "ogDescription": "Encontre códigos de Toons Universe, agentes, inimigos infectados, guias de andares, recursos e dicas de progressão para partidas de Roblox dentro da instalação INNOVA.",
+      "twitterTitle": "Wiki de Toons Universe - Códigos, Agentes e Guia de Sobrevivência",
+      "twitterDescription": "Encontre códigos de Toons Universe, agentes, inimigos infectados, guias de andares, recursos e dicas de progressão para partidas de Roblox dentro da instalação INNOVA."
     }
   },
   "nav": {
-    "codes": "Codes",
-    "characters": "Characters",
-    "infected": "Infected",
-    "guide": "Guide",
-    "emblems": "Emblems",
-    "stats": "Stats",
-    "cosmetics": "Cosmetics"
+    "codes": "Códigos",
+    "characters": "Personagens",
+    "infected": "Infectados",
+    "guide": "Guia",
+    "emblems": "Emblemas",
+    "stats": "Estatísticas",
+    "cosmetics": "Cosméticos"
   },
   "common": {
     "home": "Início",
     "more": "Mais",
-    "playNow": "Jogue no Steam",
-    "switchLanguage": "Alterar Idioma",
-    "switchTheme": "Alterar Tema",
+    "playNow": "Jogar no Roblox",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
     "lightMode": "Modo Claro",
     "darkMode": "Modo Escuro",
     "notFound": "Página Não Encontrada",
     "notFoundDescription": "A página que você está procurando não existe.",
     "backToHome": "Voltar ao Início",
     "relatedArticles": "Artigos Relacionados",
-    "readMore": "Leia Mais",
+    "readMore": "Ler Mais",
     "articlesComingSoon": "Artigos em breve"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de Sobrevivência Voxel",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore biomas oníricos, combine itens com Apotheosis, construa livremente e sobreviva a criaturas estranhas neste sandbox surreal de mundo aberto no Steam.",
-    "getFreeCodesCTA": "Explore o Guia de Criação",
-    "playOnSteamCTA": "Jogue no Steam",
+    "badge": "Survival Horror de Desenho no Roblox",
+    "title": "Wiki de Toons Universe",
+    "description": "Uma wiki de survival horror no Roblox para Toons Universe, cobrindo códigos, agentes, inimigos infectados, andares, recursos, builds, atualizações e dicas para iniciantes em partidas na INNOVA.",
+    "getFreeCodesCTA": "Ver Códigos de Toons Universe",
+    "playOnSteamCTA": "Jogar Toons Universe no Roblox",
     "stats": {
       "stat1": {
-        "value": "1.325",
+        "value": "3K+",
         "label": "Jogadores Online"
       },
       "stat2": {
-        "value": "1.986",
-        "label": "Pico de CCU"
+        "value": "96%",
+        "label": "Avaliação no Roblox"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Avaliações Positivas"
+        "value": "34.5K",
+        "label": "Membros no Discord"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Data de Lançamento"
+        "value": "177K",
+        "label": "Visualizações do Trailer"
       }
     }
   },
   "gameFeature": {
-    "title": "Jogabilidade de Lucid Blocks",
-    "description": "Explore biomas surreais, funda itens com Apotheosis e sobreviva a criaturas estranhas neste sandbox de voxel onírico no Steam."
+    "title": "Jogabilidade de Toons Universe",
+    "description": "Aprenda o ciclo de andares, objetivos de máquinas, pressão dos infectados e decisões de utilidade de equipe que moldam cada partida na INNOVA."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Recursos",
-    "subtitle": "Tudo o que você precisa para explorar, criar e sobreviver em Lucid Blocks",
+    "title": "Toons Universe",
+    "titleHighlight": "Navegação de Módulos",
+    "subtitle": "Pule diretamente para cada módulo principal da página inicial",
     "cards": [
       {
         "icon": "BookOpen",
-        "title": "Guia para Iniciantes",
-        "description": "Primeiros passos, exploração e progressão inicial"
+        "title": "Códigos de Toons Universe",
+        "description": "Códigos ativos, lista de expirados e fluxo de resgate"
       },
       {
         "icon": "Sparkles",
-        "title": "Criação de Apotheosis",
-        "description": "Sistema de fusão livre e receitas iniciais"
+        "title": "Guia para Iniciantes de Toons Universe",
+        "description": "Prioridades da primeira partida e fundamentos de sobrevivência"
       },
       {
         "icon": "Hammer",
-        "title": "Ferramentas e Armas",
-        "description": "Frost Pick, Azrael, __PROTECTED_6a765cb2__ e mais"
+        "title": "Tier List de Toons Universe",
+        "description": "Ranking de valor no início do jogo para os agentes atuais"
       },
       {
         "icon": "Package",
-        "title": "Armazenamento e Inventário",
-        "description": "Cache Cubes, Armários e armazenamento de Qualia"
+        "title": "Lista de Agentes de Toons Universe",
+        "description": "Resumos focados em funções dos agentes jogáveis"
       },
       {
         "icon": "Home",
-        "title": "Qualia e Construção de Base",
-        "description": "Qualia Pessoal e configuração da base principal"
+        "title": "Requisitos de Desbloqueio de Agentes de Toons Universe",
+        "description": "Custos de agentes, tarefas e ordem de desbloqueio baseada em funções"
       },
       {
         "icon": "Eye",
-        "title": "Regiões do Mundo",
-        "description": "Fog Meadow, Essence Morass e mais"
+        "title": "Guia de Estatísticas, Sanidade e Stamina de Toons Universe",
+        "description": "Leia cada estatística principal antes de escolher sua função"
       },
       {
         "icon": "AlertTriangle",
-        "title": "Criaturas e Inimigos",
-        "description": "Manikins, aranhas e como sobreviver"
+        "title": "Farm de Malachor em Toons Universe",
+        "description": "Passo a passo para farmar a moeda e caminho de gastos"
       },
       {
         "icon": "ArrowRight",
-        "title": "Equipamento de Mobilidade",
-        "description": "__PROTECTED_6a765cb2__, Glider Glove, __PROTECTED_163b9bec__"
+        "title": "Guia de Infectados de Toons Universe",
+        "description": "Gatilhos de inimigos, sinais de perigo e estratégias de contra-ataque"
       },
       {
         "icon": "TrendingUp",
-        "title": "Cultivo e Crescimento",
-        "description": "Progressão de sementes e coleta de materiais"
+        "title": "Máquinas e Skill Checks de Toons Universe",
+        "description": "Rotas de máquinas, tempo de skill checks e saídas de pânico"
       },
       {
         "icon": "Star",
-        "title": "Melhores Desbloqueios Iniciais",
-        "description": "Melhorias prioritárias para a primeira hora"
+        "title": "Guia de Andares e Elevador de Toons Universe",
+        "description": "Fases do ciclo de andares, lojas, votos e escalonamento de recompensas"
       },
       {
         "icon": "ClipboardCheck",
-        "title": "Rastreador de Conquistas",
-        "description": "Todas as 19 conquistas e condições de Steam"
+        "title": "Guia de Eventos de Andar de Toons Universe",
+        "description": "Estratégias para Vazamento de Gás, Blackout e eventos de elevador"
       },
       {
         "icon": "MessageCircle",
-        "title": "FAQ Singleplayer",
-        "description": "Dúvidas sobre plataforma, preço, cooperativo e idioma"
+        "title": "Guia de Cartas e Votação de Toons Universe",
+        "description": "Tabela de cartas por situação para economia, segurança e stamina"
       },
       {
         "icon": "Gamepad2",
-        "title": "Steam Deck e Controle",
-        "description": "Configuração do Proton 9.0.4 e dicas de controle"
+        "title": "Guia de Itens e Lojas de Toons Universe",
+        "description": "Efeitos de itens, custos de loja e prioridades de compra por andar"
       },
       {
         "icon": "Settings",
-        "title": "Configurações e Acessibilidade",
-        "description": "Ocultar mãos, __PROTECTED_38625270__ e opções de exibição"
+        "title": "Pesquisa, Trinkets e Emblemas de Toons Universe",
+        "description": "Rotas de Malachor, desbloqueio de emblemas e progressão a longo prazo"
       },
       {
         "icon": "Clock",
-        "title": "Atualizações e Notas de Patch",
-        "description": "Correções recentes e notas do roadmap"
+        "title": "Data de Lançamento e Atualizações de Toons Universe",
+        "description": "Cronograma do Alpha, sinais de conteúdo e alertas de patches"
       },
       {
         "icon": "Shield",
-        "title": "Correção de Travamentos",
-        "description": "Verificação de __PROTECTED_38625270__, caminho dos logs e relato de bugs"
+        "title": "Links Oficiais e Comunidade de Toons Universe",
+        "description": "Hubs oficiais do Roblox, Discord, redes sociais, vídeos e wiki"
       }
     ]
   },
   "modules": {
     "lucidBlocksBeginnerGuide": {
-      "title": "Guia para Iniciantes de Lucid Blocks",
+      "title": "Códigos do Toons Universe",
       "displayType": "steps",
-      "intro": "Comece aprendendo como a exploração, a fusão e a progressão se conectam. Lucid Blocks recompensa a experimentação, portanto, o progresso inicial vem da coleta de materiais incomuns, do teste de combinações e do desbloqueio de sua Qualia pessoal.",
+      "intro": "Use este módulo como sua central rápida de códigos: copie o código ativo, resgate-o antes de entrar na fila e acompanhe onde novos lançamentos são publicados.",
       "steps": [
         {
-          "title": "Explore Antes de se Comprometer",
-          "description": "Caminhe para fora, mine blocos comuns e guarde quaisquer itens estranhos que encontrar. O progresso inicial foca menos em missões fixas e mais em descobrir no que os materiais podem se tornar."
+          "title": "Resgate o código ativo primeiro",
+          "description": "Código atual: THANKYOU. Resgate-o por 500 Malachor antes da sua próxima partida para garantir moeda inicial."
         },
         {
-          "title": "Desbloqueie sua Qualia Pessoal Cedo",
-          "description": "Sua Qualia pessoal é um dos marcos iniciais mais importantes. Ela oferece um lugar confiável para se reagrupar e construir ao redor."
+          "title": "Use o botão de resgate no lado esquerdo",
+          "description": "Abra o jogo no Roblox, toque em Redeem Code no painel esquerdo e cole o código exatamente como está."
         },
         {
-          "title": "Use Ósmio para um Progresso Inicial Rápido",
-          "description": "O Ósmio é um dos materiais iniciais mais úteis. Uma rota inicial popular é combinar Ósmio com gravetos para criar uma Picareta de Gelo para mineração rápida."
+          "title": "Verifique as recompensas imediatamente",
+          "description": "Após tocar em Redeem, confirme se o seu saldo de Malachor mudou antes de entrar na fila do elevador."
         },
         {
-          "title": "Registre Boas Fusões",
-          "description": "Mantenha um registro das combinações bem-sucedidas em seu diário. Lucid Blocks possui muitos caminhos de fusão possíveis, então anotar resultados úteis economiza muito tempo."
+          "title": "Acompanhe os canais de códigos semanalmente",
+          "description": "Monitore a página do Roblox, anúncios no Discord, atualizações do grupo do Roblox e os principais rastreadores de códigos."
         }
       ],
       "quickTips": [
-        "Apotheosis não requer uma lista de receitas fixa.",
-        "A geração de mundo infinita significa que mover-se para lugares mais altos ou mais profundos pode revelar materiais completamente diferentes.",
-        "Ferramentas de movimento e equipamentos utilitários tornam-se um grande reforço na qualidade de vida assim que você começa a desbloqueá-los.",
-        "Perder-se no início é normal, mas ferramentas úteis, armazenamento e opções de movimento crescem rapidamente assim que suas primeiras boas fusões começam a funcionar."
+        "Cole os códigos diretamente para evitar erros de digitação.",
+        "Resgate antes de comprar para que você possa comparar as opções de desbloqueio imediatamente.",
+        "Mantenha os códigos expirados em uma lista separada para reduzir a confusão de novos visitantes.",
+        "Atualize este módulo sempre que os canais oficiais publicarem novas recompensas."
       ]
     },
     "lucidBlocksApotheosisCrafting": {
-      "title": "Criação de Apotheosis em Lucid Blocks",
+      "title": "Guia para Iniciantes do Toons Universe",
       "displayType": "cards",
-      "intro": "Apotheosis é o sistema de fusão irrestrito do jogo. Em vez de memorizar um livro de receitas tradicional, você combina materiais, observa o resultado e constrói seu próprio conhecimento de criação ao longo do tempo.",
+      "intro": "O ciclo inicial é direto: escolha um agente estável, complete as máquinas com segurança, gerencie a estamina e chegue ao elevador antes que a pressão do pânico encerre o andar.",
       "cards": [
         {
-          "name": "Fusão de Forma Livre",
-          "description": "Apotheosis permite fundir diferentes itens sem a necessidade de seguir uma lista de receitas fixa."
+          "name": "Escolha um iniciante seguro",
+          "description": "Nimbus é uma escolha solo tolerante. Weffle é uma opção de suporte fácil para partidas em dupla ou grupo."
         },
         {
-          "name": "Múltiplos Resultados Úteis",
-          "description": "Materiais diferentes costumam levar a certos resultados. Descobertas da comunidade mostram que insumos semelhantes ainda podem resultar em ferramentas práticas, armazenamento ou melhorias de combate."
+          "name": "Priorize máquinas em vez de itens",
+          "description": "A conclusão dos objetivos controla o ritmo. Pegue itens apenas quando as rotas próximas estiverem limpas."
         },
         {
-          "name": "Criação Focada no Diário",
-          "description": "A melhor maneira de aprender Apotheosis é rastrear suas combinações bem-sucedidas. Seu diário rapidamente se torna sua própria referência de criação."
+          "name": "Economize estamina para momentos de perigo",
+          "description": "Não corra constantemente. Mantenha uma reserva de estamina para quebrar a linha de visão e para as corridas até o elevador."
         },
         {
-          "name": "Fusões Iniciais Testadas pela Comunidade",
-          "description": "Exemplos iniciais populares incluem Ósmio mais Graveto para uma Picareta de Gelo, Graveto mais Apêndice de Tungstênio para Azrael, e Azrael mais Magnetita para a Rapieira de Gavinhas."
+          "name": "Coordene antes do modo pânico",
+          "description": "Quando o pânico começar, pare as tarefas secundárias e combine uma rota segura de volta ao elevador com a equipe."
         }
       ],
       "milestones": [
-        "Fundir um item",
-        "Fundir um verme",
-        "Fundir um artefato divino"
+        "Limpe os primeiros andares consistentemente",
+        "Chegue ao elevador durante o modo pânico com a equipe intacta",
+        "Construa sua primeira reserva estável de Malachor"
       ]
     },
     "lucidBlocksToolsAndWeapons": {
-      "title": "Ferramentas e Armas de Lucid Blocks",
+      "title": "Lista de Níveis (Tier List) do Toons Universe",
       "displayType": "itemCards",
-      "intro": "Lucid Blocks mistura equipamentos utilitários oficiais com armas iniciais descobertas pela comunidade. A melhor configuração geralmente é uma mistura de mineração rápida, travessia segura e uma opção de combate confiável.",
+      "intro": "Este resumo prático de níveis prioriza a consistência para lobbies públicos e progressão inicial, em vez de configurações de nicho de alto risco.",
       "items": [
         {
-          "name": "Picareta de Gelo",
-          "type": "Ferramenta de Mineração",
-          "description": "Uma picareta inicial rápida e acessível feita de Ósmio e Graveto. Os jogadores a utilizam para acelerar a coleta inicial de materiais."
+          "name": "Nível S: Nimbus",
+          "type": "Estabilidade Solo",
+          "description": "Acesso gratuito, forte sustentação de estamina e janelas de recuperação confiáveis para perseguições longas."
         },
         {
-          "name": "Azrael",
-          "type": "Arma Inicial",
-          "description": "Uma rota prática de arma inicial criada a partir de Graveto e Apêndice de Tungstênio."
+          "name": "Nível S: Weffle",
+          "type": "Suporte de Equipe",
+          "description": "Forte utilidade de velocidade para companheiros de equipe e valor constante em corridas de objetivos coordenadas."
         },
         {
-          "name": "Rapieira de Gavinhas",
-          "type": "Arma Melhorada",
-          "description": "Uma sequência mais forte feita ao combinar Azrael com Magnetita. É um dos caminhos de combate inicial-médio mais úteis compartilhados pelos jogadores."
+          "name": "Nível A: Patcher / Phantasia / Copper / Selena",
+          "type": "Alta Utilidade",
+          "description": "Excelentes ferramentas de suporte e informação com grande retorno para a equipe quando coordenadas."
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Ferramenta de Mobilidade",
-          "description": "Um item de travessia oficial que melhora muito o movimento e a exploração vertical."
+          "name": "Nível B: Discard / Koi / Squiddle / Teipo",
+          "type": "Dependente de Habilidade",
+          "description": "Kits úteis que funcionam melhor quando o posicionamento e a disciplina de rota já estão estáveis."
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Ferramenta de Mobilidade",
-          "description": "Um item de movimento oficial que ajuda a percorrer espaços de forma mais segura e eficiente."
-        },
-        {
-          "name": "Varinha de Bola",
-          "type": "Arma Utilitária",
-          "description": "Um item utilitário oficial de longo alcance que expande suas opções de combate e quebra-cabeças."
-        },
-        {
-          "name": "Equipamento de Mergulho",
-          "type": "Equipamento de Travessia",
-          "description": "Um item utilitário oficial para alcançar áreas que, de outra forma, retardariam a exploração."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Dano Utilitário",
-          "description": "Oficialmente destacados como parte do conjunto principal de ferramentas e úteis para romper ameaças ou obstáculos."
+          "name": "Nível C: Guido and Rossum",
+          "type": "Especialista de Nicho",
+          "description": "Valor focado em objetivos, mas exige um trajeto cuidadoso porque o movimento e a estamina são limitados."
         }
       ]
     },
     "lucidBlocksStorageAndInventory": {
-      "title": "Armazenamento e Inventário de Lucid Blocks",
+      "title": "Lista de Agentes do Toons Universe",
       "displayType": "solutionCards",
-      "intro": "A pressão no inventário começa cedo em Lucid Blocks, então construir armazenamento deve ser um de seus primeiros objetivos. Várias soluções testadas por jogadores reais já se destacam.",
+      "intro": "Use este elenco resumido para decidir quem desbloquear a seguir com base na função, necessidade da equipe e consistência sob pressão.",
       "solutions": [
         {
-          "name": "Cubo de Cache",
-          "role": "Armazenamento Estilo Baú",
-          "description": "Os Cubos de Cache são uma das primeiras respostas práticas de armazenamento e são tratados pelos jogadores como o principal recipiente estilo baú do jogo."
+          "name": "Nimbus",
+          "role": "Iniciante de sobrevivência solo",
+          "description": "Iniciante gratuito com forte recuperação de estamina, ótimo para jogadores aprendendo o ritmo de perseguição."
         },
         {
-          "name": "Armário",
-          "role": "Armazenamento Simples de Base",
-          "description": "Armários são outra opção de armazenamento confirmada. Uma receita inicial compartilhada usa 1 Madeira Cortada e 1 Corda."
+          "name": "Weffle",
+          "role": "Iniciante de suporte de equipe",
+          "description": "Bom suporte para dupla/grupo com utilidade de movimento que ajuda os companheiros a estabilizar as partidas."
         },
         {
-          "name": "Qualia Pessoal",
-          "role": "Central de Armazenamento de Longo Prazo",
-          "description": "Uma vez desbloqueada, sua Qualia pessoal torna-se um lugar natural para organizar materiais, criar em paz e expandir sua base."
+          "name": "Fizzle / Selena",
+          "role": "Opções de reconhecimento e distração",
+          "description": "Úteis para rastrear ameaças ou redirecionar a pressão enquanto os objetivos estão sendo tratados."
         },
         {
-          "name": "Rastreamento pelo Diário",
-          "role": "Eficiência de Inventário",
-          "description": "Registrar combinações úteis em seu diário reduz o desperdício de materiais e facilita muito o gerenciamento do inventário."
+          "name": "Patcher / Copper / Phantasia",
+          "role": "Núcleo de suporte defensivo",
+          "description": "Ferramentas de cura, escudo e bônus que aumentam a sobrevivência da equipe em andares de alta pressão."
+        },
+        {
+          "name": "Discard / Koi / Squiddle / Teipo / Guido and Rossum",
+          "role": "Especialistas em objetivos e utilidade",
+          "description": "Escolhas de função para máquinas mais rápidas, bônus de extração e composições de equipe estruturadas."
         }
       ],
       "managementTips": [
-        "Priorize uma opção de armazenamento confiável antes de acumular itens raros.",
-        "Construa ao redor de sua Qualia pessoal assim que ela estiver disponível.",
-        "Mantenha materiais de criação, ferramentas de combate e equipamentos de movimento separados para que as melhorias sejam mais fáceis de planejar.",
-        "Use seu diário como parte do gerenciamento de inventário, não apenas para descobertas de criação."
+        "Priorize uma escolha confiável antes de gastar com desbloqueios amplos.",
+        "Escolha desbloqueios com base na sua função na partida, não apenas pela novidade.",
+        "Combine escolhas de baixa sobrevivência com companheiros de suporte.",
+        "Reavalie as prioridades quando grandes atualizações de balanceamento chegarem."
       ]
     },
     "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Qualia e Construção de Base em Lucid Blocks",
+      "title": "Requisitos de Desbloqueio de Agentes do Toons Universe",
       "displayType": "cards",
-      "intro": "Qualia é um dos marcos de progressão mais importantes em Lucid Blocks. Ela oferece um espaço pessoal para se reagrupar, armazenar materiais e gradualmente transformar o progresso da exploração em uma base real.",
+      "intro": "Agentes são os personagens jogáveis no Toons Universe. Use este módulo para comparar custos de Malachor, tarefas de desbloqueio e valor da função antes de comprar na Loja do Chekhov.",
       "cards": [
         {
-          "name": "Qualia Pessoal",
-          "description": "Desbloquear uma Qualia é um marco inicial que oferece um lugar mais confiável para retornar enquanto explora o mundo mais amplo."
+          "name": "Weffle e Nimbus (Iniciantes Gratuitos)",
+          "description": "Ambos estão disponíveis quando você entra pela primeira vez. Escolha Weffle para suporte de velocidade de equipe ou Nimbus para recuperação de estamina solo."
         },
         {
-          "name": "Construção Focada em Armazenamento",
-          "description": "Muitos jogadores começam a usar sua Qualia como um centro de armazenamento antes de transformá-la em uma base maior com espaço organizado para criação e construção."
+          "name": "Teipo (700) e Discard (1.125)",
+          "description": "Teipo precisa de 20 extrações de máquinas, 20 hacks de computador, 3 vazamentos de gás e 25 andares sobrevividos. Discard adiciona requisitos de objetivos maiores, mas oferece forte utilidade de velocidade de objetivo."
         },
         {
-          "name": "Construção Criativa de Lares",
-          "description": "Lucid Blocks suporta construção criativa, e os jogadores já estão usando espaços de Qualia para criar casas e layouts personalizados."
+          "name": "Squiddle (1.550) e Patcher (1.975)",
+          "description": "Squiddle é um corredor rápido que precisa de progresso em fusíveis e extrações. Patcher requer uso de habilidade e encontros com infectados, depois desbloqueia cura de equipe confiável."
         },
         {
-          "name": "Central de Progressão",
-          "description": "Uma base sólida ajuda a separar saques de exploração, materiais de criação, sementes, ferramentas e equipamentos de mobilidade para que seus próximos upgrades sejam mais fáceis de planejar."
+          "name": "Guido and Rossum (2.400) e Fizzle (2.825)",
+          "description": "Guido and Rossum recompensam a conclusão consistente de objetivos. Fizzle requer uso intenso de habilidade e sobrevivência em andares longos para controle de distração."
+        },
+        {
+          "name": "Copper (3.250) e Phantasia (3.675)",
+          "description": "Copper mistura proteção com utilidade de blecaute após tarefas de sobrevivência profunda. Phantasia adiciona suporte de velocidade e previsão após marcos de alta habilidade e vazamento de gás."
+        },
+        {
+          "name": "Selena (4.100) e Koi (4.500)",
+          "description": "Selena foca em reconhecimento de informações e rotas de hack. Koi é um especialista em extração de alto custo com invencibilidade de emergência e utilidade de reset de recarga."
+        },
+        {
+          "name": "Solar (Agente Futuro)",
+          "description": "Listado como um futuro desbloqueio da Loja do Chekhov. O custo e os requisitos ainda estão marcados como desconhecidos nas referências atuais."
+        },
+        {
+          "name": "Sequência Prática de Desbloqueio",
+          "description": "Use os iniciantes gratuitos primeiro, compre um desbloqueio de suporte de baixo custo e depois escale para especialistas de alto custo assim que suas tarefas de partida e renda de Malachor estiverem estáveis."
         }
       ],
       "highlights": [
-        "Entrar em uma qualia",
-        "Armazenar materiais com segurança",
-        "Expandir da utilidade para a decoração",
-        "Usar o espaço da base para apoiar a criação e o cultivo"
+        "Acompanhe o custo de Malachor e as cadeias de requisitos juntos",
+        "Complete marcos de tarefas enquanto cultiva moeda",
+        "Priorize um suporte e um especialista em objetivos cedo",
+        "Use recompensas de códigos para acelerar os primeiros desbloqueios pagos"
       ]
     },
     "lucidBlocksWorldRegions": {
-      "title": "Regiões do Mundo de Lucid Blocks",
+      "title": "Guia de Atributos, Sanidade, Estamina e Habilidades de Toons Universe",
       "displayType": "regionCards",
-      "intro": "Lucid Blocks utiliza geração de mundo infinita, então os jogadores continuam descobrindo novos ambientes e estruturas. Alguns lugares nomeados já estão aparecendo em conquistas e discussões da comunidade.",
+      "intro": "Toons Universe utiliza atributos baseados em barras. Cada agente troca pontos fortes por fracos, portanto, a seleção de função deve ser baseada na distribuição de atributos, não na aparência.",
       "regions": [
         {
-          "name": "Fog Meadow",
-          "type": "Área Notada pela Comunidade",
-          "description": "Fog Meadow já é conhecida entre os jogadores como uma área tensa associada a ameaças ocultas e encontros perigosos."
+          "name": "Saúde",
+          "type": "Tolerância a Erros",
+          "description": "A Saúde controla quantos golpes você pode sobreviver. Corações mais altos são mais seguros para novos jogadores e funções de distração."
         },
         {
-          "name": "Linha de Ley Tiamana",
-          "type": "Marco de Descoberta",
-          "description": "A linha de ley tiamana é importante o suficiente para ter seu próprio marco de conquista, tornando-a uma das descobertas de mundo nomeadas mais claras até agora."
+          "name": "Velocidade",
+          "type": "Rotas e Fuga",
+          "description": "A Velocidade decide o quão rápido você se reposiciona, faz reconhecimento e sai de rotas de perigo quando há quebras de linha de visão disponíveis."
         },
         {
-          "name": "Clonaqualia",
-          "type": "Espaço de Construção",
-          "description": "Os jogadores já estão usando Clonaqualia como um lugar para construir casas, armazenar materiais e experimentar layouts mais permanentes."
+          "name": "Estamina",
+          "type": "Duração da Perseguição",
+          "description": "A Estamina determina por quanto tempo você pode correr antes da recuperação, o que é crítico durante perseguições de pânico prolongadas."
         },
         {
-          "name": "Pântano de Essência",
-          "type": "Área de Cultivo",
-          "description": "O Pântano de Essência está sendo compartilhado pelos jogadores como um local de cultivo útil, especialmente para lutar contra slimes e ganhar experiência."
+          "name": "Sanidade",
+          "type": "Estabilidade sob Pressão",
+          "description": "A Sanidade afeta o manuseio da pressão de perseguição. Agentes com baixa sanidade precisam de um posicionamento mais limpo e um tempo de desengajamento antecipado."
+        },
+        {
+          "name": "Extração",
+          "type": "Rendimento da Máquina",
+          "description": "A Extração controla a rapidez com que você preenche as Máquinas. Agentes com alta extração aceleram a conclusão do andar e o tempo do elevador."
+        },
+        {
+          "name": "Hacking",
+          "type": "Rendimento do Computador",
+          "description": "O Hacking controla a velocidade dos objetivos do computador. Escolhas com alto hacking reduzem o tempo gasto exposto em salas de objetivos."
+        },
+        {
+          "name": "Habilidade Passiva",
+          "type": "Valor Sempre Ativo",
+          "description": "As habilidades passivas são ativadas automaticamente sob certas condições e fornecem valor constante sem ativação manual."
+        },
+        {
+          "name": "Habilidade Ativa",
+          "type": "Utilidade de Tempo de Recarga",
+          "description": "As habilidades ativas exigem percepção de tempo e de recarga. O bom uso pode salvar colegas de equipe, revelar ameaças ou garantir fugas."
         }
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
-      "title": "Criaturas e Inimigos de Lucid Blocks",
+      "title": "Guia de Farm e Gastos de Malachor em Toons Universe",
       "displayType": "creatureCards",
-      "intro": "Lucid Blocks mistura criaturas surreais com perigo real. Descrições oficiais e postagens da comunidade apontam para um mundo cheio de vida estranha, ameaças hostis e alguns encontros marcantes que os jogadores lembram rapidamente.",
+      "intro": "Malachor é a principal moeda para agentes e skins. O progresso mais rápido combina resgate de códigos, limpezas de andares seguras, recompensas de objetivos, cápsulas, votos de cartas e uma ordem de gastos eficiente.",
       "creatures": [
         {
-          "name": "Manequins",
-          "role": "Inimigo Hostil",
-          "description": "Os Manequins são um dos inimigos oficialmente nomeados no mundo e fazem parte do elenco de ameaças surreais do jogo."
+          "name": "Resgate Códigos Ativos Primeiro",
+          "role": "Impulso único mais rápido",
+          "description": "Use as recompensas de códigos ativos antes de entrar na fila. O impulso atual de 500 Malachor pode cobrir a maior parte do seu primeiro desbloqueio pago."
         },
         {
-          "name": "Géis Macios",
-          "role": "Inimigo Hostil",
-          "description": "Géis macios são outro tipo de inimigo oficialmente nomeado e ajudam a definir o estilo biológico estranho do jogo."
+          "name": "Complete Andares de Forma Consistente",
+          "role": "Ciclo principal de farm",
+          "description": "Termine os objetivos e saia vivo para pagamentos repetíveis, enquanto também avança nos requisitos de sobrevivência para tarefas de desbloqueio."
         },
         {
-          "name": "Seres de Dimensões Superiores",
-          "role": "Inimigo Hostil",
-          "description": "Esses seres são apresentados como parte da linha de inimigos mais abstrata e perturbadora do mundo."
+          "name": "Priorize o Trabalho de Objetivo",
+          "role": "Repita em cada andar",
+          "description": "Máquinas e computadores geram recompensas diretas. Atribua funções de alta extração ou alto hacking para manter o ciclo eficiente."
         },
         {
-          "name": "Aranhas Colossais",
-          "role": "Grande Ameaça",
-          "description": "As aranhas são um dos inimigos mais temidos imediatamente em discussões da comunidade e são claramente um perigo memorável."
+          "name": "Colete Cápsulas de Pesquisa",
+          "role": "Renda de bônus fácil",
+          "description": "Pegue cápsulas enquanto alterna entre as tarefas. Rotas seguras transformam pequenas recompensas de cápsulas em ganhos significativos a longo prazo."
         },
         {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "Criatura Nomeada",
-          "description": "__PROTECTED_26ee183b__ é notável o suficiente para ter sua própria conquista, o que o torna um dos encontros com criaturas nomeadas mais claros do jogo."
+          "name": "Vote em Cartas de Economia",
+          "role": "Impulso que escala com a partida",
+          "description": "Escolha 'Job Well Done' e 'Motivate' quando possível para aumentar o Malachor ganho em objetivos e cápsulas."
         },
         {
-          "name": "Vermes Fofos",
-          "role": "Criatura Interagível",
-          "description": "Os vermes não fazem apenas parte da progressão de fusão, eles também podem ser renomeados, ganhando um papel mais pessoal do que os inimigos padrão."
+          "name": "Acumule Tarefas de Desbloqueio Durante o Farm",
+          "role": "Melhor eficiência a longo prazo",
+          "description": "Farme andares, hacks, extrações, habilidades, fusíveis, apagões e vazamentos de gás juntos para que nenhum progresso de partida seja desperdiçado."
         },
         {
-          "name": "Criatura Blasfema",
-          "role": "Ameaça de Elite",
-          "description": "A criatura blasfema está ligada a uma conquista de combate dedicada, marcando-a como um encontro de inimigo significativo."
+          "name": "Suba o Nível dos Agentes para Marcos",
+          "role": "Camada de renda passiva",
+          "description": "O jogo regular concede recompensas de marcos de Malachor baseadas em nível, adicionando moeda extra além dos pagamentos normais de andar."
+        },
+        {
+          "name": "Gaste em uma Ordem de Desbloqueio Limpa",
+          "role": "Melhor valor de elenco",
+          "description": "Use agentes gratuitos primeiro, depois compre opções de utilidade de baixo custo antes de se comprometer com especialistas caros."
         }
       ]
     },
     "lucidBlocksMobilityGear": {
-      "title": "Equipamento de Mobilidade de Lucid Blocks",
+      "title": "Guia de Infectados e Contra-ataque de Toons Universe",
       "displayType": "itemCards",
-      "intro": "Melhorias de movimento são um dos maiores saltos na qualidade de vida em Lucid Blocks. Depois de desbloquear suas primeiras ferramentas de travessia, a exploração torna-se mais rápida, segura e muito mais recompensadora.",
+      "intro": "Infectados são a principal ameaça dos andares. A maioria das perseguições começa pela linha de visão, enquanto Infectados especiais adicionam regras de câmera, emboscadas no teto e padrões de pressão nos objetivos.",
       "items": [
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Ferramenta de Travessia",
-          "description": "O gancho é um dos marcos de movimento mais claros do jogo e possui sua própria conquista dedicada."
+          "name": "Selena Infectada",
+          "type": "Ameaça de observação por câmera",
+          "description": "Ela avança quando ninguém está olhando. Atribua um jogador para manter contato visual enquanto a equipe completa os objetivos próximos."
         },
         {
-          "name": "Luva Planadora",
-          "type": "Mobilidade Aérea",
-          "description": "A luva planadora permite viagens muito mais suaves e é outro marco importante de progressão com sua própria conquista."
+          "name": "Guido e Rossum Infectados",
+          "type": "Emboscada no teto",
+          "description": "Eles atacam de buracos no teto e removem saúde ao contato. Verifique as rotas superiores e evite passar por baixo de buracos ativos."
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Ferramenta de Travessia",
-          "description": "Os planadores de abelha são oficialmente destacados como parte do kit de ferramentas de movimento do jogo para percorrer espaços de forma mais eficiente."
+          "name": "Weffle Infectado",
+          "type": "Perseguidor padrão",
+          "description": "Quebre a linha de visão com esquinas, guarde estamina para saídas seguras e evite levar a perseguição para colegas de equipe nos objetivos."
         },
         {
-          "name": "Varinha de Bola",
-          "type": "Equipamento Utilitário",
-          "description": "As varinhas de bola são uma das ferramentas especiais oficialmente destacadas e expandem a forma como você se move ou interage com o mundo."
+          "name": "Discard Infectado",
+          "type": "Pressão itinerante",
+          "description": "Esta ameaça itinerante pune testes de habilidade apressados e salas de objetivos inseguras. Mantenha uma rota de fuga e faça o rodízio cedo."
         },
         {
-          "name": "Equipamento de Mergulho",
-          "type": "Equipamento de Exploração",
-          "description": "O equipamento de mergulho está oficialmente listado como parte do conjunto utilitário principal para alcançar áreas que seriam mais difíceis de explorar."
+          "name": "Koi Infectado",
+          "type": "Perseguidor de linha de visão",
+          "description": "Trate como uma perseguição padrão, mas mantenha o espaçamento limpo para que uma rota de fuga não prejudique o progresso da máquina."
         },
         {
-          "name": "Explosivos",
-          "type": "Dano Utilitário",
-          "description": "Os explosivos são oficialmente destacados e vinculados a um marco de conquista, tornando-os parte da progressão utilitária principal do jogo."
+          "name": "Patcher Infectado",
+          "type": "Entrada de Infectado confirmada",
+          "description": "Use os mesmos fundamentos de segurança: localize cedo, faça rotas amplas, preserve a estamina e afaste as perseguições dos trabalhadores de objetivos."
         }
       ],
       "unlockMilestones": [
-        "Comandar um gancho",
-        "Voar com a luva planadora",
-        "Empunhar uma varinha de projéteis",
-        "Empunhar um explosivo"
+        "Mantenha a disciplina de linha de visão e avisos antecipados",
+        "Atribua um observador quando regras de infectados especiais aparecerem",
+        "Afaste os inimigos dos objetivos e preserve o espaçamento da equipe"
       ]
     },
     "lucidBlocksFarmingAndGrowth": {
-      "title": "Cultivo e Crescimento em Lucid Blocks",
-      "displayType": "mixedCards",
-      "intro": "O crescimento faz parte da progressão real em Lucid Blocks. O cultivo não se trata apenas de plantar e colher, mas também de estabelecer rotas de materiais repetíveis que mantêm suas ferramentas, armas e opções de criação fluindo.",
-      "sections": [
+      "title": "Máquinas e Testes de Habilidade de Toons Universe",
+      "displayType": "stepByStepTimeline",
+      "intro": "As máquinas são o objetivo principal em cada andar. Conclua-as de forma limpa e, em seguida, retorne ao Elevador antes que o Modo Pânico pune as equipes lentas.",
+      "steps": [
         {
-          "name": "Progressão de Sementes",
-          "description": "Plantar e fertilizar sementes é um marco real no jogo, e colher uma noz totalmente crescida faz parte do mesmo caminho de crescimento."
+          "title": "Encontre os objetivos ativos",
+          "details": "Cada andar gera Máquinas, Infectados, itens, cápsulas e locais de objetivos. A pressão das máquinas e dos inimigos aumenta conforme sua partida avança.",
+          "mistakeToAvoid": "Não vagueie sem avisos. Buscas lentas criam pressão evitável no final do andar.",
+          "bestUse": "Espalhe-se apenas o suficiente para revelar as Máquinas, mantendo os caminhos de retorno visíveis para um reagrupamento rápido."
         },
         {
-          "name": "Cultivo de Materiais",
-          "description": "Um ciclo prático de cultivo inicial é criar Cápsulas de Mercúrio, que geram pequenos slimes que soltam Gavinhas e gosma para materiais de criação repetíveis."
+          "title": "Interaja com a Máquina",
+          "details": "Fique ao lado de uma Máquina e interaja para começar a enchê-la com Ichor. O tempo de atividade do objetivo determina o quão rápido sua equipe alcança as janelas de extração seguras.",
+          "mistakeToAvoid": "Não comece o trabalho de objetivo quando um Infectado já estiver a caminho da sua sala.",
+          "bestUse": "Deixe as Máquinas expostas para colegas de equipe com ferramentas de desengajamento mais seguras ou melhor controle de perseguição."
         },
         {
-          "name": "Sustentação de Ferramentas",
-          "description": "O cultivo de recursos torna-se muito mais forte quando você consegue coletar consistentemente Ósmio, fragmentos de vidro, plantas e materiais de slime para criações subsequentes."
+          "title": "Lide com os Testes de Habilidade com cuidado",
+          "details": "Testes bem cronometrados aceleram o progresso. Testes falhos alertam os Infectados e interrompem o ritmo no pior momento possível.",
+          "mistakeToAvoid": "Não aperte botões repetidamente sob pressão. Um único teste falho pode arruinar um andar que estava limpo.",
+          "bestUse": "Vá devagar e priorize a precisão sempre que a pressão de perseguição na equipe já estiver alta."
         },
         {
-          "name": "Rotina da Base",
-          "description": "A melhor configuração de cultivo suporta mais do que apenas comida. Ela deve alimentar seu armazenamento, ferramentas de movimento, melhorias de armas e futuros experimentos de fusão."
+          "title": "Identifique os dois estilos de Máquina",
+          "details": "Máquinas padrão e objetivos estilo computador têm ritmos de interação diferentes, portanto, seus hábitos de tempo devem se ajustar por tipo de objetivo.",
+          "mistakeToAvoid": "Não presuma que toda interface de objetivo se comporta da mesma forma quando os testes aparecem.",
+          "bestUse": "Atribua as rotas de objetivo por conforto: jogadores focados em extração nas Máquinas, jogadores focados em hacking nos Computadores."
+        },
+        {
+          "title": "Termine como uma equipe antes do Modo Pânico",
+          "details": "Assim que todas as Máquinas estiverem cheias, o Modo Pânico começa e os Infectados ganham velocidade. A fase de retorno agora importa mais do que saques extras.",
+          "mistakeToAvoid": "Não complete a última Máquina enquanto os colegas de equipe estiverem distantes, com pouca estamina ou no meio de uma perseguição.",
+          "bestUse": "Antes de terminar o último objetivo, mova as posições da equipe para mais perto da rota do Elevador."
+        },
+        {
+          "title": "Respeite o cronômetro do Elevador",
+          "details": "Jogadores que não conseguirem chegar ao Elevador durante o Modo Pânico são eliminados, mesmo que ainda tenham Corações.",
+          "mistakeToAvoid": "Não vá atrás de itens secundários após o último objetivo quando as rotas de retorno estiverem contestadas.",
+          "bestUse": "Poupe estamina de corrida para a extração final em vez de gastá-la durante janelas de máquinas mais seguras."
         }
-      ],
-      "growthMilestones": [
-        "Fertilizar uma semente",
-        "Colher uma noz totalmente crescida",
-        "Criar ciclos de materiais repetíveis",
-        "Transformar o cultivo em progressão de longo prazo"
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
-      "title": "Melhores Desbloqueios Iniciais de Lucid Blocks",
-      "displayType": "priorityCards",
-      "intro": "Os desbloqueios iniciais mais fortes são aqueles que melhoram a segurança, o armazenamento e o movimento. Em Lucid Blocks, algumas melhorias práticas podem tornar todo o resto do jogo muito mais suave.",
-      "priorities": [
+      "title": "Toons Universe Floors and Elevator Guide",
+      "displayType": "progressionCards",
+      "intro": "The Elevator connects each floor loop: loadout, generated floor, objective clear, Panic Mode return, then intermission choices that shape the next phase.",
+      "cards": [
         {
-          "name": "Qualia Pessoal",
-          "priority": "Essencial",
-          "description": "Assim que você obtém acesso à sua Qualia pessoal, sua jornada torna-se muito mais estável. Ela atua como um centro confiável para armazenamento, construção e reagrupamento."
+          "title": "Loadout Start",
+          "summary": "Every run opens with a brief setup window before teams enter the Elevator.",
+          "whatToDo": "Assign roles early: objective worker, scout, protector, or chase stabilizer.",
+          "whyItMatters": "Clear role intent prevents first-floor confusion and wasted tempo."
         },
         {
-          "name": "Picareta de Gelo",
-          "priority": "Muito Alta",
-          "description": "Uma ferramenta de mineração inicial rápida e barata feita de Ósmio e Graveto. É uma das melhorias mais úteis para acelerar a coleta inicial de recursos."
+          "title": "Generated Floor",
+          "summary": "Floors spawn objectives, enemy pressure, items, and capsules in shifting layouts.",
+          "whatToDo": "Locate Machines first, then mark safe returns toward Elevator-side lanes.",
+          "whyItMatters": "Layout control decides whether split routing stays safe or fails."
         },
         {
-          "name": "Cubo de Cache",
-          "priority": "Muito Alta",
-          "description": "A pressão de armazenamento começa cedo, então obter seu primeiro recipiente confiável estilo baú é uma grande melhoria na qualidade de vida."
+          "title": "Machine Scaling",
+          "summary": "Machine count and threat pressure rise as more floors are cleared.",
+          "whatToDo": "Expect deeper floors to demand cleaner rotations and fewer check mistakes.",
+          "whyItMatters": "Late-floor punishment for bad splits or failed checks is significantly higher."
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "priority": "Alta",
-          "description": "O gancho é um dos marcos de movimento mais claros do jogo e rapidamente torna a exploração mais rápida e segura."
+          "title": "Items and Capsules",
+          "summary": "In-round pickups support both immediate survival and long-term progression.",
+          "whatToDo": "Collect resources only on safe paths that do not delay extraction timing.",
+          "whyItMatters": "Greedy detours can erase good objective progress near floor end."
         },
         {
-          "name": "Luva Planadora",
-          "priority": "Alta",
-          "description": "A luva planadora adiciona outro grande impulso de mobilidade e torna o movimento de longa distância muito mais eficiente."
+          "title": "Panic Mode Return",
+          "summary": "After all Machines are filled, extraction urgency sharply increases.",
+          "whatToDo": "Stop side tasks and commit to team-wide Elevator return routing.",
+          "whyItMatters": "Missing the return window eliminates players regardless of spare Hearts."
         },
         {
-          "name": "Varinha de Projéteis ou Bombas",
-          "priority": "Alta",
-          "description": "Uma ferramenta de longo alcance ou opção explosiva oferece uma resposta mais segura a inimigos perigosos e encontros de estilo desafio."
+          "title": "Even-Floor Shop",
+          "summary": "Even floors provide a shop phase with random item options.",
+          "whatToDo": "Prioritize sustain, safety, and stamina tools before luxury picks.",
+          "whyItMatters": "Correct purchases prevent snowball failures on the next floor."
+        },
+        {
+          "title": "Odd-Floor Card Vote",
+          "summary": "Odd floors offer three card choices and majority voting decides the effect.",
+          "whatToDo": "Vote based on current weakness: safety, stamina, objective speed, or economy.",
+          "whyItMatters": "Smart votes improve the next floor more than random rarity chasing."
+        },
+        {
+          "title": "Reward Scaling",
+          "summary": "Surviving deeper floors increases Malachor and progression momentum.",
+          "whatToDo": "Optimize for repeated clean clears over one risky high-greed push.",
+          "whyItMatters": "Stable clears outpace wipe-prone runs for long-term unlock speed."
+        },
+        {
+          "title": "Known Floor Styles",
+          "summary": "Recurring floor patterns reward route memory and objective prediction.",
+          "whatToDo": "Study repeated objective lanes and Switchbox paths across known layouts.",
+          "whyItMatters": "Map familiarity reduces panic errors and improves event recovery speed."
         }
       ]
     },
     "lucidBlocksAchievementTracker": {
-      "title": "Rastreador de Conquistas de Lucid Blocks",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks possui atualmente 19 conquistas no Steam, e elas se dividem naturalmente em exploração, criação, mobilidade, combate e progressão de cultivo.",
-      "groups": [
+      "title": "Toons Universe Floor Events Guide",
+      "displayType": "eventAccordion",
+      "intro": "Floor events can alter visibility, stamina economy, and extraction safety. Treat each event as a specific response protocol, not random chaos.",
+      "events": [
         {
-          "name": "Exploração",
-          "achievements": [
-            {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "Entre em uma qualia."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "Descubra uma linha de ley tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "Vença um desafio tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "Conquista oculta."
-            }
+          "event": "Gas Leak Event",
+          "whenItHappens": "Starts when the Elevator opens and persists through the full floor.",
+          "warningSigns": "Blue haze and noticeably harsher stamina economy from early movement.",
+          "danger": "Sprint reserves vanish faster, making long routes and chase recovery harder.",
+          "bestReaction": "Sprint only for forced escapes, walk safe lanes, and preserve stamina for extraction.",
+          "helpfulAgents": [
+            "Nimbus: emergency stamina refill and low-stamina speed stabilization.",
+            "Copper: Guard can save low-stamina teammates during pressure spikes."
+          ],
+          "helpfulCards": [
+            "Hyperactive for stronger stamina regeneration.",
+            "Hustle for larger stamina reserve.",
+            "Lucky to reduce event frequency.",
+            "Recover to restore Hearts before compounding mistakes."
           ]
         },
         {
-          "name": "Criação e Invocação",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Funda um item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Funda um verme."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Funda um artefato divino."
-            },
-            {
-              "title": "Arcanjo β",
-              "description": "Invoque sua fé."
-            }
+          "event": "Blackout Event",
+          "whenItHappens": "Triggers mid-floor and immediately reduces map visibility.",
+          "warningSigns": "Sudden darkness with only local character lighting remaining.",
+          "danger": "Teams lose route awareness, miss objectives, and walk into avoidable enemy lines.",
+          "bestReaction": "Find the Switchbox fast, restore all switches upward, and regroup before over-splitting.",
+          "helpfulAgents": [
+            "Copper: Illuminate improves readability during low-visibility phases.",
+            "Copper: Guard protects one teammate in dangerous dark-route transitions."
+          ],
+          "helpfulCards": [
+            "Lucky to lower event frequency.",
+            "Safety to reduce high-class Infected pressure.",
+            "Recover to stabilize damaged teammates.",
+            "Precision to accelerate early objective discovery."
           ]
         },
         {
-          "name": "Mobilidade e Utilidade",
-          "achievements": [
-            {
-              "title": "Virtude α",
-              "description": "Voe com a luva planadora."
-            },
-            {
-              "title": "Virtude β",
-              "description": "Comande um gancho."
-            },
-            {
-              "title": "Arcanjo α",
-              "description": "Empunhe uma varinha de projéteis."
-            },
-            {
-              "title": "Arcanjo γ",
-              "description": "Empunhe um explosivo."
-            }
-          ]
-        },
-        {
-          "name": "Combate e Criaturas",
-          "achievements": [
-            {
-              "title": "Massacre de __PROTECTED_26ee183b__",
-              "description": "Derrote bubblebears inocentes."
-            },
-            {
-              "title": "Arcanjo δ",
-              "description": "Elimine uma criatura blasfema."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "Morra."
-            },
-            {
-              "title": "Domínio γ",
-              "description": "Renomeie um verme fofo."
-            }
-          ]
-        },
-        {
-          "name": "Crescimento e Cultivo",
-          "achievements": [
-            {
-              "title": "Domínio α",
-              "description": "Fertilize uma semente."
-            },
-            {
-              "title": "Domínio β",
-              "description": "Colha uma noz totalmente crescida."
-            },
-            {
-              "title": "Domínio δ",
-              "description": "Conquista oculta."
-            }
+          "event": "Elevator Breakdown / Malfunction",
+          "whenItHappens": "Appears as an Elevator-related floor event during run progression.",
+          "warningSigns": "Event alerts indicate extraction flow will be less forgiving than normal.",
+          "danger": "Scattered teams can be trapped by extended or awkward return timing.",
+          "bestReaction": "Group earlier, save stamina, and finish final objectives only when return routes are clear.",
+          "helpfulAgents": [
+            "Nimbus: stamina sustain and emergency speed for long returns.",
+            "Copper: Guard support during final route rotations."
+          ],
+          "helpfulCards": [
+            "Perseverance for extra retrieval time.",
+            "Hyperactive for stamina recovery.",
+            "Hustle for deeper sprint capacity.",
+            "Recover for extra mistake tolerance."
           ]
         }
       ]
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "FAQ de Singleplayer e Plataformas de Lucid Blocks",
-      "displayType": "accordion",
-      "intro": "Estas são as principais perguntas sobre plataformas e acesso que os jogadores costumam fazer antes de comprar Lucid Blocks.",
-      "faqs": [
+      "title": "Toons Universe Cards and Voting Guide",
+      "displayType": "decisionTable",
+      "intro": "Card votes happen after odd floors. Choose effects that solve your current run problem, not the flashiest option on screen.",
+      "cards": [
         {
-          "question": "Lucid Blocks é singleplayer?",
-          "answer": "Sim. Lucid Blocks é um jogo singleplayer."
+          "card": "Professional",
+          "rarity": "Unlisted",
+          "limit": "3",
+          "effect": "Increases parts gained from objectives.",
+          "bestPickWhen": "Your team is already stable and wants stronger objective economy.",
+          "priorityType": "Economy"
         },
         {
-          "question": "Multijogador ou cooperativo estão planejados?",
-          "answer": "Não. O modo multijogador não está planejado para o lançamento nem para atualizações futuras."
+          "card": "Job Well Done",
+          "rarity": "Unlisted",
+          "limit": "3",
+          "effect": "Increases Malachor gained from objectives.",
+          "bestPickWhen": "You are farming unlock currency without immediate survival pressure.",
+          "priorityType": "Economy"
         },
         {
-          "question": "Onde posso jogar Lucid Blocks?",
-          "answer": "Ele está disponível atualmente no Steam para Windows."
+          "card": "Motivate",
+          "rarity": "Unlisted",
+          "limit": "3",
+          "effect": "Increases Malachor gained from capsules.",
+          "bestPickWhen": "Your routes are safely collecting capsules on most floors.",
+          "priorityType": "Economy"
         },
         {
-          "question": "Quanto custa Lucid Blocks?",
-          "answer": "$9,99 no Steam."
+          "card": "Precision",
+          "rarity": "Common",
+          "limit": "Infinite",
+          "effect": "Reveals all objectives briefly at round start.",
+          "bestPickWhen": "Teams are losing time searching Machines on unfamiliar layouts.",
+          "priorityType": "Routing"
         },
         {
-          "question": "Lucid Blocks suporta controles?",
-          "answer": "Sim, mas jogar no controle não é recomendado porque os menus não foram projetados para isso."
+          "card": "Machinist",
+          "rarity": "Common",
+          "limit": "5",
+          "effect": "Increases extraction speed by 5%.",
+          "bestPickWhen": "Objective pace is the bottleneck and survival control is stable.",
+          "priorityType": "Objective Speed"
         },
         {
-          "question": "Lucid Blocks funciona no Steam Deck?",
-          "answer": "Sim. O Proton 9.0 ou 9.0.4 é a configuração comumente recomendada para o Steam Deck."
+          "card": "Tech Support",
+          "rarity": "Unlisted",
+          "limit": "5",
+          "effect": "Increases hacking speed by 5%.",
+          "bestPickWhen": "Computer objectives are common and your team has hacking specialists.",
+          "priorityType": "Objective Speed"
         },
         {
-          "question": "Lucid Blocks funciona no Linux?",
-          "answer": "Sim. Relatos indicam que o Proton 9.0 funciona bem para Linux e Steam Deck."
+          "card": "Trained",
+          "rarity": "Common",
+          "limit": "7",
+          "effect": "Reduces active ability cooldown by 5%.",
+          "bestPickWhen": "Your comp depends on active abilities for rescue or safety control.",
+          "priorityType": "Ability Uptime"
         },
         {
-          "question": "Haverá suporte para Mac ou Android?",
-          "answer": "Eles podem ser suportados no futuro, mas não são plataformas de lançamento atuais."
+          "card": "Perseverance",
+          "rarity": "Common",
+          "limit": "3",
+          "effect": "Adds 5 seconds to Elevator retrieval time.",
+          "bestPickWhen": "Teammates repeatedly arrive late to extraction windows.",
+          "priorityType": "Exit Safety"
         },
         {
-          "question": "Lucid Blocks possui traduções?",
-          "answer": "Não. Atualmente não há traduções planejadas."
+          "card": "Hyperactive",
+          "rarity": "Common",
+          "limit": "5",
+          "effect": "Increases stamina regeneration by 5%.",
+          "bestPickWhen": "Gas Leak or repeated chase pressure is draining your team.",
+          "priorityType": "Stamina"
         },
         {
-          "question": "Lucid Blocks continuará recebendo atualizações?",
-          "answer": "Sim. Algumas atualizações de conteúdo estão planejadas após o lançamento, mas não pretendem continuar em um cronograma regular indefinido."
+          "card": "Hustle",
+          "rarity": "Common",
+          "limit": "Infinite",
+          "effect": "Increases maximum stamina by 5.",
+          "bestPickWhen": "Long return paths require deeper sprint reserves.",
+          "priorityType": "Stamina"
+        },
+        {
+          "card": "Generosity",
+          "rarity": "Rare",
+          "limit": "5",
+          "effect": "Raises higher-tier item spawn probability.",
+          "bestPickWhen": "Current floor control is stable and you can invest into future value.",
+          "priorityType": "Item Value"
+        },
+        {
+          "card": "Lucky",
+          "rarity": "Rare",
+          "limit": "3",
+          "effect": "Reduces chance of floor events appearing.",
+          "bestPickWhen": "Event pressure is creating frequent route collapses.",
+          "priorityType": "Event Safety"
+        },
+        {
+          "card": "Safety",
+          "rarity": "Rare",
+          "limit": "Infinite",
+          "effect": "Reduces chance of higher-class Infecteds appearing.",
+          "bestPickWhen": "The team is losing too many fights against high-threat spawns.",
+          "priorityType": "Threat Control"
+        },
+        {
+          "card": "Recover",
+          "rarity": "Mythical",
+          "limit": "Infinite",
+          "effect": "Heals each damaged Agent by 1 Heart.",
+          "bestPickWhen": "Multiple teammates are injured before a risky next floor.",
+          "priorityType": "Healing"
         }
       ]
     },
     "lucidBlocksSteamDeckAndController": {
-      "title": "Steam Deck e Controle em Lucid Blocks",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks pode rodar no Steam Deck, mas a configuração padrão pode precisar de ajustes. Teclado e mouse continuam sendo a opção mais fluida para menus e jogabilidade geral.",
-      "faqs": [
+      "title": "Guia de Itens e Lojas do Toons Universe",
+      "displayType": "itemCards",
+      "intro": "Use itens para curar, acelerar objetivos, sobreviver a perseguições e encerrar andares arriscados. Compre com base no seu próximo ponto de falha, não por hábito.",
+      "items": [
         {
-          "question": "Lucid Blocks funciona no Steam Deck?",
-          "answer": "Sim. O Proton 9.0 funciona bem, e o Proton 9.0.4 é uma correção comumente compartilhada para problemas no Steam Deck."
+          "name": "Café",
+          "category": "Item de Estamina",
+          "effect": "Reduz o consumo de estamina em 25%.",
+          "duration": "10 segundos",
+          "uses": "1",
+          "shopCost": "5 Sementes",
+          "shopQuantity": "5-6-7",
+          "floorSpawnable": "Sim",
+          "source": "Loja do Chekhov ou surgimento no andar",
+          "buyAdvice": "Compre quando um corredor precisar despistar um Infectado ou forçar um retorno seguro ao elevador."
         },
         {
-          "question": "O que devo fazer se os controles do Steam Deck não estiverem funcionando?",
-          "answer": "Force a compatibilidade e mude o jogo para o Proton 9.0.4. A configuração padrão pode não aceitar a entrada do controle corretamente."
+          "name": "Menta",
+          "category": "Impulso de Hacking",
+          "effect": "Aumenta a velocidade de hack em 20%.",
+          "duration": "10 segundos",
+          "uses": "1",
+          "shopCost": "5 Sementes",
+          "shopQuantity": "5-6-7-8",
+          "floorSpawnable": "Sim",
+          "source": "Loja do Chekhov ou surgimento no andar",
+          "buyAdvice": "Compre quando as máquinas estiverem atrasando o andar e um jogador puder focar em hacks rápidos."
         },
         {
-          "question": "Lucid Blocks suporta controles?",
-          "answer": "Sim, mas jogar no controle não é recomendado porque os menus do jogo não foram projetados para isso."
+          "name": "Luvas",
+          "category": "Impulso de Extração",
+          "effect": "Aumenta a velocidade de extração em 25%.",
+          "duration": "10 segundos",
+          "uses": "2",
+          "shopCost": "5 Sementes",
+          "shopQuantity": "7",
+          "floorSpawnable": "Sim",
+          "source": "Loja do Chekhov ou surgimento no andar",
+          "buyAdvice": "Excelente valor quando a atividade das máquinas é possível e sua equipe pode encadear objetivos."
         },
         {
-          "question": "O suporte para Linux é possível?",
-          "answer": "Sim. Relatos indicam que o Proton 9.0 funciona bem para Linux e Steam Deck."
+          "name": "Meias",
+          "category": "Item de Sanidade",
+          "effect": "Aumenta a sanidade máxima em 25%.",
+          "duration": "Persistente",
+          "uses": "2",
+          "shopCost": "5 Sementes",
+          "shopQuantity": "6",
+          "floorSpawnable": "Sim",
+          "source": "Loja do Chekhov ou surgimento no andar",
+          "buyAdvice": "Compre antes de andares mais profundos, pressão de blecaute ou percursos longos."
         },
         {
-          "question": "Qual é a melhor configuração de entrada?",
-          "answer": "Teclado e mouse são a opção mais fluida para navegação em menus e jogabilidade geral momento a momento."
+          "name": "Waffle",
+          "category": "Mobilidade de Emergência",
+          "effect": "Concede 30% de velocidade e regeneração total de estamina.",
+          "duration": "10 segundos",
+          "uses": "1",
+          "shopCost": "Drop especial",
+          "shopQuantity": "Condicional",
+          "floorSpawnable": "Condicional",
+          "source": "Condições do Infectado Weffle ou utilitário de aliado Weffle",
+          "buyAdvice": "Reserve para escapar de perseguições, corridas para o elevador ou recuperações de baixa estamina."
+        },
+        {
+          "name": "Kit Médico",
+          "category": "Cura Total",
+          "effect": "Cura uma barra de vida inteira.",
+          "duration": "Instantâneo",
+          "uses": "1",
+          "shopCost": "40 Sementes",
+          "shopQuantity": "2-3",
+          "floorSpawnable": "Sim",
+          "source": "Loja do Chekhov ou surgimento no andar",
+          "buyAdvice": "Reserve para jogadores gravemente feridos ou suportes que devem permanecer vivos."
+        },
+        {
+          "name": "Curativo",
+          "category": "Cura Pequena",
+          "effect": "Heals 1 heart.",
+          "duration": "Instantâneo",
+          "uses": "1",
+          "shopCost": "20 Sementes",
+          "shopQuantity": "4-6",
+          "floorSpawnable": "Sim",
+          "source": "Loja do Chekhov ou surgimento no andar",
+          "buyAdvice": "Estabilização barata para aliados que entrarão em perigo no próximo andar."
+        },
+        {
+          "name": "USB",
+          "category": "Progresso de Computador",
+          "effect": "Conclui 50% do progresso em máquinas de hack.",
+          "duration": "Instantâneo",
+          "uses": "1",
+          "shopCost": "20 Sementes",
+          "shopQuantity": "5-6",
+          "floorSpawnable": "Sim",
+          "source": "Loja do Chekhov ou surgimento no andar",
+          "buyAdvice": "Compre quando a pressão do tempo estiver alta ou computadores expostos forem arriscados demais para segurar."
+        },
+        {
+          "name": "Chave Inglesa",
+          "category": "Progresso de Máquina",
+          "effect": "Conclui 50% do progresso em máquinas de extração.",
+          "duration": "Instantâneo",
+          "uses": "1",
+          "shopCost": "20 Sementes",
+          "shopQuantity": "5",
+          "floorSpawnable": "Sim",
+          "source": "Loja do Chekhov ou surgimento no andar",
+          "buyAdvice": "Use para ignorar posições perigosas de máquinas ou encerrar um andar rapidamente."
+        },
+        {
+          "name": "Loja da Sunny",
+          "category": "Loja de Intermissão",
+          "effect": "Mostra três itens aleatórios entre andares de número par.",
+          "duration": "Intermissão curta",
+          "uses": "Janela de compra da equipe",
+          "shopCost": "Sementes",
+          "shopQuantity": "3 itens por visita",
+          "floorSpawnable": "Fase de loja",
+          "source": "Intermissão do elevador",
+          "buyAdvice": "Escolha com base no risco imediato da equipe: cura, velocidade de objetivo ou mobilidade."
+        },
+        {
+          "name": "Loja do Chekhov",
+          "category": "Vendedor Principal",
+          "effect": "Vende agentes, cosméticos e itens utilitários que salvam a partida.",
+          "duration": "Acesso no lobby e andares pares",
+          "uses": "Interação com a loja",
+          "shopCost": "Varia por item",
+          "shopQuantity": "Varia por sorteio",
+          "floorSpawnable": "Principal fonte de loja",
+          "source": "Balcão do lobby e visitas ao elevador",
+          "buyAdvice": "Priorize a sobrevivência e a consistência dos objetivos antes de compras cosméticas ou de baixo impacto."
         }
       ]
     },
     "lucidBlocksSettingsAndAccessibility": {
-      "title": "Configurações e Acessibilidade de Lucid Blocks",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks já possui algumas configurações práticas e notas de compatibilidade que importam imediatamente quando os jogadores iniciam o jogo pela primeira vez.",
-      "settings": [
+      "title": "Pesquisa, Berloques e Emblemas de Toons Universe",
+      "displayType": "progressCards",
+      "intro": "A progressão é impulsionada pela renda de Malachor, conclusão de pesquisas e desbloqueios de emblemas de nível 100. Planeje essas trilhas de acordo com a função que você realmente desempenha.",
+      "tracks": [
         {
-          "name": "Configurações de Exibição",
-          "type": "Opção de Conforto",
-          "description": "As Configurações de Exibição incluem uma opção que permite aos jogadores ocultar as mãos na tela."
+          "track": "Renda de Malachor",
+          "requirement": "Limpe andares, abasteça máquinas, colete cápsulas de pesquisa e complete marcos.",
+          "reward": "Moeda principal para compra de agentes e skins.",
+          "knownValues": "Valores típicos incluem limpezas de andar, conclusão de máquinas e coletas de cápsulas com modificadores baseados em cartas.",
+          "bestUse": "Desbloqueie primeiro os agentes críticos para sua função e depois mude para melhorias de longo prazo."
         },
         {
-          "name": "Compatibilidade Gráfica",
-          "type": "Requisito do Sistema",
-          "description": "O suporte a __PROTECTED_38625270__ é necessário para que os gráficos sejam renderizados corretamente. Sistemas sem __PROTECTED_38625270__ podem sofrer falhas e erros gráficos graves."
+          "track": "Cápsulas de Pesquisa",
+          "requirement": "Colete cápsulas durante as partidas ativas.",
+          "reward": "Progressão direta de Malachor e de pesquisa de infectados.",
+          "knownValues": "O valor das cápsulas escala melhor quando sua equipe consegue manter uma rota estável.",
+          "bestUse": "Pegue cápsulas seguras sem sacrificar o tempo das máquinas ou a sobrevivência."
         },
         {
-          "name": "Preferência de Entrada",
-          "type": "Configuração de Controle",
-          "description": "O suporte a controle existe, mas o teclado e o mouse proporcionam uma experiência mais fluida porque os menus não foram construídos para o uso de controle."
+          "track": "Conclusão de Pesquisa de Infectados",
+          "requirement": "Alcance 100% nas trilhas de pesquisa de infectados.",
+          "reward": "Desbloqueios de berloques de pesquisa vinculados a marcos de conclusão.",
+          "knownValues": "Objetivo de longo prazo; o progresso é mais forte em equipes de sobrevivência consistentes.",
+          "bestUse": "Trate como um objetivo secundário após sua taxa de conclusão ser confiável."
         },
         {
-          "name": "Suporte de Idioma",
-          "type": "Localização",
-          "description": "A configuração atual é apenas em inglês, e nenhuma tradução está planejada no momento."
+          "track": "Marcos de Nível de Agente",
+          "requirement": "Suba o nível dos agentes através de partidas repetidas nos andares.",
+          "reward": "Malachor de marcos e desbloqueios de emblemas de nível 100.",
+          "knownValues": "Os marcos escalam através dos níveis e culminam no emblema de cada agente.",
+          "bestUse": "Foquem em um agente até o nível 100 ao buscar um efeito de build específico."
+        },
+        {
+          "track": "Limite de Equipamento de Emblemas",
+          "requirement": "Desbloqueie emblemas de agentes de nível 100.",
+          "reward": "Bônus de build de estilo permanente nas partidas.",
+          "knownValues": "Apenas dois emblemas podem ser equipados por vez.",
+          "bestUse": "Combine um emblema de sobrevivência com um emblema de velocidade de objetivo."
+        },
+        {
+          "track": "Emblemas de Nimbus e Weffle",
+          "requirement": "Alcance o nível 100 com Nimbus ou Weffle.",
+          "reward": "Menor consumo de stamina ou utilidade de Waffle gerada por objetivos.",
+          "knownValues": "Excelente para equipes focadas em corredores e suporte.",
+          "bestUse": "Priorize quando seus esquadrões perderem o ritmo durante janelas de perseguição."
+        },
+        {
+          "track": "Emblemas de Teipo e Squiddle",
+          "requirement": "Alcance o nível 100 com Teipo ou Squiddle.",
+          "reward": "Impulsos de stamina para a equipe e vantagens iniciais na extração.",
+          "knownValues": "Ambos os emblemas melhoram diretamente o ritmo dos objetivos.",
+          "bestUse": "Forte em partidas com muitas máquinas, onde a velocidade de conclusão decide a sobrevivência."
+        },
+        {
+          "track": "Emblemas de Selena e Patcher",
+          "requirement": "Alcance o nível 100 com Selena ou Patcher.",
+          "reward": "Buffs de velocidade de objetivo e suporte de cura periódica.",
+          "knownValues": "Útil para equipes que sofrem danos constantes e graduais.",
+          "bestUse": "Use-os quando a sustentação for seu gargalo após os andares intermediários."
+        },
+        {
+          "track": "Emblemas de Koi, Guido e Rossum, Fizzle",
+          "requirement": "Alcance o nível 100 com esses agentes.",
+          "reward": "Redução de cooldown, destaque de computadores e proteção de sanidade nos andares iniciais.",
+          "knownValues": "Emblemas de informação e ritmo para rotas coordenadas.",
+          "bestUse": "Melhor em esquadrões que já comunicam avisos de forma consistente."
+        },
+        {
+          "track": "Emblemas de Discard, Copper e Phantasia",
+          "requirement": "Alcance o nível 100 com esses agentes.",
+          "reward": "Impacto de itens aprimorado, escudo nos andares iniciais e cura ativada por objetivos.",
+          "knownValues": "Alto valor para sessões longas com conclusões de objetivos acumuladas.",
+          "bestUse": "Use ao avançar para andares mais profundos, onde o desgaste geralmente encerra as partidas."
         }
       ]
     },
     "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Atualizações e Notas de Patch de Lucid Blocks",
+      "title": "Data de Lançamento e Atualizações de Toons Universe",
       "displayType": "timeline",
-      "intro": "Lucid Blocks já está recebendo correções rápidas pós-lançamento e pequenas atualizações de usabilidade.",
+      "intro": "Acompanhe o status da versão alfa, marcos de trailers, mecânicas futuras e sinais de lançamento dos canais oficiais em uma única linha do tempo.",
       "entries": [
         {
-          "title": "Atualização 2.8.2",
-          "type": "Atualização de UI",
-          "description": "Renomeado \"awaken\" para \"exit\" no menu principal."
+          "updateArea": "Status Atual no Roblox",
+          "type": "Plataforma",
+          "currentInfo": "A experiência no Roblox está listada como Toons Universe [ALPHA] por Toon Shenanigans.",
+          "playerImpact": "Trate a página do Roblox como a fonte em tempo real para o status da versão, servidores e contexto da loja.",
+          "watchSource": "Página do jogo no Roblox",
+          "refreshTrigger": "Mudanças no título, descrição, servidor ou loja"
         },
         {
-          "title": "Pequeno Patch para Falhas na Inicialização",
-          "type": "Hotfix",
-          "description": "Um patch dedicado foi lançado para jogadores cujo jogo estava travando ao iniciar."
+          "updateArea": "Premissa do Jogo",
+          "type": "Direção de Design",
+          "currentInfo": "O jogo se passa em INNOVA, focado em rotas de recursos, perigos e utilidade da equipe de agentes.",
+          "playerImpact": "Confirma que as rotas de sobrevivência e o ritmo das máquinas continuam sendo tópicos centrais de estratégia.",
+          "watchSource": "Descrição do jogo no Roblox",
+          "refreshTrigger": "Atualizações na premissa de jogabilidade ou no ciclo de objetivos"
         },
         {
-          "title": "Suporte de Conteúdo Pós-Lançamento",
-          "type": "Nota do Roteiro",
-          "description": "Algumas atualizações de conteúdo estão planejadas após o lançamento, mas não pretendem continuar em um cronograma regular indefinido."
+          "updateArea": "Trailer Oficial",
+          "type": "Mídia",
+          "currentInfo": "O trailer oficial está hospedado no canal do YouTube da Toon Shenanigans.",
+          "playerImpact": "Melhor resumo visual rápido para novos jogadores aprenderem o tom e o ritmo.",
+          "watchSource": "Trailer no YouTube",
+          "refreshTrigger": "Novo trailer ou substituição de mídia de lançamento"
+        },
+        {
+          "updateArea": "Marcador de Linha do Tempo de Lançamento",
+          "type": "Linha do Tempo",
+          "currentInfo": "Adições de personagens foram registradas em abril de 2026, enquanto a página permanece com o rótulo de alfa.",
+          "playerImpact": "Use o rótulo de alfa para o status atual e as adições para o acompanhamento inicial do roteiro.",
+          "watchSource": "Página do Roblox e registros de personagens",
+          "refreshTrigger": "Anúncio oficial de beta ou lançamento completo"
+        },
+        {
+          "updateArea": "Adições de Agentes Jogáveis",
+          "type": "Elenco",
+          "currentInfo": "Adições recentes moldam a cobertura das funções de cura, escudo e reconhecimento.",
+          "playerImpact": "Mudanças no equilíbrio de funções influenciam a composição da equipe e a prioridade de desbloqueio.",
+          "watchSource": "Páginas de agentes e postagens oficiais",
+          "refreshTrigger": "Mudanças nos kits de habilidades, custos ou regras de desbloqueio"
+        },
+        {
+          "updateArea": "Prévias de Próximos Personagens",
+          "type": "Prévia",
+          "currentInfo": "Múltiplas atualizações de modelos de personagens são visíveis em materiais de prévia contínuos.",
+          "playerImpact": "Ondas de prévias indicam prováveis desbloqueios futuros e reequilíbrio de funções.",
+          "watchSource": "Canal de conteúdos futuros",
+          "refreshTrigger": "O personagem da prévia torna-se jogável"
+        },
+        {
+          "updateArea": "Prévias de Próximos Infectados",
+          "type": "Prévia de Inimigo",
+          "currentInfo": "Novas variantes de infectados são mostradas em atualizações de prévia.",
+          "playerImpact": "Adições de inimigos podem forçar grandes mudanças em rotas, sanidade e prioridade de itens.",
+          "watchSource": "Canal de conteúdos futuros",
+          "refreshTrigger": "O comportamento do infectado entra na versão ativa"
+        },
+        {
+          "updateArea": "Teasers de Novos Andares",
+          "type": "Prévia de Mapa",
+          "currentInfo": "Variantes de teasers do andar do Laboratório já estão circulando.",
+          "playerImpact": "Mudanças no mapa alteram caminhos de máquinas, segurança de cápsulas e tempo do elevador.",
+          "watchSource": "Canal de conteúdos futuros",
+          "refreshTrigger": "Revelação do nome do andar, data de lançamento ou mecânica"
+        },
+        {
+          "updateArea": "Mecânicas Futuras",
+          "type": "Prévia de Sistema",
+          "currentInfo": "Sistemas em prévia incluem transferência de itens, votação na loja e seleção de cartas de elevador.",
+          "playerImpact": "Esses sistemas mudarão as decisões econômicas e as regras de coordenação da equipe.",
+          "watchSource": "Prévias oficiais e postagens de patch",
+          "refreshTrigger": "A mecânica torna-se jogável com as regras finais"
         }
       ]
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Correção de Falhas e Solução de Problemas de Lucid Blocks",
-      "displayType": "steps",
-      "intro": "A maioria dos problemas imediatos de inicialização e falhas deve ser verificada em uma ordem simples: nível do patch, suporte gráfico, compatibilidade de plataforma e logs.",
-      "steps": [
+      "title": "Links Oficiais e Comunidade de Toons Universe",
+      "displayType": "linkCards",
+      "intro": "Use estes destinos oficiais para acesso ao jogo, anúncios sociais, trailers e navegação de referência.",
+      "links": [
         {
-          "title": "Instale o Hotfix de Falhas Mais Recente",
-          "description": "Se o jogo estiver travando ao iniciar, atualize primeiro e teste novamente com o patch de falha de inicialização mais recente."
+          "name": "Página do Jogo no Roblox",
+          "platform": "Roblox",
+          "href": "https://www.roblox.com/games/89788834648171/Toons-Universe",
+          "description": "Página principal de jogo com o status da alpha ao vivo, servidores e entrada no jogo.",
+          "bestFor": "Jogar e verificar o status atual da build pública"
         },
         {
-          "title": "Verifique o Suporte a __PROTECTED_38625270__",
-          "description": "Lucid Blocks requer suporte a __PROTECTED_38625270__. Sistemas sem __PROTECTED_38625270__ podem sofrer falhas ou grandes problemas de renderização."
+          "name": "Comunidade Toon Shenanigans",
+          "platform": "Roblox Group",
+          "href": "https://www.roblox.com/communities/35697183/Toon-Shenanigans",
+          "description": "Grupo oficial de criadores no Roblox conectado à experiência.",
+          "bestFor": "Acompanhar a atividade dos criadores no Roblox"
         },
         {
-          "title": "Use o Proton 9.0.4 no Steam Deck",
-          "description": "Se o comportamento de entrada ou inicialização do Steam Deck estiver quebrado, force a compatibilidade e mude para o Proton 9.0.4."
+          "name": "Convite Oficial do Discord",
+          "platform": "Discord",
+          "href": "https://discord.com/invite/toonsuniverse",
+          "description": "Canal mais rápido para postagens da comunidade, anúncios e prévias.",
+          "bestFor": "Acompanhamento de atualizações e discussões em tempo real"
         },
         {
-          "title": "Colete Logs de Falhas",
-          "description": "Abra o Executar do Windows, cole %APPDATA%, vá para lucid blocks/logs e reúna os arquivos .txt para solução de problemas."
+          "name": "Conta Oficial no X",
+          "platform": "X",
+          "href": "https://x.com/toonsuniverseco",
+          "description": "Feed social oficial para postagens curtas de atualização e anúncios públicos.",
+          "bestFor": "Anúncios sociais rápidos"
         },
         {
-          "title": "Relate o Problema Corretamente",
-          "description": "Compartilhe os logs e detalhes do dispositivo através do fórum oficial de bug-reports no Discord ou na página da comunidade do Steam."
+          "name": "YouTube da Toon Shenanigans",
+          "platform": "YouTube",
+          "href": "https://www.youtube.com/@toonshenanigans",
+          "description": "Canal oficial para trailers, prévias e uploads no estilo dev-log.",
+          "bestFor": "Assistir a vídeos oficiais e prévias de modelos"
+        },
+        {
+          "name": "Trailer Oficial",
+          "platform": "YouTube",
+          "href": "https://www.youtube.com/watch?v=btv_z92P180",
+          "description": "Trailer principal que apresenta o tom da jogabilidade e o ciclo de sobrevivência.",
+          "bestFor": "Integração rápida para novos jogadores"
+        },
+        {
+          "name": "Hub da Wiki da Comunidade",
+          "platform": "Fandom Wiki",
+          "href": "https://toons-universe-roblox.fandom.com/wiki/Toon%27s_Universe_Wiki",
+          "description": "Hub de referência para toons, páginas de infectados, andares, itens e termos de progressão.",
+          "bestFor": "Verificação de mecânicas e terminologia"
         }
       ]
     }
   },
   "faq": {
-    "title": "Perguntas",
-    "titleHighlight": "Frequentes",
-    "subtitle": "Tudo o que você precisa saber sobre Lucid Blocks",
+    "title": "Toons Universe",
+    "titleHighlight": "FAQ",
+    "subtitle": "Respostas rápidas para códigos, progressão e estratégia de partidas",
     "questions": [
       {
-        "question": "O Lucid Blocks é um jogo singleplayer?",
-        "answer": "Sim. Lucid Blocks é um jogo exclusivamente singleplayer, sem planos para multiplayer ou co-op."
+        "question": "Com que frequência os códigos de Toons Universe mudam?",
+        "answer": "Os lançamentos de códigos são irregulares, então verificar os canais oficiais e rastreadores de atualização semanalmente é a rotina mais confiável."
       },
       {
-        "question": "O que é o sistema Apotheosis em Lucid Blocks?",
-        "answer": "Apotheosis é o sistema de criação por fusão de forma livre do Lucid Blocks. Em vez de seguir receitas fixas, você combina materiais e descobre seus próprios caminhos de criação."
+        "question": "Qual inicial é melhor para partidas solo?",
+        "answer": "Nimbus costuma ser o inicial solo mais tolerante, pois a recuperação de stamina ajuda a se recuperar de erros em perseguições."
       },
       {
-        "question": "Onde posso jogar Lucid Blocks?",
-        "answer": "Lucid Blocks está disponível atualmente no Steam para Windows. O suporte para Linux e Steam Deck está disponível através do Proton 9.0."
+        "question": "O que devemos fazer quando o modo de pânico começa?",
+        "answer": "Pare o saque secundário, defina uma rota de retorno segura e comprometa toda a equipe com a extração pelo elevador imediatamente."
       },
       {
-        "question": "Quanto custa o Lucid Blocks?",
-        "answer": "O Lucid Blocks custa US$ 9,99 no Steam."
+        "question": "É melhor gastar Malachor em cosméticos ou agentes primeiro?",
+        "answer": "A progressão inicial geralmente é mais fluida quando a moeda é focada primeiro em desbloqueios de agentes críticos para a função."
       },
       {
-        "question": "O Lucid Blocks tem suporte para controles?",
-        "answer": "Sim, mas jogar no controle não é recomendado porque os menus não foram projetados para isso. Teclado e mouse são a opção mais fluida."
+        "question": "Como melhoramos as taxas de conclusão em lobbies públicos?",
+        "answer": "Mantenha as atribuições de máquinas simples, evite divisões excessivas e alterne habilidades de suporte antes que a stamina acabe."
       },
       {
-        "question": "O Lucid Blocks receberá atualizações?",
-        "answer": "Sim. Algumas atualizações de conteúdo estão planejadas após o lançamento, mas não há a intenção de mantê-las em um cronograma regular indefinido."
+        "question": "Onde posso encontrar atualizações oficiais e postagens de trailers?",
+        "answer": "Use a página da experiência no Roblox, o Discord oficial e o canal do YouTube da Toon Shenanigans para acompanhar as atualizações."
       }
     ]
   },
   "cta": {
-    "title": "Pronto para explorar Lucid Blocks?",
-    "description": "Junte-se à comunidade de Lucid Blocks no Discord para guias, atualizações e discussões!",
-    "joinCommunity": "Entrar no Discord",
-    "joinGame": "Jogue no Steam"
+    "title": "Pronto para partidas de Toons Universe?",
+    "description": "Junte-se à comunidade no Discord para alertas de atualização e, em seguida, entre na fila de partidas no Roblox com um plano de andar mais claro.",
+    "joinCommunity": "Juntar-se ao Discord de Toons Universe",
+    "joinGame": "Jogar Toons Universe no Roblox"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Seu centro de recursos completo para crafting, biomas, criaturas, conquistas e guias de sobrevivência de Lucid Blocks.",
+    "title": "Wiki de Toons Universe",
+    "description": "Um hub de recursos focado em códigos, agentes, guias de infectados, sistemas de andares e planejamento de progressão.",
     "resources": "Recursos",
     "community": "Comunidade",
-    "legal": "Legal",
+    "legal": "Jurídico",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Comunidade Steam",
-    "steamStore": "Loja Steam",
+    "twitter": "Reddit",
+    "steamCommunity": "Canal no YouTube",
+    "steamStore": "Jogar no Roblox",
     "about": "Sobre",
     "privacy": "Política de Privacidade",
     "terms": "Termos de Serviço",
-    "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Wiki de Lucid Blocks. Não afiliada aos desenvolvedores de Lucid Blocks.",
+    "copyrightNotice": "Direitos Autorais",
+    "copyright": "© 2026 Toons Universe Wiki. Não afiliado à Roblox Corporation ou Toon Shenanigans.",
     "disclaimer": "Site de recursos não oficial feito por fãs."
   },
   "pages": {
-    "guides": {
-      "title": "Guias de Lucid Blocks",
-      "description": "Guias de jogabilidade completos, desde o básico para iniciantes até estratégias avançadas de Apotheosis. Domine a sobrevivência e a criação.",
-      "metaTitle": "Guias de Lucid Blocks - Estratégias do Iniciante ao Avançado",
-      "metaDescription": "Guias completos de Lucid Blocks abrangendo dicas para iniciantes, sistema Apotheosis, estratégias de sobrevivência e táticas de especialistas para dominar o sandbox surreal.",
-      "categoryLabel": "GUIAS DE JOGO",
-      "whatIs": "O que são Guias?",
-      "whatIsDescription": "Guias abrangentes que cobrem mecânicas de jogo, estratégias de sobrevivência e o sistema de criação Apotheosis. Aprenda tudo, desde os primeiros passos até técnicas avançadas.",
-      "why": "Por que ler os guias?",
+    "codes": {
+      "title": "Códigos de Toons Universe",
+      "description": "Resgate códigos ativos para gemas, chips de atributos e rerolls para acelerar a progressão inicial e as melhorias da equipe.",
+      "metaTitle": "Códigos de Toons Universe - Gemas, Chips e Rerolls Grátis",
+      "metaDescription": "Encontre códigos ativos de Toons Universe para gemas, chips de atributos e rerolls. Use a lista de resgate mais recente para impulsionar seu progresso rapidamente.",
+      "categoryLabel": "RESGATAR CÓDIGOS",
+      "whatIs": "O que são Códigos?",
+      "whatIsDescription": "Códigos são recompensas de tempo limitado lançadas pelos desenvolvedores. Eles geralmente concedem gemas, chips de atributos e rerolls que ajudam você a construir partidas mais fortes sem grind extra.",
+      "why": "Por que usar esta página?",
       "whySteps": {
-        "step1Title": "Aprenda as Mecânicas Principais",
-        "step1Description": "Entenda o sistema Apotheosis e evite erros comuns de iniciantes",
-        "step2Title": "Progressão Rápida",
-        "step2Description": "Siga caminhos comprovados para sobreviver e prosperar no mundo surreal",
-        "step3Title": "Domine as Estratégias",
-        "step3Description": "Desenvolva táticas avançadas para exploração e criação"
+        "step1Title": "Resgate recompensas rapidamente",
+        "step1Description": "Obtenha uma lista limpa de recompensas ativas para poder resgatar tudo de uma vez.",
+        "step2Title": "Acompanhe os prazos de expiração",
+        "step2Description": "Verifique o tempo de atualização para evitar perder lançamentos de códigos curtos vinculados a eventos ou marcos.",
+        "step3Title": "Planeje melhor os gastos",
+        "step3Description": "Use gemas e chips de bônus nas melhorias que mais importam para suas próximas partidas."
       },
       "featured": "Destaques e Essenciais",
-      "all": "Todos os Guias"
+      "all": "Todos os Códigos"
     },
-    "crafting": {
-      "title": "Criação em Lucid Blocks",
-      "description": "Domine o sistema de fusão Apotheosis com mecânicas de essência, receitas e estratégias de criação para itens poderosos.",
-      "metaTitle": "Criação em Lucid Blocks - Sistema Apotheosis e Receitas",
-      "metaDescription": "Domine o sistema de criação Apotheosis de Lucid Blocks. Aprenda mecânicas de essência, receitas de fusão e estratégias para criar ferramentas e armas poderosas.",
-      "categoryLabel": "SISTEMA DE CRIAÇÃO",
-      "whatIs": "O que é a Criação?",
-      "whatIsDescription": "O sistema Apotheosis é uma mecânica de fusão única baseada em essências, onde você combina até seis itens para descobrir novas receitas. Sem menus de criação fixos — a experimentação é a chave.",
-      "why": "Por que dominar a criação?",
+    "characters": {
+      "title": "Personagens de Toons Universe",
+      "description": "Compare agentes, caminhos de desbloqueio e pontos fortes de funções para escolher o melhor elenco para partidas solo e em equipe.",
+      "metaTitle": "Personagens de Toons Universe - Funções de Agentes e Guia de Desbloqueio",
+      "metaDescription": "Explore guias de personagens de Toons Universe com divisões de funções, métodos de desbloqueio e recomendações de equipe para cada estilo de jogo.",
+      "categoryLabel": "ELENCO DE AGENTES",
+      "whatIs": "O que são Personagens?",
+      "whatIsDescription": "Personagens são agentes jogáveis com diferentes perfis de utilidade, padrões de escalonamento e opções de sinergia. Escolher o certo muda seu ritmo, segurança e controle de objetivos.",
+      "why": "Por que ler guias de personagens?",
       "whySteps": {
-        "step1Title": "Desbloqueie Itens Poderosos",
-        "step1Description": "Descubra ferramentas essenciais, armas e equipamentos de mobilidade através da fusão",
-        "step2Title": "Entenda as Essências",
-        "step2Description": "Saiba como as essências dos itens se combinam para criar resultados previsíveis",
-        "step3Title": "Otimize Recursos",
-        "step3Description": "Use mecânicas de diluição para maximizar o rendimento de materiais baratos"
+        "step1Title": "Escolha o inicial certo",
+        "step1Description": "Entenda quais agentes são mais fáceis de pilotar durante a progressão inicial da conta.",
+        "step2Title": "Monte equipes mais fortes",
+        "step2Description": "Combine funções de suporte, controle e objetivos para conclusões estáveis em co-op.",
+        "step3Title": "Otimize melhorias",
+        "step3Description": "Gaste moedas em agentes que escalam bem com sua estratégia preferida."
       },
       "featured": "Destaques e Essenciais",
-      "all": "Todos os Guias de Criação"
+      "all": "Todos os Personagens"
     },
-    "items": {
-      "title": "Itens de Lucid Blocks",
-      "description": "Guias detalhados de itens abrangendo ferramentas, armas, equipamentos de mobilidade e soluções de armazenamento com receitas de criação e dicas de uso.",
-      "metaTitle": "Itens de Lucid Blocks - Guia de Ferramentas, Armas e Equipamentos",
-      "metaDescription": "Banco de dados completo de itens para Lucid Blocks, incluindo ferramentas, armas, equipamentos de mobilidade e armazenamento. Aprenda a criar e usar cada item de forma eficaz.",
-      "categoryLabel": "ITENS E EQUIPAMENTOS",
-      "whatIs": "O que são Itens?",
-      "whatIsDescription": "Guias abrangentes para ferramentas, armas, equipamentos de mobilidade e itens funcionais. Aprenda receitas de criação, estratégias de uso e combinações ideais.",
-      "why": "Por que consultar os guias de itens?",
+    "infected": {
+      "title": "Infectados de Toons Universe",
+      "description": "Aprenda o comportamento dos inimigos, janelas de pressão e rotas de contra-ataque para ameaças infectadas em diferentes andares.",
+      "metaTitle": "Infectados de Toons Universe - Padrões de Inimigos e Contra-ataque",
+      "metaDescription": "Estude os inimigos infectados de Toons Universe com notas de comportamento, gatilhos de perigo e contra-ataques práticos para uma progressão mais segura nos andares.",
+      "categoryLabel": "INTELIGÊNCIA DE INIMIGOS",
+      "whatIs": "O que são Infectados?",
+      "whatIsDescription": "Infectados são ameaças hostis com padrões únicos de movimento, detecção e punição. Cada variante exige posicionamento, tempo e comunicação de equipe diferentes.",
+      "why": "Por que estudar os infectados?",
       "whySteps": {
-        "step1Title": "Aprenda Receitas de Criação",
-        "step1Description": "Descubra como criar ferramentas e armas essenciais usando Apotheosis",
-        "step2Title": "Otimize seu Equipamento",
-        "step2Description": "Escolha os melhores itens para seu estilo de jogo e estágio de progressão",
-        "step3Title": "Melhore a Sobrevivência",
-        "step3Description": "Equipe-se com itens de mobilidade e armas para navegar pelo mundo perigoso"
+        "step1Title": "Reduza derrotas evitáveis",
+        "step1Description": "Reconheça padrões de alto risco cedo e trace rotas longe do perigo antes que ele escale.",
+        "step2Title": "Melhore o tempo de atividade dos objetivos",
+        "step2Description": "Mantenha máquinas e objetivos do andar ativos enquanto gerencia a pressão dos inimigos.",
+        "step3Title": "Coordene chamadas no co-op",
+        "step3Description": "Use atribuições de funções claras ao atrair inimigos, proteger aliados ou resetar linhas de ameaça."
       },
       "featured": "Destaques e Essenciais",
-      "all": "Todos os Itens"
+      "all": "Todos os Guias de Infectados"
     },
-    "biomes": {
-      "title": "Biomas de Lucid Blocks",
-      "description": "Explore as regiões do mundo, características ambientais, locais de recursos e dicas de sobrevivência para cada bioma.",
-      "metaTitle": "Biomas de Lucid Blocks - Regiões do Mundo e Exploração",
-      "metaDescription": "Explore os biomas de Lucid Blocks, incluindo as Linhas de Ley Tiamana, Fog Meadow e regiões surreais. Encontre recursos, evite perigos e navegue pelo mundo infinito.",
-      "categoryLabel": "REGIÕES DO MUNDO",
-      "whatIs": "O que são Biomas?",
-      "whatIsDescription": "Guias para as diferentes regiões do mundo, características ambientais, distribuição de recursos e zonas de perigo. Saiba o que esperar e como se preparar para cada área.",
-      "why": "Por que explorar os biomas?",
+    "guide": {
+      "title": "Guia de Toons Universe",
+      "description": "Progressão passo a passo, loops de sobrevivência e notas de estratégia de andar para iniciantes e jogadores experientes.",
+      "metaTitle": "Guia de Toons Universe - Progressão para Iniciantes e Avançados",
+      "metaDescription": "Leia o conteúdo do guia de Toons Universe cobrindo configuração para iniciantes, táticas de sobrevivência, roteamento de andares e decisões práticas de progressão.",
+      "categoryLabel": "GUIA DO JOGO",
+      "whatIs": "O que é a categoria Guia?",
+      "whatIsDescription": "A categoria de guia reúne conteúdo de estratégia abrangente, desde fundamentos da primeira sessão até rotas eficientes para partidas longas e ganhos consistentes de recursos.",
+      "why": "Por que usar o conteúdo do guia?",
       "whySteps": {
-        "step1Title": "Encontre Recursos",
-        "step1Description": "Localize materiais raros e essências específicas de cada região",
-        "step2Title": "Evite Perigos",
-        "step2Description": "Entenda os riscos ambientais e as criaturas hostis",
-        "step3Title": "Planeje a Exploração",
-        "step3Description": "Prepare as ferramentas e equipamentos certos para cada tipo de bioma"
+        "step1Title": "Comece com um plano claro",
+        "step1Description": "Siga prioridades estruturadas de início de jogo em vez de aprender através de erros e tentativas dispendiosas.",
+        "step2Title": "Escale partidas de forma consistente",
+        "step2Description": "Aplique hábitos repetíveis de roteamento e objetivos que permanecem úteis em andares mais altos.",
+        "step3Title": "Adapte-se após atualizações",
+        "step3Description": "Revisite a lógica de rotas e as bases estratégicas conforme as mecânicas e o equilíbrio mudam."
       },
       "featured": "Destaques e Essenciais",
-      "all": "Todos os Biomas"
+      "all": "Todos os Artigos do Guia"
     },
-    "building": {
-      "title": "Construção em Lucid Blocks",
-      "description": "Domine as dimensões pessoais Qualia, construção de bases, gerenciamento de armazenamento e técnicas de construção criativa.",
-      "metaTitle": "Construção em Lucid Blocks - Qualia e Construção de Bases",
-      "metaDescription": "Domine a construção em Lucid Blocks com dimensões pessoais Qualia, construção de bases, soluções de armazenamento e técnicas criativas de construção.",
-      "categoryLabel": "CONSTRUÇÃO E BASES",
-      "whatIs": "O que é a Construção?",
-      "whatIsDescription": "Guias para o sistema de dimensão pessoal Qualia, construção de bases, gerenciamento de armazenamento e construção criativa. Aprenda a criar seu refúgio seguro no mundo surreal.",
-      "why": "Por que construir bases?",
+    "emblems": {
+      "title": "Emblemas de Toons Universe",
+      "description": "Analise os efeitos dos emblemas, comportamento de acúmulo e escolhas de equipamentos para maximizar cada partida.",
+      "metaTitle": "Emblemas de Toons Universe - Efeitos, Acúmulo e Equipamentos",
+      "metaDescription": "Revise os guias de emblemas de Toons Universe com detalhes de efeitos, regras de acúmulo e planejamento de equipamentos para ataque, utilidade e sobrevivência.",
+      "categoryLabel": "BUILDS DE EMBLEMAS",
+      "whatIs": "O que são Emblemas?",
+      "whatIsDescription": "Emblemas são modificadores de build que moldam sua partida através de bônus passivos e efeitos de utilidade. Eles podem mudar sua curva de dano, consistência e eficiência de recursos.",
+      "why": "Por que comparar emblemas?",
       "whySteps": {
-        "step1Title": "Crie Espaços Seguros",
-        "step1Description": "Estabeleça bases seguras para operações de armazenamento e criação",
-        "step2Title": "Gerencie Recursos",
-        "step2Description": "Organize materiais de forma eficiente com soluções de armazenamento",
-        "step3Title": "Desbloqueie a Qualia",
-        "step3Description": "Acesse dimensões de bolso pessoais para o máximo de conveniência"
+        "step1Title": "Entenda o valor real",
+        "step1Description": "Separe efeitos de alto impacto de opções que só parecem fortes no papel.",
+        "step2Title": "Evite combinações ruins",
+        "step2Description": "Saiba quais misturas conflitam e quais acúmulos criam sinergia confiável.",
+        "step3Title": "Ajuste por objetivo",
+        "step3Description": "Troque as prioridades de emblemas para partidas de farm, pressão em chefes ou subida segura de andares."
       },
       "featured": "Destaques e Essenciais",
-      "all": "Todos os Guias de Construção"
+      "all": "Todos os Guias de Emblemas"
     },
-    "support": {
-      "title": "Suporte de Lucid Blocks",
-      "description": "Suporte técnico, compatibilidade de plataforma, otimização de desempenho e solução de problemas comuns.",
-      "metaTitle": "Suporte de Lucid Blocks - Ajuda Técnica e Correções",
-      "metaDescription": "Obtenha suporte técnico para Lucid Blocks, incluindo configuração do Steam Deck, correções de falhas, otimização de desempenho e guias de compatibilidade de plataforma.",
-      "categoryLabel": "SUPORTE TÉCNICO",
-      "whatIs": "O que é o Suporte?",
-      "whatIsDescription": "Guias técnicos que cobrem compatibilidade de plataforma, otimização de desempenho, correções de falhas e problemas comuns. Obtenha ajuda com o Steam Deck, dúvidas sobre multijogador e configurações.",
-      "why": "Por que consultar o suporte?",
+    "stats": {
+      "title": "Atributos de Toons Universe",
+      "description": "Entenda estamina, sanidade, verificações e limites de escalonamento para que suas melhorias produzam retornos consistentes.",
+      "metaTitle": "Atributos de Toons Universe - Escalonamento, Verificações e Prioridades de Melhoria",
+      "metaDescription": "Aprenda os sistemas de atributos de Toons Universe, incluindo estamina, sanidade, verificações de máquinas e limites de melhoria para uma progressão eficiente.",
+      "categoryLabel": "SISTEMA DE ATRIBUTOS",
+      "whatIs": "O que são Atributos?",
+      "whatIsDescription": "Atributos definem seu desempenho básico em movimento, sobrevivência, manuseio de máquinas e consistência sob pressão. A alocação inteligente melhora tanto a velocidade quanto a segurança.",
+      "why": "Por que otimizar atributos?",
       "whySteps": {
-        "step1Title": "Corrija Problemas Técnicos",
-        "step1Description": "Resolva falhas, problemas de desempenho e questões de compatibilidade",
-        "step2Title": "Otimize o Desempenho",
-        "step2Description": "Configure os ajustes para a melhor experiência em sua plataforma",
-        "step3Title": "Compatibilidade de Plataforma",
-        "step3Description": "Saiba mais sobre o Steam Deck, suporte a controles e requisitos de sistema"
+        "step1Title": "Alcance limites importantes",
+        "step1Description": "Invista onde os limites desbloqueiam conclusões visivelmente mais fluidas e menos falhas em verificações.",
+        "step2Title": "Equilibre ataque e segurança",
+        "step2Description": "Evite gastar demais em um eixo enquanto negligencia as necessidades de estamina, sanidade ou utilidade.",
+        "step3Title": "Apoie sua função principal",
+        "step3Description": "Alinhe as escolhas de atributos com o kit do seu agente e sua responsabilidade na equipe durante as partidas."
       },
       "featured": "Destaques e Essenciais",
-      "all": "Todos os Artigos de Suporte"
+      "all": "Todos os Guias de Atributos"
+    },
+    "cosmetics": {
+      "title": "Cosméticos de Toons Universe",
+      "description": "Acompanhe skins, variantes visuais e coleções de estilo em eventos, passes e lançamentos temáticos.",
+      "metaTitle": "Cosméticos de Toons Universe - Skins e Coleções Visuais",
+      "metaDescription": "Navegue pela cobertura de cosméticos de Toons Universe para skins, variantes temáticas, visuais de eventos e rastreamento de lançamentos focados em coleção.",
+      "categoryLabel": "COLEÇÃO DE ESTILO",
+      "whatIs": "O que são Cosméticos?",
+      "whatIsDescription": "Cosméticos são personalizações visuais, como skins e variantes de estilo, que permitem personalizar seu perfil e a identidade do seu elenco sem alterar as mecânicas principais.",
+      "why": "Por que acompanhar cosméticos?",
+      "whySteps": {
+        "step1Title": "Rastreie itens limitados",
+        "step1Description": "Monitore janelas de eventos e rotações de passes para coletar estilos antes que eles saiam de linha.",
+        "step2Title": "Planeje o uso de moedas",
+        "step2Description": "Priorize compras que combinem com seus agentes favoritos e objetivos de coleção de longo prazo.",
+        "step3Title": "Compare conjuntos visuais",
+        "step3Description": "Revise os temas de lançamento para decidir quais pacotes valem a pena economizar."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Cosméticos"
     }
   }
 }

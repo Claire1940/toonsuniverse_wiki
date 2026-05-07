@@ -1,11 +1,1291 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki Toons Universe - Kode, Agen & Panduan Bertahan Hidup",
+      "description": "Temukan kode Toons Universe, agen, musuh terinfeksi, panduan lantai, sumber daya, dan tips progres untuk permainan Roblox di dalam fasilitas INNOVA.",
+      "keywords": "Toons Universe, kode Toons Universe, agen Toons Universe, terinfeksi Toons Universe, survival horror Roblox",
+      "ogTitle": "Wiki Toons Universe - Kode, Agen & Panduan Bertahan Hidup",
+      "ogDescription": "Temukan kode Toons Universe, agen, musuh terinfeksi, panduan lantai, sumber daya, dan tips progres untuk permainan Roblox di dalam fasilitas INNOVA.",
+      "twitterTitle": "Wiki Toons Universe - Kode, Agen & Panduan Bertahan Hidup",
+      "twitterDescription": "Temukan kode Toons Universe, agen, musuh terinfeksi, panduan lantai, sumber daya, dan tips progres untuk permainan Roblox di dalam fasilitas INNOVA."
+    }
+  },
   "nav": {
-    "codes": "Codes",
-    "characters": "Characters",
-    "infected": "Infected",
-    "guide": "Guide",
-    "emblems": "Emblems",
-    "stats": "Stats",
-    "cosmetics": "Cosmetics"
+    "codes": "Kode",
+    "characters": "Karakter",
+    "infected": "Terinfeksi",
+    "guide": "Panduan",
+    "emblems": "Emblem",
+    "stats": "Statistik",
+    "cosmetics": "Kosmetik"
+  },
+  "common": {
+    "home": "Beranda",
+    "more": "Lainnya",
+    "playNow": "Mainkan di Roblox",
+    "switchLanguage": "Ganti Bahasa",
+    "switchTheme": "Ganti Tema",
+    "lightMode": "Mode Terang",
+    "darkMode": "Mode Gelap",
+    "notFound": "Halaman Tidak Ditemukan",
+    "notFoundDescription": "Halaman yang Anda cari tidak ada.",
+    "backToHome": "Kembali ke Beranda",
+    "relatedArticles": "Artikel Terkait",
+    "readMore": "Baca Selengkapnya",
+    "articlesComingSoon": "Artikel segera hadir"
+  },
+  "hero": {
+    "badge": "Survival Horror Kartun Roblox",
+    "title": "Wiki Toons Universe",
+    "description": "Wiki survival horror Roblox untuk Toons Universe, mencakup kode, agen, musuh terinfeksi, lantai, sumber daya, build, pembaruan, dan tips pemula untuk permainan INNOVA.",
+    "getFreeCodesCTA": "Lihat Kode Toons Universe",
+    "playOnSteamCTA": "Mainkan Toons Universe di Roblox",
+    "stats": {
+      "stat1": {
+        "value": "3K+",
+        "label": "Pemain Online"
+      },
+      "stat2": {
+        "value": "96%",
+        "label": "Rating Roblox"
+      },
+      "stat3": {
+        "value": "34.5K",
+        "label": "Anggota Discord"
+      },
+      "stat4": {
+        "value": "177K",
+        "label": "Penayangan Trailer"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay Toons Universe",
+    "description": "Pelajari siklus lantai, objektif mesin, tekanan dari yang terinfeksi, dan keputusan utilitas tim yang menentukan setiap permainan INNOVA."
+  },
+  "tools": {
+    "title": "Toons Universe",
+    "titleHighlight": "Navigasi Modul",
+    "subtitle": "Lompat langsung ke setiap modul utama beranda",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "Kode Toons Universe",
+        "description": "Kode aktif, daftar kedaluwarsa, dan alur penukaran"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Panduan Pemula Toons Universe",
+        "description": "Prioritas permainan pertama dan dasar-dasar bertahan hidup"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Tier List Toons Universe",
+        "description": "Peringkat nilai awal permainan untuk agen saat ini"
+      },
+      {
+        "icon": "Package",
+        "title": "Daftar Agen Toons Universe",
+        "description": "Ringkasan fokus peran dari agen yang dapat dimainkan"
+      },
+      {
+        "icon": "Home",
+        "title": "Syarat Membuka Agen Toons Universe",
+        "description": "Biaya agen, tugas, dan urutan pembukaan berdasarkan peran"
+      },
+      {
+        "icon": "Eye",
+        "title": "Panduan Statistik, Sanity, dan Stamina Toons Universe",
+        "description": "Baca setiap statistik inti sebelum memilih peran Anda"
+      },
+      {
+        "icon": "AlertTriangle",
+        "title": "Farming Malachor Toons Universe",
+        "description": "Langkah demi langkah farming mata uang dan jalur pengeluaran"
+      },
+      {
+        "icon": "ArrowRight",
+        "title": "Panduan Terinfeksi Toons Universe",
+        "description": "Pemicu musuh, sinyal bahaya, dan strategi perlawanan"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Mesin dan Skill Check Toons Universe",
+        "description": "Rute mesin, waktu skill check, dan pintu keluar darurat"
+      },
+      {
+        "icon": "Star",
+        "title": "Panduan Lantai dan Lift Toons Universe",
+        "description": "Fase siklus lantai, toko, voting, dan penskalaan hadiah"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Panduan Event Lantai Toons Universe",
+        "description": "Panduan strategi Kebocoran Gas, Blackout, dan event lift"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Panduan Kartu dan Voting Toons Universe",
+        "description": "Tabel kartu voting berdasarkan situasi untuk ekonomi, keamanan, dan stamina"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Panduan Item dan Toko Toons Universe",
+        "description": "Efek item, biaya toko, dan prioritas pembelian tiap lantai"
+      },
+      {
+        "icon": "Settings",
+        "title": "Riset, Trinket, dan Emblem Toons Universe",
+        "description": "Rute Malachor, pembukaan emblem, dan progres jangka panjang"
+      },
+      {
+        "icon": "Clock",
+        "title": "Tanggal Rilis dan Pembaruan Toons Universe",
+        "description": "Lini masa Alpha, sinyal konten, dan pemicu pemantauan patch"
+      },
+      {
+        "icon": "Shield",
+        "title": "Link Resmi dan Komunitas Toons Universe",
+        "description": "Hub resmi Roblox, Discord, media sosial, video, dan wiki"
+      }
+    ]
+  },
+  "modules": {
+    "lucidBlocksBeginnerGuide": {
+      "title": "Kode Toons Universe",
+      "displayType": "steps",
+      "intro": "Gunakan modul ini sebagai meja kode cepat Anda: salin kode aktif, tukarkan sebelum mengantre, dan pantau di mana drop baru diposting.",
+      "steps": [
+        {
+          "title": "Tukarkan kode aktif terlebih dahulu",
+          "description": "Kode saat ini: THANKYOU. Tukarkan dengan 500 Malachor sebelum sesi berikutnya untuk mengamankan mata uang awal."
+        },
+        {
+          "title": "Gunakan tombol tukar di sisi kiri",
+          "description": "Buka game di Roblox, ketuk Redeem Code pada panel kiri, lalu tempel kode dengan tepat."
+        },
+        {
+          "title": "Verifikasi hadiah segera",
+          "description": "Setelah mengetuk Redeem, pastikan saldo Malachor Anda berubah sebelum memasuki antrean lift."
+        },
+        {
+          "title": "Pantau saluran kode setiap minggu",
+          "description": "Pantau halaman Roblox, pengumuman Discord, pembaruan grup Roblox, dan pelacak kode utama."
+        }
+      ],
+      "quickTips": [
+        "Tempel kode secara langsung untuk menghindari kegagalan akibat salah ketik.",
+        "Tukarkan sebelum berbelanja agar Anda dapat membandingkan opsi pembukaan kunci segera.",
+        "Simpan kode yang kedaluwarsa dalam daftar terpisah untuk mengurangi kebingungan bagi pengunjung baru.",
+        "Perbarui modul ini setiap kali saluran resmi memposting drop hadiah baru."
+      ]
+    },
+    "lucidBlocksApotheosisCrafting": {
+      "title": "Panduan Pemula Toons Universe",
+      "displayType": "cards",
+      "intro": "Siklus awal cukup sederhana: pilih agen yang stabil, selesaikan mesin dengan aman, kelola stamina, lalu capai lift sebelum tekanan panik mengakhiri lantai tersebut.",
+      "cards": [
+        {
+          "name": "Pilih pemula yang aman",
+          "description": "Nimbus adalah pilihan solo yang pemaaf. Weffle adalah opsi pendukung yang mudah untuk sesi duo dan grup."
+        },
+        {
+          "name": "Prioritaskan mesin daripada jarahan",
+          "description": "Penyelesaian objektif mengontrol ritme. Ambil jarahan hanya saat rute di sekitar sudah aman."
+        },
+        {
+          "name": "Simpan stamina untuk jendela bahaya",
+          "description": "Jangan berlari terus-menerus. Simpan cadangan stamina untuk memutus pandangan musuh dan dorongan menuju lift."
+        },
+        {
+          "name": "Koordinasi sebelum mode panik",
+          "description": "Saat panik dimulai, hentikan tugas sampingan dan tentukan rute aman kembali ke lift bersama-sama."
+        }
+      ],
+      "milestones": [
+        "Selesaikan lantai awal secara konsisten",
+        "Capai lift selama mode panik dengan tim yang utuh",
+        "Bangun cadangan Malachor stabil pertama"
+      ]
+    },
+    "lucidBlocksToolsAndWeapons": {
+      "title": "Daftar Tingkat Toons Universe",
+      "displayType": "itemCards",
+      "intro": "Snapshot tingkat praktis ini memprioritaskan konsistensi untuk lobi publik dan progres awal daripada pengaturan risiko tinggi yang khusus.",
+      "items": [
+        {
+          "name": "Tingkat S: Nimbus",
+          "type": "Stabilitas Solo",
+          "description": "Akses gratis, ketahanan stamina yang kuat, dan jendela pemulihan yang andal untuk pengejaran panjang."
+        },
+        {
+          "name": "Tingkat S: Weffle",
+          "type": "Pendukung Tim",
+          "description": "Utilitas kecepatan yang kuat untuk rekan tim dan nilai yang stabil dalam sesi objektif yang terkoordinasi."
+        },
+        {
+          "name": "Tingkat A: Patcher / Phantasia / Copper / Selena",
+          "type": "Utilitas Tinggi",
+          "description": "Alat pendukung dan informasi yang luar biasa dengan hasil tim yang kuat saat dikoordinasikan."
+        },
+        {
+          "name": "Tingkat B: Discard / Koi / Squiddle / Teipo",
+          "type": "Tergantung Keahlian",
+          "description": "Kit berguna yang bekerja paling baik saat pemosisian dan disiplin rute sudah stabil."
+        },
+        {
+          "name": "Tingkat C: Guido dan Rossum",
+          "type": "Spesialis Khusus",
+          "description": "Nilai yang berfokus pada objektif tetapi menuntut penentuan jalur yang hatihati karena pergerakan dan stamina terbatas."
+        }
+      ]
+    },
+    "lucidBlocksStorageAndInventory": {
+      "title": "Daftar Agen Toons Universe",
+      "displayType": "solutionCards",
+      "intro": "Gunakan daftar ringkas ini untuk memutuskan siapa yang akan dibuka berikutnya berdasarkan kecocokan peran, kebutuhan tim, dan konsistensi di bawah tekanan.",
+      "solutions": [
+        {
+          "name": "Nimbus",
+          "role": "Pemula bertahan hidup solo",
+          "description": "Pemula gratis dengan pemulihan stamina yang kuat, sangat bagus untuk pemain yang mempelajari ritme pengejaran."
+        },
+        {
+          "name": "Weffle",
+          "role": "Pemula pendukung tim",
+          "description": "Pendukung duo/grup yang baik dengan utilitas pergerakan yang membantu rekan tim menstabilkan sesi."
+        },
+        {
+          "name": "Fizzle / Selena",
+          "role": "Opsi pengintai dan pengalih perhatian",
+          "description": "Berguna untuk melacak ancaman atau mengalihkan tekanan saat objektif sedang ditangani."
+        },
+        {
+          "name": "Patcher / Copper / Phantasia",
+          "role": "Inti pendukung pertahanan",
+          "description": "Alat penyembuhan, pelindung, dan buff yang meningkatkan kelangsungan hidup tim di lantai bertekanan tinggi."
+        },
+        {
+          "name": "Discard / Koi / Squiddle / Teipo / Guido dan Rossum",
+          "role": "Spesialis objektif dan utilitas",
+          "description": "Pilihan peran untuk mesin yang lebih cepat, peningkatan ekstraksi, dan komposisi tim yang terstruktur."
+        }
+      ],
+      "managementTips": [
+        "Prioritaskan satu pilihan yang andal sebelum pengeluaran pembukaan kunci yang luas.",
+        "Pilih pembukaan kunci berdasarkan peran sesi Anda, bukan hanya karena kebaruan.",
+        "Pasangkan pilihan dengan kemampuan bertahan hidup rendah dengan rekan tim pendukung.",
+        "Evaluasi kembali prioritas saat pembaruan keseimbangan utama tiba."
+      ]
+    },
+    "lucidBlocksQualiaAndBaseBuilding": {
+      "title": "Persyaratan Pembukaan Kunci Agen Toons Universe",
+      "displayType": "cards",
+      "intro": "Agen adalah karakter yang dapat dimainkan di Toons Universe. Gunakan modul ini untuk membandingkan biaya Malachor, tugas pembukaan kunci, dan nilai peran sebelum membeli dari Toko Chekhov.",
+      "cards": [
+        {
+          "name": "Weffle dan Nimbus (Pemula Gratis)",
+          "description": "Keduanya tersedia saat Anda pertama kali bergabung. Pilih Weffle untuk dukungan kecepatan tim atau Nimbus untuk pemulihan stamina solo."
+        },
+        {
+          "name": "Teipo (700) dan Discard (1.125)",
+          "description": "Teipo membutuhkan 20 ekstraksi mesin, 20 peretasan komputer, 3 kebocoran gas, dan 25 lantai yang berhasil dilewati. Discard menambahkan persyaratan objektif yang lebih besar tetapi memberikan utilitas kecepatan objektif yang kuat."
+        },
+        {
+          "name": "Squiddle (1.550) dan Patcher (1.975)",
+          "description": "Squiddle adalah pelari cepat yang membutuhkan progres sekring dan ekstraksi. Patcher membutuhkan penggunaan kemampuan dan pertemuan dengan yang terinfeksi, lalu membuka penyembuhan tim yang andal."
+        },
+        {
+          "name": "Guido dan Rossum (2.400) dan Fizzle (2.825)",
+          "description": "Guido dan Rossum memberikan hadiah untuk penyelesaian objektif yang konsisten. Fizzle membutuhkan penggunaan kemampuan yang intens dan bertahan hidup di lantai yang panjang untuk kontrol pengalihan."
+        },
+        {
+          "name": "Copper (3.250) dan Phantasia (3.675)",
+          "description": "Copper mencampurkan pelindung dengan utilitas pemadaman setelah tugas bertahan hidup yang mendalam. Phantasia menambahkan dukungan kecepatan dan prediksi setelah pencapaian kemampuan tinggi dan kebocoran gas."
+        },
+        {
+          "name": "Selena (4.100) dan Koi (4.500)",
+          "description": "Selena berfokus pada pengintaian informasi dan rute peretasan. Koi adalah spesialis ekstraksi berbiaya tinggi dengan kekebalan darurat dan utilitas reset cooldown."
+        },
+        {
+          "name": "Solar (Agen Mendatang)",
+          "description": "Terdaftar sebagai pembukaan kunci Toko Chekhov mendatang. Biaya dan persyaratan masih ditandai tidak diketahui dalam referensi saat ini."
+        },
+        {
+          "name": "Urutan Pembukaan Kunci Praktis",
+          "description": "Gunakan pemula gratis terlebih dahulu, beli satu pembukaan kunci pendukung berbiaya rendah, lalu beralih ke spesialis berbiaya tinggi setelah tugas sesi dan pendapatan Malachor Anda stabil."
+        }
+      ],
+      "highlights": [
+        "Pantau biaya Malachor dan rantai persyaratan secara bersamaan",
+        "Selesaikan pencapaian tugas sambil mengumpulkan mata uang",
+        "Prioritaskan satu spesialis pendukung dan satu spesialis objektif di awal",
+        "Gunakan hadiah kode untuk mempercepat pembukaan kunci berbayar pertama"
+      ]
+    },
+    "lucidBlocksWorldRegions": {
+      "title": "Panduan Statistik, Sanity, Stamina, dan Kemampuan Toons Universe",
+      "displayType": "regionCards",
+      "intro": "Toons Universe menggunakan statistik berbasis bar. Setiap agen menukar kekuatan dan kelemahan, jadi pemilihan peran harus didasarkan pada penyebaran statistik, bukan penampilan.",
+      "regions": [
+        {
+          "name": "Health",
+          "type": "Toleransi Kesalahan",
+          "description": "Health mengontrol berapa banyak serangan yang bisa kamu tahan. Hati yang lebih tinggi lebih aman untuk pemain baru dan peran pengalih perhatian."
+        },
+        {
+          "name": "Speed",
+          "type": "Perutean dan Pelarian",
+          "description": "Speed menentukan seberapa cepat kamu berpindah posisi, mengintai, dan keluar dari jalur bahaya saat tersedia pemutus garis pandang."
+        },
+        {
+          "name": "Stamina",
+          "type": "Durasi Pengejaran",
+          "description": "Stamina menentukan berapa lama kamu bisa berlari sebelum pemulihan, yang sangat penting selama pengejaran panik yang berkepanjangan."
+        },
+        {
+          "name": "Sanity",
+          "type": "Stabilitas Tekanan",
+          "description": "Sanity memengaruhi penanganan tekanan pengejaran. Agen dengan Sanity rendah membutuhkan penempatan yang lebih bersih dan waktu pelepasan yang lebih awal."
+        },
+        {
+          "name": "Extraction",
+          "type": "Throughput Mesin",
+          "description": "Extraction mengontrol seberapa cepat kamu mengisi Mesin. Agen dengan ekstraksi tinggi mempercepat penyelesaian lantai dan waktu lift."
+        },
+        {
+          "name": "Hacking",
+          "type": "Throughput Komputer",
+          "description": "Hacking mengontrol kecepatan objektif komputer. Pilihan peretasan tinggi mengurangi waktu yang dihabiskan terpapar di ruang objektif."
+        },
+        {
+          "name": "Passive Ability",
+          "type": "Nilai Selalu Aktif",
+          "description": "Kemampuan pasif terpicu secara otomatis dalam kondisi tertentu dan memberikan nilai yang stabil tanpa aktivasi manual."
+        },
+        {
+          "name": "Active Ability",
+          "type": "Utilitas Cooldown",
+          "description": "Kemampuan aktif membutuhkan kesadaran waktu dan cooldown. Penggunaan yang baik dapat menyelamatkan rekan tim, mengungkap ancaman, atau mengamankan pelarian."
+        }
+      ]
+    },
+    "lucidBlocksCreaturesAndEnemies": {
+      "title": "Panduan Farming dan Pengeluaran Malachor Toons Universe",
+      "displayType": "creatureCards",
+      "intro": "Malachor adalah mata uang utama untuk agen dan skin. Kemajuan tercepat menggabungkan penukaran kode, pembersihan lantai yang aman, hadiah objektif, kapsul, voting kartu, dan urutan pengeluaran yang efisien.",
+      "creatures": [
+        {
+          "name": "Tukarkan Kode Aktif Terlebih Dahulu",
+          "role": "Peningkatan satu kali tercepat",
+          "description": "Gunakan hadiah kode aktif sebelum mengantre. Peningkatan 500 Malachor saat ini dapat menutupi sebagian besar pembukaan kunci berbayar pertama kamu."
+        },
+        {
+          "name": "Selesaikan Lantai Secara Konsisten",
+          "role": "Loop farming inti",
+          "description": "Selesaikan objektif dan keluar hidup-hidup untuk pembayaran yang dapat diulang sambil juga memajukan persyaratan bertahan hidup untuk tugas pembukaan kunci."
+        },
+        {
+          "name": "Prioritaskan Pekerjaan Objektif",
+          "role": "Ulangi setiap lantai",
+          "description": "Mesin dan komputer menghasilkan hadiah langsung. Tetapkan peran ekstraksi tinggi atau peretasan tinggi untuk menjaga loop tetap efisien."
+        },
+        {
+          "name": "Kumpulkan Kapsul Riset",
+          "role": "Pendapatan bonus yang mudah",
+          "description": "Ambil kapsul saat berotasi di antara tugas. Perutean yang aman mengubah hadiah kapsul kecil menjadi keuntungan jangka panjang yang berarti."
+        },
+        {
+          "name": "Pilih Kartu Ekonomi",
+          "role": "Peningkatan penskalaan run",
+          "description": "Pilih Job Well Done dan Motivate jika memungkinkan untuk meningkatkan Malachor yang diperoleh dari objektif dan kapsul."
+        },
+        {
+          "name": "Tumpuk Tugas Pembukaan Kunci Sambil Farming",
+          "role": "Efisiensi jangka panjang terbaik",
+          "description": "Farm lantai, peretasan, ekstraksi, kemampuan, sekring, pemadaman listrik, dan kebocoran gas secara bersamaan agar tidak ada kemajuan run yang terbuang."
+        },
+        {
+          "name": "Tingkatkan Level Agen untuk Milestone",
+          "role": "Lapisan pendapatan pasif",
+          "description": "Bermain secara teratur memberikan hadiah milestone Malachor berbasis level, menambahkan mata uang ekstra di atas pembayaran lantai normal."
+        },
+        {
+          "name": "Belanja dalam Urutan Pembukaan Kunci yang Rapi",
+          "role": "Nilai roster terbaik",
+          "description": "Gunakan agen gratis terlebih dahulu, lalu beli opsi utilitas berbiaya rendah sebelum berkomitmen pada spesialis yang mahal."
+        }
+      ]
+    },
+    "lucidBlocksMobilityGear": {
+      "title": "Panduan Infected dan Counterplay Toons Universe",
+      "displayType": "itemCards",
+      "intro": "Infected adalah ancaman utama di lantai. Sebagian besar pengejaran dimulai dari garis pandang, sementara Infected khusus menambahkan aturan kamera, penyergapan langit-langit, dan pola tekanan objektif.",
+      "items": [
+        {
+          "name": "Infected Selena",
+          "type": "Ancaman pengawasan kamera",
+          "description": "Dia menyerang saat tidak ada yang melihat. Tetapkan satu pemain untuk menjaga kontak visual sementara tim menyelesaikan objektif terdekat."
+        },
+        {
+          "name": "Infected Guido dan Rossum",
+          "type": "Penyergapan langit-langit",
+          "description": "Mereka menyerang dari lubang langit-langit dan mengurangi kesehatan saat bersentuhan. Periksa rute ke atas dan hindari melewati bawah lubang yang aktif."
+        },
+        {
+          "name": "Infected Weffle",
+          "type": "Pengejar standar",
+          "description": "Putuskan garis pandang dengan sudut, simpan stamina untuk pelarian yang aman, dan hindari menyeret pengejaran ke rekan tim di objektif."
+        },
+        {
+          "name": "Infected Discard",
+          "type": "Tekanan jelajah",
+          "description": "Ancaman jelajah ini menghukum pemeriksaan skill yang terburu-buru dan ruang objektif yang tidak aman. Jaga rute pelarian dan berotasi lebih awal."
+        },
+        {
+          "name": "Infected Koi",
+          "type": "Pengejar garis pandang",
+          "description": "Perlakukan sebagai pengejaran standar tetapi jaga jarak tetap bersih agar satu rute kiting tidak merusak kemajuan mesin."
+        },
+        {
+          "name": "Infected Patcher",
+          "type": "Masuknya Infected yang terkonfirmasi",
+          "description": "Gunakan dasar-dasar aman yang sama: kenali lebih awal, rute lebar, hemat stamina, dan jauhkan pengejaran dari pekerja objektif."
+        }
+      ],
+      "unlockMilestones": [
+        "Jaga disiplin garis pandang dan panggilan awal",
+        "Tetapkan pengawas saat aturan Infected khusus muncul",
+        "Kite menjauh dari objektif dan jaga jarak tim"
+      ]
+    },
+    "lucidBlocksFarmingAndGrowth": {
+      "title": "Mesin dan Pemeriksaan Skill Toons Universe",
+      "displayType": "stepByStepTimeline",
+      "intro": "Mesin adalah objektif inti di setiap lantai. Selesaikan dengan bersih, lalu berotasi kembali ke Lift sebelum Mode Panik menghukum tim yang lambat.",
+      "steps": [
+        {
+          "title": "Temukan objektif aktif",
+          "details": "Setiap lantai memunculkan Mesin, Infected, item, kapsul, dan penempatan objektif. Tekanan mesin dan musuh meningkat seiring berjalannya run kamu lebih dalam.",
+          "mistakeToAvoid": "Jangan berkeliaran tanpa panggilan. Pencarian yang lambat menciptakan tekanan akhir lantai yang dapat dihindari.",
+          "bestUse": "Menyebar hanya cukup untuk mengungkap Mesin, lalu jaga jalur kembali tetap terlihat untuk pengelompokan ulang yang cepat."
+        },
+        {
+          "title": "Berinteraksi dengan Mesin",
+          "details": "Berdiri di dekat Mesin dan berinteraksi untuk mulai mengisinya dengan Ichor. Waktu aktif objektif menentukan seberapa cepat tim kamu mencapai jendela ekstraksi yang aman.",
+          "mistakeToAvoid": "Jangan memulai pekerjaan objektif saat Infected sudah menuju ke ruanganmu.",
+          "bestUse": "Berikan Mesin yang terpapar kepada rekan tim dengan alat pelepasan yang lebih aman atau kontrol pengejaran yang lebih kuat."
+        },
+        {
+          "title": "Tangani Pemeriksaan Skill dengan hati-hati",
+          "details": "Pemeriksaan yang tepat waktu mempercepat kemajuan. Pemeriksaan yang gagal memperingatkan Infected dan menghentikan momentum pada waktu terburuk.",
+          "mistakeToAvoid": "Jangan spam input di bawah tekanan. Satu pemeriksaan yang gagal dapat merusak lantai yang seharusnya bersih.",
+          "bestUse": "Perlambat dan prioritaskan akurasi kapan pun tekanan pengejaran tim sudah tinggi."
+        },
+        {
+          "title": "Pahami dua gaya Mesin",
+          "details": "Mesin standar dan objektif gaya Komputer memiliki ritme interaksi yang berbeda, jadi kebiasaan waktu kamu harus menyesuaikan per jenis objektif.",
+          "mistakeToAvoid": "Jangan berasumsi setiap UI objektif berperilaku sama saat pemeriksaan muncul.",
+          "bestUse": "Tetapkan jalur objektif berdasarkan kenyamanan: pemain yang fokus pada ekstraksi di Mesin, pemain yang fokus pada peretasan di Komputer."
+        },
+        {
+          "title": "Selesaikan sebagai tim sebelum Mode Panik",
+          "details": "Setelah semua Mesin terisi, Mode Panik dimulai dan Infected mendapatkan kecepatan. Fase kembali sekarang lebih penting daripada penjarahan ekstra.",
+          "mistakeToAvoid": "Jangan menyelesaikan Mesin terakhir saat rekan tim berada jauh, stamina rendah, atau sedang dalam pengejaran.",
+          "bestUse": "Sebelum menyelesaikan objektif terakhir, rotasikan posisi tim lebih dekat ke rute Lift."
+        },
+        {
+          "title": "Hormati pengatur waktu Lift",
+          "details": "Pemain yang gagal mencapai Lift selama Mode Panik akan tereliminasi, meskipun mereka masih memiliki Hati.",
+          "mistakeToAvoid": "Jangan mengejar pengambilan sampingan setelah objektif terakhir saat rute kembali diperebutkan.",
+          "bestUse": "Simpan stamina lari untuk ekstraksi akhir alih-alih menghabiskannya selama jendela mesin yang lebih aman."
+        }
+      ]
+    },
+    "lucidBlocksBestEarlyUnlocks": {
+      "title": "Panduan Lantai dan Elevator Toons Universe",
+      "displayType": "progressionCards",
+      "intro": "Elevator menghubungkan setiap putaran lantai: loadout, lantai yang dihasilkan, penyelesaian objektif, kembali saat Panic Mode, lalu pilihan jeda yang menentukan fase berikutnya.",
+      "cards": [
+        {
+          "title": "Mulai Loadout",
+          "summary": "Setiap sesi dimulai dengan jendela persiapan singkat sebelum tim memasuki Elevator.",
+          "whatToDo": "Tentukan peran lebih awal: pekerja objektif, pengintai, pelindung, atau penstabil pengejaran.",
+          "whyItMatters": "Niat peran yang jelas mencegah kebingungan di lantai pertama dan pemborosan tempo."
+        },
+        {
+          "title": "Lantai yang Dihasilkan",
+          "summary": "Lantai memunculkan objektif, tekanan musuh, item, dan kapsul dalam tata letak yang berubah-ubah.",
+          "whatToDo": "Cari Mesin terlebih dahulu, lalu tandai jalur kembali yang aman ke arah sisi Elevator.",
+          "whyItMatters": "Kontrol tata letak menentukan apakah rute terpisah tetap aman atau gagal."
+        },
+        {
+          "title": "Penskalaan Mesin",
+          "summary": "Jumlah mesin dan tekanan ancaman meningkat seiring semakin banyak lantai yang diselesaikan.",
+          "whatToDo": "Lantai yang lebih dalam menuntut rotasi yang lebih bersih dan lebih sedikit kesalahan pemeriksaan.",
+          "whyItMatters": "Hukuman di lantai akhir untuk pembagian tim yang buruk atau kegagalan pemeriksaan jauh lebih tinggi."
+        },
+        {
+          "title": "Item dan Kapsul",
+          "summary": "Pengambilan item selama ronde mendukung kelangsungan hidup segera dan progres jangka panjang.",
+          "whatToDo": "Kumpulkan sumber daya hanya di jalur aman yang tidak menunda waktu ekstraksi.",
+          "whyItMatters": "Penyimpangan rute yang serakah dapat menghapus progres objektif yang baik menjelang akhir lantai."
+        },
+        {
+          "title": "Kembali saat Panic Mode",
+          "summary": "Setelah semua Mesin terisi, urgensi ekstraksi meningkat tajam.",
+          "whatToDo": "Hentikan tugas sampingan dan berkomitmen pada rute kembali ke Elevator bersama tim.",
+          "whyItMatters": "Melewatkan jendela waktu kembali akan mengeliminasi pemain terlepas dari sisa Heart yang dimiliki."
+        },
+        {
+          "title": "Toko Lantai Genap",
+          "summary": "Lantai genap menyediakan fase toko dengan pilihan item acak.",
+          "whatToDo": "Prioritaskan alat ketahanan, keamanan, dan stamina sebelum pilihan mewah.",
+          "whyItMatters": "Pembelian yang tepat mencegah kegagalan beruntun di lantai berikutnya."
+        },
+        {
+          "title": "Pemungutan Suara Kartu Lantai Ganjil",
+          "summary": "Lantai ganjil menawarkan tiga pilihan kartu dan pemungutan suara mayoritas menentukan efeknya.",
+          "whatToDo": "Pilih berdasarkan kelemahan saat ini: keamanan, stamina, kecepatan objektif, atau ekonomi.",
+          "whyItMatters": "Pilihan cerdas meningkatkan peluang di lantai berikutnya lebih baik daripada sekadar mengejar kelangkaan acak."
+        },
+        {
+          "title": "Penskalaan Hadiah",
+          "summary": "Bertahan di lantai yang lebih dalam meningkatkan Malachor dan momentum progres.",
+          "whatToDo": "Optimalkan untuk penyelesaian bersih yang berulang daripada satu dorongan berisiko tinggi yang serakah.",
+          "whyItMatters": "Penyelesaian yang stabil melampaui sesi yang rentan kalah total untuk kecepatan pembukaan kunci jangka panjang."
+        },
+        {
+          "title": "Gaya Lantai yang Diketahui",
+          "summary": "Pola lantai yang berulang menghargai ingatan rute dan prediksi objektif.",
+          "whatToDo": "Pelajari jalur objektif yang berulang dan jalur Switchbox di seluruh tata letak yang diketahui.",
+          "whyItMatters": "Keakraban peta mengurangi kesalahan panik dan meningkatkan kecepatan pemulihan kejadian."
+        }
+      ]
+    },
+    "lucidBlocksAchievementTracker": {
+      "title": "Panduan Kejadian Lantai Toons Universe",
+      "displayType": "eventAccordion",
+      "intro": "Kejadian lantai dapat mengubah visibilitas, ekonomi stamina, dan keamanan ekstraksi. Perlakukan setiap kejadian sebagai protokol respons khusus, bukan kekacauan acak.",
+      "events": [
+        {
+          "event": "Kejadian Kebocoran Gas",
+          "whenItHappens": "Dimulai saat Elevator terbuka dan bertahan sepanjang lantai.",
+          "warningSigns": "Kabut biru dan ekonomi stamina yang terasa lebih berat sejak pergerakan awal.",
+          "danger": "Cadangan lari cepat menghilang lebih cepat, membuat rute panjang dan pemulihan pengejaran lebih sulit.",
+          "bestReaction": "Lari cepat hanya untuk pelarian darurat, berjalan di jalur aman, dan hemat stamina untuk ekstraksi.",
+          "helpfulAgents": [
+            "Nimbus: pengisian ulang stamina darurat dan stabilisasi kecepatan saat stamina rendah.",
+            "Copper: Guard dapat menyelamatkan rekan tim dengan stamina rendah selama lonjakan tekanan."
+          ],
+          "helpfulCards": [
+            "Hyperactive untuk regenerasi stamina yang lebih kuat.",
+            "Hustle untuk cadangan stamina yang lebih besar.",
+            "Lucky untuk mengurangi frekuensi kejadian.",
+            "Recover untuk memulihkan Heart sebelum kesalahan bertambah parah."
+          ]
+        },
+        {
+          "event": "Kejadian Mati Lampu",
+          "whenItHappens": "Memicu di tengah lantai dan segera mengurangi visibilitas peta.",
+          "warningSigns": "Kegelapan tiba-tiba dengan hanya pencahayaan karakter lokal yang tersisa.",
+          "danger": "Tim kehilangan kesadaran rute, melewatkan objektif, dan berjalan ke arah musuh yang seharusnya bisa dihindari.",
+          "bestReaction": "Temukan Switchbox dengan cepat, kembalikan semua sakelar ke atas, dan berkumpul kembali sebelum terlalu berpencar.",
+          "helpfulAgents": [
+            "Copper: Illuminate meningkatkan keterbacaan selama fase visibilitas rendah.",
+            "Copper: Guard melindungi satu rekan tim dalam transisi rute gelap yang berbahaya."
+          ],
+          "helpfulCards": [
+            "Lucky untuk menurunkan frekuensi kejadian.",
+            "Safety untuk mengurangi tekanan Infected kelas tinggi.",
+            "Recover untuk menstabilkan rekan tim yang terluka.",
+            "Precision untuk mempercepat penemuan objektif awal."
+          ]
+        },
+        {
+          "event": "Kerusakan / Malfungsi Elevator",
+          "whenItHappens": "Muncul sebagai kejadian lantai terkait Elevator selama progres sesi.",
+          "warningSigns": "Peringatan kejadian menunjukkan alur ekstraksi akan lebih sulit daripada biasanya.",
+          "danger": "Tim yang terpencar dapat terjebak oleh waktu kembali yang diperpanjang atau canggung.",
+          "bestReaction": "Berkumpul lebih awal, hemat stamina, dan selesaikan objektif akhir hanya jika rute kembali sudah jelas.",
+          "helpfulAgents": [
+            "Nimbus: ketahanan stamina dan kecepatan darurat untuk perjalanan kembali yang jauh.",
+            "Copper: Guard mendukung selama rotasi rute akhir."
+          ],
+          "helpfulCards": [
+            "Perseverance untuk waktu penjemputan tambahan.",
+            "Hyperactive untuk pemulihan stamina.",
+            "Hustle untuk kapasitas lari cepat yang lebih dalam.",
+            "Recover untuk toleransi kesalahan ekstra."
+          ]
+        }
+      ]
+    },
+    "lucidBlocksSingleplayerAndPlatformFAQ": {
+      "title": "Panduan Kartu dan Pemungutan Suara Toons Universe",
+      "displayType": "decisionTable",
+      "intro": "Pemungutan suara kartu terjadi setelah lantai ganjil. Pilih efek yang menyelesaikan masalah sesi Anda saat ini, bukan opsi yang paling mencolok di layar.",
+      "cards": [
+        {
+          "card": "Professional",
+          "rarity": "Tidak Terdaftar",
+          "limit": "3",
+          "effect": "Meningkatkan part yang didapat dari objektif.",
+          "bestPickWhen": "Tim Anda sudah stabil dan menginginkan ekonomi objektif yang lebih kuat.",
+          "priorityType": "Ekonomi"
+        },
+        {
+          "card": "Job Well Done",
+          "rarity": "Tidak Terdaftar",
+          "limit": "3",
+          "effect": "Meningkatkan Malachor yang didapat dari objektif.",
+          "bestPickWhen": "Anda sedang mengumpulkan mata uang pembuka kunci tanpa tekanan kelangsungan hidup segera.",
+          "priorityType": "Ekonomi"
+        },
+        {
+          "card": "Motivate",
+          "rarity": "Tidak Terdaftar",
+          "limit": "3",
+          "effect": "Meningkatkan Malachor yang didapat dari kapsul.",
+          "bestPickWhen": "Rute Anda mengumpulkan kapsul dengan aman di sebagian besar lantai.",
+          "priorityType": "Ekonomi"
+        },
+        {
+          "card": "Precision",
+          "rarity": "Umum",
+          "limit": "Tak Terbatas",
+          "effect": "Mengungkapkan semua objektif secara singkat di awal ronde.",
+          "bestPickWhen": "Tim membuang waktu mencari Mesin pada tata letak yang tidak dikenal.",
+          "priorityType": "Perutean"
+        },
+        {
+          "card": "Machinist",
+          "rarity": "Umum",
+          "limit": "5",
+          "effect": "Meningkatkan kecepatan ekstraksi sebesar 5%.",
+          "bestPickWhen": "Laju objektif adalah penghambat dan kontrol kelangsungan hidup sudah stabil.",
+          "priorityType": "Kecepatan Objektif"
+        },
+        {
+          "card": "Tech Support",
+          "rarity": "Tidak Terdaftar",
+          "limit": "5",
+          "effect": "Meningkatkan kecepatan peretasan sebesar 5%.",
+          "bestPickWhen": "Objektif komputer sering muncul dan tim Anda memiliki spesialis peretasan.",
+          "priorityType": "Kecepatan Objektif"
+        },
+        {
+          "card": "Trained",
+          "rarity": "Umum",
+          "limit": "7",
+          "effect": "Mengurangi cooldown kemampuan aktif sebesar 5%.",
+          "bestPickWhen": "Komposisi tim Anda bergantung pada kemampuan aktif untuk penyelamatan atau kontrol keamanan.",
+          "priorityType": "Waktu Aktif Kemampuan"
+        },
+        {
+          "card": "Perseverance",
+          "rarity": "Umum",
+          "limit": "3",
+          "effect": "Menambah 5 detik pada waktu penjemputan Elevator.",
+          "bestPickWhen": "Rekan tim berulang kali datang terlambat ke jendela waktu ekstraksi.",
+          "priorityType": "Keamanan Keluar"
+        },
+        {
+          "card": "Hyperactive",
+          "rarity": "Umum",
+          "limit": "5",
+          "effect": "Meningkatkan regenerasi stamina sebesar 5%.",
+          "bestPickWhen": "Kebocoran Gas atau tekanan pengejaran yang berulang menguras tim Anda.",
+          "priorityType": "Stamina"
+        },
+        {
+          "card": "Hustle",
+          "rarity": "Umum",
+          "limit": "Tak Terbatas",
+          "effect": "Meningkatkan stamina maksimum sebesar 5.",
+          "bestPickWhen": "Jalur kembali yang panjang membutuhkan cadangan lari cepat yang lebih banyak.",
+          "priorityType": "Stamina"
+        },
+        {
+          "card": "Generosity",
+          "rarity": "Langka",
+          "limit": "5",
+          "effect": "Meningkatkan probabilitas kemunculan item tingkat tinggi.",
+          "bestPickWhen": "Kontrol lantai saat ini stabil dan Anda dapat berinvestasi untuk nilai masa depan.",
+          "priorityType": "Nilai Item"
+        },
+        {
+          "card": "Lucky",
+          "rarity": "Langka",
+          "limit": "3",
+          "effect": "Mengurangi peluang munculnya kejadian lantai.",
+          "bestPickWhen": "Tekanan kejadian menyebabkan rute sering kacau.",
+          "priorityType": "Keamanan Kejadian"
+        },
+        {
+          "card": "Safety",
+          "rarity": "Langka",
+          "limit": "Tak Terbatas",
+          "effect": "Mengurangi peluang munculnya Infected kelas tinggi.",
+          "bestPickWhen": "Tim kalah dalam terlalu banyak pertarungan melawan musuh ancaman tinggi.",
+          "priorityType": "Kontrol Ancaman"
+        },
+        {
+          "card": "Recover",
+          "rarity": "Mitos",
+          "limit": "Tak Terbatas",
+          "effect": "Menyembuhkan setiap Agen yang terluka sebanyak 1 Heart.",
+          "bestPickWhen": "Beberapa rekan tim terluka sebelum lantai berikutnya yang berisiko.",
+          "priorityType": "Penyembuhan"
+        }
+      ]
+    },
+    "lucidBlocksSteamDeckAndController": {
+      "title": "Panduan Item dan Toko Toons Universe",
+      "displayType": "itemCards",
+      "intro": "Gunakan item untuk menyembuhkan, mempercepat objektif, bertahan dari pengejaran, dan menyelesaikan lantai yang berisiko. Belilah berdasarkan titik kegagalan berikutnya, bukan karena kebiasaan belanja.",
+      "items": [
+        {
+          "name": "Kopi",
+          "category": "Item Stamina",
+          "effect": "Mengurangi pengurasan stamina sebesar 25%.",
+          "duration": "10 detik",
+          "uses": "1",
+          "shopCost": "5 Seed",
+          "shopQuantity": "5-6-7",
+          "floorSpawnable": "Ya",
+          "source": "Toko Chekhov atau muncul di lantai",
+          "buyAdvice": "Beli saat pelari harus memancing (kite) Infected atau memaksa kembali ke lift dengan aman."
+        },
+        {
+          "name": "Mint",
+          "category": "Peningkat Peretasan",
+          "effect": "Meningkatkan kecepatan retas sebesar 20%.",
+          "duration": "10 detik",
+          "uses": "1",
+          "shopCost": "5 Seed",
+          "shopQuantity": "5-6-7-8",
+          "floorSpawnable": "Ya",
+          "source": "Toko Chekhov atau muncul di lantai",
+          "buyAdvice": "Beli saat mesin menghambat progres lantai dan satu pemain dapat menjadi tumpuan peretasan cepat."
+        },
+        {
+          "name": "Sarung Tangan",
+          "category": "Peningkat Ekstraksi",
+          "effect": "Meningkatkan kecepatan ekstraksi sebesar 25%.",
+          "duration": "10 detik",
+          "uses": "2",
+          "shopCost": "5 Seed",
+          "shopQuantity": "7",
+          "floorSpawnable": "Ya",
+          "source": "Toko Chekhov atau muncul di lantai",
+          "buyAdvice": "Nilai yang sangat baik saat mesin dapat terus menyala dan tim Anda dapat menghubungkan objektif secara beruntun."
+        },
+        {
+          "name": "Kaos Kaki",
+          "category": "Item Sanity",
+          "effect": "Meningkatkan sanity maksimal sebesar 25%.",
+          "duration": "Menetap",
+          "uses": "2",
+          "shopCost": "5 Seed",
+          "shopQuantity": "6",
+          "floorSpawnable": "Ya",
+          "source": "Toko Chekhov atau muncul di lantai",
+          "buyAdvice": "Beli sebelum lantai yang lebih dalam, tekanan pemadaman listrik, atau rute perjalanan yang panjang."
+        },
+        {
+          "name": "Wafel",
+          "category": "Mobilitas Darurat",
+          "effect": "Memberikan 30% kecepatan dan regenerasi stamina penuh.",
+          "duration": "10 detik",
+          "uses": "1",
+          "shopCost": "Drop spesial",
+          "shopQuantity": "Bersyarat",
+          "floorSpawnable": "Bersyarat",
+          "source": "Kondisi Infected Weffle atau utilitas rekan tim Weffle",
+          "buyAdvice": "Simpan untuk melarikan diri dari pengejaran, lari cepat ke lift, atau pemulihan saat stamina rendah."
+        },
+        {
+          "name": "Medkit",
+          "category": "Penyembuhan Penuh",
+          "effect": "Menyembuhkan bar kesehatan penuh.",
+          "duration": "Instan",
+          "uses": "1",
+          "shopCost": "40 Seed",
+          "shopQuantity": "2-3",
+          "floorSpawnable": "Ya",
+          "source": "Toko Chekhov atau muncul di lantai",
+          "buyAdvice": "Cadangkan untuk pemain yang terluka parah atau pendukung utama yang harus tetap hidup."
+        },
+        {
+          "name": "Plester",
+          "category": "Penyembuhan Kecil",
+          "effect": "Menyembuhkan 1 hati.",
+          "duration": "Instan",
+          "uses": "1",
+          "shopCost": "20 Seed",
+          "shopQuantity": "4-6",
+          "floorSpawnable": "Ya",
+          "source": "Toko Chekhov atau muncul di lantai",
+          "buyAdvice": "Stabilisasi murah untuk rekan tim yang memasuki bahaya di lantai berikutnya."
+        },
+        {
+          "name": "USB",
+          "category": "Progres Komputer",
+          "effect": "Menyelesaikan 50% progres pada mesin peretasan.",
+          "duration": "Instan",
+          "uses": "1",
+          "shopCost": "20 Seed",
+          "shopQuantity": "5-6",
+          "floorSpawnable": "Ya",
+          "source": "Toko Chekhov atau muncul di lantai",
+          "buyAdvice": "Beli saat tekanan waktu tinggi atau komputer yang terbuka terlalu berisiko untuk dijaga."
+        },
+        {
+          "name": "Kunci Inggris",
+          "category": "Progres Mesin",
+          "effect": "Menyelesaikan 50% progres pada mesin ekstraksi.",
+          "duration": "Instan",
+          "uses": "1",
+          "shopCost": "20 Seed",
+          "shopQuantity": "5",
+          "floorSpawnable": "Ya",
+          "source": "Toko Chekhov atau muncul di lantai",
+          "buyAdvice": "Gunakan untuk melewati posisi mesin yang berbahaya atau menyelesaikan lantai dengan cepat."
+        },
+        {
+          "name": "Toko Sunny",
+          "category": "Toko Jeda",
+          "effect": "Menampilkan tiga item acak di antara lantai bernomor genap.",
+          "duration": "Jeda singkat",
+          "uses": "Jendela pembelian tim",
+          "shopCost": "Seed",
+          "shopQuantity": "3 item per kunjungan",
+          "floorSpawnable": "Fase toko",
+          "source": "Jeda lift",
+          "buyAdvice": "Pilih berdasarkan risiko tim saat ini: penyembuhan, kecepatan objektif, atau mobilitas."
+        },
+        {
+          "name": "Toko Chekhov",
+          "category": "Penjual Utama",
+          "effect": "Menjual agen, kosmetik, dan item utilitas penyelamat permainan.",
+          "duration": "Akses lobi dan lantai genap",
+          "uses": "Interaksi toko",
+          "shopCost": "Bervariasi tergantung item",
+          "shopQuantity": "Bervariasi tergantung acakan",
+          "floorSpawnable": "Sumber toko utama",
+          "source": "Konter lobi dan kunjungan lift",
+          "buyAdvice": "Prioritaskan kelangsungan hidup dan konsistensi objektif sebelum pembelian kosmetik atau item berdampak rendah."
+        }
+      ]
+    },
+    "lucidBlocksSettingsAndAccessibility": {
+      "title": "Riset, Trinket, dan Emblem Toons Universe",
+      "displayType": "progressCards",
+      "intro": "Progresi didorong oleh pendapatan Malachor, penyelesaian riset, dan pembukaan emblem level-100. Rencanakan jalur ini berdasarkan peran yang sebenarnya Anda mainkan.",
+      "tracks": [
+        {
+          "track": "Pendapatan Malachor",
+          "requirement": "Selesaikan lantai, isi mesin, kumpulkan kapsul riset, dan selesaikan pencapaian.",
+          "reward": "Mata uang utama untuk pembelian agen dan skin.",
+          "knownValues": "Nilai umum mencakup penyelesaian lantai, penyelesaian mesin, dan pengambilan kapsul dengan modifikator berbasis kartu.",
+          "bestUse": "Buka agen yang penting bagi peran terlebih dahulu, lalu beralih ke peningkatan jangka panjang."
+        },
+        {
+          "track": "Kapsul Riset",
+          "requirement": "Kumpulkan kapsul selama sesi permainan aktif.",
+          "reward": "Progresi riset terinfeksi dan Malachor secara langsung.",
+          "knownValues": "Nilai kapsul berskala lebih baik saat tim Anda dapat mempertahankan rute yang stabil.",
+          "bestUse": "Ambil kapsul yang aman tanpa mengorbankan tempo mesin atau kelangsungan hidup."
+        },
+        {
+          "track": "Penyelesaian Riset Terinfeksi",
+          "requirement": "Capai 100% pada jalur riset terinfeksi.",
+          "reward": "Pembukaan trinket riset yang terikat pada pencapaian penyelesaian.",
+          "knownValues": "Tujuan jangka panjang; progres paling kuat dalam tim bertahan hidup yang konsisten.",
+          "bestUse": "Anggap sebagai target sekunder setelah tingkat penyelesaian Anda stabil."
+        },
+        {
+          "track": "Pencapaian Level Agen",
+          "requirement": "Tingkatkan level agen melalui penyelesaian lantai berulang kali.",
+          "reward": "Bonus Malachor serta pembukaan emblem level-100.",
+          "knownValues": "Pencapaian berskala di seluruh level dan memuncak pada setiap emblem agen.",
+          "bestUse": "Fokuskan satu agen hingga level 100 saat menargetkan efek build tertentu."
+        },
+        {
+          "track": "Batas Slot Emblem",
+          "requirement": "Buka emblem dari agen level-100.",
+          "reward": "Bonus build gaya permanen dalam permainan.",
+          "knownValues": "Hanya dua emblem yang dapat dipasang sekaligus.",
+          "bestUse": "Pasangkan satu emblem pertahanan hidup dengan satu emblem kecepatan objektif."
+        },
+        {
+          "track": "Emblem Nimbus dan Weffle",
+          "requirement": "Capai level 100 pada Nimbus atau Weffle.",
+          "reward": "Konsumsi stamina yang lebih rendah atau utilitas Waffle yang dihasilkan dari objektif.",
+          "knownValues": "Sangat baik untuk tim yang berfokus pada pelari (runner) dan pendukung (support).",
+          "bestUse": "Prioritaskan saat skuad Anda kehilangan kecepatan selama fase pengejaran."
+        },
+        {
+          "track": "Emblem Teipo dan Squiddle",
+          "requirement": "Capai level 100 pada Teipo atau Squiddle.",
+          "reward": "Peningkatan stamina tim dan keuntungan awal ekstraksi.",
+          "knownValues": "Kedua emblem secara langsung meningkatkan tempo objektif.",
+          "bestUse": "Kuat dalam permainan yang berfokus pada mesin di mana kecepatan penyelesaian menentukan kelangsungan hidup."
+        },
+        {
+          "track": "Emblem Selena dan Patcher",
+          "requirement": "Capai level 100 pada Selena atau Patcher.",
+          "reward": "Buff kecepatan objektif dan dukungan penyembuhan berkala.",
+          "knownValues": "Berguna untuk tim yang sering menerima kerusakan kecil (chip damage).",
+          "bestUse": "Gunakan ini saat ketahanan menjadi hambatan Anda setelah melewati lantai menengah."
+        },
+        {
+          "track": "Emblem Koi, Guido dan Rossum, Fizzle",
+          "requirement": "Capai level 100 pada agen-agen tersebut.",
+          "reward": "Pengurangan cooldown, sorotan komputer, dan perlindungan kewarasan di lantai awal.",
+          "knownValues": "Emblem informasi dan tempo untuk perutean yang terkoordinasi.",
+          "bestUse": "Terbaik dalam skuad yang sudah berkomunikasi secara konsisten."
+        },
+        {
+          "track": "Emblem Discard, Copper, dan Phantasia",
+          "requirement": "Capai level 100 pada agen-agen tersebut.",
+          "reward": "Peningkatan dampak item, perisai di lantai awal, dan penyembuhan yang dipicu objektif.",
+          "knownValues": "Nilai tinggi untuk sesi panjang dengan penyelesaian objektif yang bertumpuk.",
+          "bestUse": "Gunakan saat mendorong ke lantai yang lebih dalam di mana atrisi biasanya mengakhiri permainan."
+        }
+      ]
+    },
+    "lucidBlocksUpdatesAndPatchNotes": {
+      "title": "Tanggal Rilis dan Pembaruan Toons Universe",
+      "displayType": "timeline",
+      "intro": "Pantau status alfa, pencapaian trailer, mekanik mendatang, dan sinyal rilis dari saluran resmi dalam satu lini masa.",
+      "entries": [
+        {
+          "updateArea": "Status Roblox Saat Ini",
+          "type": "Platform",
+          "currentInfo": "Pengalaman Roblox terdaftar sebagai Toons Universe [ALPHA] oleh Toon Shenanigans.",
+          "playerImpact": "Anggap halaman Roblox sebagai sumber langsung untuk status build, server, dan konteks toko.",
+          "watchSource": "Halaman game Roblox",
+          "refreshTrigger": "Perubahan judul, deskripsi, server, atau toko"
+        },
+        {
+          "updateArea": "Premis Game",
+          "type": "Arah Desain",
+          "currentInfo": "Game ini berlatar di INNOVA, berfokus pada perutean sumber daya, bahaya, dan utilitas tim agen.",
+          "playerImpact": "Mengonfirmasi bahwa rute bertahan hidup dan tempo mesin tetap menjadi topik strategi inti.",
+          "watchSource": "Deskripsi game Roblox",
+          "refreshTrigger": "Pembaruan premis gameplay atau siklus objektif"
+        },
+        {
+          "updateArea": "Trailer Resmi",
+          "type": "Media",
+          "currentInfo": "Trailer resmi diunggah di saluran YouTube Toon Shenanigans.",
+          "playerImpact": "Penjelasan visual cepat terbaik bagi pemain baru untuk mempelajari nada dan tempo permainan.",
+          "watchSource": "Trailer YouTube",
+          "refreshTrigger": "Trailer baru atau penggantian media peluncuran"
+        },
+        {
+          "updateArea": "Penanda Lini Masa Rilis",
+          "type": "Lini Masa",
+          "currentInfo": "Penambahan karakter dicatat pada April 2026 sementara halaman tetap berlabel alfa.",
+          "playerImpact": "Gunakan label alfa untuk status langsung dan penambahan untuk pelacakan peta jalan awal.",
+          "watchSource": "Halaman Roblox dan catatan karakter",
+          "refreshTrigger": "Pengumuman resmi beta/rilis penuh"
+        },
+        {
+          "updateArea": "Penambahan Agen yang Dapat Dimainkan",
+          "type": "Roster",
+          "currentInfo": "Penambahan terbaru membentuk cakupan peran penyembuhan, perisai, dan pengintaian.",
+          "playerImpact": "Perubahan keseimbangan peran memengaruhi komposisi tim dan prioritas pembukaan.",
+          "watchSource": "Halaman agen dan postingan resmi",
+          "refreshTrigger": "Perubahan rangkaian kemampuan, biaya, atau aturan pembukaan"
+        },
+        {
+          "updateArea": "Pratinjau Karakter Mendatang",
+          "type": "Pratinjau",
+          "currentInfo": "Beberapa pembaruan model karakter terlihat dalam materi pratinjau yang sedang berlangsung.",
+          "playerImpact": "Gelombang pratinjau menunjukkan kemungkinan pembukaan di masa depan dan penyeimbangan kembali peran.",
+          "watchSource": "Saluran konten mendatang",
+          "refreshTrigger": "Karakter yang dipratinjau menjadi dapat dimainkan"
+        },
+        {
+          "updateArea": "Pratinjau Terinfeksi Mendatang",
+          "type": "Pratinjau Musuh",
+          "currentInfo": "Varian terinfeksi baru digoda dalam pembaruan pratinjau.",
+          "playerImpact": "Penambahan musuh dapat memaksa perubahan besar pada rute, kewarasan, dan prioritas item.",
+          "watchSource": "Saluran konten mendatang",
+          "refreshTrigger": "Perilaku terinfeksi masuk ke dalam build live"
+        },
+        {
+          "updateArea": "Teaser Lantai Baru",
+          "type": "Pratinjau Peta",
+          "currentInfo": "Varian teaser lantai laboratorium sudah mulai beredar.",
+          "playerImpact": "Perubahan peta mengubah jalur mesin, keamanan kapsul, dan waktu lift.",
+          "watchSource": "Saluran konten mendatang",
+          "refreshTrigger": "Pengungkapan nama lantai, tanggal rilis, atau mekanik"
+        },
+        {
+          "updateArea": "Mekanik Mendatang",
+          "type": "Pratinjau Sistem",
+          "currentInfo": "Sistem yang dipratinjau mencakup transfer item, pemungutan suara toko, dan pemilihan kartu lift.",
+          "playerImpact": "Sistem ini akan mengubah keputusan ekonomi dan aturan koordinasi tim.",
+          "watchSource": "Pratinjau resmi dan postingan patch",
+          "refreshTrigger": "Mekanik menjadi dapat dimainkan dengan aturan final"
+        }
+      ]
+    },
+    "lucidBlocksCrashFixAndTroubleshooting": {
+      "title": "Tautan Resmi dan Komunitas Toons Universe",
+      "displayType": "linkCards",
+      "intro": "Gunakan destinasi resmi ini untuk akses permainan, pengumuman sosial, trailer, dan navigasi referensi.",
+      "links": [
+        {
+          "name": "Halaman Game Roblox",
+          "platform": "Roblox",
+          "href": "https://www.roblox.com/games/89788834648171/Toons-Universe",
+          "description": "Halaman utama untuk bermain dengan status alpha langsung, server, dan akses masuk game.",
+          "bestFor": "Bermain dan memeriksa status build publik saat ini"
+        },
+        {
+          "name": "Komunitas Toon Shenanigans",
+          "platform": "Roblox Group",
+          "href": "https://www.roblox.com/communities/35697183/Toon-Shenanigans",
+          "description": "Grup kreator Roblox resmi yang terhubung dengan pengalaman ini.",
+          "bestFor": "Melacak aktivitas Roblox dari sisi kreator"
+        },
+        {
+          "name": "Undangan Discord Resmi",
+          "platform": "Discord",
+          "href": "https://discord.com/invite/toonsuniverse",
+          "description": "Saluran tercepat untuk postingan komunitas, pengumuman, dan bocoran konten.",
+          "bestFor": "Pelacakan pembaruan waktu nyata dan diskusi"
+        },
+        {
+          "name": "Akun X Resmi",
+          "platform": "X",
+          "href": "https://x.com/toonsuniverseco",
+          "description": "Umpan sosial resmi untuk postingan pembaruan singkat dan pengumuman publik.",
+          "bestFor": "Pengumuman sosial cepat"
+        },
+        {
+          "name": "YouTube Toon Shenanigans",
+          "platform": "YouTube",
+          "href": "https://www.youtube.com/@toonshenanigans",
+          "description": "Saluran resmi untuk trailer, pratinjau, dan unggahan bergaya log pengembangan.",
+          "bestFor": "Menonton video resmi dan pratinjau model"
+        },
+        {
+          "name": "Trailer Resmi",
+          "platform": "YouTube",
+          "href": "https://www.youtube.com/watch?v=btv_z92P180",
+          "description": "Trailer utama yang memperkenalkan suasana gameplay dan alur bertahan hidup.",
+          "bestFor": "Orientasi cepat bagi pemain baru"
+        },
+        {
+          "name": "Pusat Wiki Komunitas",
+          "platform": "Fandom Wiki",
+          "href": "https://toons-universe-roblox.fandom.com/wiki/Toon%27s_Universe_Wiki",
+          "description": "Pusat referensi untuk toon, halaman terinfeksi, lantai, item, dan istilah perkembangan.",
+          "bestFor": "Memeriksa silang mekanisme dan terminologi"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Toons Universe",
+    "titleHighlight": "FAQ",
+    "subtitle": "Jawaban cepat untuk kode, perkembangan, dan strategi permainan",
+    "questions": [
+      {
+        "question": "Seberapa sering kode Toons Universe berubah?",
+        "answer": "Perilisan kode tidak menentu, jadi memeriksa saluran resmi dan pelacak pembaruan setiap minggu adalah rutinitas yang paling dapat diandalkan."
+      },
+      {
+        "question": "Starter mana yang lebih baik untuk permainan solo?",
+        "answer": "Nimbus biasanya merupakan starter solo yang paling mudah karena pemulihan stamina membantu memulihkan diri dari kesalahan saat dikejar."
+      },
+      {
+        "question": "Apa yang harus dilakukan saat mode panik dimulai?",
+        "answer": "Berhenti menjarah di samping, panggil rute kembali yang aman, dan arahkan seluruh tim untuk segera menuju ekstraksi lift."
+      },
+      {
+        "question": "Apakah Malachor lebih baik digunakan untuk kosmetik atau agen terlebih dahulu?",
+        "answer": "Perkembangan awal umumnya lebih lancar jika mata uang difokuskan pada pembukaan kunci agen yang krusial bagi peran terlebih dahulu."
+      },
+      {
+        "question": "Bagaimana cara meningkatkan tingkat keberhasilan lobi publik?",
+        "answer": "Jaga penugasan mesin tetap sederhana, hindari terlalu sering berpencar, dan rotasi kemampuan pendukung sebelum stamina habis."
+      },
+      {
+        "question": "Di mana saya bisa menemukan pembaruan resmi dan postingan trailer?",
+        "answer": "Gunakan halaman pengalaman Roblox, Discord resmi, dan saluran YouTube Toon Shenanigans untuk melacak pembaruan."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Siap untuk Bermain Toons Universe?",
+    "description": "Bergabunglah dengan komunitas Discord untuk mendapatkan peringatan pembaruan, lalu antre permainan Roblox dengan rencana lantai yang lebih jelas.",
+    "joinCommunity": "Bergabung dengan Discord Toons Universe",
+    "joinGame": "Mainkan Toons Universe di Roblox"
+  },
+  "footer": {
+    "title": "Wiki Toons Universe",
+    "description": "Pusat sumber daya terfokus untuk kode, agen, panduan terinfeksi, sistem lantai, dan perencanaan perkembangan.",
+    "resources": "Sumber Daya",
+    "community": "Komunitas",
+    "legal": "Hukum",
+    "discord": "Discord",
+    "twitter": "Reddit",
+    "steamCommunity": "Saluran YouTube",
+    "steamStore": "Mainkan di Roblox",
+    "about": "Tentang",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Layanan",
+    "copyrightNotice": "Hak Cipta",
+    "copyright": "© 2026 Wiki Toons Universe. Tidak berafiliasi dengan Roblox Corporation atau Toon Shenanigans.",
+    "disclaimer": "Situs web sumber daya buatan penggemar yang tidak resmi."
+  },
+  "pages": {
+    "codes": {
+      "title": "Kode Toons Universe",
+      "description": "Tukarkan kode aktif untuk permata, chip statistik, dan reroll agar Anda dapat mempercepat perkembangan awal dan peningkatan tim.",
+      "metaTitle": "Kode Toons Universe - Permata, Chip, dan Reroll Gratis",
+      "metaDescription": "Temukan kode Toons Universe aktif untuk permata, chip statistik, dan reroll. Gunakan daftar penukaran terbaru untuk meningkatkan progres Anda dengan cepat.",
+      "categoryLabel": "TUKARKAN KODE",
+      "whatIs": "Apa itu Kode?",
+      "whatIsDescription": "Kode adalah hadiah waktu terbatas yang dirilis oleh pengembang. Kode ini biasanya memberikan permata, chip statistik, dan reroll yang membantu Anda membangun permainan yang lebih kuat tanpa harus melakukan grinding ekstra.",
+      "why": "Mengapa menggunakan halaman ini?",
+      "whySteps": {
+        "step1Title": "Klaim hadiah dengan cepat",
+        "step1Description": "Dapatkan daftar bersih hadiah aktif sehingga Anda dapat menukarkan semuanya dalam satu kali jalan.",
+        "step2Title": "Lacak jendela kedaluwarsa",
+        "step2Description": "Periksa waktu pembaruan untuk menghindari ketinggalan kode singkat yang terkait dengan acara atau pencapaian.",
+        "step3Title": "Rencanakan pengeluaran dengan lebih baik",
+        "step3Description": "Gunakan permata dan chip bonus pada peningkatan yang paling penting untuk permainan Anda berikutnya."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Kode"
+    },
+    "characters": {
+      "title": "Karakter Toons Universe",
+      "description": "Bandingkan agen, jalur pembukaan kunci, dan kekuatan peran sehingga Anda dapat memilih roster terbaik untuk permainan solo maupun tim.",
+      "metaTitle": "Karakter Toons Universe - Peran Agen dan Panduan Pembukaan Kunci",
+      "metaDescription": "Jelajahi panduan karakter Toons Universe dengan rincian peran, metode pembukaan kunci, dan rekomendasi kecocokan tim untuk setiap gaya permainan.",
+      "categoryLabel": "ROSTER AGEN",
+      "whatIs": "Apa itu Karakter?",
+      "whatIsDescription": "Karakter adalah agen yang dapat dimainkan dengan profil utilitas, pola penskalaan, dan opsi sinergi yang berbeda. Memilih karakter yang tepat akan mengubah tempo, keamanan, dan kontrol objektif Anda.",
+      "why": "Mengapa membaca panduan karakter?",
+      "whySteps": {
+        "step1Title": "Pilih pembuka yang tepat",
+        "step1Description": "Pahami agen mana yang paling mudah dikendalikan selama perkembangan awal akun.",
+        "step2Title": "Bangun tim yang lebih kuat",
+        "step2Description": "Cocokkan peran pendukung, kontrol, dan objektif untuk penyelesaian co-op yang stabil.",
+        "step3Title": "Optimalkan peningkatan",
+        "step3Description": "Gunakan mata uang pada agen yang berskala baik dengan strategi pilihan Anda."
+      },
+      "featured": "Unggulan & Esensial",
+      "all": "Semua Karakter"
+    },
+    "infected": {
+      "title": "Infected Toons Universe",
+      "description": "Pelajari perilaku musuh, jendela tekanan, dan rute serangan balik untuk ancaman infected di berbagai lantai.",
+      "metaTitle": "Infected Toons Universe - Pola Musuh dan Serangan Balik",
+      "metaDescription": "Pelajari musuh infected Toons Universe dengan catatan perilaku, pemicu bahaya, dan serangan balik praktis untuk progres lantai yang lebih aman.",
+      "categoryLabel": "INTEL MUSUH",
+      "whatIs": "Apa itu Infected?",
+      "whatIsDescription": "Infected adalah ancaman musuh dengan pola pergerakan, deteksi, dan hukuman yang unik. Setiap varian menuntut posisi, waktu, dan komunikasi tim yang berbeda.",
+      "why": "Mengapa mempelajari infected?",
+      "whySteps": {
+        "step1Title": "Kurangi kekalahan yang bisa dihindari",
+        "step1Description": "Kenali pola berisiko tinggi sejak dini dan buat rute di sekitar bahaya sebelum memburuk.",
+        "step2Title": "Tingkatkan waktu aktif objektif",
+        "step2Description": "Jaga agar mesin dan objektif lantai tetap aktif sambil mengelola tekanan musuh.",
+        "step3Title": "Koordinasikan panggilan co-op",
+        "step3Description": "Gunakan pembagian peran yang jelas saat melakukan kiting, peeling, atau mengatur ulang garis ancaman."
+      },
+      "featured": "Unggulan & Esensial",
+      "all": "Semua Panduan Infected"
+    },
+    "guide": {
+      "title": "Panduan Toons Universe",
+      "description": "Progres langkah demi langkah, siklus bertahan hidup, dan catatan strategi lantai untuk pemula dan pemain berpengalaman.",
+      "metaTitle": "Panduan Toons Universe - Progres Pemula dan Lanjutan",
+      "metaDescription": "Baca konten panduan Toons Universe yang mencakup pengaturan pemula, taktik bertahan hidup, perutean lantai, dan keputusan progres praktis.",
+      "categoryLabel": "PANDUAN GAME",
+      "whatIs": "Apa itu kategori Panduan?",
+      "whatIsDescription": "Kategori panduan mengumpulkan konten strategi yang luas, mulai dari dasar-dasar sesi pertama hingga rute efisien untuk permainan panjang dan perolehan sumber daya yang konsisten.",
+      "why": "Mengapa menggunakan konten panduan?",
+      "whySteps": {
+        "step1Title": "Mulai dengan rencana yang jelas",
+        "step1Description": "Ikuti prioritas awal permainan yang terstruktur daripada belajar melalui trial and error yang merugikan.",
+        "step2Title": "Tingkatkan permainan secara konsisten",
+        "step2Description": "Terapkan perutean yang dapat diulang dan kebiasaan objektif yang tetap berguna di lantai yang lebih tinggi.",
+        "step3Title": "Adaptasi setelah pembaruan",
+        "step3Description": "Tinjau kembali logika rute dan dasar strategi saat mekanik dan keseimbangan berubah."
+      },
+      "featured": "Unggulan & Esensial",
+      "all": "Semua Artikel Panduan"
+    },
+    "emblems": {
+      "title": "Emblem Toons Universe",
+      "description": "Uraikan efek emblem, perilaku penumpukan, dan pilihan loadout untuk memaksimalkan setiap permainan.",
+      "metaTitle": "Emblem Toons Universe - Efek, Penumpukan, dan Loadout",
+      "metaDescription": "Tinjau panduan emblem Toons Universe dengan detail efek, aturan penumpukan, dan perencanaan loadout untuk serangan, utilitas, dan pertahanan hidup.",
+      "categoryLabel": "BUILD EMBLEM",
+      "whatIs": "Apa itu Emblem?",
+      "whatIsDescription": "Emblem adalah modifikator build yang membentuk permainan Anda melalui peningkatan pasif dan efek utilitas. Mereka dapat mengubah kurva kerusakan, konsistensi, dan efisiensi sumber daya Anda.",
+      "why": "Mengapa membandingkan emblem?",
+      "whySteps": {
+        "step1Title": "Pahami nilai sebenarnya",
+        "step1Description": "Pisahkan efek berdampak tinggi dari opsi yang hanya terlihat kuat di atas kertas.",
+        "step2Title": "Hindari kombinasi buruk",
+        "step2Description": "Pelajari campuran mana yang berkonflik dan penumpukan mana yang menciptakan sinergi yang andal.",
+        "step3Title": "Sesuaikan berdasarkan objektif",
+        "step3Description": "Tukar prioritas emblem untuk farming, tekanan bos, atau pendakian lantai yang aman."
+      },
+      "featured": "Unggulan & Esensial",
+      "all": "Semua Panduan Emblem"
+    },
+    "stats": {
+      "title": "Statistik Toons Universe",
+      "description": "Pahami stamina, sanity, pengecekan, dan breakpoint penskalaan sehingga peningkatan Anda menghasilkan hasil yang konsisten.",
+      "metaTitle": "Statistik Toons Universe - Penskalaan, Pengecekan, dan Prioritas Peningkatan",
+      "metaDescription": "Pelajari sistem statistik Toons Universe termasuk stamina, sanity, pengecekan mesin, dan breakpoint peningkatan untuk progres yang efisien.",
+      "categoryLabel": "SISTEM STATISTIK",
+      "whatIs": "Apa itu Statistik?",
+      "whatIsDescription": "Statistik menentukan performa dasar Anda dalam pergerakan, bertahan hidup, penanganan mesin, dan konsistensi di bawah tekanan. Alokasi yang cerdas meningkatkan kecepatan dan keamanan.",
+      "why": "Mengapa mengoptimalkan statistik?",
+      "whySteps": {
+        "step1Title": "Capai breakpoint utama",
+        "step1Description": "Berinvestasilah di mana ambang batas membuka penyelesaian yang jauh lebih lancar dan lebih sedikit pengecekan yang gagal.",
+        "step2Title": "Seimbangkan serangan dan keamanan",
+        "step2Description": "Hindari pengeluaran berlebih pada satu poros sambil mengabaikan kebutuhan stamina, sanity, atau utilitas.",
+        "step3Title": "Dukung peran utama Anda",
+        "step3Description": "Selaraskan pilihan statistik dengan kit agen dan tanggung jawab tim Anda dalam permainan."
+      },
+      "featured": "Unggulan & Esensial",
+      "all": "Semua Panduan Statistik"
+    },
+    "cosmetics": {
+      "title": "Kosmetik Toons Universe",
+      "description": "Lacak skin, varian visual, dan koleksi gaya di berbagai acara, pass, dan rilis bertema.",
+      "metaTitle": "Kosmetik Toons Universe - Skin dan Koleksi Visual",
+      "metaDescription": "Jelajahi cakupan kosmetik Toons Universe untuk skin, varian bertema, visual acara, dan pelacakan rilis yang berfokus pada koleksi.",
+      "categoryLabel": "KOLEKSI GAYA",
+      "whatIs": "Apa itu Kosmetik?",
+      "whatIsDescription": "Kosmetik adalah kustomisasi visual seperti skin dan varian gaya yang memungkinkan Anda mempersonalisasi profil dan identitas roster tanpa mengubah mekanik inti.",
+      "why": "Mengapa mengikuti kosmetik?",
+      "whySteps": {
+        "step1Title": "Lacak drop terbatas",
+        "step1Description": "Pantau jendela acara dan rotasi pass untuk mengumpulkan gaya sebelum siklusnya berakhir.",
+        "step2Title": "Rencanakan penggunaan mata uang",
+        "step2Description": "Prioritaskan pembelian yang sesuai dengan agen favorit dan tujuan koleksi jangka panjang Anda.",
+        "step3Title": "Bandingkan set visual",
+        "step3Description": "Tinjau tema rilis sehingga Anda dapat memutuskan bundel mana yang layak untuk ditabung."
+      },
+      "featured": "Unggulan & Esensial",
+      "all": "Semua Panduan Kosmetik"
+    }
   }
 }

@@ -1,967 +1,1291 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "description": "Eksiksiz Lucid Blocks kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları, kontroller, modlar ve topluluk bağlantıları edinin.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, demo indirme, başlangıç rehberi, işbirliği rehberi, üretim, ekipman, modlar, BepInEx, Steam oyunu, gizli oyun",
-      "ogTitle": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "ogDescription": "Eksiksiz Lucid Blocks kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları ve modlar edinin.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "twitterDescription": "Eksiksiz Lucid Blocks kaynak merkezi! Demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri ve üretim ipuçları edinin."
+      "title": "Toons Universe Wiki - Kodlar, Ajanlar ve Hayatta Kalma Rehberi",
+      "description": "INNOVA tesisindeki Roblox turları için Toons Universe kodlarını, ajanlarını, enfekte düşmanlarını, kat rehberlerini, kaynaklarını ve ilerleme ipuçlarını bulun.",
+      "keywords": "Toons Universe, Toons Universe kodları, Toons Universe ajanları, Toons Universe enfekteleri, Roblox hayatta kalma korku",
+      "ogTitle": "Toons Universe Wiki - Kodlar, Ajanlar ve Hayatta Kalma Rehberi",
+      "ogDescription": "INNOVA tesisindeki Roblox turları için Toons Universe kodlarını, ajanlarını, enfekte düşmanlarını, kat rehberlerini, kaynaklarını ve ilerleme ipuçlarını bulun.",
+      "twitterTitle": "Toons Universe Wiki - Kodlar, Ajanlar ve Hayatta Kalma Rehberi",
+      "twitterDescription": "INNOVA tesisindeki Roblox turları için Toons Universe kodlarını, ajanlarını, enfekte düşmanlarını, kat rehberlerini, kaynaklarını ve ilerleme ipuçlarını bulun."
     }
   },
   "nav": {
-    "codes": "Codes",
-    "characters": "Characters",
-    "infected": "Infected",
-    "guide": "Guide",
-    "emblems": "Emblems",
-    "stats": "Stats",
-    "cosmetics": "Cosmetics"
+    "codes": "Kodlar",
+    "characters": "Karakterler",
+    "infected": "Enfekteler",
+    "guide": "Rehber",
+    "emblems": "Amblemler",
+    "stats": "İstatistikler",
+    "cosmetics": "Kozmetikler"
   },
   "common": {
     "home": "Ana Sayfa",
     "more": "Daha Fazla",
-    "playNow": "Demo İndir",
-    "switchLanguage": "Dil Değiştir",
-    "switchTheme": "Tema Değiştir",
+    "playNow": "Roblox'ta Oyna",
+    "switchLanguage": "Dili Değiştir",
+    "switchTheme": "Temayı Değiştir",
     "lightMode": "Açık Mod",
-    "darkMode": "Koyu Mod",
+    "darkMode": "Karanlık Mod",
     "notFound": "Sayfa Bulunamadı",
     "notFoundDescription": "Aradığınız sayfa mevcut değil.",
     "backToHome": "Ana Sayfaya Dön",
     "relatedArticles": "İlgili Makaleler",
-    "readMore": "Daha Fazla Oku",
-    "articlesComingSoon": "Makaleler yakında"
+    "readMore": "Devamını Oku",
+    "articlesComingSoon": "Makaleler yakında gelecek"
   },
   "hero": {
-    "badge": "Ufak cüceler. Büyük evler. Arkadaşlarla gizli soygunlar.",
-    "title": "Lucid Blocks wiki",
-    "description": "Lucid Blocks için merkeziniz: soygunlar nasıl işliyor, Yüksek Cüce işleri, üretim & geliştirmeler, düşmanlar, kontroller ve her koşuda hayatta kalmanın en hızlı yolları.",
-    "getFreeCodesCTA": "Demo İndir",
-    "playOnSteamCTA": "Steam'de İstek Listesine Ekle",
+    "badge": "Roblox Çizgi Film Hayatta Kalma Korku",
+    "title": "Toons Universe Wiki",
+    "description": "Kodlar, ajanlar, enfekte düşmanlar, katlar, kaynaklar, dizilimler, güncellemeler ve INNOVA turları için başlangıç ipuçlarını içeren bir Roblox Toons Universe hayatta kalma korku wikisi.",
+    "getFreeCodesCTA": "Toons Universe Kodlarını Görüntüle",
+    "playOnSteamCTA": "Toons Universe'ü Roblox'ta Oyna",
     "stats": {
       "stat1": {
-        "value": "15B",
-        "label": "En Yüksek Eş Zamanlı Kullanıcı (Demo)"
+        "value": "3B+",
+        "label": "Çevrimiçi Oyuncu"
       },
       "stat2": {
-        "value": "6",
-        "label": "İşbirliği Oyuncusu"
+        "value": "%96",
+        "label": "Roblox Puanı"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo Yayın Tarihi"
+        "value": "34.5B",
+        "label": "Discord Üyesi"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Platform"
+        "value": "177B",
+        "label": "Fragman İzlenmesi"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Oynanışı",
-    "description": "Ufak cücelerin kaotik 6 oyunculu işbirliği gizli görevlerinde büyük soygunlar yapmasını izleyin!"
+    "title": "Toons Universe Oynanışı",
+    "description": "Her INNOVA turunu şekillendiren kat döngüsünü, makine hedeflerini, enfekte baskısını ve takım faydası kararlarını öğrenin."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Kaynaklar",
-    "subtitle": "Soygunlarda ve işbirliği gizliliğinde ustalaşmak için ihtiyacınız olan her şey",
+    "title": "Toons Universe",
+    "titleHighlight": "Modül Navigasyonu",
+    "subtitle": "Doğrudan her ana sayfa modülüne atlayın",
     "cards": [
       {
-        "icon": "İndir",
-        "title": "Demo İndirme",
-        "description": "Ücretsiz Steam demosunu edinin"
+        "icon": "BookOpen",
+        "title": "Toons Universe Kodları",
+        "description": "Aktif kodlar, süresi dolmuş liste ve kullanım akışı"
       },
       {
-        "icon": "KitapAçık",
-        "title": "Başlangıç Rehberi",
-        "description": "Temel döngü ve yaygın tuzaklar"
+        "icon": "Sparkles",
+        "title": "Toons Universe Başlangıç Rehberi",
+        "description": "İlk tur öncelikleri ve hayatta kalma temelleri"
       },
       {
-        "icon": "Kullanıcılar",
-        "title": "İşbirliği Rehberi",
-        "description": "6 oyunculu roller ve kurtarma taktikleri"
+        "icon": "Hammer",
+        "title": "Toons Universe Tier Listesi",
+        "description": "Erken oyun değer sıralaması için mevcut ajanlar"
       },
       {
-        "icon": "PanoKontrol",
-        "title": "Görevler & Amaçlar",
-        "description": "Yüksek Cüce'nin sizden istedikleri"
+        "icon": "Package",
+        "title": "Toons Universe Ajan Listesi",
+        "description": "Oynanabilir ajanların rol odaklı anlık görüntüleri"
       },
       {
-        "icon": "Klavye",
-        "title": "Kontroller & Tuş Atamaları",
-        "description": "Varsayılan tuşlar ve nasıl değiştirileceği"
+        "icon": "Home",
+        "title": "Toons Universe Ajan Kilit Açma Gereksinimleri",
+        "description": "Ajan maliyetleri, görevler ve rol tabanlı kilit açma sırası"
       },
       {
-        "icon": "Kalkan",
-        "title": "İçerik Ayarları",
-        "description": "Yetişkinlere yönelik içerik ve geçiş seçenekleri"
+        "icon": "Eye",
+        "title": "Toons Universe İstatistik, Akıl Sağlığı ve Dayanıklılık Rehberi",
+        "description": "Rolünüzü seçmeden önce her temel istatistiği okuyun"
       },
       {
-        "icon": "Çekiç",
-        "title": "Üretim & Ekipman",
-        "description": "Çalınan malzemelerle donanın"
+        "icon": "AlertTriangle",
+        "title": "Toons Universe Malachor Kasma",
+        "description": "Adım adım para birimi kasma ve harcama yolu"
       },
       {
-        "icon": "Paket",
-        "title": "Ganimet & Eşyalar",
-        "description": "Ne çalınır ve taşıma ipuçları"
+        "icon": "ArrowRight",
+        "title": "Toons Universe Enfekte Rehberi",
+        "description": "Düşman tetikleyicileri, tehlike sinyalleri ve karşı oyun hamleleri"
       },
       {
-        "icon": "UyarıÜçgeni",
-        "title": "Düşmanlar & Tehlikeler",
-        "description": "Tehditler ve onlarla nasıl başa çıkılır"
+        "icon": "TrendingUp",
+        "title": "Toons Universe Makineler ve Beceri Kontrolleri",
+        "description": "Makine rotaları, beceri kontrolü zamanlaması ve panik çıkışları"
       },
       {
-        "icon": "Göz",
-        "title": "Gizlilik & Kaçış",
-        "description": "Gizli kalın ve güvenli bir şekilde çıkış yapın"
+        "icon": "Star",
+        "title": "Toons Universe Katlar ve Asansör Rehberi",
+        "description": "Kat döngüsü aşamaları, dükkanlar, oylamalar ve ödül ölçeklendirmesi"
       },
       {
-        "icon": "Ana Sayfa",
-        "title": "Ev Geliştirmeleri",
-        "description": "Yüzen ada üssünüzü geliştirin"
+        "icon": "ClipboardCheck",
+        "title": "Toons Universe Kat Etkinlikleri Rehberi",
+        "description": "Gaz Sızıntısı, Karartma ve asansör etkinliği stratejileri"
       },
       {
-        "icon": "MesajDairesi",
-        "title": "Topluluk & Discord",
-        "description": "Resmi bağlantılar ve grup bulma"
+        "icon": "MessageCircle",
+        "title": "Toons Universe Kartlar ve Oylama Rehberi",
+        "description": "Ekonomi, güvenlik ve dayanıklılık için duruma göre oylama kart tablosu"
       },
       {
-        "icon": "Ayarlar",
-        "title": "Modlar & BepInEx",
-        "description": "Çerçeve ve mod kurulumunu yapın"
+        "icon": "Gamepad2",
+        "title": "Toons Universe Eşyalar ve Dükkanlar Rehberi",
+        "description": "Eşya etkileri, dükkan maliyetleri ve kat kat satın alma öncelikleri"
       },
       {
-        "icon": "Yıldız",
-        "title": "Popüler Modlar",
-        "description": "En iyi topluluk seçimleri ve özellikleri"
+        "icon": "Settings",
+        "title": "Toons Universe Araştırma, Yadigar ve Amblemler",
+        "description": "Malachor rotaları, amblem kilitleri ve uzun vadeli ilerleme"
       },
       {
-        "icon": "OyunKonsolu2",
-        "title": "Kontrol Cihazı Desteği",
-        "description": "UI imleci ile tam gamepad oyunu"
+        "icon": "Clock",
+        "title": "Toons Universe Çıkış Tarihi ve Güncellemeler",
+        "description": "Alfa zaman çizelgesi, içerik sinyalleri ve yama izleme tetikleyicileri"
       },
       {
-        "icon": "YükselişTrendi",
-        "title": "Oyuncu Sayısı & Trendi",
-        "description": "Canlı istatistikler ve zirve takibi"
+        "icon": "Shield",
+        "title": "Toons Universe Resmi Bağlantılar ve Topluluk",
+        "description": "Resmi Roblox, Discord, sosyal medya, video ve wiki merkezleri"
       }
     ]
   },
   "modules": {
-    "demoDownload": {
-      "title": "Lucid Blocks Demo İndirme",
-      "subtitle": "Steam'de ücretsiz demoyu edinin",
-      "downloadSize": "2,62 GiB",
-      "diskSize": "4,88 GiB",
-      "releaseDate": "30 Ocak 2026",
-      "price": "Ücretsiz",
-      "platform": "PC (Steam) / Windows",
-      "engine": "Unity",
-      "primaryCTA": "Demo İndir",
-      "secondaryCTA": "Teknik Bilgileri Görüntüle",
-      "installPath": "Steam\\steamapps\\common\\Lucid Blocks Demo",
-      "sections": [
-        {
-          "heading": "Nereden indirilir",
-          "items": [
-            "Resmi Steam mağaza sayfasını açın ve 'Demo İndir' bölümünü kullanın.",
-            "Steam sizden oturum açmanızı isterse, önce oturum açın ve tekrar deneyin."
-          ]
-        },
-        {
-          "heading": "Kurulum & başlatma hızlı kontrolleri",
-          "items": [
-            "Varsayılan kurulum konumu: Steam Kütüphanesi klasörü → steamapps → common → (oyun klasörü).",
-            "Başlatılamıyorsa: Steam'de oyun dosyalarını doğrulayın, ardından Steam'i yeniden başlatın."
-          ]
-        }
-      ]
-    },
-    "beginnerGuide": {
-      "title": "Lucid Blocks Başlangıç Rehberi",
-      "subtitle": "Temel döngüde ustalaşın ve yaygın hatalardan kaçının",
+    "lucidBlocksBeginnerGuide": {
+      "title": "Toons Universe Kodları",
+      "displayType": "steps",
+      "intro": "Bu modülü hızlı kod masanız olarak kullanın: aktif kodu kopyalayın, kuyruğa girmeden önce kullanın ve yeni düşüşlerin nerede yayınlandığını takip edin.",
       "steps": [
         {
-          "number": 1,
-          "title": "Eve Girin",
-          "description": "Yüzen ada üssünüzden bir insan evine inin. Dışarıda doğun ve kilitli olmayan kapılardan veya pencerelerden içeri sızın."
+          "title": "Önce aktif kodu kullanın",
+          "description": "Mevcut kod: THANKYOU. Erken para birimini güvence altına almak için bir sonraki turunuzdan önce 500 Malachor karşılığında kullanın."
         },
         {
-          "number": 2,
-          "title": "Görevleri Tamamlayın",
-          "description": "Yüksek Cüce görevlerini süre dolmadan bitirin. Tab tuşu aracılığıyla hedefleri kontrol edin ve öncelikle riskli görevlere öncelik verin."
+          "title": "Sol taraftaki kullan düğmesini kullanın",
+          "description": "Oyunu Roblox içinde açın, sol paneldeki Redeem Code (Kodu Kullan) düğmesine dokunun ve ardından kodu tam olarak yapıştırın."
         },
         {
-          "number": 3,
-          "title": "Eşyaları Çalın",
-          "description": "Değerli eşyaları ve üretim malzemelerini kapın. Gürültü yapmaktan veya ev sahibine yakalanmaktan kaçının."
+          "title": "Ödülleri hemen doğrulayın",
+          "description": "Kullan'a dokunduktan sonra, asansör kuyruğuna girmeden önce Malachor bakiyenizin değiştiğini onaylayın."
         },
         {
-          "number": 4,
-          "title": "Tornado ile Kaçın",
-          "description": "Zamanlayıcı sona erdiğinde, bahçede bir tornado oluşur—güvenli bir şekilde çıkış yapmak için ona ulaşın. Erken hareket etmeye başlayın!"
-        },
-        {
-          "number": 5,
-          "title": "Geliştirin & Tekrarlayın",
-          "description": "Ödülleri ve malzemeleri evde ekipman üretmek için kullanın, ardından daha iyi ekipmanlarla bir sonraki soygununuza başlayın."
+          "title": "Kod kanallarını haftalık takip edin",
+          "description": "Roblox sayfasını, Discord duyurularını, Roblox grup güncellemelerini ve büyük kod takipçilerini izleyin."
         }
-      ],
-      "pitfalls": [
-        {
-          "title": "Yakalanmak",
-          "description": "Ev sahibi sizi kovalayacaktır. Saklanın, dikkat dağıtıcı unsurları kullanın ve kaçmak için görüş hattını kırın.",
-          "icon": "UyarıÜçgeni"
-        },
-        {
-          "title": "Sürenin Bitmesi",
-          "description": "Tornado zamanlayıcısı katıdır. Aşırı yağmalamak yerine erken bir şekilde çıkışa doğru ilerlemeye başlayın.",
-          "icon": "Saat"
-        },
-        {
-          "title": "Takım Arkadaşlarını Görmezden Gelmek",
-          "description": "Buzdolabı/fırın tuzaklarına yakalanan müttefikleri hızlıca kurtarın—kurtarmalar için hemen bağırın.",
-          "icon": "Kullanıcılar"
-        }
-      ]
-    },
-    "coopGuide": {
-      "title": "Lucid Blocks İşbirliği Rehberi",
-      "subtitle": "Maksimum kaos için 6 oyuncuya kadar koordine olun",
-      "maxPlayers": 6,
-      "roles": [
-        {
-          "name": "Gözcü",
-          "description": "Tehditleri kontrol edin, güvenli yolları işaretleyin ve takım hareketine rehberlik edin",
-          "icon": "Göz"
-        },
-        {
-          "name": "Taşıyıcı",
-          "description": "Sırt çantası geliştirmeleriyle ağır eşyalara odaklanın ve görev ilerlemesini güvence altına alın",
-          "icon": "Paket"
-        },
-        {
-          "name": "Dikkat Dağıtıcı",
-          "description": "Güvenli pencereler oluşturmak için ev sahibini/evcil hayvanları takımdan uzağa çekin",
-          "icon": "Kullanıcılar"
-        },
-        {
-          "name": "Kurtarıcı",
-          "description": "Tuzaktan kurtarma",
-          "icon": "Kalkan"
-        }
-      ],
-      "threats": [
-        "Ev Sahibi (sizi kovalar ve tuzağa düşürür)",
-        "Kediler & Fareler (devriye yolları)",
-        "Robot Süpürge (anında tehlike)",
-        "Süre Sınırı (tornado tahliyesi)"
-      ],
-      "communication": "Görevleri ve kurtarmaları koordine etmek için sesli sohbeti (V tuşu) kullanın. Şunu söyleyin: 'Görüldü', 'Rota', 'Kurtarmaya ihtiyacım var', 'Yakında çıkış yap'."
-    },
-    "tasksObjectives": {
-      "title": "Lucid Blocks Görevler & Amaçlar",
-      "subtitle": "Yüksek Cüce'nin istedikleri: görev örnekleri",
-      "taskTypes": [
-        {
-          "type": "Eşyaları Çalın",
-          "examples": [
-            "Yüksek Cüce hedefleri tarafından işaretlenen belirli eşyaları kapın"
-          ]
-        },
-        {
-          "type": "Konumlara Ulaşın",
-          "examples": [
-            "Evin içindeki belirtilen alanlara gidin"
-          ]
-        },
-        {
-          "type": "Yaramazlık Yapın",
-          "examples": [
-            "Bir TV'yi kırın",
-            "Bir tuvaleti su baskını yapın",
-            "Kaos yaratın"
-          ]
-        }
-      ],
-      "efficiency": [
-        "Takım bir aradayken önce riskli görevleri yapın",
-        "Takip sırasında kaybolmamaları için görev eşyaları için bir taşıyıcı atayın",
-        "Süre dolmadan çıkışa doğru hareket etmeye başlayın"
-      ]
-    },
-    "controlsKeybinds": {
-      "title": "Lucid Blocks Kontroller & Tuş Atamaları",
-      "subtitle": "Varsayılan klavye kontrolleri (ve bunları nerede değiştireceğiniz)",
-      "keybinds": [
-        {
-          "action": "Sola Hareket Et",
-          "key": "A"
-        },
-        {
-          "action": "Sağa Hareket Et",
-          "key": "D"
-        },
-        {
-          "action": "İleri Hareket Et",
-          "key": "W"
-        },
-        {
-          "action": "Geri Hareket Et",
-          "key": "S"
-        },
-        {
-          "action": "Çömelme",
-          "key": "Sol Ctrl"
-        },
-        {
-          "action": "Saldırı",
-          "key": "Sol Tık"
-        },
-        {
-          "action": "Koş",
-          "key": "Sol Shift"
-        },
-        {
-          "action": "Eşyayı Bırak",
-          "key": "G"
-        },
-        {
-          "action": "Etkileşim",
-          "key": "E"
-        },
-        {
-          "action": "Zıpla",
-          "key": "Boşluk"
-        },
-        {
-          "action": "Bas-Konuş",
-          "key": "V"
-        },
-        {
-          "action": "İtme",
-          "key": "Sağ Tık"
-        },
-        {
-          "action": "Bez Bebek",
-          "key": "Q"
-        },
-        {
-          "action": "Ekipman Yuvası 1",
-          "key": "1"
-        },
-        {
-          "action": "Ekipman Yuvası 2",
-          "key": "2"
-        },
-        {
-          "action": "Ekipman Yuvası 3",
-          "key": "3"
-        },
-        {
-          "action": "Ekipman Yuvası 4",
-          "key": "4"
-        },
-        {
-          "action": "Envanter",
-          "key": "Tab"
-        }
-      ],
-      "changePath": "Başlık menüsünden: AYARLAR'ı açın, ardından klavye ayarlarını kontrol edin. Tuş atama satırlarını filtrelemek için arama alanını kullanın."
-    },
-    "contentSettings": {
-      "title": "Lucid Blocks İçerik Ayarları",
-      "subtitle": "Yetişkinlere yönelik içerik, çıplaklık geçişi ve Steam tercihleri",
-      "descriptors": [
-        "Bazı Çıplaklık veya Cinsel İçerik",
-        "Genel Yetişkinlere Yönelik İçerik"
-      ],
-      "details": [
-        {
-          "heading": "Geliştiricilerin belirttiği şey",
-          "items": [
-            "Bir insan banyo gibi aktiviteler yaparken çıplak görünebilir.",
-            "Çıplaklık sansürlenmiştir ve isteğe bağlı olarak tamamen kapatılabilir.",
-            "Cüceler parçalanabilir ve acımasız şekillerde ölebilir."
-          ]
-        },
-        {
-          "heading": "Steam topluluk sayfasını engellerse",
-          "items": [
-            "Steam, içerik tercihlerinize bağlı olarak topluluk merkezini gizleyebilir.",
-            "Steam'in ne göstermesine izin verdiğinizi ayarlamak için Steam'in 'İçerik Tercihlerini Güncelle' seçeneğini kullanın."
-          ]
-        }
-      ]
-    },
-    "craftingEquipment": {
-      "title": "Lucid Blocks Üretim & Ekipman",
-      "subtitle": "Donanın: üretim örnekleri ve her aracın ne yaptığı",
-      "equipment": [
-        {
-          "item": "Sırt Çantası",
-          "benefit": "Her koşu için daha fazla ganimet için envanter kapasitesini genişletir"
-        },
-        {
-          "item": "Cüce Eldivenleri",
-          "benefit": "Kapıları açmanızı ve daha fazla nesneyle etkileşim kurmanızı sağlar"
-        },
-        {
-          "item": "Yaylı Ayakkabılar",
-          "benefit": "Kaçışlar sırasında yüksek düşmelerden kaynaklanan hasarı önler"
-        },
-        {
-          "item": "Silah",
-          "benefit": "Köşeye sıkıştığınızda fareler gibi tehditlerle savaşmanıza yardımcı olur"
-        }
-      ],
-      "sections": [
-        {
-          "heading": "Üretim yağmalamaya nasıl bağlanır",
-          "items": [
-            "Bir koşu sırasında, eşyaları çalın ve üretim malzemesi olarak geri getirin.",
-            "Tahliyeden sonra, ödüller/malzemeler yeni üretimleri destekler."
-          ]
-        },
-        {
-          "heading": "Üs iyileştirmesi",
-          "items": [
-            "Mobilya üretin ve yüzen ada evinizi yükseltin (tam oyun özelliği)."
-          ]
-        }
-      ]
-    },
-    "lootItems": {
-      "title": "Lucid Blocks Ganimet & Eşyalar",
-      "subtitle": "Ne çalınır: eşya türleri, risk ve taşıma ipuçları",
-      "categories": [
-        {
-          "type": "Görev Eşyaları",
-          "examples": [
-            "Yüksek Cüce tarafından hedefler için gerekli olan eşyalar"
-          ]
-        },
-        {
-          "type": "Üretim Malzemeleri",
-          "examples": [
-            "Cüce teçhizatına ve yükseltmelerine dönüştürülen ev eşyaları"
-          ]
-        },
-        {
-          "type": "Yaramazlık Hedefleri",
-          "examples": [
-            "Kırma veya su baskını gibi görevlerde yer alan nesneler"
-          ]
-        }
-      ],
-      "carryTips": [
-        "Görev ilerlemesine öncelik verin, ardından kalan kapasiteyi üretim malzemeleriyle doldurun",
-        "Tehditler yakındaysa, eşyaları uzun açık taşımalar yerine kısa güvenli sıçramalarla hareket ettirin",
-        "Zamanlayıcı sona ermeden bahçe tahliyesine giden rotayı planlayın"
-      ],
-      "riskLevels": [
-        {
-          "level": "Düşük",
-          "description": "Girişlerin veya güvenli köşelerin yakınında"
-        },
-        {
-          "level": "Orta",
-          "description": "Daha derin odalar veya dolaşan tehditlerin yakınında"
-        },
-        {
-          "level": "Yüksek",
-          "description": "Ev sahibi devriyesinin veya robot süpürgenin yakınında"
-        }
-      ]
-    },
-    "enemiesHazards": {
-      "title": "Lucid Blocks Düşmanlar & Tehlikeler",
-      "subtitle": "Sizi neyin yakalayabileceğini bilin",
-      "threats": [
-        {
-          "name": "Ev Sahibi",
-          "trigger": "Soygun yaparken veya görev yaparken yakalanmak",
-          "behavior": "Sizi kovalar ve yakalamaya çalışır",
-          "counter": "Gizli kalın, görüş hatlarını kırın ve bir ekip olarak hareket etmeye devam edin"
-        },
-        {
-          "name": "Kediler",
-          "trigger": "Çok yaklaşmak veya yollarını kesmek",
-          "behavior": "Siz gizlice dolaşırken doğrudan bir tehdit haline gelirler",
-          "counter": "Yollarından kaçının ve sessizce geçin"
-        },
-        {
-          "name": "Fareler",
-          "trigger": "Farelerin dolaştığı alanlara girmek",
-          "behavior": "Koşular sırasında kırılgan cüceleri tehdit ederler",
-          "counter": "Dar alanlarda tetikte olun ve geri çekilmeye hazır olun"
-        },
-        {
-          "name": "Robot Süpürge",
-          "trigger": "Temizleme yolunda olmak",
-          "behavior": "Cüceleri emebilir",
-          "counter": "Onu dinleyin, yolunda durmayın ve hızlıca yeniden konumlanın"
-        },
-        {
-          "name": "Buzdolabı / Fırın Tuzağı",
-          "trigger": "Ev sahibi tarafından yakalanmak",
-          "behavior": "İçeri kilitlenebilirsiniz; takım arkadaşları zamanında kurtarmazsa ölürsünüz",
-          "counter": "Hemen bağırın; takım arkadaşları kurtarma yoluna öncelik verir"
-        },
-        {
-          "name": "Süre Sınırı",
-          "trigger": "Koşu zamanlayıcısının sınıra ulaşması",
-          "behavior": "Bahçede tahliye tornadosu belirir; kaçmak için ona ulaşmalısınız",
-          "counter": "Aşırı yağmalamayı bırakın, yeniden toplanın ve erken bir şekilde tahliyeye başlayın"
-        }
-      ]
-    },
-    "stealthEscape": {
-      "title": "Lucid Blocks Gizlilik & Kaçış İpuçları",
-      "subtitle": "Daha fazla çalın, daha az ölün",
-      "do": [
-        "Gizli kalın ve nesnelerle etkileşim kurmadan önce siper alın",
-        "Ekip çalışmasını kullanın: tehditleri söyleyin ve rotaları koordine edin",
-        "Biri tuzağa düştüğünde veya yere serildiğinde takım arkadaşlarını hızlıca kurtarın",
-        "Kayıplarınızı azaltın ve zaman daraldığında tahliyeye gidin"
-      ],
-      "dont": [
-        "Tahliye yaklaştığında açgözlü olun",
-        "Ev sahibi aktifken takımdan çok uzağa ayrılın",
-        "Robot süpürge yollarını veya hayvan devriyelerini görmezden gelin",
-        "Bir takım arkadaşı kilitlendiğinde kurtarmaları geciktirin"
       ],
       "quickTips": [
-        {
-          "title": "3 Saniye Kuralı",
-          "text": "Bir sonraki hareketinizi 3 saniyede açıklayamazsanız, yakalanmak üzeresiniz demektir."
-        },
-        {
-          "title": "Önce Kurtarma",
-          "text": "Hızlı bir kurtarma koşuyu canlı tutar; yağmalama bekleyebilir."
-        },
-        {
-          "title": "Tahliye Disiplini",
-          "text": "Erken toplanın ve panik başlamadan önce tornadoya başlayın."
-        }
+        "Yazım hatalarını önlemek için kodları doğrudan yapıştırın.",
+        "Kilit açma seçeneklerini hemen karşılaştırabilmek için alışveriş yapmadan önce kullanın.",
+        "Yeni ziyaretçilerin kafasının karışmasını azaltmak için süresi dolmuş kodları ayrı bir listede tutun.",
+        "Resmi kanallar yeni ödül düşüşleri yayınladığında bu modülü güncelleyin."
       ]
     },
-    "homeUpgrades": {
-      "title": "Lucid Blocks Ev Geliştirmeleri",
-      "subtitle": "Üret, inşa et, yükselt",
-      "branches": [
+    "lucidBlocksApotheosisCrafting": {
+      "title": "Toons Universe Başlangıç Rehberi",
+      "displayType": "cards",
+      "intro": "Erken döngü basittir: istikrarlı bir ajan seçin, makineleri güvenli bir şekilde tamamlayın, dayanıklılığı yönetin ve ardından panik baskısı katı bitirmeden önce asansöre ulaşın.",
+      "cards": [
         {
-          "branch": "Depolama",
-          "summary": "Daha fazla taşıyın ve daha fazlasını geri getirin",
-          "items": [
-            "Sırt Çantası (envanter genişletme)"
-          ]
+          "name": "Güvenli bir başlangıç seçin",
+          "description": "Nimbus, solo oyunlar için bağışlayıcı bir seçimdir. Weffle, ikili ve grup koşuları için kolay bir destek seçeneğidir."
         },
         {
-          "branch": "Yardımcı Program",
-          "summary": "Evle daha etkili etkileşim kurun",
-          "items": [
-            "Cüce Eldivenleri (kapıları ve daha fazlasını açmanızı sağlar)"
-          ]
+          "name": "Makineleri ganimete tercih edin",
+          "description": "Hedef tamamlama hızı kontrol eder. Sadece yakındaki rotalar temiz olduğunda ganimet toplayın."
         },
         {
-          "branch": "Hareketlilik",
-          "summary": "Dikey alanlarda daha güvenli hareket edin",
-          "items": [
-            "Yaylı Ayakkabılar (düşme hasarını azaltır)"
-          ]
+          "name": "Dayanıklılığı tehlike anları için saklayın",
+          "description": "Sürekli depar atmayın. Görüş hattı kırılmaları ve asansör hamleleri için dayanıklılık rezervi tutun."
         },
         {
-          "branch": "Savunma",
-          "summary": "Gerekirse küçük tehditlerle başa çıkın",
-          "items": [
-            "Silahlar (fareler gibi tehditler için)"
-          ]
-        },
-        {
-          "branch": "Ana Üs",
-          "summary": "Mobilya üretin ve yüzen ada evinizi yükseltin",
-          "items": [
-            "Fonksiyonel mobilya yükseltmeleri"
-          ]
+          "name": "Panik modundan önce koordine olun",
+          "description": "Panik başladığında, yan görevleri bırakın ve birlikte asansöre giden güvenli bir rota belirleyin."
         }
       ],
-      "priority": [
+      "milestones": [
+        "Erken katları tutarlı bir şekilde temizleyin",
+        "Panik modunda ekip bozulmadan asansöre ulaşın",
+        "İlk istikrarlı Malachor rezervini oluşturun"
+      ]
+    },
+    "lucidBlocksToolsAndWeapons": {
+      "title": "Toons Universe Kademe Listesi",
+      "displayType": "itemCards",
+      "intro": "Bu pratik kademe özeti, niş yüksek riskli kurulumlar yerine halka açık lobiler ve erken ilerleme için tutarlılığa öncelik verir.",
+      "items": [
         {
-          "rank": 1,
-          "title": "Önce depolama",
-          "reason": "Daha fazla taşıma kapasitesi her koşunun getirisini artırır"
+          "name": "S Kademe: Nimbus",
+          "type": "Solo İstikrar",
+          "description": "Ücretsiz erişim, güçlü dayanıklılık desteği ve uzun kovalamacalar için güvenilir kurtarma pencereleri."
         },
         {
-          "rank": 2,
-          "title": "Sıradaki yardımcı program",
-          "reason": "Daha iyi etkileşimler tehlike bölgelerinde geçirilen süreyi azaltır"
+          "name": "S Kademe: Weffle",
+          "type": "Takım Desteği",
+          "description": "Takım arkadaşları için güçlü hız avantajı ve koordineli hedef koşularında istikrarlı değer."
         },
         {
-          "rank": 3,
-          "title": "Hayatta kalmak için hareketlilik",
-          "reason": "Düşme güvenliği kaçarken önlenebilir ölümleri önler"
+          "name": "A Kademe: Patcher / Phantasia / Copper / Selena",
+          "type": "Yüksek Fayda",
+          "description": "Koordineli olduğunda güçlü takım getirisi sağlayan mükemmel destek ve bilgi araçları."
+        },
+        {
+          "name": "B Kademe: Discard / Koi / Squiddle / Teipo",
+          "type": "Beceriye Bağlı",
+          "description": "Konumlandırma ve rota disiplini zaten istikrarlı olduğunda en iyi performansı gösteren kullanışlı kitler."
+        },
+        {
+          "name": "C Kademe: Guido ve Rossum",
+          "type": "Niş Uzman",
+          "description": "Hedef odaklı değer sağlar ancak hareket ve dayanıklılık sınırlı olduğu için dikkatli bir yol izlemeyi gerektirir."
         }
       ]
     },
-    "community": {
-      "title": "Lucid Blocks Topluluk & Discord",
-      "subtitle": "Kadrolar, güncellemeler, tartışmalar bulun",
-      "links": [
+    "lucidBlocksStorageAndInventory": {
+      "title": "Toons Universe Ajan Listesi",
+      "displayType": "solutionCards",
+      "intro": "Rol uyumu, takım ihtiyacı ve baskı altındaki tutarlılığa göre bir sonraki kilidi açılacak ajana karar vermek için bu sıkıştırılmış listeyi kullanın.",
+      "solutions": [
         {
-          "title": "Resmi Discord",
-          "subtitle": "Duyurular • Geri Bildirim • LFG",
-          "url": "https://discord.com/invite/lucidblocks"
+          "name": "Nimbus",
+          "role": "Solo hayatta kalma başlangıcı",
+          "description": "Kovalama temposunu öğrenen oyuncular için harika, güçlü dayanıklılık iyileşmesine sahip ücretsiz başlangıç ajanı."
         },
         {
-          "title": "Resmi X (Twitter)",
-          "subtitle": "Güncellemeler & geliştirici gönderileri",
-          "url": "https://x.com/lucidblocks"
+          "name": "Weffle",
+          "role": "Takım desteği başlangıcı",
+          "description": "Takım arkadaşlarının koşuları stabilize etmesine yardımcı olan hareket avantajına sahip iyi bir ikili/grup desteği."
         },
         {
-          "title": "Steam Topluluk Merkezi",
-          "subtitle": "Tartışmalar • Ekran Görüntüleri • Rehberler",
-          "url": "https://steamcommunity.com/app/3495730"
+          "name": "Fizzle / Selena",
+          "role": "Gözcü ve dikkat dağıtma seçenekleri",
+          "description": "Hedefler halledilirken tehditleri izlemek veya baskıyı başka yöne çekmek için kullanışlıdır."
         },
         {
-          "title": "Steam Mağaza Sayfası",
-          "subtitle": "İstek Listesi • Demo • Resmi açıklama",
-          "url": "https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+          "name": "Patcher / Copper / Phantasia",
+          "role": "Savunma destek çekirdeği",
+          "description": "Yüksek basınçlı katlarda takımın hayatta kalmasını artıran iyileştirme, kalkan ve güçlendirme araçları."
+        },
+        {
+          "name": "Discard / Koi / Squiddle / Teipo / Guido ve Rossum",
+          "role": "Hedef ve fayda uzmanları",
+          "description": "Daha hızlı makineler, çıkarma destekleri ve yapılandırılmış takım kompozisyonları için rol seçimleri."
+        }
+      ],
+      "managementTips": [
+        "Geniş kilit açma harcamalarından önce bir güvenilir seçime öncelik verin.",
+        "Kilit açma işlemlerini sadece yeniliğe göre değil, koşu rolünüze göre seçin.",
+        "Düşük hayatta kalma oranına sahip seçimleri destekleyici takım arkadaşlarıyla eşleştirin.",
+        "Büyük denge güncellemeleri geldiğinde öncelikleri yeniden değerlendirin."
+      ]
+    },
+    "lucidBlocksQualiaAndBaseBuilding": {
+      "title": "Toons Universe Ajan Kilit Açma Gereksinimleri",
+      "displayType": "cards",
+      "intro": "Ajanlar, Toons Universe içindeki oynanabilir karakterlerdir. Chekhov's Store'dan satın almadan önce Malachor maliyetlerini, kilit açma görevlerini ve rol değerini karşılaştırmak için bu modülü kullanın.",
+      "cards": [
+        {
+          "name": "Weffle ve Nimbus (Ücretsiz Başlangıçlar)",
+          "description": "Her ikisi de ilk katıldığınızda mevcuttur. Takım hızı desteği için Weffle'ı veya solo dayanıklılık iyileşmesi için Nimbus'u seçin."
+        },
+        {
+          "name": "Teipo (700) ve Discard (1.125)",
+          "description": "Teipo 20 makine çıkarma, 20 bilgisayar hackleme, 3 gaz sızıntısı ve 25 hayatta kalınan kat gerektirir. Discard daha büyük hedef gereksinimleri ekler ancak güçlü bir hedef hızı avantajı sağlar."
+        },
+        {
+          "name": "Squiddle (1.550) ve Patcher (1.975)",
+          "description": "Squiddle, sigorta ve çıkarma ilerlemesi gerektiren hızlı bir koşucudur. Patcher, yetenek kullanımı ve enfekte karşılaşmaları gerektirir, ardından güvenilir takım iyileştirmesinin kilidini açar."
+        },
+        {
+          "name": "Guido ve Rossum (2.400) ve Fizzle (2.825)",
+          "description": "Guido ve Rossum, tutarlı hedef tamamlamayı ödüllendirir. Fizzle, dikkat dağıtma kontrolü için yoğun yetenek kullanımı ve uzun katlarda hayatta kalma gerektirir."
+        },
+        {
+          "name": "Copper (3.250) ve Phantasia (3.675)",
+          "description": "Copper, derin hayatta kalma görevlerinden sonra kalkan ile karartma avantajını birleştirir. Phantasia, yüksek yetenek ve gaz sızıntısı kilometre taşlarından sonra hız desteği ve tahmin yeteneği ekler."
+        },
+        {
+          "name": "Selena (4.100) ve Koi (4.500)",
+          "description": "Selena, bilgi toplama ve rota hacklemeye odaklanır. Koi, acil durum yenilmezliği ve bekleme süresi sıfırlama avantajına sahip, yüksek maliyetli bir çıkarma uzmanıdır."
+        },
+        {
+          "name": "Solar (Yaklaşan Ajan)",
+          "description": "Yaklaşan bir Chekhov's Store kilidi olarak listelenmiştir. Maliyet ve gereksinimler mevcut referanslarda hala bilinmiyor olarak işaretlenmiştir."
+        },
+        {
+          "name": "Pratik Kilit Açma Sıralaması",
+          "description": "Önce ücretsiz başlangıçları kullanın, bir düşük maliyetli destek kilidi açın, ardından görevleriniz ve Malachor geliriniz istikrarlı olduğunda yüksek maliyetli uzmanlara geçin."
+        }
+      ],
+      "highlights": [
+        "Malachor maliyetini ve gereksinim zincirlerini birlikte takip edin",
+        "Para birimi toplarken görev kilometre taşlarını tamamlayın",
+        "Erken aşamada bir destek ve bir hedef uzmanına öncelik verin",
+        "İlk ücretli kilit açma işlemlerini hızlandırmak için kod ödüllerini kullanın"
+      ]
+    },
+    "lucidBlocksWorldRegions": {
+      "title": "Toons Universe İstatistik, Akıl Sağlığı, Dayanıklılık ve Yetenek Rehberi",
+      "displayType": "regionCards",
+      "intro": "Toons Universe çubuk tabanlı istatistikler kullanır. Her ajan güçlü ve zayıf yönlerini takas eder, bu nedenle rol seçimi görünüme değil, istatistik dağılımına göre yapılmalıdır.",
+      "regions": [
+        {
+          "name": "Can",
+          "type": "Hata Toleransı",
+          "description": "Can, kaç darbeye dayanabileceğinizi kontrol eder. Yüksek kalp sayısı, yeni oyuncular ve dikkat dağıtma rolleri için daha güvenlidir."
+        },
+        {
+          "name": "Hız",
+          "type": "Rota Belirleme ve Kaçış",
+          "description": "Hız; yeniden konumlanma, keşif yapma ve görüş hattı kesintileri mevcut olduğunda tehlikeli şeritlerden ne kadar hızlı çıkacağınızı belirler."
+        },
+        {
+          "name": "Dayanıklılık",
+          "type": "Kovalama Süresi",
+          "description": "Dayanıklılık, toparlanmadan önce ne kadar süre koşabileceğinizi belirler; bu, uzun süreli panik kovalamacaları sırasında kritiktir."
+        },
+        {
+          "name": "Akıl Sağlığı",
+          "type": "Baskı Dengesi",
+          "description": "Akıl sağlığı, kovalama baskısıyla başa çıkmayı etkiler. Akıl sağlığı düşük ajanların daha temiz konumlanmaya ve daha erken ayrılma zamanlamasına ihtiyacı vardır."
+        },
+        {
+          "name": "Çıkarma",
+          "type": "Makine Verimliliği",
+          "description": "Çıkarma, Makineleri ne kadar hızlı doldurduğunuzu kontrol eder. Yüksek çıkarma gücüne sahip ajanlar, kat tamamlama ve asansör zamanlamasını hızlandırır."
+        },
+        {
+          "name": "Hackerlık",
+          "type": "Bilgisayar Verimliliği",
+          "description": "Hackerlık, bilgisayar hedef hızını kontrol eder. Yüksek hackerlık seçimleri, hedef odalarında açıkta geçirilen süreyi azaltır."
+        },
+        {
+          "name": "Pasif Yetenek",
+          "type": "Her Zaman Aktif Değer",
+          "description": "Pasif yetenekler belirli koşullar altında otomatik olarak tetiklenir ve manuel aktivasyon gerektirmeden sürekli değer sağlar."
+        },
+        {
+          "name": "Aktif Yetenek",
+          "type": "Bekleme Süresi İşlevselliği",
+          "description": "Aktif yetenekler zamanlama ve bekleme süresi farkındalığı gerektirir. Doğru kullanım takım arkadaşlarını kurtarabilir, tehditleri açığa çıkarabilir veya kaçışı garantileyebilir."
         }
       ]
     },
-    "modsBepInEx": {
-      "title": "Lucid Blocks Modlar & BepInEx Kurulumu",
-      "subtitle": "Modları temiz bir şekilde kurun",
+    "lucidBlocksCreaturesAndEnemies": {
+      "title": "Toons Universe Malachor Kasma ve Harcama Rehberi",
+      "displayType": "creatureCards",
+      "intro": "Malachor, ajanlar ve kostümler için ana para birimidir. En hızlı ilerleme; kod kullanımları, güvenli kat temizlemeleri, hedef ödülleri, kapsüller, kart oylamaları ve verimli harcama sırasının birleşimiyle sağlanır.",
+      "creatures": [
+        {
+          "name": "Önce Aktif Kodları Kullan",
+          "role": "En hızlı tek seferlik takviye",
+          "description": "Sıraya girmeden önce aktif kod ödüllerini kullanın. Mevcut 500 Malachor takviyesi, ilk ücretli kilidinizin çoğunu karşılayabilir."
+        },
+        {
+          "name": "Katları İstikrarlı Bir Şekilde Tamamlayın",
+          "role": "Temel kasma döngüsü",
+          "description": "Tekrarlanabilir ödemeler için hedefleri bitirin ve hayatta kalarak çıkın; aynı zamanda kilit açma görevleri için hayatta kalma gereksinimlerini ilerletin."
+        },
+        {
+          "name": "Hedef Çalışmalarına Öncelik Verin",
+          "role": "Her katta tekrarlayın",
+          "description": "Makineler ve bilgisayarlar doğrudan ödül üretir. Döngüyü verimli tutmak için yüksek çıkarma veya yüksek hackerlık rollerini atayın."
+        },
+        {
+          "name": "Araştırma Kapsüllerini Toplayın",
+          "role": "Kolay bonus geliri",
+          "description": "Görevler arasında rotasyon yaparken kapsülleri toplayın. Güvenli rota belirleme, küçük kapsül ödüllerini uzun vadede anlamlı kazançlara dönüştürür."
+        },
+        {
+          "name": "Ekonomi Kartlarına Oy Verin",
+          "role": "Tur ölçekli takviye",
+          "description": "Hedeflerden ve kapsüllerden kazanılan Malachor miktarını artırmak için mümkün olduğunda Job Well Done ve Motivate kartlarını seçin."
+        },
+        {
+          "name": "Kasma Yaparken Kilit Açma Görevlerini Biriktirin",
+          "role": "En iyi uzun vadeli verimlilik",
+          "description": "Katları, hacklemeleri, çıkarmaları, yetenekleri, sigortaları, elektrik kesintilerini ve gaz sızıntılarını birlikte kasın, böylece hiçbir tur ilerlemesi boşa gitmez."
+        },
+        {
+          "name": "Kilometre Taşları İçin Ajan Seviyesi Atlatın",
+          "role": "Pasif gelir katmanı",
+          "description": "Düzenli oyun, normal kat ödemelerinin üzerine ekstra para ekleyerek seviye tabanlı Malachor kilometre taşı ödülleri sağlar."
+        },
+        {
+          "name": "Temiz Bir Kilit Açma Sırasıyla Harcayın",
+          "role": "En iyi kadro değeri",
+          "description": "Önce ücretsiz ajanları kullanın, ardından pahalı uzmanlara yatırım yapmadan önce düşük maliyetli işlevsel seçenekleri satın alın."
+        }
+      ]
+    },
+    "lucidBlocksMobilityGear": {
+      "title": "Toons Universe Infected Rehberi ve Karşı Oyun",
+      "displayType": "itemCards",
+      "intro": "Infecteds temel kat tehdididir. Çoğu kovalama görüş hattıyla başlar, özel Infecteds ise kamera kuralları, tavan pusuları ve hedef baskı modelleri ekler.",
+      "items": [
+        {
+          "name": "Infected Selena",
+          "type": "Kamera izleme tehdidi",
+          "description": "Kimse bakmadığında hücum eder. Takım yakındaki hedefleri tamamlarken bir oyuncuyu görsel temas kurması için görevlendirin."
+        },
+        {
+          "name": "Infected Guido ve Rossum",
+          "type": "Tavan pususu",
+          "description": "Tavan deliklerinden saldırırlar ve temas halinde can azaltırlar. Yukarıdaki rotaları kontrol edin ve aktif deliklerin altından geçmekten kaçının."
+        },
+        {
+          "name": "Infected Weffle",
+          "type": "Standart kovalayıcı",
+          "description": "Köşelerle görüş hattını kesin, güvenli çıkışlar için dayanıklılığınızı koruyun ve kovalamacayı hedefteki takım arkadaşlarınızın üzerine çekmekten kaçının."
+        },
+        {
+          "name": "Infected Discard",
+          "type": "Gezici baskı",
+          "description": "Bu gezici tehdit, aceleye getirilmiş beceri kontrollerini ve güvensiz hedef odalarını cezalandırır. Bir kaçış rotası tutun ve erkenden rotasyon yapın."
+        },
+        {
+          "name": "Infected Koi",
+          "type": "Görüş hattı kovalayıcısı",
+          "description": "Standart bir kovalama gibi davranın ancak bir kiting rotasının makine ilerlemesini bozmaması için mesafeyi temiz tutun."
+        },
+        {
+          "name": "Infected Patcher",
+          "type": "Onaylanmış Infected girişi",
+          "description": "Aynı güvenli temelleri kullanın: erken tespit edin, geniş rota çizin, dayanıklılığı koruyun ve kovalamacaları hedef çalışanlarından uzaklaştırın."
+        }
+      ],
+      "unlockMilestones": [
+        "Görüş hattı disiplinini ve erken uyarıları koruyun",
+        "Özel infected kuralları göründüğünde bir izleyici atayın",
+        "Hedeflerden uzağa kiting yapın ve takım mesafesini koruyun"
+      ]
+    },
+    "lucidBlocksFarmingAndGrowth": {
+      "title": "Toons Universe Makineler ve Beceri Kontrolleri",
+      "displayType": "stepByStepTimeline",
+      "intro": "Makineler her kattaki temel hedeftir. Onları temiz bir şekilde tamamlayın, ardından Panik Modu yavaş takımları cezalandırmadan önce Asansöre geri dönün.",
       "steps": [
         {
-          "step": 1,
-          "title": "BepInEx 5'i Kurun",
-          "text": "BepInEx 5'i indirin ve oyun kök klasörüne çıkarın."
+          "title": "Aktif hedefleri bulun",
+          "details": "Her katta Makineler, Infecteds, eşyalar, kapsüller ve hedef yerleşimleri belirir. Turunuz derinleştikçe makine ve düşman baskısı yukarı doğru ölçeklenir.",
+          "mistakeToAvoid": "Uyarı yapmadan dolaşmayın. Yavaş arama, kat sonlarında kaçınılabilir baskı yaratır.",
+          "bestUse": "Sadece Makineleri ortaya çıkaracak kadar yayılın, ardından hızlıca yeniden toplanmak için dönüş yollarını görünür tutun."
         },
         {
-          "step": 2,
-          "title": "Klasörleri oluşturmak için bir kez başlatın",
-          "text": "Oyunu ana menüye başlatın, ardından kapatın. Bu, BepInEx klasör yapısını oluşturur."
+          "title": "Makine ile etkileşime geçin",
+          "details": "Bir Makinenin yanında durun ve onu Ichor ile doldurmaya başlamak için etkileşime geçin. Hedef çalışma süresi, takımınızın güvenli çıkarma pencerelerine ne kadar hızlı ulaşacağını belirler.",
+          "mistakeToAvoid": "Bir Infected zaten odanıza doğru yönelmişken hedef çalışmasına başlamayın.",
+          "bestUse": "Açıkta kalan Makineleri, daha güvenli ayrılma araçlarına veya daha güçlü kovalama kontrolüne sahip takım arkadaşlarına bırakın."
         },
         {
-          "step": 3,
-          "title": "Modları kurun",
-          "text": "Mod .dll dosyalarını eklenti klasörüne yerleştirin."
+          "title": "Beceri Kontrollerini dikkatli yapın",
+          "details": "Zamanlaması iyi kontroller ilerlemeyi hızlandırır. Başarısız kontroller Infecteds birimlerini uyarır ve ivmeyi en kötü zamanda durdurur.",
+          "mistakeToAvoid": "Baskı altındayken tuşlara rastgele basmayın. Tek bir başarısız kontrol, aksi takdirde temiz geçecek bir katı çökertebilir.",
+          "bestUse": "Takım kovalama baskısı zaten yüksek olduğunda yavaşlayın ve doğruluğa öncelik verin."
         },
         {
-          "step": 4,
-          "title": "Kurulumu doğrulayın",
-          "text": "Oyunu yeniden başlatın ve mod özelliğinin (kamera geçişi, UI imleci vb.) kullanılabilir olduğunu onaylayın."
+          "title": "İki Makine stilini okuyun",
+          "details": "Standart Makineler ve Bilgisayar tarzı hedeflerin farklı etkileşim ritimleri vardır, bu nedenle zamanlama alışkanlıklarınız hedef türüne göre ayarlanmalıdır.",
+          "mistakeToAvoid": "Kontroller göründüğünde her hedef arayüzünün aynı şekilde davrandığını varsaymayın.",
+          "bestUse": "Hedef şeritlerini konfora göre atayın: çıkarma odaklı oyuncular Makinelere, hackerlık odaklı oyuncular Bilgisayarlara."
+        },
+        {
+          "title": "Panik Modundan önce takım olarak bitirin",
+          "details": "Tüm Makineler dolduğunda Panik Modu başlar ve Infecteds hız kazanır. Dönüş aşaması artık ekstra yağmalamadan daha önemlidir.",
+          "mistakeToAvoid": "Takım arkadaşlarınız uzaktayken, dayanıklılıkları düşükken veya kovalamaca ortasındayken son Makineyi tamamlamayın.",
+          "bestUse": "Son hedefi bitirmeden önce, takım konumlarını Asansör rotasına yaklaştırın."
+        },
+        {
+          "title": "Asansör zamanlayıcısına saygı duyun",
+          "details": "Panik Modu sırasında Asansöre ulaşamayan oyuncular, Kalpleri olsa bile elenirler.",
+          "mistakeToAvoid": "Dönüş yolları çekişmeliyken son hedeften sonra yan ganimetlerin peşine düşmeyin.",
+          "bestUse": "Depar dayanıklılığını, daha güvenli makine pencereleri sırasında harcamak yerine final çıkarması için saklayın."
         }
-      ],
-      "paths": [
-        {
-          "label": "Tipik Steam kurulumu",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\"
-        },
-        {
-          "label": "Eklenti klasörü",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\BepInEx\\plugins\\"
-        }
-      ],
-      "multiplayerNote": "Modlanmış işbirliği oynanış özellikleri için herkes BepInEx'i ve aynı oynanış modlarını kurmalıdır."
+      ]
     },
-    "popularMods": {
-      "title": "Lucid Blocks Popüler Modlar",
-      "subtitle": "En iyi topluluk seçimleri",
-      "mods": [
+    "lucidBlocksBestEarlyUnlocks": {
+      "title": "Toons Universe Katlar ve Asansör Rehberi",
+      "displayType": "progressionCards",
+      "intro": "Asansör her kat döngüsünü birbirine bağlar: ekipman, oluşturulan kat, hedef temizleme, Panik Modu dönüşü ve ardından bir sonraki aşamayı şekillendiren ara seçimler.",
+      "cards": [
         {
-          "title": "Doğma Menüsü",
-          "tags": [
-            "Eğlence",
-            "Araçlar",
-            "Yalnızca Ev Sahibi"
-          ],
-          "description": "Uçuş modu ile bir eşya doğma menüsü ekler.",
-          "controls": [
-            {
-              "key": "F",
-              "action": "Doğma menüsünü aç"
-            },
-            {
-              "key": "V",
-              "action": "Uçmayı etkinleştir"
-            }
-          ],
-          "note": "Yalnızca Ev Sahibi; başkalarının katılmak için yüklemesi gerekmez."
+          "title": "Ekipman Başlangıcı",
+          "summary": "Her tur, takımlar Asansöre girmeden önce kısa bir kurulum ekranıyla başlar.",
+          "whatToDo": "Rolleri erkenden atayın: hedef çalışanı, izci, koruyucu veya takip dengeleyici.",
+          "whyItMatters": "Net rol dağılımı, ilk kattaki kafa karışıklığını ve boşa harcanan zamanı önler."
         },
         {
-          "title": "Üçüncü Şahıs Görünümü",
-          "tags": [
-            "Kamera",
-            "Yaşam Kalitesi"
+          "title": "Oluşturulan Kat",
+          "summary": "Katlar; hedefler, düşman baskısı, eşyalar ve kapsülleri değişen düzenlerde ortaya çıkarır.",
+          "whatToDo": "Önce Makineleri bulun, ardından Asansör tarafındaki yollara doğru güvenli dönüş rotalarını işaretleyin.",
+          "whyItMatters": "Düzen kontrolü, ayrık rotaların güvenli kalıp kalmayacağına veya başarısız olup olmayacağına karar verir."
+        },
+        {
+          "title": "Makine Ölçeklendirmesi",
+          "summary": "Daha fazla kat temizlendikçe Makine sayısı ve tehdit baskısı artar.",
+          "whatToDo": "Daha derin katların daha temiz rotasyonlar ve daha az kontrol hatası gerektireceğini unutmayın.",
+          "whyItMatters": "Kötü ayrılmalar veya başarısız kontroller için geç katlardaki cezalar önemli ölçüde daha yüksektir."
+        },
+        {
+          "title": "Eşyalar ve Kapsüller",
+          "summary": "Tur içi toplamalar hem anlık hayatta kalmayı hem de uzun vadeli ilerlemeyi destekler.",
+          "whatToDo": "Kaynakları yalnızca tahliye zamanlamasını geciktirmeyen güvenli yollarda toplayın.",
+          "whyItMatters": "Açgözlü sapmalar, kat sonunda iyi bir hedef ilerlemesini silebilir."
+        },
+        {
+          "title": "Panik Modu Dönüşü",
+          "summary": "Tüm Makineler doldurulduktan sonra, tahliye aciliyeti keskin bir şekilde artar.",
+          "whatToDo": "Yan görevleri bırakın ve tüm takımın Asansöre dönüş rotasına odaklanın.",
+          "whyItMatters": "Dönüş penceresini kaçırmak, yedek Kalpleriniz olsa bile oyuncuları eler."
+        },
+        {
+          "title": "Çift Katlı Mağaza",
+          "summary": "Çift numaralı katlar, rastgele eşya seçenekleri sunan bir mağaza aşaması sağlar.",
+          "whatToDo": "Lüks seçimlerden önce sürdürülebilirlik, güvenlik ve dayanıklılık araçlarına öncelik verin.",
+          "whyItMatters": "Doğru satın alımlar, bir sonraki katta kartopu etkisiyle oluşacak başarısızlıkları önler."
+        },
+        {
+          "title": "Tek Katlı Kart Oylaması",
+          "summary": "Tek numaralı katlar üç kart seçeneği sunar ve çoğunluk oyu etkiyi belirler.",
+          "whatToDo": "Mevcut zayıflığınıza göre oy verin: güvenlik, dayanıklılık, hedef hızı veya ekonomi.",
+          "whyItMatters": "Akıllı oylar, rastgele nadirlik kovalamaktan daha fazla bir sonraki katı iyileştirir."
+        },
+        {
+          "title": "Ödül Ölçeklendirmesi",
+          "summary": "Daha derin katlarda hayatta kalmak Malachor ve ilerleme ivmesini artırır.",
+          "whatToDo": "Riskli ve açgözlü bir hamle yerine, tekrarlanan temiz temizlikler için optimize edin.",
+          "whyItMatters": "İstikrarlı temizlikler, uzun vadeli kilit açma hızı için elenmeye meyilli turlardan daha iyidir."
+        },
+        {
+          "title": "Bilinen Kat Stilleri",
+          "summary": "Tekrarlayan kat desenleri, rota hafızasını ve hedef tahminini ödüllendirir.",
+          "whatToDo": "Bilinen düzenlerde tekrarlanan hedef yollarını ve Switchbox (Şalter kutusu) yollarını inceleyin.",
+          "whyItMatters": "Harita aşinalığı panik hatalarını azaltır ve olay kurtarma hızını artırır."
+        }
+      ]
+    },
+    "lucidBlocksAchievementTracker": {
+      "title": "Toons Universe Kat Etkinlikleri Rehberi",
+      "displayType": "eventAccordion",
+      "intro": "Kat etkinlikleri görüşü, dayanıklılık ekonomisini ve tahliye güvenliğini değiştirebilir. Her etkinliği rastgele bir kaos olarak değil, belirli bir müdahale protokolü olarak ele alın.",
+      "events": [
+        {
+          "event": "Gaz Sızıntısı Etkinliği",
+          "whenItHappens": "Asansör açıldığında başlar ve kat boyunca devam eder.",
+          "warningSigns": "Mavi pus ve erken hareketten kaynaklanan belirgin şekilde daha zorlu dayanıklılık ekonomisi.",
+          "danger": "Sprint rezervleri daha hızlı tükenir, bu da uzun rotaları ve takip kurtarmayı zorlaştırır.",
+          "bestReaction": "Sadece zorunlu kaçışlar için koşun, güvenli yollarda yürüyün ve tahliye için dayanıklılığı koruyun.",
+          "helpfulAgents": [
+            "Nimbus: acil dayanıklılık yenileme ve düşük dayanıklılıkta hız dengeleme.",
+            "Copper: Guard, baskı artışları sırasında düşük dayanıklılığa sahip takım arkadaşlarını kurtarabilir."
           ],
-          "description": "Üçüncü şahıs kamera görünümü ekler.",
-          "controls": [
-            {
-              "key": "F7",
-              "action": "Birinci şahıs / üçüncü şahıs arasında geçiş yap"
-            }
+          "helpfulCards": [
+            "Daha güçlü dayanıklılık yenilenmesi için Hyperactive.",
+            "Daha büyük dayanıklılık rezervi için Hustle.",
+            "Etkinlik sıklığını azaltmak için Lucky.",
+            "Hatalar birikmeden önce Kalpleri geri kazanmak için Recover."
           ]
         },
         {
-          "title": "Daha Fazla Şapka",
-          "tags": [
-            "Kozmetik"
+          "event": "Karartma Etkinliği",
+          "whenItHappens": "Katın ortasında tetiklenir ve harita görüşünü anında azaltır.",
+          "warningSigns": "Sadece yerel karakter aydınlatmasının kaldığı ani karanlık.",
+          "danger": "Takımlar rota farkındalığını kaybeder, hedefleri kaçırır ve kaçınılabilir düşman hatlarına girer.",
+          "bestReaction": "Switchbox'ı hızla bulun, tüm şalterleri yukarı kaldırın ve aşırı ayrılmadan önce yeniden toplanın.",
+          "helpfulAgents": [
+            "Copper: Illuminate, düşük görüş aşamalarında okunabilirliği artırır.",
+            "Copper: Guard, tehlikeli karanlık rota geçişlerinde bir takım arkadaşını korur."
           ],
-          "description": "Cüceler için ek şapka rengi seçenekleri ekler.",
-          "colors": [
-            "Mavi",
-            "Yeşil",
-            "Turuncu",
-            "Mor",
-            "Siyah",
-            "Kırmızı"
+          "helpfulCards": [
+            "Etkinlik sıklığını düşürmek için Lucky.",
+            "Yüksek sınıflı Enfekte baskısını azaltmak için Safety.",
+            "Hasar görmüş takım arkadaşlarını dengelemek için Recover.",
+            "Erken hedef keşfini hızlandırmak için Precision."
           ]
         },
         {
-          "title": "TV'de DOOM",
-          "tags": [
-            "Eğlence",
-            "Mini oyun"
+          "event": "Asansör Arızası / Bozulması",
+          "whenItHappens": "Tur ilerlemesi sırasında Asansörle ilgili bir kat etkinliği olarak görünür.",
+          "warningSigns": "Etkinlik uyarıları, tahliye akışının normalden daha az bağışlayıcı olacağını gösterir.",
+          "danger": "Dağınık takımlar, uzatılmış veya garip dönüş zamanlamaları nedeniyle tuzağa düşebilir.",
+          "bestReaction": "Daha erken gruplaşın, dayanıklılığı koruyun ve son hedefleri yalnızca dönüş yolları açıksa bitirin.",
+          "helpfulAgents": [
+            "Nimbus: uzun dönüşler için dayanıklılık sürdürülebilirliği ve acil hız.",
+            "Copper: Son rota rotasyonları sırasında Guard desteği."
           ],
-          "description": "Orijinal DOOM'u oyun içi bir TV'de oynayın, ses TV hoparlöründen gelsin.",
-          "highlights": [
-            "Çok oyunculu modda çalışır, böylece diğer oyuncular aynı TV'de izleyebilir",
-            "Shareware DOOM bölüm verilerini içerir (Bölüm 1)"
+          "helpfulCards": [
+            "Ekstra geri alma süresi için Perseverance.",
+            "Dayanıklılık kurtarma için Hyperactive.",
+            "Daha derin sprint kapasitesi için Hustle.",
+            "Ekstra hata toleransı için Recover."
           ]
         }
       ]
     },
-    "controllerSupport": {
-      "title": "Lucid Blocks Kontrol Cihazı Desteği",
-      "subtitle": "Tam gamepad oyunu",
-      "native": {
-        "title": "Oyun İçi Ayarlar",
-        "description": "Kontrolleri ayarlamak için oyunun bağlamaları/ayarlar menülerini kullanın."
-      },
-      "mod": {
-        "title": "Kontrol Cihazı Desteği Modu",
-        "description": "Menüde gezinme için eksiksiz gamepad/kontrol cihazı desteği ve bir UI imleci ekler."
-      },
-      "features": [
-        "Tam Oynanış Kontrolleri: hareket, kamera, savaş, etkileşimler ve yetenekler gamepad'e eşlenmiştir",
-        "UI İmleç Gezinmesi: menülerde beyaz bir daire imleci görünür; tıklamak ve kaydırıcıları sürüklemek için A'ya basın",
-        "Envanter Gezinmesi: envanteri açmak için Seç'i basılı tutun; basılı tutarken gezinmek için sağ çubuğu kullanın",
-        "Kaydırılabilir Menüler: sağ çubuk, üretim tariflerini, ayarları ve diğer kaydırılabilir UI alanlarını kaydırır",
-        "Hızlı Erişim Çubuğu Döngüsü: D-pad sol/sağ, 4 hızlı erişim çubuğu yuvası arasında döngü yapar",
-        "Sorunsuz Giriş Değiştirme: klavye/fare ile kontrol cihazını otomatik olarak algılar"
+    "lucidBlocksSingleplayerAndPlatformFAQ": {
+      "title": "Toons Universe Kartlar ve Oylama Rehberi",
+      "displayType": "decisionTable",
+      "intro": "Kart oylamaları tek numaralı katlardan sonra gerçekleşir. Ekrandaki en gösterişli seçeneği değil, mevcut tur sorununuzu çözen etkileri seçin.",
+      "cards": [
+        {
+          "card": "Professional",
+          "rarity": "Listelenmemiş",
+          "limit": "3",
+          "effect": "Hedeflerden kazanılan parçaları artırır.",
+          "bestPickWhen": "Takımınız zaten istikrarlıysa ve daha güçlü bir hedef ekonomisi istiyorsa.",
+          "priorityType": "Ekonomi"
+        },
+        {
+          "card": "Job Well Done",
+          "rarity": "Listelenmemiş",
+          "limit": "3",
+          "effect": "Hedeflerden kazanılan Malachor miktarını artırır.",
+          "bestPickWhen": "Anlık hayatta kalma baskısı olmadan kilit açma para birimi kasıyorsanız.",
+          "priorityType": "Ekonomi"
+        },
+        {
+          "card": "Motivate",
+          "rarity": "Listelenmemiş",
+          "limit": "3",
+          "effect": "Kapsüllerden kazanılan Malachor miktarını artırır.",
+          "bestPickWhen": "Rotalarınız çoğu katta güvenli bir şekilde kapsül topluyorsa.",
+          "priorityType": "Ekonomi"
+        },
+        {
+          "card": "Precision",
+          "rarity": "Yaygın",
+          "limit": "Sınırsız",
+          "effect": "Tur başında tüm hedefleri kısaca gösterir.",
+          "bestPickWhen": "Takımlar alışılmadık düzenlerde Makine ararken zaman kaybediyorsa.",
+          "priorityType": "Rota Belirleme"
+        },
+        {
+          "card": "Machinist",
+          "rarity": "Yaygın",
+          "limit": "5",
+          "effect": "Tahliye hızını %5 artırır.",
+          "bestPickWhen": "Hedef hızı darboğazsa ve hayatta kalma kontrolü istikrarlıysa.",
+          "priorityType": "Hedef Hızı"
+        },
+        {
+          "card": "Tech Support",
+          "rarity": "Listelenmemiş",
+          "limit": "5",
+          "effect": "Hacker hızını %5 artırır.",
+          "bestPickWhen": "Bilgisayar hedefleri yaygınsa ve takımınızda hacker uzmanları varsa.",
+          "priorityType": "Hedef Hızı"
+        },
+        {
+          "card": "Trained",
+          "rarity": "Yaygın",
+          "limit": "7",
+          "effect": "Aktif yetenek bekleme süresini %5 azaltır.",
+          "bestPickWhen": "Kompozisyonunuz kurtarma veya güvenlik kontrolü için aktif yeteneklere bağlıysa.",
+          "priorityType": "Yetenek Kullanımı"
+        },
+        {
+          "card": "Perseverance",
+          "rarity": "Yaygın",
+          "limit": "3",
+          "effect": "Asansör geri alma süresine 5 saniye ekler.",
+          "bestPickWhen": "Takım arkadaşları tahliye pencerelerine sürekli geç kalıyorsa.",
+          "priorityType": "Çıkış Güvenliği"
+        },
+        {
+          "card": "Hyperactive",
+          "rarity": "Yaygın",
+          "limit": "5",
+          "effect": "Dayanıklılık yenilenmesini %5 artırır.",
+          "bestPickWhen": "Gaz Sızıntısı veya tekrarlayan takip baskısı takımınızı tüketiyorsa.",
+          "priorityType": "Dayanıklılık"
+        },
+        {
+          "card": "Hustle",
+          "rarity": "Yaygın",
+          "limit": "Sınırsız",
+          "effect": "Maksimum dayanıklılığı 5 artırır.",
+          "bestPickWhen": "Uzun dönüş yolları daha derin sprint rezervleri gerektiriyorsa.",
+          "priorityType": "Dayanıklılık"
+        },
+        {
+          "card": "Generosity",
+          "rarity": "Nadir",
+          "limit": "5",
+          "effect": "Daha yüksek seviyeli eşya çıkma olasılığını artırır.",
+          "bestPickWhen": "Mevcut kat kontrolü istikrarlıysa ve gelecekteki değere yatırım yapabiliyorsanız.",
+          "priorityType": "Eşya Değeri"
+        },
+        {
+          "card": "Lucky",
+          "rarity": "Nadir",
+          "limit": "3",
+          "effect": "Kat etkinliklerinin görünme şansını azaltır.",
+          "bestPickWhen": "Etkinlik baskısı sık sık rota çökmelerine neden oluyorsa.",
+          "priorityType": "Etkinlik Güvenliği"
+        },
+        {
+          "card": "Safety",
+          "rarity": "Nadir",
+          "limit": "Sınırsız",
+          "effect": "Daha yüksek sınıflı Enfektelerin görünme şansını azaltır.",
+          "bestPickWhen": "Takım, yüksek tehditli düşmanlara karşı çok fazla dövüş kaybediyorsa.",
+          "priorityType": "Tehdit Kontrolü"
+        },
+        {
+          "card": "Recover",
+          "rarity": "Efsanevi",
+          "limit": "Sınırsız",
+          "effect": "Hasar görmüş her Ajanı 1 Kalp iyileştirir.",
+          "bestPickWhen": "Riskli bir sonraki kattan önce birden fazla takım arkadaşı yaralıysa.",
+          "priorityType": "İyileştirme"
+        }
       ]
     },
-    "playerCount": {
-      "title": "Lucid Blocks Oyuncu Sayısı & Trendi",
-      "subtitle": "Canlı popülerlik anlık görüntüsü",
-      "stats": {
-        "now": {
-          "value": "6.047",
-          "label": "Şu anda oyuncu"
+    "lucidBlocksSteamDeckAndController": {
+      "title": "Toons Universe Eşya ve Mağaza Rehberi",
+      "displayType": "itemCards",
+      "intro": "İyileşmek, hedefleri hızlandırmak, kovalamacalardan sağ çıkmak ve riskli katları kapatmak için eşyaları kullanın. Alışkanlıktan harcama yapmak yerine, bir sonraki başarısızlık noktanıza göre satın alım yapın.",
+      "items": [
+        {
+          "name": "Kahve",
+          "category": "Dayanıklılık Eşyası",
+          "effect": "Dayanıklılık tüketimini %25 azaltır.",
+          "duration": "10 saniye",
+          "uses": "1",
+          "shopCost": "5 Tohum",
+          "shopQuantity": "5-6-7",
+          "floorSpawnable": "Evet",
+          "source": "Chekhov'un mağazası veya kat içi buluntu",
+          "buyAdvice": "Bir koşucu Enfekte olanı oyalamak zorunda kaldığında veya güvenli bir asansör dönüşünü zorunlu kıldığında satın alın."
         },
-        "peak24h": {
-          "value": "13.859",
-          "label": "24 saatlik zirve"
+        {
+          "name": "Nane",
+          "category": "Hacker Desteği",
+          "effect": "Hack hızını %20 artırır.",
+          "duration": "10 saniye",
+          "uses": "1",
+          "shopCost": "5 Tohum",
+          "shopQuantity": "5-6-7-8",
+          "floorSpawnable": "Evet",
+          "source": "Chekhov'un mağazası veya kat içi buluntu",
+          "buyAdvice": "Makineler katı yavaşlattığında ve bir oyuncu hızlı hack işlemleri için sabit durabildiğinde satın alın."
         },
-        "allTimePeak": {
-          "value": "15.272",
-          "label": "Tüm zamanların zirvesi"
+        {
+          "name": "Eldiven",
+          "category": "Çıkarma Desteği",
+          "effect": "Çıkarma hızını %25 artırır.",
+          "duration": "10 saniye",
+          "uses": "2",
+          "shopCost": "5 Tohum",
+          "shopQuantity": "7",
+          "floorSpawnable": "Evet",
+          "source": "Chekhov'un mağazası veya kat içi buluntu",
+          "buyAdvice": "Makine çalışma süresi mümkün olduğunda ve takımınız hedefleri art arda tamamlayabildiğinde mükemmel bir değer sağlar."
+        },
+        {
+          "name": "Çorap",
+          "category": "Akıl Sağlığı Eşyası",
+          "effect": "Maksimum akıl sağlığını %25 artırır.",
+          "duration": "Kalıcı",
+          "uses": "2",
+          "shopCost": "5 Tohum",
+          "shopQuantity": "6",
+          "floorSpawnable": "Evet",
+          "source": "Chekhov'un mağazası veya kat içi buluntu",
+          "buyAdvice": "Daha derin katlara, karartma baskısına veya uzun rota temposuna girmeden önce satın alın."
+        },
+        {
+          "name": "Waffle",
+          "category": "Acil Durum Hareketliliği",
+          "effect": "%30 hız ve tam dayanıklılık yenilenmesi sağlar.",
+          "duration": "10 saniye",
+          "uses": "1",
+          "shopCost": "Özel düşüş",
+          "shopQuantity": "Koşullu",
+          "floorSpawnable": "Koşullu",
+          "source": "Enfekte Weffle koşulları veya Weffle takım arkadaşı faydası",
+          "buyAdvice": "Kovalamaca molaları, asansör sprintleri veya düşük dayanıklılık toparlanmaları için saklayın."
+        },
+        {
+          "name": "Medkit",
+          "category": "Tam İyileşme",
+          "effect": "Tam sağlık barını iyileştirir.",
+          "duration": "Anlık",
+          "uses": "1",
+          "shopCost": "40 Tohum",
+          "shopQuantity": "2-3",
+          "floorSpawnable": "Evet",
+          "source": "Chekhov'un mağazası veya kat içi buluntu",
+          "buyAdvice": "Ciddi şekilde yaralanmış oyuncular veya hayatta kalması gereken destek oyuncuları için ayırın."
+        },
+        {
+          "name": "Yara Bandı",
+          "category": "Küçük İyileşme",
+          "effect": "1 kalp iyileştirir.",
+          "duration": "Anlık",
+          "uses": "1",
+          "shopCost": "20 Tohum",
+          "shopQuantity": "4-6",
+          "floorSpawnable": "Evet",
+          "source": "Chekhov'un mağazası veya kat içi buluntu",
+          "buyAdvice": "Bir sonraki katta tehlikeye girecek takım arkadaşları için ucuz bir dengeleme aracıdır."
+        },
+        {
+          "name": "USB",
+          "category": "Bilgisayar İlerlemesi",
+          "effect": "Hack makinelerinde %50 ilerleme sağlar.",
+          "duration": "Anlık",
+          "uses": "1",
+          "shopCost": "20 Tohum",
+          "shopQuantity": "5-6",
+          "floorSpawnable": "Evet",
+          "source": "Chekhov'un mağazası veya kat içi buluntu",
+          "buyAdvice": "Zaman baskısı yüksek olduğunda veya açıkta kalan bilgisayarları tutmak çok riskli olduğunda satın alın."
+        },
+        {
+          "name": "İngiliz Anahtarı",
+          "category": "Makine İlerlemesi",
+          "effect": "Çıkarma makinelerinde %50 ilerleme sağlar.",
+          "duration": "Anlık",
+          "uses": "1",
+          "shopCost": "20 Tohum",
+          "shopQuantity": "5",
+          "floorSpawnable": "Evet",
+          "source": "Chekhov'un mağazası veya kat içi buluntu",
+          "buyAdvice": "Tehlikeli makine konumlarını atlamak veya bir katı hızlıca kapatmak için kullanın."
+        },
+        {
+          "name": "Sunny'nin Mağazası",
+          "category": "Ara Mağaza",
+          "effect": "Çift numaralı katlar arasında rastgele üç eşya gösterir.",
+          "duration": "Kısa ara",
+          "uses": "Takım satın alma penceresi",
+          "shopCost": "Tohum",
+          "shopQuantity": "Ziyaret başına 3 eşya",
+          "floorSpawnable": "Mağaza aşaması",
+          "source": "Asansör arası",
+          "buyAdvice": "Anlık takım riskine göre seçim yapın: iyileşme, hedef hızı veya hareketlilik."
+        },
+        {
+          "name": "Chekhov'un Mağazası",
+          "category": "Ana Satıcı",
+          "effect": "Ajanlar, kozmetikler ve tur kurtaran faydalı eşyalar satar.",
+          "duration": "Lobi ve çift numaralı kat erişimi",
+          "uses": "Mağaza etkileşimi",
+          "shopCost": "Eşyaya göre değişir",
+          "shopQuantity": "Renge göre değişir",
+          "floorSpawnable": "Ana mağaza kaynağı",
+          "source": "Lobi tezgahı ve asansör ziyaretleri",
+          "buyAdvice": "Kozmetik veya düşük etkili satın alımlardan önce hayatta kalmaya ve hedef tutarlılığına öncelik verin."
         }
-      },
-      "milestones": [
+      ]
+    },
+    "lucidBlocksSettingsAndAccessibility": {
+      "title": "Toons Universe Araştırma, Ziynetler ve Amblemler",
+      "displayType": "progressCards",
+      "intro": "İlerleme; Malachor geliri, araştırma tamamlama ve 100. seviye amblem kilitlerinin açılmasıyla sağlanır. Bu yolları gerçekten oynadığınız role göre planlayın.",
+      "tracks": [
         {
-          "date": "30 Ocak 2026",
-          "title": "Steam'de demo yayınlandı",
-          "detail": "Herkese açık demo PC'de (Steam) kullanıma sunuldu."
+          "track": "Malachor Geliri",
+          "requirement": "Katları temizleyin, makineleri doldurun, araştırma kapsüllerini toplayın ve dönüm noktalarını tamamlayın.",
+          "reward": "Ajan ve kostüm satın alımları için ana para birimi.",
+          "knownValues": "Tipik değerler arasında kat temizlemeleri, makine tamamlamaları ve kart tabanlı çarpanlarla kapsül toplamaları yer alır.",
+          "bestUse": "Önce rolünüz için kritik olan ajanların kilidini açın, ardından uzun vadeli yükseltmelere yönelin."
         },
         {
-          "date": "8 Şubat 2026",
-          "title": "Tüm zamanların zirvesine ulaşıldı",
-          "detail": "Demo, kaydedilen en yüksek eş zamanlı oyuncu sayısına ulaştı."
+          "track": "Araştırma Kapsülleri",
+          "requirement": "Aktif turlar sırasında kapsülleri toplayın.",
+          "reward": "Doğrudan Malachor ve enfekte araştırma ilerlemesi.",
+          "knownValues": "Kapsül değeri, ekibiniz istikrarlı bir rota izleyebildiğinde daha iyi ölçeklenir.",
+          "bestUse": "Makine temposundan veya hayatta kalma şansından ödün vermeden güvenli kapsülleri alın."
+        },
+        {
+          "track": "Enfekte Araştırma Tamamlama",
+          "requirement": "Enfekte araştırma yollarında %100'e ulaşın.",
+          "reward": "Tamamlama dönüm noktalarına bağlı araştırma ziyneti kilitleri.",
+          "knownValues": "Uzun süreli bir hedef; ilerleme, istikrarlı hayatta kalma ekiplerinde en güçlüdür.",
+          "bestUse": "Temizleme oranınız güvenilir hale geldikten sonra bunu ikincil bir hedef olarak görün."
+        },
+        {
+          "track": "Ajan Seviyesi Dönüm Noktaları",
+          "requirement": "Tekrarlanan kat turlarıyla ajanların seviyesini yükseltin.",
+          "reward": "Dönüm noktası Malachor ödülleri ve 100. seviye amblem kilitleri.",
+          "knownValues": "Dönüm noktaları seviyeler boyunca ölçeklenir ve her ajanın amblemiyle doruğa ulaşır.",
+          "bestUse": "Belirli bir dizilim etkisini hedeflerken bir ajanı 100. seviyeye odaklayın."
+        },
+        {
+          "track": "Amblem Dizilimi Sınırı",
+          "requirement": "100. seviye ajanlardan amblemlerin kilidini açın.",
+          "reward": "Turlarda kalıcı tarzda dizilim bonusları.",
+          "knownValues": "Aynı anda yalnızca iki amblem kuşanılabilir.",
+          "bestUse": "Bir hayatta kalma amblemini bir görev hızı amblemiyle eşleştirin."
+        },
+        {
+          "track": "Nimbus ve Weffle Amblemleri",
+          "requirement": "Nimbus veya Weffle ile 100. seviyeye ulaşın.",
+          "reward": "Daha düşük dayanıklılık tüketimi veya görev odaklı Waffle faydası.",
+          "knownValues": "Koşucu ve destek ağırlıklı ekipler için mükemmeldir.",
+          "bestUse": "Takımınız kovalama anlarında hız kaybettiğinde öncelik verin."
+        },
+        {
+          "track": "Teipo ve Squiddle Amblemleri",
+          "requirement": "Teipo veya Squiddle ile 100. seviyeye ulaşın.",
+          "reward": "Takım dayanıklılık artışları ve tahliye başlangıç avantajları.",
+          "knownValues": "Her iki amblem de görev hızını doğrudan artırır.",
+          "bestUse": "Temizleme hızının hayatta kalmayı belirlediği makine ağırlıklı turlarda güçlüdür."
+        },
+        {
+          "track": "Selena ve Patcher Amblemleri",
+          "requirement": "Selena veya Patcher ile 100. seviyeye ulaşın.",
+          "reward": "Görev hızı güçlendirmeleri ve periyodik iyileştirme desteği.",
+          "knownValues": "Sürekli küçük hasarlar alan ekipler için kullanışlıdır.",
+          "bestUse": "Orta katlardan sonra sürdürülebilirlik darboğazınız olduğunda bunları kullanın."
+        },
+        {
+          "track": "Koi, Guido ve Rossum, Fizzle Amblemleri",
+          "requirement": "Bu ajanlarla 100. seviyeye ulaşın.",
+          "reward": "Bekleme süresi rahatlatma, bilgisayar vurgulamaları ve erken katlarda akıl sağlığı koruması.",
+          "knownValues": "Koordineli rotasyon için bilgi ve tempo amblemleri.",
+          "bestUse": "Zaten tutarlı bir şekilde iletişim kuran ekiplerde en iyisidir."
+        },
+        {
+          "track": "Discard, Copper ve Phantasia Amblemleri",
+          "requirement": "Bu ajanlarla 100. seviyeye ulaşın.",
+          "reward": "Artırılmış eşya etkisi, erken katlarda kalkan sağlama ve görev tetiklemeli iyileştirme.",
+          "knownValues": "Çok sayıda görev tamamlanan uzun seanslar için yüksek değer.",
+          "bestUse": "Yıpranmanın genellikle turları bitirdiği daha derin katları zorlarken kullanın."
+        }
+      ]
+    },
+    "lucidBlocksUpdatesAndPatchNotes": {
+      "title": "Toons Universe Çıkış Tarihi ve Güncellemeler",
+      "displayType": "timeline",
+      "intro": "Alfa durumunu, fragman dönüm noktalarını, gelecek mekanikleri ve resmi kanallardan gelen çıkış sinyallerini tek bir zaman çizelgesinde takip edin.",
+      "entries": [
+        {
+          "updateArea": "Mevcut Roblox Durumu",
+          "type": "Platform",
+          "currentInfo": "Roblox deneyimi, Toon Shenanigans tarafından Toons Universe [ALPHA] olarak listelenmiştir.",
+          "playerImpact": "Roblox sayfasını sürüm durumu, sunucular ve mağaza içeriği için canlı kaynak olarak kabul edin.",
+          "watchSource": "Roblox oyun sayfası",
+          "refreshTrigger": "Başlık, açıklama, sunucu veya mağaza değişiklikleri"
+        },
+        {
+          "updateArea": "Oyunun Konusu",
+          "type": "Design Direction",
+          "currentInfo": "Oyun INNOVA'da geçiyor; kaynak rotasyonu, tehlikeler ve ajan takımı faydasına odaklanıyor.",
+          "playerImpact": "Hayatta kalma rotasının ve makine temposunun temel strateji konuları olmaya devam ettiğini doğrular.",
+          "watchSource": "Roblox oyun açıklaması",
+          "refreshTrigger": "Oynanış konusu veya görev döngüsü güncellemeleri"
+        },
+        {
+          "updateArea": "Resmi Fragman",
+          "type": "Media",
+          "currentInfo": "Resmi fragman Toon Shenanigans'ın YouTube kanalında yayınlanmaktadır.",
+          "playerImpact": "Tonu ve tempoyu öğrenen yeni oyuncular için en iyi hızlı görsel bilgilendirme.",
+          "watchSource": "YouTube fragmanı",
+          "refreshTrigger": "Yeni fragman veya lansman medyası değişikliği"
+        },
+        {
+          "updateArea": "Çıkış Zaman Çizelgesi İşareti",
+          "type": "Timeline",
+          "currentInfo": "Sayfa alfa etiketli kalmaya devam ederken, Nisan 2026'da karakter eklemeleri kaydedildi.",
+          "playerImpact": "Canlı durum için alfa etiketini, erken yol haritası takibi için ise eklemeleri kullanın.",
+          "watchSource": "Roblox sayfası ve karakter kayıtları",
+          "refreshTrigger": "Resmi beta veya tam sürüm duyurusu"
+        },
+        {
+          "updateArea": "Oynanabilir Ajan Eklentileri",
+          "type": "Roster",
+          "currentInfo": "Son eklemeler iyileştirme, kalkan sağlama ve keşif rollerini şekillendiriyor.",
+          "playerImpact": "Rol dengesi değişiklikleri takım kompozisyonunu ve kilit açma önceliğini etkiler.",
+          "watchSource": "Ajan sayfaları ve resmi paylaşımlar",
+          "refreshTrigger": "Yetenek setleri, maliyetler veya kilit açma kuralı değişiklikleri"
+        },
+        {
+          "updateArea": "Gelecek Karakter Önizlemeleri",
+          "type": "Preview",
+          "currentInfo": "Devam eden önizleme materyallerinde birden fazla karakter modeli güncellemesi görülebilir.",
+          "playerImpact": "Önizleme dalgaları, gelecekteki olası kilit açmaları ve rol yeniden dengelemelerini gösterir.",
+          "watchSource": "Gelecek içerik kanalı",
+          "refreshTrigger": "Önizlenen karakterin oynanabilir hale gelmesi"
+        },
+        {
+          "updateArea": "Gelecek Enfekte Önizlemeleri",
+          "type": "Enemy Preview",
+          "currentInfo": "Önizleme güncellemelerinde yeni enfekte varyantları gösteriliyor.",
+          "playerImpact": "Düşman eklemeleri; rota, akıl sağlığı ve eşya önceliğinde büyük değişikliklere neden olabilir.",
+          "watchSource": "Gelecek içerik kanalı",
+          "refreshTrigger": "Enfekte davranışının canlı sürüme dahil edilmesi"
+        },
+        {
+          "updateArea": "Yeni Kat Tanıtımları",
+          "type": "Map Preview",
+          "currentInfo": "Laboratuvar katı tanıtım varyantları şimdiden dolaşımda.",
+          "playerImpact": "Harita değişiklikleri makine yollarını, kapsül güvenliğini ve asansör zamanlamasını değiştirir.",
+          "watchSource": "Gelecek içerik kanalı",
+          "refreshTrigger": "Kat adı, çıkış tarihi veya mekanik ifşası"
+        },
+        {
+          "updateArea": "Gelecek Mekanikler",
+          "type": "System Preview",
+          "currentInfo": "Önizlenen sistemler arasında eşya transferi, mağaza oylaması ve asansör kartı seçimi yer alıyor.",
+          "playerImpact": "Bu sistemler ekonomi kararlarını ve takım koordinasyon kurallarını değiştirecek.",
+          "watchSource": "Resmi önizlemeler ve yama paylaşımları",
+          "refreshTrigger": "Mekaniğin nihai kurallarla oynanabilir hale gelmesi"
+        }
+      ]
+    },
+    "lucidBlocksCrashFixAndTroubleshooting": {
+      "title": "Toons Universe Resmi Bağlantıları ve Topluluğu",
+      "displayType": "linkCards",
+      "intro": "Oynanış erişimi, sosyal duyurular, fragmanlar ve referans navigasyonu için bu resmi adresleri kullanın.",
+      "links": [
+        {
+          "name": "Roblox Oyun Sayfası",
+          "platform": "Roblox",
+          "href": "https://www.roblox.com/games/89788834648171/Toons-Universe",
+          "description": "Canlı alfa durumu, sunucular ve oyun girişi ile ana oyun sayfası.",
+          "bestFor": "Oynamak ve mevcut genel sürüm durumunu kontrol etmek için en iyisi"
+        },
+        {
+          "name": "Toon Shenanigans Topluluğu",
+          "platform": "Roblox Group",
+          "href": "https://www.roblox.com/communities/35697183/Toon-Shenanigans",
+          "description": "Deneyime bağlı resmi Roblox içerik üreticisi grubu.",
+          "bestFor": "İçerik üreticisi tarafındaki Roblox etkinliğini takip etmek için en iyisi"
+        },
+        {
+          "name": "Resmi Discord Daveti",
+          "platform": "Discord",
+          "href": "https://discord.com/invite/toonsuniverse",
+          "description": "Topluluk paylaşımları, duyurular ve ön izlemeler için en hızlı kanal.",
+          "bestFor": "Gerçek zamanlı güncelleme takibi ve tartışma için en iyisi"
+        },
+        {
+          "name": "Resmi X Hesabı",
+          "platform": "X",
+          "href": "https://x.com/toonsuniverseco",
+          "description": "Kısa güncelleme paylaşımları ve genel duyurular için resmi sosyal medya akışı.",
+          "bestFor": "Hızlı sosyal duyurular için en iyisi"
+        },
+        {
+          "name": "Toon Shenanigans YouTube",
+          "platform": "YouTube",
+          "href": "https://www.youtube.com/@toonshenanigans",
+          "description": "Fragmanlar, ön izlemeler ve geliştirici günlüğü tarzı yüklemeler için resmi kanal.",
+          "bestFor": "Resmi videoları ve model ön izlemelerini izlemek için en iyisi"
+        },
+        {
+          "name": "Resmi Fragman",
+          "platform": "YouTube",
+          "href": "https://www.youtube.com/watch?v=btv_z92P180",
+          "description": "Oynanış tonunu ve hayatta kalma döngüsünü tanıtan ana fragman.",
+          "bestFor": "Yeni oyuncular için hızlı alışma süreci için en iyisi"
+        },
+        {
+          "name": "Topluluk Wiki Merkezi",
+          "platform": "Fandom Wiki",
+          "href": "https://toons-universe-roblox.fandom.com/wiki/Toon%27s_Universe_Wiki",
+          "description": "Toon'lar, enfekte sayfaları, katlar, eşyalar ve ilerleme terimleri için referans merkezi.",
+          "bestFor": "Mekanikleri ve terminolojiyi çapraz kontrol etmek için en iyisi"
         }
       ]
     }
   },
   "faq": {
-    "title": "Sıkça Sorulan",
-    "titleHighlight": "Sorular",
-    "subtitle": "Lucid Blocks hakkında bilmeniz gereken her şey",
+    "title": "Toons Universe",
+    "titleHighlight": "SSS",
+    "subtitle": "Kodlar, ilerleme ve tur stratejisi için hızlı yanıtlar",
     "questions": [
       {
-        "question": "Lucid Blocks demosunu nasıl indirebilirim?",
-        "answer": "Steam mağaza sayfasını ziyaret edin ve 'Demo İndir'e tıklayın. Demo ücretsizdir ve indirmek için 2,62 GiB, disk alanı için 4,88 GiB gerektirir."
+        "question": "Toons Universe kodları ne sıklıkla değişir?",
+        "answer": "Kod paylaşımları düzensizdir, bu nedenle resmi kanalları ve güncelleme takipçilerini haftalık olarak kontrol etmek en güvenilir yöntemdir."
       },
       {
-        "question": "Lucid Blocks'u tek başıma mı oynayabilirim yoksa arkadaşlara mı ihtiyacım var?",
-        "answer": "Lucid Blocks hem tek oyunculu hem de 6 oyuncuya kadar işbirliğini destekler. Tek başına oynamak daha zordur ancak mümkündür."
+        "question": "Solo turlar için hangi başlangıç karakteri daha iyidir?",
+        "answer": "Nimbus genellikle en bağışlayıcı solo başlangıç karakteridir çünkü dayanıklılık yenilenmesi kovalama hatalarını telafi etmeye yardımcı olur."
       },
       {
-        "question": "Lucid Blocks'da Yüksek Cüce görevleri nelerdir?",
-        "answer": "Yüksek Cüce, 'TV'yi kır', 'tuvaleti su baskını yap' veya 'belirli eşyaları çal' gibi hedefler atayan patronunuzdur. Ekstra ödüller için bunları tamamlayın."
+        "question": "Panik modu başladığında ne yapmalıyız?",
+        "answer": "Yan yağmalamayı durdurun, güvenli bir dönüş rotası belirleyin ve tüm ekibi derhal asansörle tahliyeye yönlendirin."
       },
       {
-        "question": "Lucid Blocks için modları nasıl kurarım?",
-        "answer": "BepInEx 5'i kurun, oyunu bir kez başlatın, ardından mod DLL'lerini BepInEx/plugins/ klasörüne yerleştirin. Çok oyunculu mod için tüm oyuncuların aynı modlara ihtiyacı vardır."
+        "question": "Malachor öncelikle kozmetiklere mi yoksa ajanlara mı harcanmalı?",
+        "answer": "Para birimi önce rol açısından kritik ajan kilitlerini açmaya odaklandığında, erken aşama ilerlemesi genellikle daha sorunsuz olur."
       },
       {
-        "question": "Lucid Blocks kontrol cihazlarını destekliyor mu?",
-        "answer": "Evet! Temel kontrol cihazı desteği için oyun içi ayarları kullanın veya tam UI gezinmesi için Nexus Mods'tan Kontrol Cihazı Modunu kurun."
+        "question": "Genel lobi tamamlama oranlarını nasıl artırabiliriz?",
+        "answer": "Makine görevlerini basit tutun, aşırı bölünmekten kaçının ve dayanıklılık tükenmeden önce destek yeteneklerini dönüşümlü kullanın."
       },
       {
-        "question": "Lucid Blocks için oyuncu sayısı nedir?",
-        "answer": "Şubat 2026 itibarıyla, Lucid Blocks ortalama 6.000'den fazla eş zamanlı oyuncuya sahip ve 8 Şubat 2026'da 15.272 zirveye ulaştı."
+        "question": "Resmi güncellemeleri ve fragman paylaşımlarını nerede bulabilirim?",
+        "answer": "Güncelleme takibi için Roblox deneyim sayfasını, resmi Discord'u ve Toon Shenanigans YouTube kanalını kullanın."
       }
     ]
   },
   "cta": {
-    "title": "Soygun Yapmaya Hazır mısınız?",
-    "description": "İşbirliği grupları, güncellemeler ve mod tartışmaları için Discord'da Lucid Blocks topluluğuna katılın!",
-    "joinCommunity": "Discord'a Katıl",
-    "joinGame": "Steam'de Demo Al"
+    "title": "Toons Universe turlarına hazır mısınız?",
+    "description": "Güncelleme uyarıları için Discord topluluğuna katılın, ardından daha net bir kat planıyla Roblox turları için sıraya girin.",
+    "joinCommunity": "Toons Universe Discord'una Katıl",
+    "joinGame": "Roblox'ta Toons Universe Oyna"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocks gizli soygunları, işbirliği stratejileri, modlar ve topluluk rehberleri için eksiksiz kaynak merkeziniz.",
+    "title": "Toons Universe Wiki",
+    "description": "Kodlar, ajanlar, enfekte rehberleri, kat sistemleri ve ilerleme planlaması için odaklanmış bir kaynak merkezi.",
     "resources": "Kaynaklar",
     "community": "Topluluk",
     "legal": "Yasal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Topluluğu",
-    "steamStore": "Steam Mağazası",
+    "twitter": "Reddit",
+    "steamCommunity": "YouTube Kanalı",
+    "steamStore": "Roblox'ta Oyna",
     "about": "Hakkında",
     "privacy": "Gizlilik Politikası",
-    "terms": "Hizmet Şartları",
+    "terms": "Kullanım Koşulları",
     "copyrightNotice": "Telif Hakkı",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocks geliştiricileriyle bağlantılı değildir.",
-    "disclaimer": "Resmi olmayan hayran yapımı kaynak web sitesi."
+    "copyright": "© 2026 Toons Universe Wiki. Roblox Corporation veya Toon Shenanigans ile bağlantılı değildir.",
+    "disclaimer": "Resmi olmayan, hayran yapımı kaynak web sitesi."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Rehberleri",
-      "description": "Başlangıç seviyesinden ileri düzey Apotheosis stratejilerine kadar eksiksiz oynanış rehberleri. Hayatta kalma ve üretimde ustalaşın.",
-      "metaTitle": "Lucid Blocks Rehberleri - Başlangıçtan İleri Düzey Stratejilere",
-      "metaDescription": "Başlangıç ipuçlarını, Apotheosis sistemini, hayatta kalma stratejilerini ve gerçeküstü sandbox dünyasında ustalaşmak için uzman taktiklerini kapsayan eksiksiz Lucid Blocks rehberleri.",
-      "categoryLabel": "OYUN REHBERLERİ",
-      "whatIs": "Rehberler Nedir?",
-      "whatIsDescription": "Oynanış mekaniklerini, hayatta kalma stratejilerini ve Apotheosis üretim sistemini kapsayan kapsamlı rehberler. İlk adımlardan ileri tekniklere kadar her şeyi öğrenin.",
-      "why": "Neden rehberleri okumalısınız?",
+    "codes": {
+      "title": "Toons Universe Kodları",
+      "description": "Erken ilerlemeyi ve takım yükseltmelerini hızlandırmak için aktif kodları mücevherler, istatistik çipleri ve yeniden çevirmeler için kullanın.",
+      "metaTitle": "Toons Universe Kodları - Ücretsiz Mücevherler, Çipler ve Yeniden Çevirmeler",
+      "metaDescription": "Mücevherler, istatistik çipleri ve yeniden çevirmeler için aktif Toons Universe kodlarını bulun. İlerlemenizi hızla artırmak için en son kod listesini kullanın.",
+      "categoryLabel": "KODLARI KULLAN",
+      "whatIs": "Kodlar Nedir?",
+      "whatIsDescription": "Kodlar, geliştiriciler tarafından yayınlanan sınırlı süreli ödüllerdir. Genellikle ekstra uğraş gerektirmeden daha güçlü turlar oluşturmanıza yardımcı olan mücevherler, istatistik çipleri ve yeniden çevirmeler sağlarlar.",
+      "why": "Neden bu sayfayı kullanmalısınız?",
       "whySteps": {
-        "step1Title": "Temel Mekanikleri Öğrenin",
-        "step1Description": "Apotheosis sistemini anlayın ve yaygın başlangıç hatalarından kaçının",
-        "step2Title": "Hızlı İlerleme",
-        "step2Description": "Gerçeküstü dünyada hayatta kalmak ve gelişmek için kanıtlanmış yolları izleyin",
-        "step3Title": "Stratejilerde Ustalaşın",
-        "step3Description": "Keşif ve üretim için ileri düzey taktikler geliştirin"
+        "step1Title": "Ödülleri hızla talep edin",
+        "step1Description": "Her şeyi tek seferde kullanabilmek için aktif ödüllerin temiz bir listesini alın.",
+        "step2Title": "Süre sonu aralıklarını takip edin",
+        "step2Description": "Etkinliklere veya dönüm noktalarına bağlı kısa süreli kod paylaşımlarını kaçırmamak için güncelleme zamanlamasını kontrol edin.",
+        "step3Title": "Harcamaları daha iyi planlayın",
+        "step3Description": "Bonus mücevherleri ve çipleri sonraki turlarınız için en önemli olan yükseltmelerde kullanın."
       },
       "featured": "Öne Çıkanlar ve Temel Bilgiler",
-      "all": "Tüm Rehberler"
+      "all": "Tüm Kodlar"
     },
-    "crafting": {
-      "title": "Lucid Blocks Üretim",
-      "description": "Öz mekanikleri, tarifler ve güçlü eşyalar için üretim stratejileri ile Apotheosis füzyon sisteminde ustalaşın.",
-      "metaTitle": "Lucid Blocks Üretim - Apotheosis Sistemi ve Tarifler",
-      "metaDescription": "Lucid Blocks Apotheosis üretim sisteminde ustalaşın. Öz mekaniklerini, füzyon tariflerini ve güçlü araçlar ile silahlar oluşturma stratejilerini öğrenin.",
-      "categoryLabel": "ÜRETİM SİSTEMİ",
-      "whatIs": "Üretim Nedir?",
-      "whatIsDescription": "Apotheosis sistemi, yeni tarifler keşfetmek için altı adede kadar eşyayı birleştirdiğiniz benzersiz bir öz odaklı füzyon mekaniğidir. Sabit üretim menüleri yoktur; deney yapmak anahtardır.",
-      "why": "Neden üretimde ustalaşmalısınız?",
+    "characters": {
+      "title": "Toons Universe Karakterleri",
+      "description": "Solo ve takım turları için en iyi kadroyu seçebilmeniz için ajanları karşılaştırın, kilit açma yollarını ve rol güçlerini öğrenin.",
+      "metaTitle": "Toons Universe Karakterleri - Ajan Rolleri ve Kilit Açma Rehberi",
+      "metaDescription": "Her tur stili için rol dağılımları, kilit açma yöntemleri ve takım uyumu önerileri içeren Toons Universe karakter rehberlerini keşfedin.",
+      "categoryLabel": "AJAN KADROSU",
+      "whatIs": "Karakterler Nedir?",
+      "whatIsDescription": "Karakterler; farklı fayda profillerine, ölçeklenme modellerine ve sinerji seçeneklerine sahip oynanabilir ajanlardır. Doğru olanı seçmek temponuzu, güvenliğinizi ve hedef kontrolünüzü değiştirir.",
+      "why": "Neden karakter rehberlerini okumalısınız?",
       "whySteps": {
-        "step1Title": "Güçlü Eşyaların Kilidini Açın",
-        "step1Description": "Füzyon yoluyla temel araçları, silahları ve hareket ekipmanlarını keşfedin",
-        "step2Title": "Özleri Anlayın",
-        "step2Description": "Eşya özlerinin öngörülebilir sonuçlar oluşturmak için nasıl birleştiğini öğrenin",
-        "step3Title": "Kaynakları Optimize Edin",
-        "step3Description": "Ucuz malzemelerden çıktıyı maksimize etmek için seyreltme mekaniklerini kullanın"
+        "step1Title": "Doğru başlangıç karakterini seçin",
+        "step1Description": "Hesap gelişiminin erken aşamalarında hangi ajanların kontrol edilmesinin en kolay olduğunu anlayın.",
+        "step2Title": "Daha güçlü takımlar kurun",
+        "step2Description": "İstikrarlı co-op temizlemeleri için destek, kontrol ve hedef rollerini eşleştirin.",
+        "step3Title": "Yükseltmeleri optimize edin",
+        "step3Description": "Para birimlerini, tercih ettiğiniz stratejiyle iyi ölçeklenen ajanlara harcayın."
       },
       "featured": "Öne Çıkanlar ve Temel Bilgiler",
-      "all": "Tüm Üretim Rehberleri"
+      "all": "Tüm Karakterler"
     },
-    "items": {
-      "title": "Lucid Blocks Eşyaları",
-      "description": "Üretim tarifleri ve kullanım ipuçlarıyla birlikte araçları, silahları, hareket ekipmanlarını ve depolama çözümlerini kapsayan ayrıntılı eşya rehberleri.",
-      "metaTitle": "Lucid Blocks Eşyaları - Araçlar, Silahlar ve Ekipman Rehberi",
-      "metaDescription": "Araçlar, silahlar, hareket ekipmanları ve depolama dahil olmak üzere Lucid Blocks için eksiksiz eşya veritabanı. Her eşyayı nasıl üreteceğinizi ve etkili bir şekilde kullanacağınızı öğrenin.",
-      "categoryLabel": "EŞYALAR VE EKİPMANLAR",
-      "whatIs": "Eşyalar Nedir?",
-      "whatIsDescription": "Araçlar, silahlar, hareket ekipmanları ve işlevsel eşyalar için kapsamlı rehberler. Üretim tariflerini, kullanım stratejilerini ve en uygun kombinasyonları öğrenin.",
-      "why": "Neden eşya rehberlerine bakmalısınız?",
+    "infected": {
+      "title": "Toons Universe Enfekteleri",
+      "description": "Farklı katlardaki enfekte tehditleri için düşman davranışlarını, baskı pencerelerini ve karşı oyun rotalarını öğrenin.",
+      "metaTitle": "Toons Universe Enfekteleri - Düşman Modelleri ve Karşı Oyun",
+      "metaDescription": "Daha güvenli kat ilerlemesi için davranış notları, tehlike tetikleyicileri ve pratik karşı oyunlarla Toons Universe enfekte düşmanlarını inceleyin.",
+      "categoryLabel": "DÜŞMAN İSTİHBARATI",
+      "whatIs": "Enfekteler Nedir?",
+      "whatIsDescription": "Enfekteler; benzersiz hareket, tespit ve cezalandırma modellerine sahip düşman tehditleridir. Her varyant farklı konumlandırma, zamanlama ve takım iletişimi gerektirir.",
+      "why": "Neden enfekteleri incelemelisiniz?",
       "whySteps": {
-        "step1Title": "Üretim Tariflerini Öğrenin",
-        "step1Description": "Apotheosis kullanarak temel araçları ve silahları nasıl üreteceğinizi keşfedin",
-        "step2Title": "Ekipmanı Optimize Edin",
-        "step2Description": "Oyun tarzınız ve ilerleme aşamanız için en iyi eşyaları seçin",
-        "step3Title": "Hayatta Kalmayı Geliştirin",
-        "step3Description": "Tehlikeli dünyada gezinmek için hareket ekipmanları ve silahlar kuşanın"
+        "step1Title": "Önlenebilir yok oluşları azaltın",
+        "step1Description": "Yüksek riskli modelleri erkenden tanıyın ve tehlike tırmanmadan önce etrafından dolaşın.",
+        "step2Title": "Hedef çalışma süresini iyileştirin",
+        "step2Description": "Düşman baskısını yönetirken makineleri ve kat hedeflerini aktif tutun.",
+        "step3Title": "Co-op çağrılarını koordine edin",
+        "step3Description": "Uçurtma (kiting), koruma (peeling) veya tehdit hatlarını sıfırlama sırasında net rol atamaları kullanın."
       },
       "featured": "Öne Çıkanlar ve Temel Bilgiler",
-      "all": "Tüm Eşyalar"
+      "all": "Tüm Enfekte Rehberleri"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biyomları",
-      "description": "Her biyom için dünya bölgelerini, çevresel özellikleri, kaynak konumlarını ve hayatta kalma ipuçlarını keşfedin.",
-      "metaTitle": "Lucid Blocks Biyomları - Dünya Bölgeleri ve Keşif",
-      "metaDescription": "Tiamana Leylines, Fog Meadow ve gerçeküstü bölgeler dahil olmak üzere Lucid Blocks biyomlarını keşfedin. Kaynakları bulun, tehlikelerden kaçının ve sonsuz dünyada gezinin.",
-      "categoryLabel": "DÜNYA BÖLGELERİ",
-      "whatIs": "Biyomlar Nedir?",
-      "whatIsDescription": "Farklı dünya bölgeleri, çevresel özellikler, kaynak dağılımı ve tehlike bölgeleri rehberleri. Her alan için ne bekleyeceğinizi ve nasıl hazırlanacağınızı öğrenin.",
-      "why": "Neden biyomları keşfetmelisiniz?",
+    "guide": {
+      "title": "Toons Universe Rehberi",
+      "description": "Yeni başlayanlar ve deneyimli oyuncular için adım adım ilerleme, hayatta kalma döngüleri ve kat stratejisi notları.",
+      "metaTitle": "Toons Universe Rehberi - Başlangıç ve İleri Düzey İlerleme",
+      "metaDescription": "Başlangıç kurulumu, hayatta kalma taktikleri, kat rotaları ve pratik ilerleme kararlarını kapsayan Toons Universe rehber içeriğini okuyun.",
+      "categoryLabel": "OYUN REHBERİ",
+      "whatIs": "Rehber kategorisi nedir?",
+      "whatIsDescription": "Rehber kategorisi, ilk oturum temellerinden uzun turlar için verimli rotalara ve tutarlı kaynak kazanımlarına kadar geniş strateji içeriklerini toplar.",
+      "why": "Neden rehber içeriğini kullanmalısınız?",
       "whySteps": {
-        "step1Title": "Kaynakları Bulun",
-        "step1Description": "Her bölgeye özgü nadir malzemeleri ve özleri bulun",
-        "step2Title": "Tehlikelerden Kaçının",
-        "step2Description": "Çevresel tehlikeleri ve düşman yaratıkları anlayın",
-        "step3Title": "Keşfi Planlayın",
-        "step3Description": "Her biyom türü için doğru araçları ve ekipmanları hazırlayın"
+        "step1Title": "Net bir planla başlayın",
+        "step1Description": "Maliyetli deneme yanılma yoluyla öğrenmek yerine yapılandırılmış oyun başı önceliklerini takip edin.",
+        "step2Title": "Turları istikrarlı bir şekilde ölçeklendirin",
+        "step2Description": "Üst katlarda da yararlı olmaya devam eden tekrarlanabilir rota ve hedef alışkanlıklarını uygulayın.",
+        "step3Title": "Güncellemelerden sonra uyum sağlayın",
+        "step3Description": "Mekanikler ve denge değiştikçe rota mantığını ve strateji temellerini yeniden gözden geçirin."
       },
       "featured": "Öne Çıkanlar ve Temel Bilgiler",
-      "all": "Tüm Biyomlar"
+      "all": "Tüm Rehber Makaleleri"
     },
-    "building": {
-      "title": "Lucid Blocks İnşa Etme",
-      "description": "Master Qualia kişisel boyutları, üs inşası, depolama yönetimi ve yaratıcı inşa tekniklerinde ustalaşın.",
-      "metaTitle": "Lucid Blocks İnşa Etme - Qualia ve Üs İnşası",
-      "metaDescription": "Qualia kişisel boyutları, üs inşası, depolama çözümleri ve yaratıcı inşa teknikleri ile Lucid Blocks inşa etme sisteminde ustalaşın.",
-      "categoryLabel": "İNŞA VE ÜSLER",
-      "whatIs": "İnşa Etme Nedir?",
-      "whatIsDescription": "Qualia kişisel boyut sistemi, üs inşası, depolama yönetimi ve yaratıcı inşa rehberleri. Gerçeküstü dünyada güvenli limanınızı oluşturmayı öğrenin.",
-      "why": "Neden üs inşa etmelisiniz?",
+    "emblems": {
+      "title": "Toons Universe Amblemleri",
+      "description": "Her turu maksimize etmek için amblem efektlerini, istifleme davranışlarını ve teçhizat seçimlerini analiz edin.",
+      "metaTitle": "Toons Universe Amblemleri - Efektler, İstifleme ve Teçhizatlar",
+      "metaDescription": "Saldırı, fayda ve hayatta kalma için efekt detayları, istifleme kuralları ve teçhizat planlaması içeren Toons Universe amblem rehberlerini inceleyin.",
+      "categoryLabel": "AMBLEM DİZİLİMLERİ",
+      "whatIs": "Amblemler Nedir?",
+      "whatIsDescription": "Amblemler, pasif güçlendirmeler ve fayda efektleri aracılığıyla turunuzu şekillendiren dizilim değiştiricileridir. Hasar eğrinizi, istikrarınızı ve kaynak verimliliğinizi değiştirebilirler.",
+      "why": "Neden amblemleri karşılaştırmalısınız?",
       "whySteps": {
-        "step1Title": "Güvenli Alanlar Oluşturun",
-        "step1Description": "Depolama ve üretim operasyonları için güvenli üsler kurun",
-        "step2Title": "Kaynakları Yönetin",
-        "step2Description": "Depolama çözümleriyle malzemeleri verimli bir şekilde düzenleyin",
-        "step3Title": "Qualia Kilidini Açın",
-        "step3Description": "Üstün kolaylık için kişisel cep boyutlarına erişin"
+        "step1Title": "Gerçek değeri anlayın",
+        "step1Description": "Yüksek etkili efektleri, sadece kağıt üzerinde güçlü görünen seçeneklerden ayırın.",
+        "step2Title": "Kötü kombinasyonlardan kaçının",
+        "step2Description": "Hangi karışımların çakıştığını ve hangi istiflerin güvenilir sinerji oluşturduğunu öğrenin.",
+        "step3Title": "Hedefe göre ayarlayın",
+        "step3Description": "Farm turları, boss baskısı veya güvenli kat tırmanışı için amblem önceliklerini değiştirin."
       },
       "featured": "Öne Çıkanlar ve Temel Bilgiler",
-      "all": "Tüm İnşa Rehberleri"
+      "all": "Tüm Amblem Rehberleri"
     },
-    "support": {
-      "title": "Lucid Blocks Destek",
-      "description": "Teknik destek, platform uyumluluğu, performans optimizasyonu ve yaygın sorunlar için sorun giderme.",
-      "metaTitle": "Lucid Blocks Destek - Teknik Yardım ve Çözümler",
-      "metaDescription": "Steam Deck kurulumu, çökme düzeltmeleri, performans optimizasyonu ve platform uyumluluk rehberleri dahil olmak üzere Lucid Blocks için teknik destek alın.",
-      "categoryLabel": "TEKNİK DESTEK",
-      "whatIs": "Destek Nedir?",
-      "whatIsDescription": "Platform uyumluluğu, performans optimizasyonu, çökme düzeltmeleri ve yaygın sorunları kapsayan teknik rehberler. Steam Deck, çok oyunculu soruları ve ayarlar hakkında yardım alın.",
-      "why": "Neden desteği kontrol etmelisiniz?",
+    "stats": {
+      "title": "Toons Universe İstatistikleri",
+      "description": "Yükseltmelerinizin tutarlı getiriler sağlaması için dayanıklılık, akıl sağlığı, kontroller ve ölçeklenme sınır noktalarını anlayın.",
+      "metaTitle": "Toons Universe İstatistikleri - Ölçeklenme, Kontroller ve Yükseltme Öncelikleri",
+      "metaDescription": "Verimli ilerleme için dayanıklılık, akıl sağlığı, makine kontrolleri ve yükseltme sınır noktaları dahil Toons Universe istatistik sistemlerini öğrenin.",
+      "categoryLabel": "İSTATİSTİK SİSTEMİ",
+      "whatIs": "İstatistikler Nedir?",
+      "whatIsDescription": "İstatistikler; hareket, hayatta kalma, makine kullanımı ve baskı altındaki istikrar konusundaki temel performansınızı belirler. Akıllı dağılım hem hızı hem de güvenliği artırır.",
+      "why": "Neden istatistikleri optimize etmelisiniz?",
       "whySteps": {
-        "step1Title": "Teknik Sorunları Düzeltin",
-        "step1Description": "Çökmeleri, performans sorunlarını ve uyumluluk problemlerini çözün",
-        "step2Title": "Performansı Optimize Edin",
-        "step2Description": "Platformunuzda en iyi deneyim için ayarları yapılandırın",
-        "step3Title": "Platform Uyumluluğu",
-        "step3Description": "Steam Deck, kontrolcü desteği ve sistem gereksinimleri hakkında bilgi edinin"
+        "step1Title": "Kritik sınır noktalarına ulaşın",
+        "step1Description": "Eşiklerin fark edilir derecede daha akıcı temizlemeler ve daha az başarısız kontrol sağladığı alanlara yatırım yapın.",
+        "step2Title": "Saldırı ve güvenliği dengeleyin",
+        "step2Description": "Dayanıklılık, akıl sağlığı veya fayda ihtiyaçlarını ihmal ederken tek bir eksende aşırı harcama yapmaktan kaçının.",
+        "step3Title": "Ana rolünüzü destekleyin",
+        "step3Description": "İstatistik seçimlerini ajan kitinizle ve turlardaki takım sorumluluğunuzla uyumlu hale getirin."
       },
       "featured": "Öne Çıkanlar ve Temel Bilgiler",
-      "all": "Tüm Destek Makaleleri"
+      "all": "Tüm İstatistik Rehberleri"
+    },
+    "cosmetics": {
+      "title": "Toons Universe Kozmetikleri",
+      "description": "Etkinlikler, biletler ve temalı sürümler genelinde kostümleri, görsel varyantları ve stil koleksiyonlarını takip edin.",
+      "metaTitle": "Toons Universe Kozmetikleri - Kostümler ve Görsel Koleksiyonlar",
+      "metaDescription": "Kostümler, temalı varyantlar, etkinlik görselleri ve koleksiyon odaklı sürüm takibi için Toons Universe kozmetik kapsamına göz atın.",
+      "categoryLabel": "STİL KOLEKSİYONU",
+      "whatIs": "Kozmetikler Nedir?",
+      "whatIsDescription": "Kozmetikler; temel mekanikleri değiştirmeden profilinizi ve kadro kimliğinizi kişiselleştirmenize olanak tanıyan kostümler ve stil varyantları gibi görsel özelleştirmelerdir.",
+      "why": "Neden kozmetikleri takip etmelisiniz?",
+      "whySteps": {
+        "step1Title": "Sınırlı süreli düşenleri takip edin",
+        "step1Description": "Stillerin süresi dolmadan onları toplamak için etkinlik pencerelerini ve bilet rotasyonlarını izleyin.",
+        "step2Title": "Para birimi kullanımını planlayın",
+        "step2Description": "Favori ajanlarınıza ve uzun vadeli koleksiyon hedeflerinize uyan satın alımlara öncelik verin.",
+        "step3Title": "Görsel setleri karşılaştırın",
+        "step3Description": "Hangi paketlerin biriktirmeye değer olduğuna karar verebilmek için sürüm temalarını inceleyin."
+      },
+      "featured": "Öne Çıkanlar ve Temel Bilgiler",
+      "all": "Tüm Kozmetik Rehberleri"
     }
   }
 }
