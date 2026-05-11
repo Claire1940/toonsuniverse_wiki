@@ -15,6 +15,7 @@
     "characters": "Characters",
     "infected": "Infected",
     "guide": "Guide",
+    "community": "Community",
     "emblems": "Emblems",
     "stats": "Stats",
     "cosmetics": "Cosmetics"
@@ -1226,6 +1227,26 @@
       },
       "featured": "Featured & Essential",
       "all": "All Guide Articles"
+    },
+    "community": {
+      "title": "Toons Universe Community",
+      "description": "Find Discord, official links, and community guides so you can track announcements, ask questions, and join other players.",
+      "metaTitle": "Toons Universe Community - Discord, Official Links, and Social Guide",
+      "metaDescription": "Browse Toons Universe community pages covering the official Discord, social channels, support spaces, and player networking tips.",
+      "categoryLabel": "COMMUNITY HUB",
+      "whatIs": "What is the Community category?",
+      "whatIsDescription": "The community category covers official social spaces, Discord access, update channels, and practical ways to connect with other Toons Universe players.",
+      "why": "Why use community pages?",
+      "whySteps": {
+        "step1Title": "Track announcements faster",
+        "step1Description": "Use official channels to catch updates, maintenance notices, and event reveals before they spread elsewhere.",
+        "step2Title": "Find support and teammates",
+        "step2Description": "Join active player spaces to ask questions, report issues, and build better co-op groups.",
+        "step3Title": "Verify official links safely",
+        "step3Description": "Use curated community pages to avoid fake invites, outdated links, and unofficial social accounts."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Community Articles"
     },
     "emblems": {
       "title": "Toons Universe Emblems",
