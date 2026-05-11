@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Toons Universe Skill Checks: Master Machines & Hacking 2026",
+  description: "Master Toons Universe skill checks with our complete 2026 guide. Learn about Hacking, Extraction, Agent stats, and how to avoid Infected Discard pressure.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Skill+Checks+Guide",
+  date: "2026-05-11",
+  author: "Toons Universe Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Toons Universe skill checks** are the core mechanics used to repair Machines and Computers inside the INNOVA facility.
+- **Extraction and Hacking** are the two primary stats that determine how quickly and successfully you can complete these objectives.
+- **Failing checks** alerts nearby Infecteds, specifically increasing pressure from roaming threats like Infected Discard.
+- **Panic Mode** triggers once all objectives are finished, giving players a limited window to reach the elevator.
+- **Specialist Agents** like Koi and Guido & Rossum are essential for high-speed objective completion in late-game runs.
+</Callout>
+
+Surviving the depths of the INNOVA facility requires more than just fast feet and a good hiding spot; it demands a mastery of the various interactive objectives scattered across every floor. In this survival horror experience, **Toons Universe skill checks** serve as the primary gateway to progression, forcing players to balance their attention between a rhythmic mini-game and the looming threat of nearby Infecteds. Whether you are manually pumping a machine or frantically typing at a computer terminal, these skill checks determine how long your team remains exposed in dangerous hallways.
+
+This guide will break down the mechanics of **Toons Universe skill checks**, explaining how your Agent's stats influence success rates and how to manage the consequences of a failed attempt. By understanding the difference between Extraction and Hacking, and knowing which Agents provide the best buffs for objective speed, you can significantly increase your team's survival rate in 2026. From the basics of machine repair to advanced strategies for Panic Mode, we have compiled everything you need to know to become an objective specialist.
+
+<Section icon={Target} title="Understanding Machine and Computer Objectives">
+
+The core gameplay loop of Toons Universe revolves around completing a set number of objectives to power the elevator for the next floor. These objectives are split into two main categories: Machines and Computers. Each requires a different stat and presents a unique visual interface for the player.
+
+| Objective Type | Primary Stat | Visual Style | Common Location |
+| :--- | :--- | :--- | :--- |
+| **Machine** | Extraction | Manual Pump / Steam Tank | Open Hallways / Utility Rooms |
+| **Computer** | Hacking | Keyboard / Digital Terminal | Office Spaces / Server Rooms |
+| **Main Computer** | Hacking | Large Central Console | Floor Centers / Secure Hubs |
+| **Main Machine** | Extraction | Large Industrial Tank | Floor Centers / Power Rooms |
+
+<Callout type="tip" title="Objective Payouts">
+Completing an objective isn't just about survival; it is your primary source of income. Every filled Machine or Computer awards **5 Malachor** by default. You can boost this reward by voting for the **Job Well Done** card, which can increase the payout to 8 or 11 Malachor per objective.
+</Callout>
+
+In 2026, the difficulty of these checks scales as you descend deeper into the facility. While early floors offer forgiving timing windows, later floors introduce faster prompts and more frequent checks, making high-stat Agents a necessity for deep runs.
+
+</Section>
+
+<Section icon={Swords} title="Agent Stats: Extraction vs. Hacking">
+
+Not all Toons are created equal when it comes to interacting with the environment. Every Agent in Toons Universe has a 1-5 bar rating for Extraction and Hacking. Choosing the right Agent for your playstyle is critical because a low stat can double the time you spend vulnerable to an Infected ambush.
+
+<CardGrid cols={3}>
+  <Card title="Extraction Specialists">
+    - **Koi**: 5/5 Extraction
+    - **Squiddle**: 5/5 Extraction
+    - **Weffle**: 4/5 Extraction
+    - *Best for manual pumps and tanks.*
+  </Card>
+  <Card title="Hacking Specialists">
+    - **Guido & Rossum**: 5/5 Hacking
+    - **Selena**: 4/5 Hacking
+    - **Koi**: 4/5 Hacking
+    - *Best for terminals and mainframes.*
+  </Card>
+  <Card title="Objective All-Rounders">
+    - **Discard**: 4/4 Split
+    - **Patcher**: 3/3 Split
+    - **Teipo**: 3/3 Split
+    - *Flexible for any floor layout.*
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Stat Sacrifices">
+High objective stats often come at a cost. For example, **Koi** has elite Extraction (5) and Hacking (4) but suffers from 1 Sanity, making long chases extremely dangerous. Always ensure you have a "Distractor" teammate like Fizzle to keep the Infected away while you work.
+</Callout>
+
+When engaging in **Toons Universe skill checks**, the speed of the progress bar is directly tied to these bars. An Agent with 5 bars in Hacking will complete a computer objective nearly twice as fast as an Agent with only 2 bars. This efficiency is the difference between escaping a room before a chaser enters and being trapped in a corner.
+
+</Section>
+
+<Section icon={Shield} title="The Consequences of Failing Skill Checks">
+
+Failing a skill check is more than just a minor setback; it is a signal to every threat on the floor. In Toons Universe, a "missed" prompt usually results in a loud noise notification and a temporary stall in progress. However, certain Infecteds are specifically designed to punish these mistakes.
+
+**Infected Discard** is the primary threat associated with failed checks. He roams the map and is highly sensitive to objective noise. Repeated failures will draw him directly to your location, turning a quiet room into a high-stakes chase.
+
+| Failure Result | Impact on Gameplay |
+| :--- | :--- |
+| **Noise Alert** | Visual and audio ping for nearby Infecteds. |
+| **Progress Reset** | A small portion of the progress bar is lost. |
+| **Stun Window** | The Agent may be unable to move for 1-2 seconds. |
+| **Discard Pressure** | Significantly increases the chance of an Infected Discard encounter. |
+
+<Callout type="success" title="Recovery Tip">
+If you fail a check and hear a heartbeat or see a red glow, **stop working immediately**. Reposition to a corner or break line of sight. It is better to lose 5 seconds of progress than to lose a Heart to a roaming chaser.
+</Callout>
+
+Mastering the rhythm of the prompts is essential. Most players find that focusing on the audio cues is more reliable than purely visual tracking, as the timing window often aligns with a specific "clicking" or "beeping" sound effect.
+
+</Section>
+
+<Section icon={Map} title="Step-by-Step Objective Strategy">
+
+To maximize your efficiency during a run, follow this structured approach to handling objectives and skill checks.
+
+<Steps>
+  <Step num="1" title="Scout the Room">
+    Before touching a Machine, check for ceiling holes (Guido & Rossum ambush points) and ensure there are at least two exit routes. Never back yourself into a dead-end room.
+  </Step>
+  <Step num="2" title="Check Teammate Stats">
+    If you are playing a low-objective Agent like Nimbus, let the Koi or Discard player handle the Main Computer. Your job is to stand near the door and watch for line-of-sight threats.
+  </Step>
+  <Step num="3" title="Initiate the Check">
+    Interact with the objective. Stay focused on the center of your screen where the prompts appear. If an Infected Selena is on the floor, keep your camera angled so you can see her while working.
+  </Step>
+  <Step num="4" title="Manage Stamina">
+    Do not sprint to the objective if you are already in a safe zone. You need a full Stamina bar in case a skill check failure triggers a sudden chase.
+  </Step>
+  <Step num="5" title="Transition to Panic Mode">
+    Once the final check is complete, the screen will flash red. Stop looting immediately and follow your pre-planned route to the elevator.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Team Buffs">
+Agents like **Discard** can use the **Beat-Down** ability to create a music radius. Any Agent inside this radius gains a **50% objective speed boost**. This is the most effective way to clear the "Main" objectives quickly.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Best Cards for Skill Check Success">
+
+Between floors, the team will often vote on Cards that provide permanent buffs for the remainder of the run. Several of these cards directly impact how you handle **Toons Universe skill checks** and the rewards you receive from them.
+
+| Card Name | Rarity | Effect on Objectives |
+| :--- | :--- | :--- |
+| **Job Well Done** | Common | Increases Malachor reward for completing Machines/Computers. |
+| **Motivate** | Uncommon | Increases Malachor from Research Capsules found near objectives. |
+| **Focused (Passive)** | Agent-Specific | Guido & Rossum gain +10% Extraction/Hacking per completed objective. |
+| **Efficiency** | Rare | Reduces the frequency of skill check prompts while working. |
+
+<Checklist
+  id="objective-prep"
+  title="Pre-Objective Checklist:"
+  items={[
+    "Verify stamina is above 75% before starting",
+    "Identify the nearest corner to break line of sight",
+    "Check for Infected Selena's stationary position",
+    "Ensure Discard's Beat-Down is off cooldown for Main Machines",
+    "Look up for ceiling ambush eyes"
+  ]}
+/>
+
+<Callout type="tip" title="Solo Survival">
+If playing solo, **Nimbus** is a safe pick. While his objective stats are average (3/2), his **Power-Nap** ability ensures you always have the stamina to escape if a failed skill check draws a chaser to your room.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Do skill checks get harder on higher floors?",
+    answer: "Yes. As you progress past Floor 25, the timing windows for Toons Universe skill checks become smaller, and the penalty for failing (noise radius) increases. High-stat Agents become much more valuable in the late game."
+  },
+  {
+    question: "Can two players work on the same machine to speed it up?",
+    answer: "Yes, multiple players can interact with a single Machine or Computer. The progress speeds stack, and if one player has a speed-boosting ability active, it typically benefits everyone working on that specific objective."
+  },
+  {
+    question: "What is the best Agent for a beginner to learn skill checks?",
+    answer: "Teipo is an excellent balanced choice. With 3/5 in both Hacking and Extraction, he provides decent speed without the extreme Sanity or Stamina weaknesses found in specialists like Koi or Guido & Rossum."
+  },
+  {
+    question: "Does failing a skill check damage my health?",
+    answer: "Normally, no. Failing a check only stalls progress and creates noise. However, the noise can draw an Infected to you, and if you are hit by a chaser or a ceiling ambush, you will lose a Heart."
+  }
+]} />
+
+</Section>
+
+In conclusion, mastering **Toons Universe skill checks** is the definitive way to transition from a struggling survivor to an elite INNOVA agent. By selecting the right Agent for the task—whether it's the high-speed hacking of Guido & Rossum or the relentless extraction power of Koi—you can dictate the pace of every floor. Remember to watch your surroundings, coordinate with your team for ability buffs, and always keep enough stamina in reserve to handle the consequences of a missed beat. Stay focused, keep your eyes on the prompts, and we'll see you at the elevator.
