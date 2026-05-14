@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Toons Universe Skill Checks: Kuasai Mesin & Peretasan 2026",
+  description: "Kuasai skill checks Toons Universe dengan panduan lengkap 2026 kami. Pelajari tentang Peretasan, Ekstraksi, statistik Agen, dan cara menghindari tekanan Infected Discard.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Skill+Checks+Guide",
+  date: "2026-05-11",
+  author: "Tim Wiki Toons Universe"
+}
+
+<Callout type="info" title="Panduan Singkat">
+- **Toons Universe skill checks** adalah mekanisme inti yang digunakan untuk memperbaiki Mesin dan Komputer di dalam fasilitas INNOVA.
+- **Ekstraksi dan Peretasan** adalah dua statistik utama yang menentukan seberapa cepat dan berhasil Anda dapat menyelesaikan tujuan ini.
+- **Gagal dalam pemeriksaan** akan memperingatkan Infected di dekatnya, khususnya meningkatkan tekanan dari ancaman yang berkeliaran seperti Infected Discard.
+- **Mode Panik** akan terpicu setelah semua tujuan selesai, memberi pemain jendela waktu terbatas untuk mencapai lift.
+- **Agen Spesialis** seperti Koi dan Guido & Rossum sangat penting untuk penyelesaian tujuan berkecepatan tinggi di akhir permainan.
+</Callout>
+
+Bertahan hidup di kedalaman fasilitas INNOVA membutuhkan lebih dari sekadar kaki cepat dan tempat persembunyian yang baik; ini menuntut penguasaan berbagai tujuan interaktif yang tersebar di setiap lantai. Dalam pengalaman horor bertahan hidup ini, **Toons Universe skill checks** berfungsi sebagai pintu gerbang utama menuju kemajuan, memaksa pemain untuk menyeimbangkan perhatian mereka antara mini-game ritmis dan ancaman Infected di dekatnya. Apakah Anda sedang memompa mesin secara manual atau mengetik dengan panik di terminal komputer, skill checks ini menentukan berapa lama tim Anda tetap terpapar di lorong-lorong berbahaya.
+
+Panduan ini akan menguraikan mekanisme **Toons Universe skill checks**, menjelaskan bagaimana statistik Agen Anda memengaruhi tingkat keberhasilan dan bagaimana mengelola konsekuensi dari upaya yang gagal. Dengan memahami perbedaan antara Ekstraksi dan Peretasan, dan mengetahui Agen mana yang memberikan buff terbaik untuk kecepatan tujuan, Anda dapat secara signifikan meningkatkan tingkat kelangsungan hidup tim Anda pada tahun 2026. Dari dasar-dasar perbaikan mesin hingga strategi lanjutan untuk Mode Panik, kami telah mengumpulkan semua yang perlu Anda ketahui untuk menjadi spesialis tujuan.
+
+<Section icon={Target} title="Memahami Tujuan Mesin dan Komputer">
+
+Lingkaran permainan inti Toons Universe berkisar pada penyelesaian sejumlah tujuan untuk menyalakan lift ke lantai berikutnya. Tujuan-tujuan ini dibagi menjadi dua kategori utama: Mesin dan Komputer. Masing-masing membutuhkan statistik yang berbeda dan menyajikan antarmuka visual yang unik untuk pemain.
+
+| Jenis Tujuan | Statistik Utama | Gaya Visual | Lokasi Umum |
+| :--- | :--- | :--- | :--- |
+| **Mesin** | Ekstraksi | Pompa Manual / Tangki Uap | Lorong Terbuka / Ruang Utilitas |
+| **Komputer** | Peretasan | Keyboard / Terminal Digital | Ruang Kantor / Ruang Server |
+| **Komputer Utama** | Peretasan | Konsol Pusat Besar | Pusat Lantai / Hub Aman |
+| **Mesin Utama** | Ekstraksi | Tangki Industri Besar | Pusat Lantai / Ruang Daya |
+
+<Callout type="tip" title="Pembayaran Tujuan">
+Menyelesaikan tujuan bukan hanya tentang bertahan hidup; itu adalah sumber pendapatan utama Anda. Setiap Mesin atau Komputer yang terisi memberikan **5 Malachor** secara default. Anda dapat meningkatkan hadiah ini dengan memilih kartu **Job Well Done**, yang dapat meningkatkan pembayaran menjadi 8 atau 11 Malachor per tujuan.
+</Callout>
+
+Pada tahun 2026, kesulitan pemeriksaan ini meningkat seiring Anda turun lebih dalam ke fasilitas. Sementara lantai awal menawarkan jendela waktu yang lebih mudah, lantai berikutnya memperkenalkan perintah yang lebih cepat dan pemeriksaan yang lebih sering, menjadikan Agen dengan statistik tinggi suatu keharusan untuk lari jauh.
+
+</Section>
+
+<Section icon={Swords} title="Statistik Agen: Ekstraksi vs. Peretasan">
+
+Tidak semua Toon diciptakan sama dalam hal berinteraksi dengan lingkungan. Setiap Agen di Toons Universe memiliki peringkat 1-5 bar untuk Ekstraksi dan Peretasan. Memilih Agen yang tepat untuk gaya bermain Anda sangat penting karena statistik yang rendah dapat menggandakan waktu yang Anda habiskan untuk rentan terhadap serangan Infected.
+
+<CardGrid cols={3}>
+  <Card title="Spesialis Ekstraksi">
+    - **Koi**: 5/5 Ekstraksi
+    - **Squiddle**: 5/5 Ekstraksi
+    - **Weffle**: 4/5 Ekstraksi
+    - *Terbaik untuk pompa manual dan tangki.*
+  </Card>
+  <Card title="Spesialis Peretasan">
+    - **Guido & Rossum**: 5/5 Peretasan
+    - **Selena**: 4/5 Peretasan
+    - **Koi**: 4/5 Peretasan
+    - *Terbaik untuk terminal dan mainframe.*
+  </Card>
+  <Card title="Agen Serba Bisa Tujuan">
+    - **Discard**: 4/4 Split
+    - **Patcher**: 3/3 Split
+    - **Teipo**: 3/3 Split
+    - *Fleksibel untuk tata letak lantai apa pun.*
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Pengorbanan Statistik">
+Statistik tujuan yang tinggi seringkali datang dengan biaya. Misalnya, **Koi** memiliki Ekstraksi (5) dan Peretasan (4) yang elit tetapi menderita 1 Kewarasan, membuat pengejaran panjang sangat berbahaya. Selalu pastikan Anda memiliki rekan setim "Pengalih Perhatian" seperti Fizzle untuk menjauhkan Infected saat Anda bekerja.
+</Callout>
+
+Saat terlibat dalam **Toons Universe skill checks**, kecepatan bilah kemajuan secara langsung terkait dengan bilah ini. Agen dengan 5 bilah dalam Peretasan akan menyelesaikan tujuan komputer hampir dua kali lebih cepat daripada Agen dengan hanya 2 bilah. Efisiensi ini adalah perbedaan antara melarikan diri dari ruangan sebelum pengejar masuk dan terjebak di sudut.
+
+</Section>
+
+<Section icon={Shield} title="Konsekuensi Kegagalan Skill Checks">
+
+Gagal dalam skill check lebih dari sekadar kemunduran kecil; itu adalah sinyal bagi setiap ancaman di lantai. Di Toons Universe, perintah "terlewatkan" biasanya menghasilkan notifikasi suara keras dan penghentian sementara dalam kemajuan. Namun, Infected tertentu secara khusus dirancang untuk menghukum kesalahan ini.
+
+**Infected Discard** adalah ancaman utama yang terkait dengan pemeriksaan yang gagal. Dia berkeliaran di peta dan sangat sensitif terhadap kebisingan tujuan. Kegagalan berulang akan menariknya langsung ke lokasi Anda, mengubah ruangan yang tenang menjadi pengejaran berisiko tinggi.
+
+| Hasil Kegagalan | Dampak pada Gameplay |
+| :--- | :--- |
+| **Peringatan Kebisingan** | Ping visual dan audio untuk Infected di dekatnya. |
+| **Reset Kemajuan** | Sebagian kecil dari bilah kemajuan hilang. |
+| **Jendela Stun** | Agen mungkin tidak dapat bergerak selama 1-2 detik. |
+| **Tekanan Buang** | Secara signifikan meningkatkan kemungkinan pertemuan Infected Discard. |
+
+<Callout type="success" title="Tip Pemulihan">
+Jika Anda gagal dalam pemeriksaan dan mendengar detak jantung atau melihat cahaya merah, **hentikan pekerjaan segera**. Posisikan ulang ke sudut atau putuskan garis pandang. Lebih baik kehilangan 5 detik kemajuan daripada kehilangan Hati karena pengejar yang berkeliaran.
+</Callout>
+
+Menguasai ritme perintah sangat penting. Sebagian besar pemain menemukan bahwa fokus pada isyarat audio lebih dapat diandalkan daripada pelacakan visual murni, karena jendela waktu seringkali selaras dengan efek suara "klik" atau "bip" tertentu.
+
+</Section>
+
+<Section icon={Map} title="Strategi Tujuan Langkah demi Langkah">
+
+Untuk memaksimalkan efisiensi Anda selama lari, ikuti pendekatan terstruktur ini untuk menangani tujuan dan skill checks.
+
+<Steps>
+  <Step num="1" title="Pindai Ruangan">
+    Sebelum menyentuh Mesin, periksa lubang di langit-langit (titik penyergapan Guido & Rossum) dan pastikan ada setidaknya dua rute keluar. Jangan pernah memojokkan diri Anda ke ruangan buntu.
+  </Step>
+  <Step num="2" title="Periksa Statistik Rekan Setim">
+    Jika Anda bermain sebagai Agen dengan tujuan rendah seperti Nimbus, biarkan pemain Koi atau Discard menangani Komputer Utama. Tugas Anda adalah berdiri di dekat pintu dan mengawasi ancaman garis pandang.
+  </Step>
+  <Step num="3" title="Mulai Pemeriksaan">
+    Berinteraksi dengan tujuan. Tetap fokus pada bagian tengah layar Anda tempat perintah muncul. Jika Infected Selena ada di lantai, jaga agar kamera Anda tetap miring sehingga Anda dapat melihatnya saat bekerja.
+  </Step>
+  <Step num="4" title="Kelola Stamina">
+    Jangan berlari menuju tujuan jika Anda sudah berada di zona aman. Anda membutuhkan bilah Stamina penuh jika kegagalan skill check memicu pengejaran tiba-tiba.
+  </Step>
+  <Step num="5" title="Transisi ke Mode Panik">
+    Setelah pemeriksaan terakhir selesai, layar akan berkedip merah. Hentikan penjarahan segera dan ikuti rute yang telah Anda rencanakan ke lift.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Buff Tim">
+Agen seperti **Discard** dapat menggunakan kemampuan **Beat-Down** untuk membuat radius musik. Agen mana pun di dalam radius ini mendapatkan **peningkatan kecepatan tujuan 50%**. Ini adalah cara paling efektif untuk menyelesaikan tujuan "Utama" dengan cepat.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Kartu Terbaik untuk Keberhasilan Skill Check">
+
+Antara lantai, tim akan sering memilih Kartu yang memberikan buff permanen selama sisa lari. Beberapa kartu ini secara langsung memengaruhi cara Anda menangani **Toons Universe skill checks** dan hadiah yang Anda terima darinya.
+
+| Nama Kartu | Kelangkaan | Efek pada Tujuan |
+| :--- | :--- | :--- |
+| **Job Well Done** | Umum | Meningkatkan hadiah Malachor untuk menyelesaikan Mesin/Komputer. |
+| **Motivate** | Tidak Umum | Meningkatkan Malachor dari Kapsul Penelitian yang ditemukan di dekat tujuan. |
+| **Focused (Pasif)** | Spesifik Agen | Guido & Rossum mendapatkan +10% Ekstraksi/Peretasan per tujuan yang selesai. |
+| **Efficiency** | Langka | Mengurangi frekuensi perintah skill check saat bekerja. |
+
+<Checklist
+  id="objective-prep"
+  title="Daftar Periksa Pra-Tujuan:"
+  items={[
+    "Verifikasi stamina di atas 75% sebelum memulai",
+    "Identifikasi sudut terdekat untuk memutuskan garis pandang",
+    "Periksa posisi stasioner Infected Selena",
+    "Pastikan Beat-Down Discard tidak dalam cooldown untuk Mesin Utama",
+    "Lihat ke atas untuk mata penyergapan langit-langit"
+  ]}
+/>
+
+<Callout type="tip" title="Kelangsungan Hidup Solo">
+Jika bermain solo, **Nimbus** adalah pilihan yang aman. Meskipun statistik tujuannya rata-rata (3/2), kemampuan **Power-Nap**-nya memastikan Anda selalu memiliki stamina untuk melarikan diri jika skill check yang gagal menarik pengejar ke ruangan Anda.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Pertanyaan yang Sering Diajukan">
+
+<FAQ items={[
+  {
+    question: "Apakah skill checks menjadi lebih sulit di lantai yang lebih tinggi?",
+    answer: "Ya. Saat Anda melewati Lantai 25, jendela waktu untuk Toons Universe skill checks menjadi lebih kecil, dan penalti untuk kegagalan (radius kebisingan) meningkat. Agen dengan statistik tinggi menjadi jauh lebih berharga di akhir permainan."
+  },
+  {
+    question: "Bisakah dua pemain bekerja pada mesin yang sama untuk mempercepatnya?",
+    answer: "Ya, beberapa pemain dapat berinteraksi dengan satu Mesin atau Komputer. Kecepatan kemajuan akan bertumpuk, dan jika satu pemain memiliki kemampuan peningkat kecepatan aktif, biasanya itu menguntungkan semua orang yang mengerjakan tujuan spesifik tersebut."
+  },
+  {
+    question: "Agen apa yang terbaik untuk pemula untuk mempelajari skill checks?",
+    answer: "Teipo adalah pilihan seimbang yang sangat baik. Dengan 3/5 di Peretasan dan Ekstraksi, ia memberikan kecepatan yang layak tanpa kelemahan Kewarasan atau Stamina ekstrem yang ditemukan pada spesialis seperti Koi atau Guido & Rossum."
+  },
+  {
+    question: "Apakah kegagalan skill check merusak kesehatan saya?",
+    answer: "Biasanya, tidak. Gagal dalam pemeriksaan hanya menghentikan kemajuan dan menimbulkan kebisingan. Namun, kebisingan dapat menarik Infected ke Anda, dan jika Anda terkena pengejar atau penyergapan langit-langit, Anda akan kehilangan Hati."
+  }
+]} />
+
+</Section>
+
+Sebagai kesimpulan, menguasai **Toons Universe skill checks** adalah cara definitif untuk bertransisi dari penyintas yang kesulitan menjadi agen INNOVA elit. Dengan memilih Agen yang tepat untuk tugas tersebut—apakah itu peretasan berkecepatan tinggi Guido & Rossum atau kekuatan ekstraksi Koi yang tanpa henti—Anda dapat menentukan kecepatan setiap lantai. Ingatlah untuk mengawasi lingkungan sekitar Anda, berkoordinasi dengan tim Anda untuk buff kemampuan, dan selalu sisakan cukup stamina untuk menangani konsekuensi dari ketukan yang terlewat. Tetap fokus, awasi perintah, dan kami akan bertemu Anda di lift.

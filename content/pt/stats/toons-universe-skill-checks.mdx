@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Toons Universe Skill Checks: Domine Máquinas & Hacking 2026",
+  description: "Domine os skill checks de Toons Universe com nosso guia completo de 2026. Aprenda sobre Hacking, Extração, estatísticas de Agentes e como evitar a pressão do Descarte Infectado.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Skill+Checks+Guide",
+  date: "2026-05-11",
+  author: "Equipe Wiki Toons Universe"
+}
+
+<Callout type="info" title="Guia Rápido">
+- Os **skill checks de Toons Universe** são as mecânicas centrais usadas para reparar Máquinas e Computadores dentro da instalação INNOVA.
+- **Extração e Hacking** são as duas estatísticas primárias que determinam a rapidez e o sucesso com que você pode completar esses objetivos.
+- **Falhar nos checks** alerta os Infectados próximos, aumentando especificamente a pressão de ameaças errantes como o Descarte Infectado.
+- O **Modo Pânico** é ativado assim que todos os objetivos são concluídos, dando aos jogadores uma janela limitada para alcançar o elevador.
+- **Agentes Especialistas** como Koi e Guido & Rossum são essenciais para a conclusão de objetivos em alta velocidade em partidas de fim de jogo.
+</Callout>
+
+Sobreviver nas profundezas da instalação INNOVA exige mais do que apenas pés rápidos e um bom esconderijo; exige o domínio dos vários objetivos interativos espalhados por todos os andares. Nesta experiência de survival horror, os **skill checks de Toons Universe** servem como a principal porta de entrada para a progressão, forçando os jogadores a equilibrar sua atenção entre um minigame rítmico e a ameaça iminente de Infectados próximos. Seja você bombeando manualmente uma máquina ou digitando freneticamente em um terminal de computador, esses skill checks determinam por quanto tempo sua equipe permanece exposta em corredores perigosos.
+
+Este guia detalhará as mecânicas dos **skill checks de Toons Universe**, explicando como as estatísticas do seu Agente influenciam as taxas de sucesso e como gerenciar as consequências de uma tentativa falha. Ao entender a diferença entre Extração e Hacking, e saber quais Agentes oferecem os melhores buffs para a velocidade dos objetivos, você pode aumentar significativamente a taxa de sobrevivência da sua equipe em 2026. Desde o básico do reparo de máquinas até estratégias avançadas para o Modo Pânico, compilamos tudo o que você precisa saber para se tornar um especialista em objetivos.
+
+<Section icon={Target} title="Compreendendo os Objetivos de Máquinas e Computadores">
+
+O ciclo de jogo principal de Toons Universe gira em torno da conclusão de um número definido de objetivos para alimentar o elevador para o próximo andar. Esses objetivos são divididos em duas categorias principais: Máquinas e Computadores. Cada um requer uma estatística diferente e apresenta uma interface visual única para o jogador.
+
+| Tipo de Objetivo | Estatística Primária | Estilo Visual | Localização Comum |
+| :--- | :--- | :--- | :--- |
+| **Máquina** | Extração | Bomba Manual / Tanque de Vapor | Corredores Abertos / Salas de Utilidades |
+| **Computador** | Hacking | Teclado / Terminal Digital | Escritórios / Salas de Servidores |
+| **Computador Principal** | Hacking | Grande Console Central | Centros de Andar / Hubs Seguros |
+| **Máquina Principal** | Extração | Grande Tanque Industrial | Centros de Andar / Salas de Força |
+
+<Callout type="tip" title="Recompensas de Objetivos">
+Completar um objetivo não é apenas sobre sobrevivência; é sua principal fonte de renda. Cada Máquina ou Computador preenchido concede **5 Malachor** por padrão. Você pode aumentar essa recompensa votando na carta **Trabalho Bem Feito**, que pode aumentar o pagamento para 8 ou 11 Malachor por objetivo.
+</Callout>
+
+Em 2026, a dificuldade desses checks aumenta à medida que você desce mais fundo na instalação. Enquanto os andares iniciais oferecem janelas de tempo mais tolerantes, os andares posteriores introduzem prompts mais rápidos e checks mais frequentes, tornando Agentes com altas estatísticas uma necessidade para runs profundas.
+
+</Section>
+
+<Section icon={Swords} title="Estatísticas de Agentes: Extração vs. Hacking">
+
+Nem todos os Toons são criados iguais quando se trata de interagir com o ambiente. Cada Agente em Toons Universe tem uma classificação de 1 a 5 barras para Extração e Hacking. Escolher o Agente certo para o seu estilo de jogo é crucial, pois uma estatística baixa pode dobrar o tempo que você passa vulnerável a uma emboscada Infectada.
+
+<CardGrid cols={3}>
+  <Card title="Especialistas em Extração">
+    - **Koi**: 5/5 Extração
+    - **Squiddle**: 5/5 Extração
+    - **Weffle**: 4/5 Extração
+    - *Melhor para bombas manuais e tanques.*
+  </Card>
+  <Card title="Especialistas em Hacking">
+    - **Guido & Rossum**: 5/5 Hacking
+    - **Selena**: 4/5 Hacking
+    - **Koi**: 4/5 Hacking
+    - *Melhor para terminais e mainframes.*
+  </Card>
+  <Card title="Agentes Versáteis em Objetivos">
+    - **Discard**: 4/4 Divisão
+    - **Patcher**: 3/3 Divisão
+    - **Teipo**: 3/3 Divisão
+    - *Flexível para qualquer layout de andar.*
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Sacrifícios de Estatísticas">
+Altas estatísticas de objetivo geralmente vêm com um custo. Por exemplo, **Koi** tem Extração (5) e Hacking (4) de elite, mas sofre com 1 de Sanidade, tornando perseguições longas extremamente perigosas. Sempre certifique-se de ter um companheiro de equipe "Distrator" como Fizzle para manter o Infectado afastado enquanto você trabalha.
+</Callout>
+
+Ao se envolver nos **skill checks de Toons Universe**, a velocidade da barra de progresso está diretamente ligada a essas barras. Um Agente com 5 barras em Hacking completará um objetivo de computador quase duas vezes mais rápido do que um Agente com apenas 2 barras. Essa eficiência é a diferença entre escapar de uma sala antes que um perseguidor entre e ficar preso em um canto.
+
+</Section>
+
+<Section icon={Shield} title="As Consequências de Falhar nos Skill Checks">
+
+Falhar em um skill check é mais do que apenas um pequeno contratempo; é um sinal para todas as ameaças no andar. Em Toons Universe, um prompt "perdido" geralmente resulta em uma notificação de ruído alto e uma paralisação temporária no progresso. No entanto, certos Infectados são projetados especificamente para punir esses erros.
+
+O **Descarte Infectado** é a principal ameaça associada a checks falhos. Ele ronda o mapa e é altamente sensível ao ruído dos objetivos. Falhas repetidas o atrairão diretamente para sua localização, transformando uma sala silenciosa em uma perseguição de alto risco.
+
+| Resultado da Falha | Impacto no Jogo |
+| :--- | :--- |
+| **Alerta de Ruído** | Sinal visual e sonoro para Infectados próximos. |
+| **Reinício do Progresso** | Uma pequena parte da barra de progresso é perdida. |
+| **Janela de Atordoamento** | O Agente pode ser incapaz de se mover por 1-2 segundos. |
+| **Pressão do Descarte** | Aumenta significativamente a chance de um encontro com o Descarte Infectado. |
+
+<Callout type="success" title="Dica de Recuperação">
+Se você falhar em um check e ouvir um batimento cardíaco ou ver um brilho vermelho, **pare de trabalhar imediatamente**. Reposicione-se para um canto ou quebre a linha de visão. É melhor perder 5 segundos de progresso do que perder um Coração para um perseguidor errante.
+</Callout>
+
+Dominar o ritmo dos prompts é essencial. A maioria dos jogadores acha que focar nas dicas de áudio é mais confiável do que apenas no rastreamento visual, pois a janela de tempo geralmente se alinha com um efeito sonoro específico de "clique" ou "bip".
+
+</Section>
+
+<Section icon={Map} title="Estratégia de Objetivo Passo a Passo">
+
+Para maximizar sua eficiência durante uma run, siga esta abordagem estruturada para lidar com objetivos e skill checks.
+
+<Steps>
+  <Step num="1" title="Explorar a Sala">
+    Antes de tocar em uma Máquina, verifique se há buracos no teto (pontos de emboscada de Guido & Rossum) e certifique-se de que há pelo menos duas rotas de saída. Nunca se encurrale em uma sala sem saída.
+  </Step>
+  <Step num="2" title="Verificar Estatísticas do Companheiro de Equipe">
+    Se você estiver jogando com um Agente de baixo objetivo como Nimbus, deixe o jogador Koi ou Discard cuidar do Computador Principal. Seu trabalho é ficar perto da porta e observar ameaças na linha de visão.
+  </Step>
+  <Step num="3" title="Iniciar o Check">
+    Interaja com o objetivo. Mantenha o foco no centro da sua tela onde os prompts aparecem. Se uma Selena Infectada estiver no chão, mantenha sua câmera angulada para que você possa vê-la enquanto trabalha.
+  </Step>
+  <Step num="4" title="Gerenciar a Resistência">
+    Não corra para o objetivo se você já estiver em uma zona segura. Você precisa de uma barra de Resistência cheia caso uma falha no skill check acione uma perseguição repentina.
+  </Step>
+  <Step num="5" title="Transição para o Modo Pânico">
+    Assim que o check final for concluído, a tela piscará em vermelho. Pare de saquear imediatamente e siga sua rota pré-planejada para o elevador.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Buffs de Equipe">
+Agentes como **Discard** podem usar a habilidade **Beat-Down** para criar um raio de música. Qualquer Agente dentro desse raio ganha um **aumento de 50% na velocidade do objetivo**. Esta é a maneira mais eficaz de limpar os objetivos "Principais" rapidamente.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Melhores Cartas para o Sucesso nos Skill Checks">
+
+Entre os andares, a equipe geralmente votará em Cartas que fornecem buffs permanentes para o restante da run. Várias dessas cartas impactam diretamente como você lida com os **skill checks de Toons Universe** e as recompensas que você recebe deles.
+
+| Nome da Carta | Raridade | Efeito nos Objetivos |
+| :--- | :--- | :--- |
+| **Trabalho Bem Feito** | Comum | Aumenta a recompensa de Malachor por completar Máquinas/Computadores. |
+| **Motivar** | Incomum | Aumenta o Malachor de Cápsulas de Pesquisa encontradas perto de objetivos. |
+| **Focado (Passivo)** | Específico do Agente | Guido & Rossum ganham +10% de Extração/Hacking por objetivo concluído. |
+| **Eficiência** | Raro | Reduz a frequência dos prompts de skill check enquanto trabalha. |
+
+<Checklist
+  id="objective-prep"
+  title="Lista de Verificação Pré-Objetivo:"
+  items={[
+    "Verificar se a resistência está acima de 75% antes de começar",
+    "Identificar o canto mais próximo para quebrar a linha de visão",
+    "Verificar a posição estacionária da Selena Infectada",
+    "Garantir que o Beat-Down do Discard esteja fora do tempo de recarga para as Máquinas Principais",
+    "Olhar para cima em busca de olhos de emboscada no teto"
+  ]}
+/>
+
+<Callout type="tip" title="Sobrevivência Solo">
+Se estiver jogando sozinho, **Nimbus** é uma escolha segura. Embora suas estatísticas de objetivo sejam médias (3/2), sua habilidade **Cochilo** garante que você sempre terá a resistência para escapar se um skill check falho atrair um perseguidor para sua sala.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Os skill checks ficam mais difíceis em andares mais altos?",
+    answer: "Sim. À medida que você avança além do Andar 25, as janelas de tempo para os skill checks de Toons Universe tornam-se menores, e a penalidade por falhar (raio de ruído) aumenta. Agentes com altas estatísticas tornam-se muito mais valiosos no final do jogo."
+  },
+  {
+    question: "Dois jogadores podem trabalhar na mesma máquina para acelerá-la?",
+    answer: "Sim, vários jogadores podem interagir com uma única Máquina ou Computador. As velocidades de progresso se acumulam, e se um jogador tiver uma habilidade de aumento de velocidade ativa, ela geralmente beneficia todos que trabalham nesse objetivo específico."
+  },
+  {
+    question: "Qual é o melhor Agente para um iniciante aprender skill checks?",
+    answer: "Teipo é uma excelente escolha equilibrada. Com 3/5 em Hacking e Extração, ele oferece velocidade decente sem as fraquezas extremas de Sanidade ou Resistência encontradas em especialistas como Koi ou Guido & Rossum."
+  },
+  {
+    question: "Falhar em um skill check danifica minha saúde?",
+    answer: "Normalmente, não. Falhar em um check apenas paralisa o progresso e cria ruído. No entanto, o ruído pode atrair um Infectado para você, e se você for atingido por um perseguidor ou uma emboscada no teto, você perderá um Coração."
+  }
+]} />
+
+</Section>
+
+Em conclusão, dominar os **skill checks de Toons Universe** é a maneira definitiva de fazer a transição de um sobrevivente em dificuldades para um agente de elite da INNOVA. Ao selecionar o Agente certo para a tarefa — seja o hacking de alta velocidade de Guido & Rossum ou o poder de extração implacável de Koi — você pode ditar o ritmo de cada andar. Lembre-se de observar seus arredores, coordenar com sua equipe para buffs de habilidades e sempre manter resistência suficiente em reserva para lidar com as consequências de uma batida perdida. Mantenha o foco, seus olhos nos prompts, e nos vemos no elevador.

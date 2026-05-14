@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Toon Universe Nimbus: La mejor guía de inicio y estrategia en solitario 2026",
+  description: "Domina al agente oveja dormilona con nuestra guía completa de Toon Universe Nimbus. Aprende estadísticas, habilidades y consejos de supervivencia en solitario para el lanzamiento beta de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Toon+Universe+Nimbus+Guide",
+  date: "2026-05-11",
+  author: "Equipo Wiki de Toon Universe"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Toon Universe Nimbus** es el agente inicial principal para jugadores en solitario debido a su enorme reserva de resistencia.
+- **Mecánica Central**: Su pasiva, **Haze**, otorga un aumento del 30% de velocidad cuando la resistencia cae por debajo del 50%.
+- **Gestión de Resistencia**: Usa **Power Nap** para restaurar completamente la resistencia al instante durante una ventana de 5 segundos.
+- **Prioridad de Habilidad**: Concéntrate en **Extracción** (cubas/palancas) sobre Hacking (ordenadores) para una máxima eficiencia.
+- **Contador de Cordura**: Nimbus está diseñado para mitigar la mecánica de cordura, que normalmente ralentiza la regeneración de resistencia.
+</Callout>
+
+Seleccionar a tu primer agente es la decisión más crítica que tomarás en las primeras horas del juego. **Toon Universe Nimbus** destaca como la opción superior entre los dos iniciales disponibles, particularmente para aquellos que prefieren navegar la pesadilla en solitario. Como una oveja acogedora y dormilona, ataviada con un clásico gorro de dormir y un suéter extragrande, Nimbus podría parecer vulnerable, pero su kit mecánico está diseñado para la supervivencia de alto riesgo.
+
+En esta guía, desglosaremos por qué **Toon Universe Nimbus** es el estándar de oro para aprender los complejos sistemas de cordura y resistencia del juego. Exploraremos sus estadísticas ocultas, analizaremos sus poderosas habilidades activas y pasivas, y proporcionaremos una hoja de ruta para dominar su estilo de juego único. Ya sea que estés evitando a los infectados o maximizando tu velocidad de extracción, comprender los matices de este "sheibbi dormilón" es esencial para cualquier jugador que busque dominar la beta de 2026.
+
+<Section icon={Swords} title="Descripción General del Agente: ¿Por qué elegir Toon Universe Nimbus?">
+
+Nimbus está diseñado para ser un punto de entrada "de bajo estrés" para nuevos jugadores, al tiempo que ofrece un alto techo de habilidad para los veteranos. Su principal ventaja es su capacidad para ignorar las limitaciones habituales del sistema de resistencia, lo que permite persecuciones más largas y un desplazamiento más rápido por el mapa.
+
+**Puntos destacados del video:**
+- Desglose detallado de Nimbus como el mejor agente inicial en solitario.
+- Demostración visual de la habilidad **Power Nap** y su tiempo de reutilización de 30 segundos.
+- Explicación de la mecánica de **Cordura** y cómo afecta la regeneración de resistencia.
+- Adelanto del lore y diseño visual de Nimbus Infectado.
+
+<YouTubeEmbed videoId="0YUWaRREpAQ" title="Guía de Toon Universe Nimbus" />
+
+<Callout type="tip" title="Especialista en solitario">
+Si juegas sin un equipo coordinado, Nimbus es tu mejor opción. Su capacidad para autosostener la resistencia significa que no dependes de tus compañeros de equipo para distraer a los infectados mientras te recuperas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estadísticas Centrales y Desglose de Atributos">
+
+A diferencia de otros agentes cuyas estadísticas son fácilmente visibles, los iniciales en Toon Universe a menudo requieren una mirada más profunda al código del juego para comprender su verdadero potencial. Nimbus sobresale en resistencia física, pero tiene algunas dificultades con las tareas técnicas.
+
+| Atributo | Calificación | Puntos/Valor | Impacto |
+| :--- | :--- | :--- | :--- |
+| **Resistencia** | 5/5 | 200 Puntos | Energía total para esprintar y habilidades |
+| **Velocidad** | 4/5 | Alta | Velocidad de movimiento base durante las persecuciones |
+| **Extracción** | 3/5 | Media | Velocidad a la que se operan las cubas y palancas |
+| **Cordura** | 3/5 | Media | Resistencia a la mecánica de agotamiento de cordura |
+| **Hacking** | 2/5 | Baja | Velocidad para completar las comprobaciones de círculo de los ordenadores |
+
+En Toon Universe, hay una clara distinción entre **Extracción** y **Hacking**. La extracción rige las cubas con palancas, mientras que el Hacking rige los ordenadores con comprobaciones de círculo. Nimbus es significativamente más eficiente en la extracción manual que en el hacking técnico, probablemente debido a que sus largas y acogedoras mangas interfieren con el trabajo del teclado.
+
+<Callout type="warning" title="Penalización de Hacking">
+Evita los objetivos de ordenador en solitario si es posible. La baja estadística de Hacking de Nimbus hace que las comprobaciones de círculo sean más tediosas. Concéntrate en las cubas mientras tus compañeros de equipo manejan los terminales.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Habilidades y Gestión de Cordura">
+
+El kit de **Toon Universe Nimbus** gira en torno a la interacción entre su reserva de resistencia y la mecánica única de Cordura del juego. A medida que te persiguen, tu cordura disminuye, lo que generalmente paraliza tu regeneración de resistencia. Nimbus tiene dos formas de evitar esto.
+
+<CardGrid cols={2}>
+  <Card title="Pasiva: Haze">
+    - **Activación**: La resistencia cae por debajo del 50% (100 puntos).
+    - **Efecto**: La velocidad de movimiento aumenta en **30%**.
+    - **Beneficio**: Te permite superar a casi cualquier infectado una vez que la persecución se intensifica.
+  </Card>
+  <Card title="Activa: Power Nap">
+    - **Ejecución**: Se queda dormido de pie durante 5 segundos.
+    - **Efecto**: Restaura el **100% de resistencia** al instante.
+    - **Tiempo de reutilización**: 30 segundos.
+    - **Riesgo**: Estás completamente inmóvil mientras duermes.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="El Bucle de Cordura">
+Cuando tu cordura sea baja y tu regeneración natural de resistencia se ralentice hasta el punto de arrastrarse, no entres en pánico. Busca un rincón seguro, activa **Power Nap** y evita por completo la penalización de regeneración rellenando tu barra al 100% en cinco segundos.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Estrategia de Supervivencia en Solitario">
+
+Dominar a **Toon Universe Nimbus** requiere un enfoque rítmico del movimiento. Quieres bailar alrededor de la marca del 50% de resistencia para mantener activo tu beneficio de velocidad sin dejarte vulnerable.
+
+<Steps>
+  <Step num="1" title="Exploración Agresiva">
+    Usa tu alta velocidad base para encontrar cubas temprano. No temas esprintar, ya que tu pasiva **Haze** se activará para ayudarte a escapar si te topas con un infectado.
+  </Step>
+  <Step num="2" title="Pérdida de Cordura Controlada">
+    Durante una persecución, tu cordura disminuirá. En lugar de intentar esconderte inmediatamente, usa tu aumento de velocidad del 30% de **Haze** para alejar al infectado de los objetivos de la misión.
+  </Step>
+  <Step num="3" title="La Siesta Táctica">
+    Una vez que hayas roto la línea de visión, busca inmediatamente un armario o un rincón oscuro. Usa **Power Nap**. Cuando el infectado te encuentre de nuevo, tendrás una barra de resistencia completa de 200 puntos lista.
+  </Step>
+  <Step num="4" title="Enfoque en la Extracción">
+    Prioriza las cubas. Dado que tu estadística de Extracción es más alta que la de Hacking, contribuirás más al equipo (o al progreso en solitario) si te ciñes a las palancas.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Equipo Futuro">
+Aunque el sistema de Emblemas aún no está completamente implementado en la beta, busca equipo que aumente el **Hacking** para equilibrar sus debilidades o la **Resistencia a la Cordura** para extender su tiempo de persecución.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Nimbus Infectado y el Lore de Malachor">
+
+El lore detrás de la versión infectada de Nimbus es particularmente oscuro. En esta forma, su necesidad de dormir lo ha consumido, convirtiéndolo en un demonio sonámbulo que exhala gases tóxicos.
+
+| Característica | Descripción del Infectado |
+| :--- | :--- |
+| **Ojos** | Teñidos de rojo intenso por hemorragias permanentes |
+| **Lana** | Azul oscuro, arremolinándose con Malachor brillante |
+| **Atuendo** | Antifaz de dormir y suéter fusionados con su carne |
+| **Emisión** | Exhala Óxido Nitroso (gas inductor del sueño) |
+| **Comportamiento** | Condenado a caminar dormido y cazar a antiguos amigos |
+
+Se teoriza que la niebla azul que se encuentra en "Gas Wars" es una manifestación del aliento de Nimbus Infectado. Si bien el impacto en el juego del gas todavía se está equilibrando, el lore sugiere que está destinado a ralentizar a las víctimas, imitando el letargo del sueño.
+
+<Callout type="warning" title="Dato de Lore">
+Nimbus Infectado no respira dióxido de carbono; exhala una niebla azul que representa su pesadilla interna. Esto lo convierte en una de las amenazas visualmente más distintivas del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Maestría">
+
+Para dominar verdaderamente a **Toon Universe Nimbus**, los jugadores deben aspirar a alcanzar estos hitos durante sus sesiones de 2026.
+
+<Checklist
+  id="nimbus-mastery"
+  title="Objetivos de Competencia del Agente:"
+  items={[
+    "Escapar con éxito de una persecución usando el aumento de velocidad de Haze",
+    "Realizar una Power Nap a menos de 20 metros de un Infectado",
+    "Completar 3 Extracciones de Tina en un solo piso",
+    "Mantener una persecución durante más de 60 segundos usando la gestión de resistencia",
+    "Alcanzar el nivel máximo para desbloquear posibles Emblemas"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es Nimbus mejor que el otro agente inicial?",
+    answer: "Para el juego en solitario, sí. Su alta reserva de resistencia y su capacidad para restaurar energía lo hacen mucho más autosuficiente que otros agentes iniciales."
+  },
+  {
+    question: "¿El aumento de velocidad del 30% de Haze se acumula con otros beneficios?",
+    answer: "Actualmente, Haze proporciona un aumento fijo del 30% a la velocidad de movimiento base. Es uno de los beneficios pasivos de velocidad más fuertes en la beta de 2026."
+  },
+  {
+    question: "¿Puedo ser golpeado mientras uso Power Nap?",
+    answer: "Sí. Eres completamente vulnerable durante 5 segundos. Solo usa Power Nap cuando estés seguro de que el infectado ha perdido tu rastro o estás detrás de una puerta segura."
+  },
+  {
+    question: "¿Por qué su estadística de Hacking es tan baja?",
+    answer: "Los desarrolladores equilibraron a Nimbus para que fuera un personaje centrado en lo físico/resistencia. Su baja estadística de Hacking fomenta el juego en equipo donde otros manejan las tareas técnicas."
+  }
+]} />
+
+</Section>

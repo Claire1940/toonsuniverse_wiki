@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Toons Universe Skill Checks: Domina Máquinas y Hacking 2026",
+  description: "Domina las comprobaciones de habilidad de Toons Universe con nuestra guía completa de 2026. Aprende sobre Hacking, Extracción, estadísticas de Agente y cómo evitar la presión de Descarte Infectado.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Skill+Checks+Guide",
+  date: "2026-05-11",
+  author: "Equipo Wiki de Toons Universe"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Las **comprobaciones de habilidad de Toons Universe** son las mecánicas centrales utilizadas para reparar Máquinas y Computadoras dentro de la instalación INNOVA.
+- **Extracción y Hacking** son las dos estadísticas principales que determinan la rapidez y el éxito con que puedes completar estos objetivos.
+- **Fallar las comprobaciones** alerta a los Infectados cercanos, aumentando específicamente la presión de amenazas errantes como el Descarte Infectado.
+- El **Modo Pánico** se activa una vez que todos los objetivos han sido completados, dando a los jugadores una ventana limitada para llegar al ascensor.
+- **Agentes Especialistas** como Koi y Guido & Rossum son esenciales para la finalización de objetivos a alta velocidad en las partidas avanzadas.
+</Callout>
+
+Sobrevivir en las profundidades de la instalación INNOVA requiere más que solo pies rápidos y un buen escondite; exige un dominio de los diversos objetivos interactivos dispersos por cada piso. En esta experiencia de terror de supervivencia, las **comprobaciones de habilidad de Toons Universe** sirven como la puerta de entrada principal a la progresión, forzando a los jugadores a equilibrar su atención entre un minijuego rítmico y la amenaza inminente de los Infectados cercanos. Ya sea que estés bombeando manualmente una máquina o escribiendo frenéticamente en una terminal de computadora, estas comprobaciones de habilidad determinan cuánto tiempo tu equipo permanece expuesto en pasillos peligrosos.
+
+Esta guía desglosará las mecánicas de las **comprobaciones de habilidad de Toons Universe**, explicando cómo las estadísticas de tu Agente influyen en las tasas de éxito y cómo manejar las consecuencias de un intento fallido. Al comprender la diferencia entre Extracción y Hacking, y saber qué Agentes proporcionan los mejores beneficios para la velocidad de los objetivos, puedes aumentar significativamente la tasa de supervivencia de tu equipo en 2026. Desde los conceptos básicos de la reparación de máquinas hasta estrategias avanzadas para el Modo Pánico, hemos recopilado todo lo que necesitas saber para convertirte en un especialista en objetivos.
+
+<Section icon={Target} title="Comprendiendo los Objetivos de Máquina y Computadora">
+
+El ciclo de juego principal de Toons Universe gira en torno a completar un número determinado de objetivos para encender el ascensor para el siguiente piso. Estos objetivos se dividen en dos categorías principales: Máquinas y Computadoras. Cada uno requiere una estadística diferente y presenta una interfaz visual única para el jugador.
+
+| Tipo de Objetivo | Estadística Principal | Estilo Visual | Ubicación Común |
+| :--- | :--- | :--- | :--- |
+| **Máquina** | Extracción | Bomba Manual / Tanque de Vapor | Pasillos Abiertos / Cuartos de Servicio |
+| **Computadora** | Hacking | Teclado / Terminal Digital | Oficinas / Salas de Servidores |
+| **Computadora Principal** | Hacking | Consola Central Grande | Centros de Piso / Hubs Seguros |
+| **Máquina Principal** | Extracción | Tanque Industrial Grande | Centros de Piso / Salas de Energía |
+
+<Callout type="tip" title="Recompensas por Objetivos">
+Completar un objetivo no se trata solo de supervivencia; es tu principal fuente de ingresos. Cada Máquina o Computadora completada otorga **5 Malachor** por defecto. Puedes aumentar esta recompensa votando por la carta **Trabajo Bien Hecho**, que puede aumentar la recompensa a 8 u 11 Malachor por objetivo.
+</Callout>
+
+En 2026, la dificultad de estas comprobaciones aumenta a medida que desciendes más profundamente en la instalación. Mientras que los pisos iniciales ofrecen ventanas de tiempo indulgentes, los pisos posteriores introducen indicaciones más rápidas y comprobaciones más frecuentes, haciendo que los Agentes con altas estadísticas sean una necesidad para las incursiones profundas.
+
+</Section>
+
+<Section icon={Swords} title="Estadísticas de Agente: Extracción vs. Hacking">
+
+No todos los Toons son iguales cuando se trata de interactuar con el entorno. Cada Agente en Toons Universe tiene una calificación de 1 a 5 barras para Extracción y Hacking. Elegir el Agente adecuado para tu estilo de juego es crítico porque una estadística baja puede duplicar el tiempo que pasas vulnerable a una emboscada Infectada.
+
+<CardGrid cols={3}>
+  <Card title="Especialistas en Extracción">
+    - **Koi**: 5/5 Extracción
+    - **Squiddle**: 5/5 Extracción
+    - **Weffle**: 4/5 Extracción
+    - *Mejor para bombas manuales y tanques.*
+  </Card>
+  <Card title="Especialistas en Hacking">
+    - **Guido & Rossum**: 5/5 Hacking
+    - **Selena**: 4/5 Hacking
+    - **Koi**: 4/5 Hacking
+    - *Mejor para terminales y mainframes.*
+  </Card>
+  <Card title="Agentes Todoterreno para Objetivos">
+    - **Discard**: 4/4 Dividido
+    - **Patcher**: 3/3 Dividido
+    - **Teipo**: 3/3 Dividido
+    - *Flexible para cualquier diseño de piso.*
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Sacrificios de Estadísticas">
+Las estadísticas de objetivo altas a menudo tienen un costo. Por ejemplo, **Koi** tiene una Extracción de élite (5) y Hacking (4) pero sufre de 1 de Cordura, lo que hace que las persecuciones largas sean extremadamente peligrosas. Siempre asegúrate de tener un compañero de equipo "Distractor" como Fizzle para mantener a los Infectados alejados mientras trabajas.
+</Callout>
+
+Al participar en las **comprobaciones de habilidad de Toons Universe**, la velocidad de la barra de progreso está directamente ligada a estas barras. Un Agente con 5 barras en Hacking completará un objetivo de computadora casi el doble de rápido que un Agente con solo 2 barras. Esta eficiencia es la diferencia entre escapar de una habitación antes de que entre un perseguidor y quedar atrapado en una esquina.
+
+</Section>
+
+<Section icon={Shield} title="Las Consecuencias de Fallar las Comprobaciones de Habilidad">
+
+Fallar una comprobación de habilidad es más que un pequeño contratiempo; es una señal para cada amenaza en el piso. En Toons Universe, una indicación "fallida" generalmente resulta en una notificación de ruido fuerte y una interrupción temporal en el progreso. Sin embargo, ciertos Infectados están diseñados específicamente para castigar estos errores.
+
+El **Descarte Infectado** es la principal amenaza asociada con las comprobaciones fallidas. Él deambula por el mapa y es muy sensible al ruido de los objetivos. Los fallos repetidos lo atraerán directamente a tu ubicación, convirtiendo una habitación tranquila en una persecución de alto riesgo.
+
+| Resultado del Fallo | Impacto en el Juego |
+| :--- | :--- |
+| **Alerta de Ruido** | Ping visual y auditivo para los Infectados cercanos. |
+| **Restablecimiento de Progreso** | Se pierde una pequeña porción de la barra de progreso. |
+| **Ventana de Aturdimiento** | El Agente puede ser incapaz de moverse durante 1-2 segundos. |
+| **Presión de Descarte** | Aumenta significativamente la probabilidad de un encuentro con un Descarte Infectado. |
+
+<Callout type="success" title="Consejo de Recuperación">
+Si fallas una comprobación y escuchas un latido o ves un brillo rojo, **deja de trabajar inmediatamente**. Reposiciónate en una esquina o rompe la línea de visión. Es mejor perder 5 segundos de progreso que perder un Corazón ante un perseguidor errante.
+</Callout>
+
+Dominar el ritmo de las indicaciones es esencial. La mayoría de los jugadores encuentran que centrarse en las señales de audio es más confiable que el seguimiento puramente visual, ya que la ventana de tiempo a menudo se alinea con un efecto de sonido específico de "clic" o "pitido".
+
+</Section>
+
+<Section icon={Map} title="Estrategia de Objetivo Paso a Paso">
+
+Para maximizar tu eficiencia durante una partida, sigue este enfoque estructurado para manejar los objetivos y las comprobaciones de habilidad.
+
+<Steps>
+  <Step num="1" title="Explora la Habitación">
+    Antes de tocar una Máquina, busca agujeros en el techo (puntos de emboscada de Guido & Rossum) y asegúrate de que haya al menos dos rutas de escape. Nunca te acorrales en una habitación sin salida.
+  </Step>
+  <Step num="2" title="Verifica las Estadísticas del Compañero de Equipo">
+    Si estás jugando con un Agente de bajo objetivo como Nimbus, deja que el jugador Koi o Discard maneje la Computadora Principal. Tu trabajo es pararte cerca de la puerta y vigilar las amenazas de línea de visión.
+  </Step>
+  <Step num="3" title="Inicia la Comprobación">
+    Interactúa con el objetivo. Mantente concentrado en el centro de tu pantalla donde aparecen las indicaciones. Si hay una Selena Infectada en el piso, mantén tu cámara en ángulo para poder verla mientras trabajas.
+  </Step>
+  <Step num="4" title="Gestiona la Resistencia">
+    No corras hacia el objetivo si ya estás en una zona segura. Necesitas una barra de Resistencia completa en caso de que un fallo en la comprobación de habilidad desencadene una persecución repentina.
+  </Step>
+  <Step num="5" title="Transición al Modo Pánico">
+    Una vez completada la comprobación final, la pantalla parpadeará en rojo. Deja de saquear inmediatamente y sigue tu ruta preestablecida hacia el ascensor.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Beneficios de Equipo">
+Agentes como **Discard** pueden usar la habilidad **Beat-Down** para crear un radio de música. Cualquier Agente dentro de este radio obtiene un **50% de aumento de velocidad de objetivo**. Esta es la forma más efectiva de despejar los objetivos "Principales" rápidamente.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mejores Cartas para el Éxito en las Comprobaciones de Habilidad">
+
+Entre pisos, el equipo a menudo votará por Cartas que proporcionan beneficios permanentes para el resto de la partida. Varias de estas cartas impactan directamente cómo manejas las **comprobaciones de habilidad de Toons Universe** y las recompensas que recibes de ellas.
+
+| Nombre de la Carta | Rareza | Efecto en los Objetivos |
+| :--- | :--- | :--- |
+| **Trabajo Bien Hecho** | Común | Aumenta la recompensa de Malachor por completar Máquinas/Computadoras. |
+| **Motivar** | Poco Común | Aumenta el Malachor de las Cápsulas de Investigación encontradas cerca de los objetivos. |
+| **Enfocado (Pasivo)** | Específico del Agente | Guido & Rossum ganan +10% de Extracción/Hacking por cada objetivo completado. |
+| **Eficiencia** | Rara | Reduce la frecuencia de las indicaciones de comprobación de habilidad mientras se trabaja. |
+
+<Checklist
+  id="objective-prep"
+  title="Lista de Verificación Pre-Objetivo:"
+  items={[
+    "Verificar que la resistencia esté por encima del 75% antes de comenzar",
+    "Identificar la esquina más cercana para romper la línea de visión",
+    "Verificar la posición estacionaria de Selena Infectada",
+    "Asegurarse de que Beat-Down de Discard no esté en enfriamiento para las Máquinas Principales",
+    "Mirar hacia arriba en busca de ojos de emboscada en el techo"
+  ]}
+/>
+
+<Callout type="tip" title="Supervivencia en Solitario">
+Si juegas solo, **Nimbus** es una opción segura. Aunque sus estadísticas de objetivo son promedio (3/2), su habilidad **Siesta Energética** asegura que siempre tengas la resistencia para escapar si un fallo en la comprobación de habilidad atrae a un perseguidor a tu habitación.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Las comprobaciones de habilidad se vuelven más difíciles en los pisos superiores?",
+    answer: "Sí. A medida que avanzas más allá del Piso 25, las ventanas de tiempo para las comprobaciones de habilidad de Toons Universe se vuelven más pequeñas y la penalización por fallar (radio de ruido) aumenta. Los Agentes con altas estadísticas se vuelven mucho más valiosos en el juego avanzado."
+  },
+  {
+    question: "¿Pueden dos jugadores trabajar en la misma máquina para acelerarla?",
+    answer: "Sí, varios jugadores pueden interactuar con una sola Máquina o Computadora. Las velocidades de progreso se acumulan, y si un jugador tiene una habilidad de aumento de velocidad activa, normalmente beneficia a todos los que trabajan en ese objetivo específico."
+  },
+  {
+    question: "¿Cuál es el mejor Agente para un principiante para aprender las comprobaciones de habilidad?",
+    answer: "Teipo es una excelente opción equilibrada. Con 3/5 tanto en Hacking como en Extracción, proporciona una velocidad decente sin las debilidades extremas de Cordura o Resistencia que se encuentran en especialistas como Koi o Guido & Rossum."
+  },
+  {
+    question: "¿Fallar una comprobación de habilidad daña mi salud?",
+    answer: "Normalmente, no. Fallar una comprobación solo detiene el progreso y crea ruido. Sin embargo, el ruido puede atraer a un Infectado hacia ti, y si eres golpeado por un perseguidor o una emboscada desde el techo, perderás un Corazón."
+  }
+]} />
+
+</Section>
+
+En conclusión, dominar las **comprobaciones de habilidad de Toons Universe** es la forma definitiva de pasar de ser un superviviente en apuros a un agente de élite de INNOVA. Al seleccionar el Agente adecuado para la tarea —ya sea el hacking de alta velocidad de Guido & Rossum o el implacable poder de extracción de Koi— puedes dictar el ritmo de cada piso. Recuerda vigilar tu entorno, coordinarte con tu equipo para obtener beneficios de habilidad y siempre mantener suficiente resistencia en reserva para manejar las consecuencias de un ritmo perdido. Mantente concentrado, no pierdas de vista las indicaciones y nos vemos en el ascensor.
