@@ -536,10 +536,6 @@
     ],
     "infected": [
       {
-        "slug": "infected-copper-toon-universe",
-        "file": "infected-copper-toon-universe"
-      },
-      {
         "slug": "infected-discard-toon-universe",
         "file": "infected-discard-toon-universe"
       },
@@ -838,10 +834,6 @@
       {
         "slug": "toons-universe-solo-guide",
         "file": "toons-universe-solo-guide"
-      },
-      {
-        "slug": "toons-universe-tier-list",
-        "file": "toons-universe-tier-list"
       }
     ],
     "infected": [
@@ -1166,10 +1158,6 @@
       {
         "slug": "infected-fizzle-toon-universe",
         "file": "infected-fizzle-toon-universe"
-      },
-      {
-        "slug": "toon-universe-infected",
-        "file": "toon-universe-infected"
       },
       {
         "slug": "toons-universe-blackout",
