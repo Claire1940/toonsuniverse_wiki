@@ -1,0 +1,1242 @@
+{
+  "en": {
+    "characters": [
+      {
+        "slug": "all-toon-universe-characters",
+        "file": "all-toon-universe-characters"
+      },
+      {
+        "slug": "toon-universe-nimbus",
+        "file": "toon-universe-nimbus"
+      },
+      {
+        "slug": "toon-universe-selena",
+        "file": "toon-universe-selena"
+      },
+      {
+        "slug": "toons-universe-agents",
+        "file": "toons-universe-agents"
+      },
+      {
+        "slug": "toons-universe-characters",
+        "file": "toons-universe-characters"
+      },
+      {
+        "slug": "toons-universe-chekhov",
+        "file": "toons-universe-chekhov"
+      },
+      {
+        "slug": "toons-universe-copper",
+        "file": "toons-universe-copper"
+      },
+      {
+        "slug": "toons-universe-fizzle",
+        "file": "toons-universe-fizzle"
+      },
+      {
+        "slug": "toons-universe-guido-and-rossum",
+        "file": "toons-universe-guido-and-rossum"
+      },
+      {
+        "slug": "toons-universe-honey",
+        "file": "toons-universe-honey"
+      },
+      {
+        "slug": "toons-universe-koi",
+        "file": "toons-universe-koi"
+      },
+      {
+        "slug": "toons-universe-nimbus",
+        "file": "toons-universe-nimbus"
+      },
+      {
+        "slug": "toons-universe-patcher",
+        "file": "toons-universe-patcher"
+      },
+      {
+        "slug": "toons-universe-phantasia",
+        "file": "toons-universe-phantasia"
+      },
+      {
+        "slug": "toons-universe-selena",
+        "file": "toons-universe-selena"
+      },
+      {
+        "slug": "toons-universe-solar",
+        "file": "toons-universe-solar"
+      },
+      {
+        "slug": "toons-universe-sunny",
+        "file": "toons-universe-sunny"
+      },
+      {
+        "slug": "toons-universe-teipo",
+        "file": "toons-universe-teipo"
+      },
+      {
+        "slug": "toons-universe-weffle",
+        "file": "toons-universe-weffle"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "toons-universe-codes",
+        "file": "toons-universe-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "toon-universe-discord",
+        "file": "toon-universe-discord"
+      },
+      {
+        "slug": "toons-universe-discord-server",
+        "file": "toons-universe-discord-server"
+      },
+      {
+        "slug": "toons-universe-discord",
+        "file": "toons-universe-discord"
+      },
+      {
+        "slug": "toons-universe-link",
+        "file": "toons-universe-link"
+      }
+    ],
+    "cosmetics": [
+      {
+        "slug": "toons-universe-designs",
+        "file": "toons-universe-designs"
+      },
+      {
+        "slug": "toons-universe-gamepass-skins",
+        "file": "toons-universe-gamepass-skins"
+      },
+      {
+        "slug": "toons-universe-logo",
+        "file": "toons-universe-logo"
+      },
+      {
+        "slug": "toons-universe-old-models",
+        "file": "toons-universe-old-models"
+      },
+      {
+        "slug": "toons-universe-punk-fizzle",
+        "file": "toons-universe-punk-fizzle"
+      },
+      {
+        "slug": "toons-universe-selena-sunset",
+        "file": "toons-universe-selena-sunset"
+      },
+      {
+        "slug": "toons-universe-skins",
+        "file": "toons-universe-skins"
+      },
+      {
+        "slug": "toons-universe-vfx",
+        "file": "toons-universe-vfx"
+      }
+    ],
+    "emblems": [
+      {
+        "slug": "how-to-get-emblems-in-toons-universe",
+        "file": "how-to-get-emblems-in-toons-universe"
+      },
+      {
+        "slug": "toons-universe-discard-emblem",
+        "file": "toons-universe-discard-emblem"
+      },
+      {
+        "slug": "toons-universe-discard",
+        "file": "toons-universe-discard"
+      },
+      {
+        "slug": "toons-universe-does-discard-emblem-stack",
+        "file": "toons-universe-does-discard-emblem-stack"
+      },
+      {
+        "slug": "toons-universe-emblems",
+        "file": "toons-universe-emblems"
+      },
+      {
+        "slug": "toons-universe-how-to-get-emblems",
+        "file": "toons-universe-how-to-get-emblems"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "toons-universe-Malachor",
+        "file": "toons-universe-Malachor"
+      },
+      {
+        "slug": "toons-universe-beginner-guide",
+        "file": "toons-universe-beginner-guide"
+      },
+      {
+        "slug": "toons-universe-early-access",
+        "file": "toons-universe-early-access"
+      },
+      {
+        "slug": "toons-universe-elevator-repair",
+        "file": "toons-universe-elevator-repair"
+      },
+      {
+        "slug": "toons-universe-floor-30-guide",
+        "file": "toons-universe-floor-30-guide"
+      },
+      {
+        "slug": "toons-universe-healing-items",
+        "file": "toons-universe-healing-items"
+      },
+      {
+        "slug": "toons-universe-how-to-play",
+        "file": "toons-universe-how-to-play"
+      },
+      {
+        "slug": "toons-universe-how-to-survive-infected",
+        "file": "toons-universe-how-to-survive-infected"
+      },
+      {
+        "slug": "toons-universe-is-out-yet",
+        "file": "toons-universe-is-out-yet"
+      },
+      {
+        "slug": "toons-universe-level-100",
+        "file": "toons-universe-level-100"
+      },
+      {
+        "slug": "toons-universe-level-up-fast",
+        "file": "toons-universe-level-up-fast"
+      },
+      {
+        "slug": "toons-universe-mistakes",
+        "file": "toons-universe-mistakes"
+      },
+      {
+        "slug": "toons-universe-release-date",
+        "file": "toons-universe-release-date"
+      },
+      {
+        "slug": "toons-universe-solo-guide",
+        "file": "toons-universe-solo-guide"
+      },
+      {
+        "slug": "toons-universe-tier-list",
+        "file": "toons-universe-tier-list"
+      }
+    ],
+    "infected": [
+      {
+        "slug": "infected-copper-toon-universe",
+        "file": "infected-copper-toon-universe"
+      },
+      {
+        "slug": "infected-discard-toon-universe",
+        "file": "infected-discard-toon-universe"
+      },
+      {
+        "slug": "infected-fizzle-toon-universe",
+        "file": "infected-fizzle-toon-universe"
+      },
+      {
+        "slug": "toon-universe-infected",
+        "file": "toon-universe-infected"
+      },
+      {
+        "slug": "toons-universe-blackout",
+        "file": "toons-universe-blackout"
+      },
+      {
+        "slug": "toons-universe-hungry-worms",
+        "file": "toons-universe-hungry-worms"
+      },
+      {
+        "slug": "toons-universe-infected-fizzle",
+        "file": "toons-universe-infected-fizzle"
+      },
+      {
+        "slug": "toons-universe-infected-phantasia",
+        "file": "toons-universe-infected-phantasia"
+      },
+      {
+        "slug": "toons-universe-infected-selena",
+        "file": "toons-universe-infected-selena"
+      },
+      {
+        "slug": "toons-universe-infected",
+        "file": "toons-universe-infected"
+      },
+      {
+        "slug": "toons-universe-monsters",
+        "file": "toons-universe-monsters"
+      },
+      {
+        "slug": "toons-universe-special-infected",
+        "file": "toons-universe-special-infected"
+      }
+    ],
+    "stats": [
+      {
+        "slug": "toons-universe-best-agent",
+        "file": "toons-universe-best-agent"
+      },
+      {
+        "slug": "toons-universe-distractor",
+        "file": "toons-universe-distractor"
+      },
+      {
+        "slug": "toons-universe-machines",
+        "file": "toons-universe-machines"
+      },
+      {
+        "slug": "toons-universe-sanity",
+        "file": "toons-universe-sanity"
+      },
+      {
+        "slug": "toons-universe-skill-checks",
+        "file": "toons-universe-skill-checks"
+      },
+      {
+        "slug": "toons-universe-stamina",
+        "file": "toons-universe-stamina"
+      },
+      {
+        "slug": "toons-universe-stat-limit",
+        "file": "toons-universe-stat-limit"
+      },
+      {
+        "slug": "toons-universe-stats",
+        "file": "toons-universe-stats"
+      }
+    ]
+  },
+  "es": {
+    "characters": [
+      {
+        "slug": "all-toon-universe-characters",
+        "file": "all-toon-universe-characters"
+      },
+      {
+        "slug": "toon-universe-nimbus",
+        "file": "toon-universe-nimbus"
+      },
+      {
+        "slug": "toon-universe-selena",
+        "file": "toon-universe-selena"
+      },
+      {
+        "slug": "toons-universe-agents",
+        "file": "toons-universe-agents"
+      },
+      {
+        "slug": "toons-universe-characters",
+        "file": "toons-universe-characters"
+      },
+      {
+        "slug": "toons-universe-chekhov",
+        "file": "toons-universe-chekhov"
+      },
+      {
+        "slug": "toons-universe-copper",
+        "file": "toons-universe-copper"
+      },
+      {
+        "slug": "toons-universe-fizzle",
+        "file": "toons-universe-fizzle"
+      },
+      {
+        "slug": "toons-universe-guido-and-rossum",
+        "file": "toons-universe-guido-and-rossum"
+      },
+      {
+        "slug": "toons-universe-honey",
+        "file": "toons-universe-honey"
+      },
+      {
+        "slug": "toons-universe-koi",
+        "file": "toons-universe-koi"
+      },
+      {
+        "slug": "toons-universe-nimbus",
+        "file": "toons-universe-nimbus"
+      },
+      {
+        "slug": "toons-universe-patcher",
+        "file": "toons-universe-patcher"
+      },
+      {
+        "slug": "toons-universe-phantasia",
+        "file": "toons-universe-phantasia"
+      },
+      {
+        "slug": "toons-universe-selena",
+        "file": "toons-universe-selena"
+      },
+      {
+        "slug": "toons-universe-solar",
+        "file": "toons-universe-solar"
+      },
+      {
+        "slug": "toons-universe-sunny",
+        "file": "toons-universe-sunny"
+      },
+      {
+        "slug": "toons-universe-teipo",
+        "file": "toons-universe-teipo"
+      },
+      {
+        "slug": "toons-universe-weffle",
+        "file": "toons-universe-weffle"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "toons-universe-codes",
+        "file": "toons-universe-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "toon-universe-discord",
+        "file": "toon-universe-discord"
+      },
+      {
+        "slug": "toons-universe-discord-server",
+        "file": "toons-universe-discord-server"
+      },
+      {
+        "slug": "toons-universe-discord",
+        "file": "toons-universe-discord"
+      },
+      {
+        "slug": "toons-universe-link",
+        "file": "toons-universe-link"
+      }
+    ],
+    "cosmetics": [
+      {
+        "slug": "toons-universe-designs",
+        "file": "toons-universe-designs"
+      },
+      {
+        "slug": "toons-universe-gamepass-skins",
+        "file": "toons-universe-gamepass-skins"
+      },
+      {
+        "slug": "toons-universe-logo",
+        "file": "toons-universe-logo"
+      },
+      {
+        "slug": "toons-universe-old-models",
+        "file": "toons-universe-old-models"
+      },
+      {
+        "slug": "toons-universe-punk-fizzle",
+        "file": "toons-universe-punk-fizzle"
+      },
+      {
+        "slug": "toons-universe-selena-sunset",
+        "file": "toons-universe-selena-sunset"
+      },
+      {
+        "slug": "toons-universe-skins",
+        "file": "toons-universe-skins"
+      },
+      {
+        "slug": "toons-universe-vfx",
+        "file": "toons-universe-vfx"
+      }
+    ],
+    "emblems": [
+      {
+        "slug": "how-to-get-emblems-in-toons-universe",
+        "file": "how-to-get-emblems-in-toons-universe"
+      },
+      {
+        "slug": "toons-universe-discard-emblem",
+        "file": "toons-universe-discard-emblem"
+      },
+      {
+        "slug": "toons-universe-discard",
+        "file": "toons-universe-discard"
+      },
+      {
+        "slug": "toons-universe-does-discard-emblem-stack",
+        "file": "toons-universe-does-discard-emblem-stack"
+      },
+      {
+        "slug": "toons-universe-emblems",
+        "file": "toons-universe-emblems"
+      },
+      {
+        "slug": "toons-universe-how-to-get-emblems",
+        "file": "toons-universe-how-to-get-emblems"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "toons-universe-Malachor",
+        "file": "toons-universe-Malachor"
+      },
+      {
+        "slug": "toons-universe-beginner-guide",
+        "file": "toons-universe-beginner-guide"
+      },
+      {
+        "slug": "toons-universe-early-access",
+        "file": "toons-universe-early-access"
+      },
+      {
+        "slug": "toons-universe-elevator-repair",
+        "file": "toons-universe-elevator-repair"
+      },
+      {
+        "slug": "toons-universe-floor-30-guide",
+        "file": "toons-universe-floor-30-guide"
+      },
+      {
+        "slug": "toons-universe-healing-items",
+        "file": "toons-universe-healing-items"
+      },
+      {
+        "slug": "toons-universe-how-to-play",
+        "file": "toons-universe-how-to-play"
+      },
+      {
+        "slug": "toons-universe-how-to-survive-infected",
+        "file": "toons-universe-how-to-survive-infected"
+      },
+      {
+        "slug": "toons-universe-is-out-yet",
+        "file": "toons-universe-is-out-yet"
+      },
+      {
+        "slug": "toons-universe-level-100",
+        "file": "toons-universe-level-100"
+      },
+      {
+        "slug": "toons-universe-level-up-fast",
+        "file": "toons-universe-level-up-fast"
+      },
+      {
+        "slug": "toons-universe-mistakes",
+        "file": "toons-universe-mistakes"
+      },
+      {
+        "slug": "toons-universe-release-date",
+        "file": "toons-universe-release-date"
+      },
+      {
+        "slug": "toons-universe-solo-guide",
+        "file": "toons-universe-solo-guide"
+      },
+      {
+        "slug": "toons-universe-tier-list",
+        "file": "toons-universe-tier-list"
+      }
+    ],
+    "infected": [
+      {
+        "slug": "infected-copper-toon-universe",
+        "file": "infected-copper-toon-universe"
+      },
+      {
+        "slug": "infected-discard-toon-universe",
+        "file": "infected-discard-toon-universe"
+      },
+      {
+        "slug": "infected-fizzle-toon-universe",
+        "file": "infected-fizzle-toon-universe"
+      },
+      {
+        "slug": "toon-universe-infected",
+        "file": "toon-universe-infected"
+      },
+      {
+        "slug": "toons-universe-blackout",
+        "file": "toons-universe-blackout"
+      },
+      {
+        "slug": "toons-universe-hungry-worms",
+        "file": "toons-universe-hungry-worms"
+      },
+      {
+        "slug": "toons-universe-infected-fizzle",
+        "file": "toons-universe-infected-fizzle"
+      },
+      {
+        "slug": "toons-universe-infected-phantasia",
+        "file": "toons-universe-infected-phantasia"
+      },
+      {
+        "slug": "toons-universe-infected-selena",
+        "file": "toons-universe-infected-selena"
+      },
+      {
+        "slug": "toons-universe-infected",
+        "file": "toons-universe-infected"
+      },
+      {
+        "slug": "toons-universe-monsters",
+        "file": "toons-universe-monsters"
+      },
+      {
+        "slug": "toons-universe-special-infected",
+        "file": "toons-universe-special-infected"
+      }
+    ],
+    "stats": [
+      {
+        "slug": "toons-universe-best-agent",
+        "file": "toons-universe-best-agent"
+      },
+      {
+        "slug": "toons-universe-distractor",
+        "file": "toons-universe-distractor"
+      },
+      {
+        "slug": "toons-universe-machines",
+        "file": "toons-universe-machines"
+      },
+      {
+        "slug": "toons-universe-sanity",
+        "file": "toons-universe-sanity"
+      },
+      {
+        "slug": "toons-universe-skill-checks",
+        "file": "toons-universe-skill-checks"
+      },
+      {
+        "slug": "toons-universe-stamina",
+        "file": "toons-universe-stamina"
+      },
+      {
+        "slug": "toons-universe-stat-limit",
+        "file": "toons-universe-stat-limit"
+      },
+      {
+        "slug": "toons-universe-stats",
+        "file": "toons-universe-stats"
+      }
+    ]
+  },
+  "id": {
+    "characters": [
+      {
+        "slug": "all-toon-universe-characters",
+        "file": "all-toon-universe-characters"
+      },
+      {
+        "slug": "toon-universe-nimbus",
+        "file": "toon-universe-nimbus"
+      },
+      {
+        "slug": "toon-universe-selena",
+        "file": "toon-universe-selena"
+      },
+      {
+        "slug": "toons-universe-agents",
+        "file": "toons-universe-agents"
+      },
+      {
+        "slug": "toons-universe-characters",
+        "file": "toons-universe-characters"
+      },
+      {
+        "slug": "toons-universe-chekhov",
+        "file": "toons-universe-chekhov"
+      },
+      {
+        "slug": "toons-universe-copper",
+        "file": "toons-universe-copper"
+      },
+      {
+        "slug": "toons-universe-fizzle",
+        "file": "toons-universe-fizzle"
+      },
+      {
+        "slug": "toons-universe-guido-and-rossum",
+        "file": "toons-universe-guido-and-rossum"
+      },
+      {
+        "slug": "toons-universe-honey",
+        "file": "toons-universe-honey"
+      },
+      {
+        "slug": "toons-universe-koi",
+        "file": "toons-universe-koi"
+      },
+      {
+        "slug": "toons-universe-nimbus",
+        "file": "toons-universe-nimbus"
+      },
+      {
+        "slug": "toons-universe-patcher",
+        "file": "toons-universe-patcher"
+      },
+      {
+        "slug": "toons-universe-phantasia",
+        "file": "toons-universe-phantasia"
+      },
+      {
+        "slug": "toons-universe-selena",
+        "file": "toons-universe-selena"
+      },
+      {
+        "slug": "toons-universe-solar",
+        "file": "toons-universe-solar"
+      },
+      {
+        "slug": "toons-universe-sunny",
+        "file": "toons-universe-sunny"
+      },
+      {
+        "slug": "toons-universe-teipo",
+        "file": "toons-universe-teipo"
+      },
+      {
+        "slug": "toons-universe-weffle",
+        "file": "toons-universe-weffle"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "toons-universe-codes",
+        "file": "toons-universe-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "toon-universe-discord",
+        "file": "toon-universe-discord"
+      },
+      {
+        "slug": "toons-universe-discord-server",
+        "file": "toons-universe-discord-server"
+      },
+      {
+        "slug": "toons-universe-discord",
+        "file": "toons-universe-discord"
+      },
+      {
+        "slug": "toons-universe-link",
+        "file": "toons-universe-link"
+      }
+    ],
+    "cosmetics": [
+      {
+        "slug": "toons-universe-designs",
+        "file": "toons-universe-designs"
+      },
+      {
+        "slug": "toons-universe-gamepass-skins",
+        "file": "toons-universe-gamepass-skins"
+      },
+      {
+        "slug": "toons-universe-logo",
+        "file": "toons-universe-logo"
+      },
+      {
+        "slug": "toons-universe-old-models",
+        "file": "toons-universe-old-models"
+      },
+      {
+        "slug": "toons-universe-punk-fizzle",
+        "file": "toons-universe-punk-fizzle"
+      },
+      {
+        "slug": "toons-universe-selena-sunset",
+        "file": "toons-universe-selena-sunset"
+      },
+      {
+        "slug": "toons-universe-skins",
+        "file": "toons-universe-skins"
+      },
+      {
+        "slug": "toons-universe-vfx",
+        "file": "toons-universe-vfx"
+      }
+    ],
+    "emblems": [
+      {
+        "slug": "how-to-get-emblems-in-toons-universe",
+        "file": "how-to-get-emblems-in-toons-universe"
+      },
+      {
+        "slug": "toons-universe-discard-emblem",
+        "file": "toons-universe-discard-emblem"
+      },
+      {
+        "slug": "toons-universe-discard",
+        "file": "toons-universe-discard"
+      },
+      {
+        "slug": "toons-universe-does-discard-emblem-stack",
+        "file": "toons-universe-does-discard-emblem-stack"
+      },
+      {
+        "slug": "toons-universe-emblems",
+        "file": "toons-universe-emblems"
+      },
+      {
+        "slug": "toons-universe-how-to-get-emblems",
+        "file": "toons-universe-how-to-get-emblems"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "toons-universe-Malachor",
+        "file": "toons-universe-Malachor"
+      },
+      {
+        "slug": "toons-universe-beginner-guide",
+        "file": "toons-universe-beginner-guide"
+      },
+      {
+        "slug": "toons-universe-early-access",
+        "file": "toons-universe-early-access"
+      },
+      {
+        "slug": "toons-universe-elevator-repair",
+        "file": "toons-universe-elevator-repair"
+      },
+      {
+        "slug": "toons-universe-floor-30-guide",
+        "file": "toons-universe-floor-30-guide"
+      },
+      {
+        "slug": "toons-universe-healing-items",
+        "file": "toons-universe-healing-items"
+      },
+      {
+        "slug": "toons-universe-how-to-play",
+        "file": "toons-universe-how-to-play"
+      },
+      {
+        "slug": "toons-universe-how-to-survive-infected",
+        "file": "toons-universe-how-to-survive-infected"
+      },
+      {
+        "slug": "toons-universe-is-out-yet",
+        "file": "toons-universe-is-out-yet"
+      },
+      {
+        "slug": "toons-universe-level-100",
+        "file": "toons-universe-level-100"
+      },
+      {
+        "slug": "toons-universe-level-up-fast",
+        "file": "toons-universe-level-up-fast"
+      },
+      {
+        "slug": "toons-universe-mistakes",
+        "file": "toons-universe-mistakes"
+      },
+      {
+        "slug": "toons-universe-release-date",
+        "file": "toons-universe-release-date"
+      },
+      {
+        "slug": "toons-universe-solo-guide",
+        "file": "toons-universe-solo-guide"
+      },
+      {
+        "slug": "toons-universe-tier-list",
+        "file": "toons-universe-tier-list"
+      }
+    ],
+    "infected": [
+      {
+        "slug": "infected-copper-toon-universe",
+        "file": "infected-copper-toon-universe"
+      },
+      {
+        "slug": "infected-discard-toon-universe",
+        "file": "infected-discard-toon-universe"
+      },
+      {
+        "slug": "infected-fizzle-toon-universe",
+        "file": "infected-fizzle-toon-universe"
+      },
+      {
+        "slug": "toon-universe-infected",
+        "file": "toon-universe-infected"
+      },
+      {
+        "slug": "toons-universe-blackout",
+        "file": "toons-universe-blackout"
+      },
+      {
+        "slug": "toons-universe-hungry-worms",
+        "file": "toons-universe-hungry-worms"
+      },
+      {
+        "slug": "toons-universe-infected-fizzle",
+        "file": "toons-universe-infected-fizzle"
+      },
+      {
+        "slug": "toons-universe-infected-phantasia",
+        "file": "toons-universe-infected-phantasia"
+      },
+      {
+        "slug": "toons-universe-infected-selena",
+        "file": "toons-universe-infected-selena"
+      },
+      {
+        "slug": "toons-universe-infected",
+        "file": "toons-universe-infected"
+      },
+      {
+        "slug": "toons-universe-monsters",
+        "file": "toons-universe-monsters"
+      },
+      {
+        "slug": "toons-universe-special-infected",
+        "file": "toons-universe-special-infected"
+      }
+    ],
+    "stats": [
+      {
+        "slug": "toons-universe-best-agent",
+        "file": "toons-universe-best-agent"
+      },
+      {
+        "slug": "toons-universe-distractor",
+        "file": "toons-universe-distractor"
+      },
+      {
+        "slug": "toons-universe-machines",
+        "file": "toons-universe-machines"
+      },
+      {
+        "slug": "toons-universe-sanity",
+        "file": "toons-universe-sanity"
+      },
+      {
+        "slug": "toons-universe-skill-checks",
+        "file": "toons-universe-skill-checks"
+      },
+      {
+        "slug": "toons-universe-stamina",
+        "file": "toons-universe-stamina"
+      },
+      {
+        "slug": "toons-universe-stat-limit",
+        "file": "toons-universe-stat-limit"
+      },
+      {
+        "slug": "toons-universe-stats",
+        "file": "toons-universe-stats"
+      }
+    ]
+  },
+  "pt": {
+    "characters": [
+      {
+        "slug": "all-toon-universe-characters",
+        "file": "all-toon-universe-characters"
+      },
+      {
+        "slug": "toon-universe-nimbus",
+        "file": "toon-universe-nimbus"
+      },
+      {
+        "slug": "toon-universe-selena",
+        "file": "toon-universe-selena"
+      },
+      {
+        "slug": "toons-universe-agents",
+        "file": "toons-universe-agents"
+      },
+      {
+        "slug": "toons-universe-characters",
+        "file": "toons-universe-characters"
+      },
+      {
+        "slug": "toons-universe-chekhov",
+        "file": "toons-universe-chekhov"
+      },
+      {
+        "slug": "toons-universe-copper",
+        "file": "toons-universe-copper"
+      },
+      {
+        "slug": "toons-universe-fizzle",
+        "file": "toons-universe-fizzle"
+      },
+      {
+        "slug": "toons-universe-guido-and-rossum",
+        "file": "toons-universe-guido-and-rossum"
+      },
+      {
+        "slug": "toons-universe-honey",
+        "file": "toons-universe-honey"
+      },
+      {
+        "slug": "toons-universe-koi",
+        "file": "toons-universe-koi"
+      },
+      {
+        "slug": "toons-universe-nimbus",
+        "file": "toons-universe-nimbus"
+      },
+      {
+        "slug": "toons-universe-patcher",
+        "file": "toons-universe-patcher"
+      },
+      {
+        "slug": "toons-universe-phantasia",
+        "file": "toons-universe-phantasia"
+      },
+      {
+        "slug": "toons-universe-selena",
+        "file": "toons-universe-selena"
+      },
+      {
+        "slug": "toons-universe-solar",
+        "file": "toons-universe-solar"
+      },
+      {
+        "slug": "toons-universe-sunny",
+        "file": "toons-universe-sunny"
+      },
+      {
+        "slug": "toons-universe-teipo",
+        "file": "toons-universe-teipo"
+      },
+      {
+        "slug": "toons-universe-weffle",
+        "file": "toons-universe-weffle"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "toons-universe-codes",
+        "file": "toons-universe-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "toon-universe-discord",
+        "file": "toon-universe-discord"
+      },
+      {
+        "slug": "toons-universe-discord-server",
+        "file": "toons-universe-discord-server"
+      },
+      {
+        "slug": "toons-universe-discord",
+        "file": "toons-universe-discord"
+      },
+      {
+        "slug": "toons-universe-link",
+        "file": "toons-universe-link"
+      }
+    ],
+    "cosmetics": [
+      {
+        "slug": "toons-universe-designs",
+        "file": "toons-universe-designs"
+      },
+      {
+        "slug": "toons-universe-gamepass-skins",
+        "file": "toons-universe-gamepass-skins"
+      },
+      {
+        "slug": "toons-universe-logo",
+        "file": "toons-universe-logo"
+      },
+      {
+        "slug": "toons-universe-old-models",
+        "file": "toons-universe-old-models"
+      },
+      {
+        "slug": "toons-universe-punk-fizzle",
+        "file": "toons-universe-punk-fizzle"
+      },
+      {
+        "slug": "toons-universe-selena-sunset",
+        "file": "toons-universe-selena-sunset"
+      },
+      {
+        "slug": "toons-universe-skins",
+        "file": "toons-universe-skins"
+      },
+      {
+        "slug": "toons-universe-vfx",
+        "file": "toons-universe-vfx"
+      }
+    ],
+    "emblems": [
+      {
+        "slug": "how-to-get-emblems-in-toons-universe",
+        "file": "how-to-get-emblems-in-toons-universe"
+      },
+      {
+        "slug": "toons-universe-discard-emblem",
+        "file": "toons-universe-discard-emblem"
+      },
+      {
+        "slug": "toons-universe-discard",
+        "file": "toons-universe-discard"
+      },
+      {
+        "slug": "toons-universe-does-discard-emblem-stack",
+        "file": "toons-universe-does-discard-emblem-stack"
+      },
+      {
+        "slug": "toons-universe-emblems",
+        "file": "toons-universe-emblems"
+      },
+      {
+        "slug": "toons-universe-how-to-get-emblems",
+        "file": "toons-universe-how-to-get-emblems"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "toons-universe-Malachor",
+        "file": "toons-universe-Malachor"
+      },
+      {
+        "slug": "toons-universe-beginner-guide",
+        "file": "toons-universe-beginner-guide"
+      },
+      {
+        "slug": "toons-universe-early-access",
+        "file": "toons-universe-early-access"
+      },
+      {
+        "slug": "toons-universe-elevator-repair",
+        "file": "toons-universe-elevator-repair"
+      },
+      {
+        "slug": "toons-universe-floor-30-guide",
+        "file": "toons-universe-floor-30-guide"
+      },
+      {
+        "slug": "toons-universe-healing-items",
+        "file": "toons-universe-healing-items"
+      },
+      {
+        "slug": "toons-universe-how-to-play",
+        "file": "toons-universe-how-to-play"
+      },
+      {
+        "slug": "toons-universe-how-to-survive-infected",
+        "file": "toons-universe-how-to-survive-infected"
+      },
+      {
+        "slug": "toons-universe-is-out-yet",
+        "file": "toons-universe-is-out-yet"
+      },
+      {
+        "slug": "toons-universe-level-100",
+        "file": "toons-universe-level-100"
+      },
+      {
+        "slug": "toons-universe-level-up-fast",
+        "file": "toons-universe-level-up-fast"
+      },
+      {
+        "slug": "toons-universe-mistakes",
+        "file": "toons-universe-mistakes"
+      },
+      {
+        "slug": "toons-universe-release-date",
+        "file": "toons-universe-release-date"
+      },
+      {
+        "slug": "toons-universe-solo-guide",
+        "file": "toons-universe-solo-guide"
+      },
+      {
+        "slug": "toons-universe-tier-list",
+        "file": "toons-universe-tier-list"
+      }
+    ],
+    "infected": [
+      {
+        "slug": "infected-copper-toon-universe",
+        "file": "infected-copper-toon-universe"
+      },
+      {
+        "slug": "infected-discard-toon-universe",
+        "file": "infected-discard-toon-universe"
+      },
+      {
+        "slug": "infected-fizzle-toon-universe",
+        "file": "infected-fizzle-toon-universe"
+      },
+      {
+        "slug": "toon-universe-infected",
+        "file": "toon-universe-infected"
+      },
+      {
+        "slug": "toons-universe-blackout",
+        "file": "toons-universe-blackout"
+      },
+      {
+        "slug": "toons-universe-hungry-worms",
+        "file": "toons-universe-hungry-worms"
+      },
+      {
+        "slug": "toons-universe-infected-fizzle",
+        "file": "toons-universe-infected-fizzle"
+      },
+      {
+        "slug": "toons-universe-infected-phantasia",
+        "file": "toons-universe-infected-phantasia"
+      },
+      {
+        "slug": "toons-universe-infected-selena",
+        "file": "toons-universe-infected-selena"
+      },
+      {
+        "slug": "toons-universe-infected",
+        "file": "toons-universe-infected"
+      },
+      {
+        "slug": "toons-universe-monsters",
+        "file": "toons-universe-monsters"
+      },
+      {
+        "slug": "toons-universe-special-infected",
+        "file": "toons-universe-special-infected"
+      }
+    ],
+    "stats": [
+      {
+        "slug": "toons-universe-best-agent",
+        "file": "toons-universe-best-agent"
+      },
+      {
+        "slug": "toons-universe-distractor",
+        "file": "toons-universe-distractor"
+      },
+      {
+        "slug": "toons-universe-machines",
+        "file": "toons-universe-machines"
+      },
+      {
+        "slug": "toons-universe-sanity",
+        "file": "toons-universe-sanity"
+      },
+      {
+        "slug": "toons-universe-skill-checks",
+        "file": "toons-universe-skill-checks"
+      },
+      {
+        "slug": "toons-universe-stamina",
+        "file": "toons-universe-stamina"
+      },
+      {
+        "slug": "toons-universe-stat-limit",
+        "file": "toons-universe-stat-limit"
+      },
+      {
+        "slug": "toons-universe-stats",
+        "file": "toons-universe-stats"
+      }
+    ]
+  }
+}
